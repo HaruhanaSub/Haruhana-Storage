@@ -13,13 +13,13 @@ Original Translation: 平原、火树银花
 Original Timing: 混乱怪魔、阮芷澧兰
 Script Updated By: 一星、田姆斯邦德、yuygfgg、知世
 Update Details: BD Ver.（2025-10-19）
+
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: //,方正屏显雅宋_GBK,96,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,0,0,0,1
 Style: Dial-JPN,FOT-ModeMinALarge Std M,94,&H00FFFFFF,&H000000FF,&H004C4C4C,&H9B4C4C4C,0,0,0,0,100,100,8,0,1,4,2,2,40,40,51,1
 Style: Dial-CHI,方正屏显雅宋_GBK,122,&H00FFFFFF,&H000000FF,&H004C4C4C,&H9B4C4C4C,0,0,0,0,100,100,10,0,1,4,2,2,40,40,151,1
 Style: Screen,獅尾加糖宋體SC-Regular,80,&H00F6FCFC,&H000000FF,&H00F6FCFC,&H00000000,0,0,0,0,100,100,10,0,1,0,0,2,30,30,320,1
-Style: CHS - Title,方正FW筑紫明朝 简 L,112,&H00F6FDFB,&H000000FF,&H00F6F6ED,&H00000000,0,0,0,0,100,100,10,0,1,0,0,2,20,20,20,1
 Style: OP-JP-17-28,獅尾加糖宋體JP-Bold,80,&H00FFFFFF,&H000000FF,&H00666666,&H00000000,0,0,0,0,100,100,6,0,1,0,0,2,10,10,49,1
 Style: OP-CN-17-28,獅尾加糖宋體SC-Bold,110,&H00FCFCFC,&H000000FF,&H00666666,&H00000000,0,0,0,0,100,100,11,0,1,0,0,2,10,10,154,1
 Style: ED-JP-17-28,A-OTF Ryumin Pro B-KL,100,&H00000000,&H000000FF,&H6FFFFFFF,&H00000000,0,0,0,0,100,100,6,0,1,3,0,2,10,10,49,1
@@ -27,52 +27,53 @@ Style: ED-CN-17-28,方正中雅宋_GBK,122,&H00000000,&H000000FF,&H6FFFFFFF,&H00
 Style: Staff-17-28,獅尾加糖宋體SC-Black,96,&H00FFFFFF,&H000000FF,&H00666666,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,0,0,0,1
 Style: Staff-17-28-2,獅尾加糖宋體SC-Bold,96,&H00FFFFFF,&H000000FF,&H00666666,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,0,0,0,1
 Style: Ruby,獅尾加糖宋體SC-Regular,60,&H00FFFFFF,&H000000FF,&H004C4C4C,&H9B4C4C4C,0,0,0,0,100,100,3,0,1,4,2,2,40,40,290,1
+Style: CHT - Title,文鼎ＰＬ新宋,104,&H00F6FDFB,&H000000FF,&H00F6F6ED,&H00000000,0,0,0,0,100,100,13,0,1,0,0,2,20,20,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:17.00,0:00:17.04,//,,0,0,0,,————制作信息（定位帧）————
-Dialogue: 0,0:00:17.66,0:00:21.63,Staff-17-28-2,BLUR,0,0,0,,{\1a&ff\fscx90\fscy98\an5\3c&4C4C4C\fs69\fsp7\bord4.5\blur4\pos(1923.93,1354.9)}{\3a&f4\t(17,476,\3a&66)\t(3444,3938,\3a&ee)}译制
-Dialogue: 1,0:00:17.66,0:00:21.63,Staff-17-28-2,bord,0,0,0,,{\1a&ff\fscx90\fscy98\an5\3c&676767\fs69\fsp7\blur0.5\bord2\pos(1923.93,1354.9)}{\3a&f4\t(17,476,\3a&0)\t(3444,3938,\3a&ee)}译制
-Dialogue: 2,0:00:17.66,0:00:21.63,Staff-17-28-2,加粗,0,0,0,,{\fscx90\fscy98\an5\3c&ffffff\fs69\fsp7\ybord0.1\pos(1923.93,1354.9)}{\alpha&e8\t(17,476,\alpha&0)\t(3444,3945,\alpha&e8)}译制
-Dialogue: 0,0:00:17.66,0:00:21.63,Staff-17-28-2,BLUR,0,0,0,,{\1a&ff\fscy97\an5\3c&4C4C4C\fs82\fsp7.5\bord3.5\blur3\pos(1924.38,1441.97)}{\3a&f4\t(17,476,\3a&44)\t(3444,3938,\3a&ee)}拨雪寻春
-Dialogue: 0,0:00:17.66,0:00:21.63,Staff-17-28-2,bord,0,0,0,,{\1a&ff\fscy97\an5\3c&676767\fs82\fsp7.5\blur0.5\bord2\pos(1924.38,1441.97)}{\3a&f4\t(17,476,\3a&0)\t(3444,3938,\3a&ee)}拨雪寻春
-Dialogue: 0,0:00:17.66,0:00:21.63,Staff-17-28-2,,0,0,0,,{\fscy97\an5\3c&ffffff\fs82\fsp7.5\pos(1924.38,1441.97)}{\alpha&e8\t(17,476,\alpha&0)\t(3444,3938,\alpha&e8)}拨雪寻春
-Dialogue: 0,0:00:17.66,0:00:21.63,Staff-17-28-2,BLUR,0,0,0,,{\1a&ff\an8\3c&4C4C4C\fs59\bord3\blur3\pos(1922.96,1489.5)}{\3a&f4\t(17,476,\3a&0)\t(3444,3938,\3a&ee)}本字幕基{\fsp-10}于{\fsp}「{\fsp}AGPLv3通用协{\fsp5}议{\fsp-12}」{\fsp}许可使用
-Dialogue: 0,0:00:17.66,0:00:21.63,Staff-17-28-2,bord,0,0,0,,{\1a&ff\an8\3c&676767\fs59\blur0.5\bord1.5\pos(1922.96,1489.5)\fscx100\fscy101}{\3a&f4\t(17,476,\3a&0)\t(3444,3938,\3a&ee)}本字幕基{\fsp-10}于{\fsp}「{\fsp}AGPLv3通用协{\fsp5}议{\fsp-12}」{\fsp}许可使用
-Dialogue: 0,0:00:17.66,0:00:21.63,Staff-17-28-2,加粗,0,0,0,,{\an8\3c&ffffff\fs59\bord0.1\pos(1922.96,1489.5)\fscx100\fscy101}{\alpha&e8\t(17,476,\alpha&0)\t(3444,3938,\alpha&e8)}本字幕基{\fsp-10}于{\fsp}「{\fsp}AGPLv3通用协{\fsp5}议{\fsp-12}」{\fsp}许可使用
-Dialogue: 0,0:00:22.13,0:00:26.17,Staff-17-28-2,BLUR,0,0,0,,{\1a&ff\fscx98\fscy98\an5\3c&4C4C4C\fs69\fsp\bord3.5\blur2.2\pos(778.38,682.02)}{\3a&f8\t(17,518,\3a&44)\t(3521,4021,\3a&f8)}校对
-Dialogue: 0,0:00:22.13,0:00:26.17,Staff-17-28-2,bord,0,0,0,,{\1a&ff\fscx98\fscy98\an5\3c&676767\fs69\fsp\blur0.5\bord2\pos(778.38,682.02)}{\3a&ee\t(17,518,\3a&0)\t(3521,4021,\3a&ee)}校对
-Dialogue: 0,0:00:22.13,0:00:26.17,Staff-17-28-2,加粗,0,0,0,,{\fscx98\fscy98\an5\3c&ffffff\fs69\fsp\ybord0.1\pos(778.38,682.02)}{\alpha&dd\t(17,518,\alpha&0)\t(3521,4021,\alpha&df)}校对
-Dialogue: 0,0:00:22.13,0:00:26.17,Staff-17-28-2,BLUR,0,0,0,,{\1a&ff\fscy97\an5\3c&4C4C4C\fs82\fsp7.5\bord3.5\blur3\pos(784.47,791.52)}{\3a&f8\t(17,518,\3a&44)\t(3521,4021,\3a&f8)}火树银花
-Dialogue: 0,0:00:22.13,0:00:26.17,Staff-17-28-2,bord,0,0,0,,{\1a&ff\fscy97\an5\3c&676767\fs82\fsp7.5\blur0.5\bord2\pos(784.47,791.52)}{\3a&ee\t(17,518,\3a&0)\t(3521,4021,\3a&ee)}火树银花
-Dialogue: 0,0:00:22.13,0:00:26.17,Staff-17-28-2,,0,0,0,,{\fscy97\an5\3c&ffffff\fs82\fsp7.5\pos(784.47,791.52)}{\alpha&dd\t(17,518,\alpha&0)\t(3521,4021,\alpha&df)}火树银花
-Dialogue: 0,0:00:22.13,0:00:26.17,Staff-17-28-2,BLUR,0,0,0,,{\1a&ff\fscx\fscy98\an5\3c&4C4C4C\fs69\fsp\bord3.5\blur2.2\pos(777.92,1368.44)}{\3a&f8\t(17,518,\3a&0)\t(3521,4021,\3a&f8)}翻译
-Dialogue: 0,0:00:22.13,0:00:26.17,Staff-17-28-2,bord,0,0,0,,{\1a&ff\fscx\fscy98\an5\3c&676767\fs69\fsp\blur0.5\bord2\pos(777.92,1368.44)}{\3a&ee\t(17,518,\3a&0)\t(3521,4021,\3a&ee)}翻译
-Dialogue: 0,0:00:22.13,0:00:26.17,Staff-17-28-2,加粗,0,0,0,,{\fscx\fscy98\an5\3c&ffffff\fs69\fsp\ybord0.1\pos(777.92,1368.44)}{\alpha&dd\t(17,518,\alpha&0)\t(3521,4021,\alpha&df)}翻译
+Comment: 0,0:00:17.00,0:00:17.04,//,,0,0,0,,————製作資訊（定位幀）————
+Dialogue: 0,0:00:17.66,0:00:21.63,Staff-17-28-2,BLUR,0,0,0,,{\1a&ff\fscx90\fscy98\an5\3c&4C4C4C\fs69\fsp7\bord4.5\blur4\pos(1923.93,1354.9)}{\3a&f4\t(17,476,\3a&66)\t(3444,3938,\3a&ee)}譯製
+Dialogue: 1,0:00:17.66,0:00:21.63,Staff-17-28-2,bord,0,0,0,,{\1a&ff\fscx90\fscy98\an5\3c&676767\fs69\fsp7\blur0.5\bord2\pos(1923.93,1354.9)}{\3a&f4\t(17,476,\3a&0)\t(3444,3938,\3a&ee)}譯製
+Dialogue: 2,0:00:17.66,0:00:21.63,Staff-17-28-2,加粗,0,0,0,,{\fscx90\fscy98\an5\3c&ffffff\fs69\fsp7\ybord0.1\pos(1923.93,1354.9)}{\alpha&e8\t(17,476,\alpha&0)\t(3444,3945,\alpha&e8)}譯製
+Dialogue: 0,0:00:17.66,0:00:21.63,Staff-17-28-2,BLUR,0,0,0,,{\1a&ff\fscy97\an5\3c&4C4C4C\fs82\fsp7.5\bord3.5\blur3\pos(1924.38,1441.97)}{\3a&f4\t(17,476,\3a&44)\t(3444,3938,\3a&ee)}撥雪尋春
+Dialogue: 0,0:00:17.66,0:00:21.63,Staff-17-28-2,bord,0,0,0,,{\1a&ff\fscy97\an5\3c&676767\fs82\fsp7.5\blur0.5\bord2\pos(1924.38,1441.97)}{\3a&f4\t(17,476,\3a&0)\t(3444,3938,\3a&ee)}撥雪尋春
+Dialogue: 0,0:00:17.66,0:00:21.63,Staff-17-28-2,,0,0,0,,{\fscy97\an5\3c&ffffff\fs82\fsp7.5\pos(1924.38,1441.97)}{\alpha&e8\t(17,476,\alpha&0)\t(3444,3938,\alpha&e8)}撥雪尋春
+Dialogue: 0,0:00:17.66,0:00:21.63,Staff-17-28-2,BLUR,0,0,0,,{\1a&ff\an8\3c&4C4C4C\fs59\bord3\blur3\pos(1922.96,1489.5)}{\3a&f4\t(17,476,\3a&0)\t(3444,3938,\3a&ee)}本字幕基{\fsp-10}於{\fsp}「{\fsp}AGPLv3通用協{\fsp5}議{\fsp-12}」{\fsp}許可使用
+Dialogue: 0,0:00:17.66,0:00:21.63,Staff-17-28-2,bord,0,0,0,,{\1a&ff\an8\3c&676767\fs59\blur0.5\bord1.5\pos(1922.96,1489.5)\fscx100\fscy101}{\3a&f4\t(17,476,\3a&0)\t(3444,3938,\3a&ee)}本字幕基{\fsp-10}於{\fsp}「{\fsp}AGPLv3通用協{\fsp5}議{\fsp-12}」{\fsp}許可使用
+Dialogue: 0,0:00:17.66,0:00:21.63,Staff-17-28-2,加粗,0,0,0,,{\an8\3c&ffffff\fs59\bord0.1\pos(1922.96,1489.5)\fscx100\fscy101}{\alpha&e8\t(17,476,\alpha&0)\t(3444,3938,\alpha&e8)}本字幕基{\fsp-10}於{\fsp}「{\fsp}AGPLv3通用協{\fsp5}議{\fsp-12}」{\fsp}許可使用
+Dialogue: 0,0:00:22.13,0:00:26.17,Staff-17-28-2,BLUR,0,0,0,,{\1a&ff\fscx98\fscy98\an5\3c&4C4C4C\fs69\fsp\bord3.5\blur2.2\pos(778.38,682.02)}{\3a&f8\t(17,518,\3a&44)\t(3521,4021,\3a&f8)}校對
+Dialogue: 0,0:00:22.13,0:00:26.17,Staff-17-28-2,bord,0,0,0,,{\1a&ff\fscx98\fscy98\an5\3c&676767\fs69\fsp\blur0.5\bord2\pos(778.38,682.02)}{\3a&ee\t(17,518,\3a&0)\t(3521,4021,\3a&ee)}校對
+Dialogue: 0,0:00:22.13,0:00:26.17,Staff-17-28-2,加粗,0,0,0,,{\fscx98\fscy98\an5\3c&ffffff\fs69\fsp\ybord0.1\pos(778.38,682.02)}{\alpha&dd\t(17,518,\alpha&0)\t(3521,4021,\alpha&df)}校對
+Dialogue: 0,0:00:22.13,0:00:26.17,Staff-17-28-2,BLUR,0,0,0,,{\1a&ff\fscy97\an5\3c&4C4C4C\fs82\fsp7.5\bord3.5\blur3\pos(784.47,791.52)}{\3a&f8\t(17,518,\3a&44)\t(3521,4021,\3a&f8)}火樹銀花
+Dialogue: 0,0:00:22.13,0:00:26.17,Staff-17-28-2,bord,0,0,0,,{\1a&ff\fscy97\an5\3c&676767\fs82\fsp7.5\blur0.5\bord2\pos(784.47,791.52)}{\3a&ee\t(17,518,\3a&0)\t(3521,4021,\3a&ee)}火樹銀花
+Dialogue: 0,0:00:22.13,0:00:26.17,Staff-17-28-2,,0,0,0,,{\fscy97\an5\3c&ffffff\fs82\fsp7.5\pos(784.47,791.52)}{\alpha&dd\t(17,518,\alpha&0)\t(3521,4021,\alpha&df)}火樹銀花
+Dialogue: 0,0:00:22.13,0:00:26.17,Staff-17-28-2,BLUR,0,0,0,,{\1a&ff\fscx\fscy98\an5\3c&4C4C4C\fs69\fsp\bord3.5\blur2.2\pos(777.92,1368.44)}{\3a&f8\t(17,518,\3a&0)\t(3521,4021,\3a&f8)}翻譯
+Dialogue: 0,0:00:22.13,0:00:26.17,Staff-17-28-2,bord,0,0,0,,{\1a&ff\fscx\fscy98\an5\3c&676767\fs69\fsp\blur0.5\bord2\pos(777.92,1368.44)}{\3a&ee\t(17,518,\3a&0)\t(3521,4021,\3a&ee)}翻譯
+Dialogue: 0,0:00:22.13,0:00:26.17,Staff-17-28-2,加粗,0,0,0,,{\fscx\fscy98\an5\3c&ffffff\fs69\fsp\ybord0.1\pos(777.92,1368.44)}{\alpha&dd\t(17,518,\alpha&0)\t(3521,4021,\alpha&df)}翻譯
 Dialogue: 0,0:00:22.13,0:00:26.17,Staff-17-28-2,BLUR,0,0,0,,{\1a&ff\fscy97\an5\3c&4C4C4C\fs82\fsp7.5\bord3.5\blur3\pos(784.36,1474.83)}{\3a&f8\t(17,518,\3a&22)\t(3521,4021,\3a&f8)}平原
 Dialogue: 0,0:00:22.13,0:00:26.17,Staff-17-28-2,bord,0,0,0,,{\1a&ff\fscy97\an5\3c&676767\fs82\fsp7.5\blur0.5\bord2\pos(784.36,1474.83)}{\3a&ee\t(17,518,\3a&0)\t(3521,4021,\3a&ee)}平原
 Dialogue: 0,0:00:22.13,0:00:26.17,Staff-17-28-2,,0,0,0,,{\fscy97\an5\3c&ffffff\fs82\fsp7.5\pos(784.36,1474.83)}{\alpha&dd\t(17,518,\alpha&0)\t(3521,4021,\alpha&df)}平原
-Dialogue: 0,0:00:22.13,0:00:26.17,Staff-17-28-2,BLUR,0,0,0,,{\1a&ff\fscy97\an5\3c&4C4C4C\fs82\fsp7.5\bord3.5\blur3\pos(784.36,1574.55)}{\3a&f8\t(17,518,\3a&44)\t(3521,4021,\3a&f8)}火树银花
-Dialogue: 0,0:00:22.13,0:00:26.17,Staff-17-28-2,bord,0,0,0,,{\1a&ff\fscy97\an5\3c&676767\fs82\fsp7.5\blur0.5\bord2\pos(784.36,1574.55)}{\3a&ee\t(17,518,\3a&0)\t(3521,4021,\3a&ee)}火树银花
-Dialogue: 0,0:00:22.13,0:00:26.17,Staff-17-28-2,,0,0,0,,{\fscy97\an5\3c&ffffff\fs82\fsp7.5\pos(784.36,1574.55)}{\alpha&dd\t(17,518,\alpha&0)\t(3521,4021,\alpha&df)}火树银花
+Dialogue: 0,0:00:22.13,0:00:26.17,Staff-17-28-2,BLUR,0,0,0,,{\1a&ff\fscy97\an5\3c&4C4C4C\fs82\fsp7.5\bord3.5\blur3\pos(784.36,1574.55)}{\3a&f8\t(17,518,\3a&44)\t(3521,4021,\3a&f8)}火樹銀花
+Dialogue: 0,0:00:22.13,0:00:26.17,Staff-17-28-2,bord,0,0,0,,{\1a&ff\fscy97\an5\3c&676767\fs82\fsp7.5\blur0.5\bord2\pos(784.36,1574.55)}{\3a&ee\t(17,518,\3a&0)\t(3521,4021,\3a&ee)}火樹銀花
+Dialogue: 0,0:00:22.13,0:00:26.17,Staff-17-28-2,,0,0,0,,{\fscy97\an5\3c&ffffff\fs82\fsp7.5\pos(784.36,1574.55)}{\alpha&dd\t(17,518,\alpha&0)\t(3521,4021,\alpha&df)}火樹銀花
 Dialogue: 0,0:00:26.46,0:00:30.76,Staff-17-28-2,BLUR,0,0,0,,{\1a&ff\fscx\fscy98\an5\3c&4c4c4c\fs69\fsp\bord4\blur2.5\pos(777.92,1368.44)}{\3a&ee\t(17,525,\3a&44)\t(3779,4279,\3a&ee)}繁化
 Dialogue: 0,0:00:26.46,0:00:30.76,Staff-17-28-2,bord,0,0,0,,{\1a&ff\fscx\fscy98\an5\3c&676767\fs69\fsp\blur0.5\bord2\pos(777.92,1368.44)}{\3a&ee\t(17,525,\3a&0)\t(3779,4279,\3a&ee)}繁化
 Dialogue: 0,0:00:26.46,0:00:30.76,Staff-17-28-2,加粗,0,0,0,,{\fscx\fscy98\an5\3c&ffffff\fs69\fsp\ybord0.1\pos(777.92,1368.44)}{\alpha&e8\t(17,525,\alpha&0)\t(3779,4279,\alpha&df)}繁化
 Dialogue: 0,0:00:26.46,0:00:30.76,Staff-17-28-2,BLUR,0,0,0,,{\1a&ff\fscy97\an5\3c&4c4c4c\fs82\fsp7.5\bord5\blur3\pos(784.36,1474.83)}{\3a&ee\t(17,525,\3a&66)\t(3779,4279,\3a&ee)}一星
 Dialogue: 0,0:00:26.46,0:00:30.76,Staff-17-28-2,bord,0,0,0,,{\1a&ff\fscy97\an5\3c&676767\fs82\fsp7.5\blur0.5\bord2\pos(784.36,1474.83)}{\3a&ee\t(17,525,\3a&0)\t(3779,4279,\3a&ee)}一星
 Dialogue: 0,0:00:26.46,0:00:30.76,Staff-17-28-2,,0,0,0,,{\fscy97\an5\3c&ffffff\fs82\fsp7.5\pos(784.36,1474.83)}{\alpha&e8\t(17,525,\alpha&0)\t(3779,4279,\alpha&df)}一星
-Dialogue: 0,0:00:26.46,0:00:30.76,Staff-17-28-2,BLUR,0,0,0,,{\1a&ff\fscx\fscy98\an5\3c&676767\fs69\fsp\bord3.5\blur2.2\pos(3019.67,1367.75)}{\3a&ee\t(17,525,\3a&22)\t(3779,4279,\3a&ee)}轴效
-Dialogue: 0,0:00:26.46,0:00:30.76,Staff-17-28-2,bord,0,0,0,,{\1a&ff\fscx\fscy98\an5\3c&676767\fs69\fsp\blur0.5\bord2\pos(3019.67,1367.75)}{\3a&ee\t(17,525,\3a&0)\t(3779,4279,\3a&ee)}轴效
-Dialogue: 0,0:00:26.46,0:00:30.76,Staff-17-28-2,加粗,0,0,0,,{\fscx\fscy98\an5\3c&ffffff\fs69\fsp\ybord0.1\pos(3019.67,1367.75)}{\alpha&e8\t(17,525,\alpha&0)\t(3779,4279,\alpha&df)}轴效
-Dialogue: 0,0:00:26.46,0:00:30.76,Staff-17-28-2,BLUR,0,0,0,,{\1a&ff\fscy97\an5\3c&333333\fs82\fsp7.5\bord3.5\blur2.5\pos(3025.67,1473.75)}{\3a&ee\t(17,525,\3a&44)\t(3779,4279,\3a&ee)}混乱怪魔
-Dialogue: 0,0:00:26.46,0:00:30.76,Staff-17-28-2,bord,0,0,0,,{\1a&ff\fscy97\an5\3c&676767\fs82\fsp7.5\blur0.5\bord1\pos(3025.67,1473.75)}{\3a&ee\t(17,525,\3a&0)\t(3779,4279,\3a&ee)}混乱怪魔
-Dialogue: 0,0:00:26.46,0:00:30.76,Staff-17-28-2,,0,0,0,,{\fscy97\an5\3c&ffffff\fs82\fsp7.5\pos(3025.67,1473.75)}{\alpha&e8\t(17,525,\alpha&0)\t(3779,4279,\alpha&df)}混乱怪魔
-Dialogue: 0,0:00:26.46,0:00:30.76,Staff-17-28-2,BLUR,0,0,0,,{\1a&ff\fscy97\an5\3c&333333\fs82\fsp7.5\bord3.5\blur2.5\pos(3029.56,1573.85)}{\3a&ee\t(17,525,\3a&44)\t(3779,4279,\3a&ee)}沅芷澧兰
-Dialogue: 0,0:00:26.46,0:00:30.76,Staff-17-28-2,bord,0,0,0,,{\1a&ff\fscy97\an5\3c&676767\fs82\fsp7.5\blur0.5\bord1\pos(3029.56,1573.85)}{\3a&ee\t(17,525,\3a&0)\t(3779,4279,\3a&ee)}沅芷澧兰
-Dialogue: 0,0:00:26.46,0:00:30.76,Staff-17-28-2,,0,0,0,,{\fscy97\an5\3c&ffffff\fs82\fsp7.5\pos(3029.56,1573.85)}{\alpha&e8\t(17,525,\alpha&0)\t(3779,4279,\alpha&df)}沅芷澧兰
-Dialogue: 0,0:00:31.22,0:00:35.06,Staff-17-28,BLUR,0,0,0,,{\1a&ff\fscx\fscy98\an5\3c&595959\fs69\fsp\bord6.5\blur1.7\pos(600.45,1399.21)}{\3a&ff\t(17,520,\3a&88)\t(3314,3815,\3a&ff)}压制
-Dialogue: 0,0:00:31.22,0:00:35.06,Staff-17-28,bord,0,0,0,,{\1a&ff\fscx\fscy98\an5\3c&595959\fs69\fsp\blur0.5\bord2\pos(600.45,1399.21)}{\3a&ee\t(17,520,\3a&44)\t(3314,3815,\3a&ee)}压制
-Dialogue: 0,0:00:31.22,0:00:35.06,Staff-17-28,加粗,0,0,0,,{\fscx\fscy98\an5\3c&ffffff\fs69\fsp\ybord0.1\pos(600.45,1399.21)}{\alpha&e8\t(17,520,\alpha&0)\t(3314,3815,\alpha&e8)}压制
+Dialogue: 0,0:00:26.46,0:00:30.76,Staff-17-28-2,BLUR,0,0,0,,{\1a&ff\fscx\fscy98\an5\3c&676767\fs69\fsp\bord3.5\blur2.2\pos(3019.67,1367.75)}{\3a&ee\t(17,525,\3a&22)\t(3779,4279,\3a&ee)}軸效
+Dialogue: 0,0:00:26.46,0:00:30.76,Staff-17-28-2,bord,0,0,0,,{\1a&ff\fscx\fscy98\an5\3c&676767\fs69\fsp\blur0.5\bord2\pos(3019.67,1367.75)}{\3a&ee\t(17,525,\3a&0)\t(3779,4279,\3a&ee)}軸效
+Dialogue: 0,0:00:26.46,0:00:30.76,Staff-17-28-2,加粗,0,0,0,,{\fscx\fscy98\an5\3c&ffffff\fs69\fsp\ybord0.1\pos(3019.67,1367.75)}{\alpha&e8\t(17,525,\alpha&0)\t(3779,4279,\alpha&df)}軸效
+Dialogue: 0,0:00:26.46,0:00:30.76,Staff-17-28-2,BLUR,0,0,0,,{\1a&ff\fscy97\an5\3c&333333\fs82\fsp7.5\bord3.5\blur2.5\pos(3025.67,1473.75)}{\3a&ee\t(17,525,\3a&44)\t(3779,4279,\3a&ee)}混亂怪魔
+Dialogue: 0,0:00:26.46,0:00:30.76,Staff-17-28-2,bord,0,0,0,,{\1a&ff\fscy97\an5\3c&676767\fs82\fsp7.5\blur0.5\bord1\pos(3025.67,1473.75)}{\3a&ee\t(17,525,\3a&0)\t(3779,4279,\3a&ee)}混亂怪魔
+Dialogue: 0,0:00:26.46,0:00:30.76,Staff-17-28-2,,0,0,0,,{\fscy97\an5\3c&ffffff\fs82\fsp7.5\pos(3025.67,1473.75)}{\alpha&e8\t(17,525,\alpha&0)\t(3779,4279,\alpha&df)}混亂怪魔
+Dialogue: 0,0:00:26.46,0:00:30.76,Staff-17-28-2,BLUR,0,0,0,,{\1a&ff\fscy97\an5\3c&333333\fs82\fsp7.5\bord3.5\blur2.5\pos(3029.56,1573.85)}{\3a&ee\t(17,525,\3a&44)\t(3779,4279,\3a&ee)}沅芷澧蘭
+Dialogue: 0,0:00:26.46,0:00:30.76,Staff-17-28-2,bord,0,0,0,,{\1a&ff\fscy97\an5\3c&676767\fs82\fsp7.5\blur0.5\bord1\pos(3029.56,1573.85)}{\3a&ee\t(17,525,\3a&0)\t(3779,4279,\3a&ee)}沅芷澧蘭
+Dialogue: 0,0:00:26.46,0:00:30.76,Staff-17-28-2,,0,0,0,,{\fscy97\an5\3c&ffffff\fs82\fsp7.5\pos(3029.56,1573.85)}{\alpha&e8\t(17,525,\alpha&0)\t(3779,4279,\alpha&df)}沅芷澧蘭
+Dialogue: 0,0:00:31.22,0:00:35.06,Staff-17-28,BLUR,0,0,0,,{\1a&ff\fscx\fscy98\an5\3c&595959\fs69\fsp\bord6.5\blur1.7\pos(600.45,1399.21)}{\3a&ff\t(17,520,\3a&88)\t(3314,3815,\3a&ff)}壓製
+Dialogue: 0,0:00:31.22,0:00:35.06,Staff-17-28,bord,0,0,0,,{\1a&ff\fscx\fscy98\an5\3c&595959\fs69\fsp\blur0.5\bord2\pos(600.45,1399.21)}{\3a&ee\t(17,520,\3a&44)\t(3314,3815,\3a&ee)}壓製
+Dialogue: 0,0:00:31.22,0:00:35.06,Staff-17-28,加粗,0,0,0,,{\fscx\fscy98\an5\3c&ffffff\fs69\fsp\ybord0.1\pos(600.45,1399.21)}{\alpha&e8\t(17,520,\alpha&0)\t(3314,3815,\alpha&e8)}壓製
 Dialogue: 0,0:00:31.22,0:00:35.06,Staff-17-28,BLUR,0,0,0,,{\1a&ff\fscy97\an5\3c&595959\fs82\fsp7.5\bord6.5\blur1.7\pos(606.45,1505.21)}{\3a&ff\t(17,520,\3a&88)\t(3314,3815,\3a&ff)}田姆斯邦德
 Dialogue: 0,0:00:31.22,0:00:35.06,Staff-17-28,bord,0,0,0,,{\1a&ff\fscy97\an5\3c&595959\fs82\fsp7.5\blur0.5\bord2\pos(606.45,1505.21)}{\3a&ee\t(17,520,\3a&44)\t(3314,3815,\3a&ee)}田姆斯邦德
 Dialogue: 0,0:00:31.22,0:00:35.06,Staff-17-28,,0,0,0,,{\fscy97\an5\3c&ffffff\fs82\fsp7.5\pos(606.45,1505.21)}{\alpha&e8\t(17,520,\alpha&0)\t(3314,3815,\alpha&e8)}田姆斯邦德
@@ -86,352 +87,352 @@ Dialogue: 0,0:00:31.22,0:00:35.06,Staff-17-28,BLUR,0,0,0,,{\1a&ff\fscy97\an5\3c&
 Dialogue: 0,0:00:31.22,0:00:35.06,Staff-17-28,bord,0,0,0,,{\1a&ff\fscy97\an5\3c&595959\fs82\fsp7.5\blur0.5\bord2\pos(606.45,1908.19)}{\3a&ee\t(17,520,\3a&0)\t(3314,3815,\3a&ee)}知世
 Dialogue: 0,0:00:31.22,0:00:35.06,Staff-17-28,,0,0,0,,{\fscy97\an5\3c&ffffff\fs82\fsp7.5\pos(606.45,1908.19)}{\alpha&e8\t(17,520,\alpha&0)\t(3314,3815,\alpha&e8)}知世
 Comment: 0,0:00:00.00,0:00:00.00,//,,0,0,0,,————Dialogue————
-Dialogue: 1,0:00:02.98,0:00:03.98,Dial-CHI,,0,0,0,,{\c&D8DDE6\bord3\3c&333333\4c&333333}现在我宣布
-Dialogue: 1,0:00:04.36,0:00:07.99,Dial-CHI,,0,0,0,,{\c&D1D8DE}{\bord2}{\3c&1A1A1A\4c&1A1A1A}一级魔法使考核正式开始
-Dialogue: 1,0:00:08.49,0:00:09.78,Dial-CHI,,0,0,0,,{\c&D8DDE6\bord3\3c&333333\4c&333333}小组战
-Dialogue: 1,0:00:09.78,0:00:10.37,Dial-CHI,,0,0,0,,{\c&D8DDE6\bord3\3c&333333\4c&333333}全员57人
-Dialogue: 1,0:00:10.37,0:00:11.99,Dial-CHI,,0,0,0,,{\c&DBDBDB\bord2}{\3c&1A1A1A\4c&1A1A1A}全员57人
-Dialogue: 1,0:00:11.99,0:00:13.62,Dial-CHI,,0,0,0,,{\bord1\blur0.7\3c&333333\4c&333333}三人一组
-Dialogue: 1,0:00:13.62,0:00:14.24,Dial-CHI,,0,0,0,,{\bord2}{\3c&333333\4c&333333}三人一组
-Dialogue: 1,0:00:14.24,0:00:15.25,Dial-CHI,,0,0,0,,{\3c&333333\4c&333333}{\bord2}参加考核
-Dialogue: 1,0:00:15.25,0:00:15.75,Dial-CHI,,0,0,0,,{\bord1.5\blur0.6}参加考核
-Dialogue: 1,0:01:57.01,0:01:59.52,Dial-CHI,,0,0,0,,{\3c&1A1A1A\4c&1A1A1A}{\c&9D9E9B}{\bord2}你看 这不就做到了
-Dialogue: 1,0:02:00.89,0:02:02.77,Dial-CHI,,0,0,0,,{\3c&1A1A1A\4c&1A1A1A}{\c&9D9E9B}{\bord2}是这样吗
-Dialogue: 1,0:02:03.56,0:02:05.61,Dial-CHI,,0,0,0,,{\3c&1A1A1A\4c&1A1A1A}{\c&B0A492\bord2}拉比涅虽然很粗鲁
-Dialogue: 1,0:02:05.61,0:02:08.02,Dial-CHI,,0,0,0,,{\3c&1A1A1A\4c&1A1A1A}{\c&B0A492\bord2}但她总是拽着我往前走
-Dialogue: 1,0:02:11.15,0:02:14.41,Dial-CHI,,0,0,0,,{\c&C2AFA5}{\bord2}{\3c&1A1A1A\4c&1A1A1A}明天就是和龙的首战
-Dialogue: 1,0:02:16.12,0:02:17.78,Dial-CHI,,0,0,0,,{\c&BFF5FF}{\bord1\blur0.6}{\3c&397AAC\4c&397AAC}{\t(16,2810,\bord2\3c&163754\4c&163754\c&CAE1FA\blur0)}你怕吗 艾泽
-Dialogue: 1,0:02:17.78,0:02:18.95,Dial-CHI,,0,0,0,,{\c&BFF5FF}{\bord1\blur0.6}{\3c&397AAC\4c&397AAC}{\t(-1644,1150,\bord2\3c&163754\4c&163754\c&CAE1FA\blur0)}你在颤抖
+Dialogue: 1,0:00:02.98,0:00:03.98,Dial-CHI,,0,0,0,,{\c&D8DDE6\bord3\3c&333333\4c&333333}現在我宣布
+Dialogue: 1,0:00:04.36,0:00:07.99,Dial-CHI,,0,0,0,,{\c&D1D8DE}{\bord2}{\3c&1A1A1A\4c&1A1A1A}一級魔法使考核正式開始
+Dialogue: 1,0:00:08.49,0:00:09.78,Dial-CHI,,0,0,0,,{\c&D8DDE6\bord3\3c&333333\4c&333333}小組戰
+Dialogue: 1,0:00:09.78,0:00:10.37,Dial-CHI,,0,0,0,,{\c&D8DDE6\bord3\3c&333333\4c&333333}全員57人
+Dialogue: 1,0:00:10.37,0:00:11.99,Dial-CHI,,0,0,0,,{\c&DBDBDB\bord2}{\3c&1A1A1A\4c&1A1A1A}全員57人
+Dialogue: 1,0:00:11.99,0:00:13.62,Dial-CHI,,0,0,0,,{\bord1\blur0.7\3c&333333\4c&333333}三人一組
+Dialogue: 1,0:00:13.62,0:00:14.24,Dial-CHI,,0,0,0,,{\bord2}{\3c&333333\4c&333333}三人一組
+Dialogue: 1,0:00:14.24,0:00:15.25,Dial-CHI,,0,0,0,,{\3c&333333\4c&333333}{\bord2}參加考核
+Dialogue: 1,0:00:15.25,0:00:15.75,Dial-CHI,,0,0,0,,{\bord1.5\blur0.6}參加考核
+Dialogue: 1,0:01:57.01,0:01:59.52,Dial-CHI,,0,0,0,,{\3c&1A1A1A\4c&1A1A1A}{\c&9D9E9B}{\bord2}妳看 這不就做到了
+Dialogue: 1,0:02:00.89,0:02:02.77,Dial-CHI,,0,0,0,,{\3c&1A1A1A\4c&1A1A1A}{\c&9D9E9B}{\bord2}是這樣嗎
+Dialogue: 1,0:02:03.56,0:02:05.61,Dial-CHI,,0,0,0,,{\3c&1A1A1A\4c&1A1A1A}{\c&B0A492\bord2}拉比涅雖然很粗魯
+Dialogue: 1,0:02:05.61,0:02:08.02,Dial-CHI,,0,0,0,,{\3c&1A1A1A\4c&1A1A1A}{\c&B0A492\bord2}但她總是帶著我往前走
+Dialogue: 1,0:02:11.15,0:02:14.41,Dial-CHI,,0,0,0,,{\c&C2AFA5}{\bord2}{\3c&1A1A1A\4c&1A1A1A}明天就是和龍的首戰
+Dialogue: 1,0:02:16.12,0:02:17.78,Dial-CHI,,0,0,0,,{\c&BFF5FF}{\bord1\blur0.6}{\3c&397AAC\4c&397AAC}{\t(16,2810,\bord2\3c&163754\4c&163754\c&CAE1FA\blur0)}你怕嗎 艾冉
+Dialogue: 1,0:02:17.78,0:02:18.95,Dial-CHI,,0,0,0,,{\c&BFF5FF}{\bord1\blur0.6}{\3c&397AAC\4c&397AAC}{\t(-1644,1150,\bord2\3c&163754\4c&163754\c&CAE1FA\blur0)}你在顫抖
 Dialogue: 1,0:02:19.87,0:02:20.91,Dial-CHI,,0,0,0,,{\bord2\3c&163754\4c&163754\c&CAE1FA}嗯
-Dialogue: 1,0:02:21.16,0:02:22.79,Dial-CHI,,0,1111,0,,{\c&C1D8E8\bord1\blur0.7\3c&222830\4c&222830}是吗 那…
+Dialogue: 1,0:02:21.16,0:02:22.79,Dial-CHI,,0,1111,0,,{\c&C1D8E8\bord1\blur0.7\3c&222830\4c&222830}是嗎 那…
 Dialogue: 1,0:02:24.71,0:02:25.29,Dial-CHI,,0,1111,0,,{\c&C1D8E8\bord1\blur0.7\3c&222830\4c&222830}你害怕?
-Dialogue: 1,0:02:30.09,0:02:31.30,Dial-CHI,,0,0,0,,{\c&D4EBFC\bord1\blur0.5\3c&24262B\4c&24262B}这样啊
+Dialogue: 1,0:02:30.09,0:02:31.30,Dial-CHI,,0,0,0,,{\c&D4EBFC\bord1\blur0.5\3c&24262B\4c&24262B}這樣啊
 Dialogue: 1,0:02:32.17,0:02:33.42,Dial-CHI,,0,0,0,,{\c&D4EBFC\bord1\blur0.5\3c&24262B\4c&24262B}我也怕
-Dialogue: 1,0:02:34.43,0:02:35.89,Dial-CHI,,0,0,0,,{\c&CAE7FC\bord1.5\blur0.7\3c&24262B\4c&24262B}好奇怪的对话
-Dialogue: 1,0:02:37.68,0:02:41.56,Dial-CHI,,0,0,0,,{\c&CAE7FC\bord2\blur0.7\3c&24262B\4c&24262B}我想像其他冒险者那样鼓舞大家
+Dialogue: 1,0:02:34.43,0:02:35.89,Dial-CHI,,0,0,0,,{\c&CAE7FC\bord1.5\blur0.7\3c&24262B\4c&24262B}好奇怪的對話
+Dialogue: 1,0:02:37.68,0:02:41.56,Dial-CHI,,0,0,0,,{\c&CAE7FC\bord2\blur0.7\3c&24262B\4c&24262B}我想像其他冒險者那樣鼓舞大家
 Dialogue: 1,0:02:41.56,0:02:42.64,Dial-CHI,,0,0,0,,{\c&CAE7FC\bord1.5\blur0.7\3c&24262B\4c&24262B}抱歉
-Dialogue: 1,0:02:43.23,0:02:44.69,Dial-CHI,,0,0,0,,{\c&CAE7FC\bord1.5\blur0.7\3c&24262B\4c&24262B}没起到作用
-Dialogue: 1,0:02:45.19,0:02:46.15,Dial-CHI,,0,0,0,,{\c&CAE7FC\bord2\blur0.1\3c&24262B\4c&24262B}没事
-Dialogue: 1,0:02:46.15,0:02:48.31,Dial-CHI,,0,0,0,,{\c&CAE7FC\bord2\blur0.1\3c&24262B\4c&24262B}我反而不紧张了
-Dialogue: 1,0:02:48.31,0:02:49.40,Dial-CHI,,0,0,0,,{\c&CAE7FC\bord2\blur0.7\3c&24262B\4c&24262B}辛美尔
-Dialogue: 1,0:02:49.40,0:02:51.28,Dial-CHI,,0,0,0,,{\c&CAE7FC\bord2\blur0.7\3c&24262B\4c&24262B}顺其自然就好
-Dialogue: 1,0:02:51.28,0:02:55.20,Dial-CHI,,0,0,0,,{\c&CAE7FC\bord2\blur0.7\3c&24262B\4c&24262B}每个冒险团队都有自己的做法
-Dialogue: 1,0:02:57.66,0:02:59.33,Dial-CHI,,0,0,0,,{\c&CAE7FC\bord2\blur0.7\3c&24262B\4c&24262B}说得也是
-Dialogue: 1,0:03:04.25,0:03:05.58,Dial-CHI,,0,0,0,,{\c&FFEED6\bord1.5\3c&452C20\4c&452C20}原来如此
-Dialogue: 1,0:03:05.58,0:03:07.96,Dial-CHI,,0,0,0,,{\c&FFEED6\bord1.5\3c&452C20\4c&452C20}确实都有自己的做法
-Dialogue: 1,0:03:15.38,0:03:17.47,Dial-CHI,,0,0,0,,{\c&968A7E\bord1.5\blur0.7\3c&000000\4c&000000}总算抓到了
-Dialogue: 1,0:03:17.47,0:03:18.47,Dial-CHI,,0,0,0,,{\c&968A7E\bord1.5\blur0.7\3c&000000\4c&000000}陨铁鸟
+Dialogue: 1,0:02:43.23,0:02:44.69,Dial-CHI,,0,0,0,,{\c&CAE7FC\bord1.5\blur0.7\3c&24262B\4c&24262B}沒起到作用
+Dialogue: 1,0:02:45.19,0:02:46.15,Dial-CHI,,0,0,0,,{\c&CAE7FC\bord2\blur0.1\3c&24262B\4c&24262B}沒事
+Dialogue: 1,0:02:46.15,0:02:48.31,Dial-CHI,,0,0,0,,{\c&CAE7FC\bord2\blur0.1\3c&24262B\4c&24262B}我反而不緊張了
+Dialogue: 1,0:02:48.31,0:02:49.40,Dial-CHI,,0,0,0,,{\c&CAE7FC\bord2\blur0.7\3c&24262B\4c&24262B}欣梅爾
+Dialogue: 1,0:02:49.40,0:02:51.28,Dial-CHI,,0,0,0,,{\c&CAE7FC\bord2\blur0.7\3c&24262B\4c&24262B}順其自然就好
+Dialogue: 1,0:02:51.28,0:02:55.20,Dial-CHI,,0,0,0,,{\c&CAE7FC\bord2\blur0.7\3c&24262B\4c&24262B}每個冒險團隊都有自己的做法
+Dialogue: 1,0:02:57.66,0:02:59.33,Dial-CHI,,0,0,0,,{\c&CAE7FC\bord2\blur0.7\3c&24262B\4c&24262B}說得也是
+Dialogue: 1,0:03:04.25,0:03:05.58,Dial-CHI,,0,0,0,,{\c&FFEED6\bord1.5\3c&452C20\4c&452C20}原來如此
+Dialogue: 1,0:03:05.58,0:03:07.96,Dial-CHI,,0,0,0,,{\c&FFEED6\bord1.5\3c&452C20\4c&452C20}確實都有自己的做法
+Dialogue: 1,0:03:15.38,0:03:17.47,Dial-CHI,,0,0,0,,{\c&968A7E\bord1.5\blur0.7\3c&000000\4c&000000}總算抓到了
+Dialogue: 1,0:03:17.47,0:03:18.47,Dial-CHI,,0,0,0,,{\c&968A7E\bord1.5\blur0.7\3c&000000\4c&000000}隕鐵鳥
 Dialogue: 1,0:03:18.97,0:03:20.51,Dial-CHI,,888,0,0,,{\c&AB9F93\bord1.3\blur0.7\3c&000000\4c&000000}姑且能放心了
-Dialogue: 1,0:03:21.85,0:03:23.72,Dial-CHI,,888,0,0,,{\c&AB9F93\bord1.3\blur0.7\3c&000000\4c&000000}你说得倒是轻巧
-Dialogue: 1,0:03:24.27,0:03:26.89,Dial-CHI,,0,0,0,,{\c&A89B8D\bord1.5\blur0.7\3c&000000\4c&000000}麻烦的事还在后头
-Dialogue: 1,0:03:27.90,0:03:32.61,Dial-CHI,,0,0,0,,{\c&A89B8D\bord1.5\blur0.7\3c&000000\4c&000000}我们不能让陨铁鸟被其他队伍夺走
-Dialogue: 1,0:03:33.36,0:03:35.45,Dial-CHI,,0,0,0,,{\c&A89B8D\bord1.5\blur0.7\3c&000000\4c&000000}要和人对决了
-Dialogue: 1,0:03:41.08,0:03:42.03,Dial-CHI,,0,0,0,,{\c&F7F5F5\bord1.5\blur0.7\3c&333333\4c&333333}那么
-Dialogue: 1,0:03:42.54,0:03:45.29,Dial-CHI,,0,0,0,,{\c&F0F0F0\bord2\blur0.7\3c&1a1a1a\4c&1a1a1a}把观察陨铁鸟的结果汇总一下
-Dialogue: 1,0:03:45.79,0:03:47.83,Dial-CHI,,0,1211,0,,{\c&D9D9D9\bord2\blur0.7\3c&1a1a1a\4c&1a1a1a}首先如你所言
-Dialogue: 1,0:03:47.83,0:03:49.92,Dial-CHI,,0,1211,0,,{\c&D9D9D9\bord2\blur0.7\3c&1a1a1a\4c&1a1a1a}那种鸟能以超音速飞行
-Dialogue: 1,0:03:55.76,0:03:58.93,Dial-CHI,,0,0,0,,{\bord0.5\blur0.7}{\t(2645,3145,\4c&ffffff\bord0\3a&ff)}那种速度不可能追得上
-Dialogue: 1,0:03:59.39,0:04:01.43,Dial-CHI,,0,0,0,,{\blur0.5}{\bord1.5\3c&2E2E2E\4c&2E2E2E}况且它跟龙一样结实
-Dialogue: 1,0:04:01.43,0:04:03.56,Dial-CHI,,0,0,0,,{\blur0.5}{\bord1.5\3c&2E2E2E\4c&2E2E2E}普通的攻击魔法完全不起作用
-Dialogue: 1,0:04:04.47,0:04:04.93,Dial-CHI,,0,0,0,,{\blur0.5}{\bord1.5\3c&2E2E2E\4c&2E2E2E}它会挣脱禁锢
-Dialogue: 1,0:04:04.93,0:04:05.93,Dial-CHI,,0,0,0,,{\blur0.5}{\bord1.5\3c&2E2E2E\4c&2E2E2E}它会挣脱禁锢
-Dialogue: 1,0:04:07.19,0:04:10.06,Dial-CHI,,0,0,0,,{\c&EBE7E6}{\blur0.5}{\bord2\3c&190B09\4c&190B09}对魔力也十分敏感
-Dialogue: 1,0:04:10.06,0:04:12.11,Dial-CHI,,0,0,0,,{\c&EBE7E6}{\blur0.5}{\bord2\3c&190B09\4c&190B09}即使我们靠近时抑制着魔力
-Dialogue: 1,0:04:12.11,0:04:13.69,Dial-CHI,,0,0,0,,{\c&EBE7E6}{\blur0.5}{\bord2\3c&190B09\4c&190B09}它也会立刻逃跑
-Dialogue: 1,0:04:22.62,0:04:24.91,Dial-CHI,,0,0,0,,{\bord2\blur0.5\3c&242822\4c&242822}最大的问题是
-Dialogue: 1,0:04:24.91,0:04:27.46,Dial-CHI,,0,0,0,,{\bord2\blur0.5\3c&242822\4c&242822}陨铁鸟几乎没有魔力
-Dialogue: 1,0:04:27.46,0:04:29.79,Dial-CHI,,0,0,0,,{\bord2\blur0.5\3c&242822\4c&242822}魔力探知派不上用场
-Dialogue: 1,0:04:30.25,0:04:33.13,Dial-CHI,,0,0,0,,{\3c&313131\4c&313131\bord2.5\blur0.7}导致我们根本找不到它
-Dialogue: 1,0:04:33.13,0:04:34.63,Dial-CHI,,0,0,0,,{\3c&313131\4c&313131\bord2.5\blur0.7}也不知道有多少只
-Dialogue: 1,0:04:35.30,0:04:39.93,Dial-CHI,,0,0,0,,{\3c&313131\4c&313131\bord1.5\blur0.6}到头来 只在昨天上午找到过三次
-Dialogue: 1,0:04:40.34,0:04:42.35,Dial-CHI,,0,0,0,,{\3c&313131\4c&313131\bord1.5\blur0.7}恐怕是因为考生在四处寻找
-Dialogue: 1,0:04:42.35,0:04:44.31,Dial-CHI,,0,0,0,,{\3c&313131\4c&313131\bord1.5\blur0.7}导致它越发警觉了
-Dialogue: 1,0:04:44.31,0:04:47.64,Dial-CHI,,0,0,0,,{\3c&313131\4c&313131\bord1.5\blur0.7}最坏的情况是它不再出现了
-Dialogue: 1,0:04:47.98,0:04:50.14,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}况且就算找到了
-Dialogue: 1,0:04:50.14,0:04:52.69,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}也完全没法子捕捉
-Dialogue: 1,0:04:52.69,0:04:54.40,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}这一点不必担心
-Dialogue: 1,0:04:55.19,0:04:56.65,Dial-CHI,,0,0,0,,{\c&9E9790\bord1.5\blur0.7\3c&161114\4c&161114}{\t(22,1106,\c&FAEDD9\3c&4A3122\4c&4A3122\bord1)}其实昨天晚上
-Dialogue: 1,0:04:57.03,0:04:59.15,Dial-CHI,,0,0,0,,{\c&D4C6B0\bord1\3c&291C15\4c&291C15\blur0.7}我试验了或许能捉到陨铁鸟的魔法
-Dialogue: 1,0:04:59.15,0:05:01.78,Dial-CHI,,0,0,0,,{\blur0.5\bord2.5\3c&353535\4c&353535}我试验了或许能捉到陨铁鸟的魔法
-Dialogue: 1,0:05:02.03,0:05:03.74,Dial-CHI,,0,877,0,,{\c&D9D9D9\bord2\blur0.7\3c&1a1a1a\4c&1a1a1a}你昨晚确实出去了
-Dialogue: 1,0:05:04.20,0:05:05.70,Dial-CHI,,0,877,0,,{\c&D9D9D9\bord2\blur0.7\3c&1a1a1a\4c&1a1a1a}是怎样的魔法
-Dialogue: 1,0:05:05.70,0:05:07.37,Dial-CHI,,0,877,0,,{\c&D9D9D9\bord2\blur0.7\3c&1a1a1a\4c&1a1a1a}你不是见过了吗
-Dialogue: 1,0:05:09.46,0:05:11.33,Dial-CHI,,0,0,0,,{\c&F5F5F5}{\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}「捕鸟魔法」
-Dialogue: 1,0:05:12.50,0:05:15.09,Dial-CHI,,0,0,0,,{\c&F5F5F5}{\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}那个时代的魔法使远多于现在
-Dialogue: 1,0:05:15.09,0:05:17.71,Dial-CHI,,0,0,0,,{\c&F5F5F5}{\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}魔法的使用也更为普遍
-Dialogue: 1,0:05:17.71,0:05:21.59,Dial-CHI,,0,0,0,,{\c&F5F5F5}{\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}以狩猎为生的一族创造了这种民间魔法
-Dialogue: 1,0:05:22.09,0:05:23.09,Dial-CHI,,0,0,0,,{\bord0\shad0\alpha&ff\4c&ffffff\t(23,149,\4c&282828\3c&282828\alpha&00\4a&9b\bord2\shad2\c&C4B9AB)\t(441,983,\c&E8FCF6\bord1.5\blur0.7\3c&4F504B\4c&4F504B)}说起来 你用魔法困住它了
-Dialogue: 1,0:05:23.09,0:05:25.47,Dial-CHI,,0,0,0,,{\c&CEDBD6\bord2\blur0.8\3c&282828\4c&282828}{\t(2235,2360,\alpha&ff\bord0\shad0\4c&ffffff\3c&ffffff\c&ffffff)}说起来 你用魔法困住它了
-Dialogue: 1,0:05:25.93,0:05:28.77,Dial-CHI,,0,0,0,,{\3c&282828\4c&282828\bord2\blur0.7}但那不是鸟 而是魔物
-Dialogue: 1,0:05:28.77,0:05:31.06,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&1a1a1a\4c&1a1a1a}毕竟是民间魔法
-Dialogue: 1,0:05:31.06,0:05:34.56,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&1a1a1a\4c&1a1a1a}大致像鸟的家伙似乎都捉得住
-Dialogue: 1,0:05:35.02,0:05:37.07,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&1a1a1a\4c&1a1a1a}是强力的禁锢魔法
-Dialogue: 1,0:05:37.07,0:05:39.15,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&1a1a1a\4c&1a1a1a}对陨铁鸟也有效
-Dialogue: 1,0:05:39.49,0:05:41.74,Dial-CHI,,0,0,0,,{\3c&282828\4c&282828\bord2\blur0.7}为什么你不早说
-Dialogue: 1,0:05:42.20,0:05:45.53,Dial-CHI,,0,0,0,,{\3c&282828\4c&282828\bord2\blur0.7}用那个魔法 昨天就能抓住它了吧
-Dialogue: 1,0:05:45.95,0:05:47.91,Dial-CHI,,0,0,0,,{\c&E0E0E0\bord2\blur0.7\3c&1a1a1a\4c&1a1a1a}事情没那么简单
-Dialogue: 1,0:05:49.54,0:05:52.21,Dial-CHI,,0,0,0,,{\c&FCF7F7\bord2\blur0.7\3c&1a1a1a\4c&1a1a1a}这个魔法的射程只有50厘米
-Dialogue: 1,0:05:52.21,0:05:54.54,Dial-CHI,,0,0,0,,{\c&FCF7F7\bord2\blur0.7\3c&1a1a1a\4c&1a1a1a}超出这个距离就没有效果
-Dialogue: 1,0:05:55.13,0:05:57.13,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&333333\4c&333333}50厘米
-Dialogue: 1,0:05:57.13,0:05:59.38,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&333333\4c&333333}离它最近的一次有多远
-Dialogue: 1,0:05:59.88,0:06:02.17,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&333333\4c&333333}最近的那次也有3米
-Dialogue: 1,0:06:02.17,0:06:04.89,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&333333\4c&333333}而且一进入它附近20米的范围
-Dialogue: 1,0:06:04.89,0:06:07.31,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&333333\4c&333333}它似乎就能察觉到
-Dialogue: 1,0:06:07.31,0:06:10.14,Dial-CHI,,0,0,0,,{\c&FCF7F7\bord2\blur0.7\3c&1a1a1a\4c&1a1a1a}现在可谓还有一步之遥
-Dialogue: 1,0:06:10.47,0:06:12.94,Dial-CHI,,0,0,0,,{\c&FCF7F7\bord2\blur0.7\3c&1a1a1a\4c&1a1a1a}这一步也太远了吧
-Dialogue: 1,0:06:13.48,0:06:15.27,Dial-CHI,,0,0,0,,{\3c&333333\4c&333333}{\bord2\blur0.7}我先确认一下
-Dialogue: 1,0:06:15.27,0:06:18.86,Dial-CHI,,0,0,0,,{\3c&333333\4c&333333}{\bord2\blur0.7}你们的魔法基本上困不住陨铁鸟吧
-Dialogue: 1,0:06:18.86,0:06:21.49,Dial-CHI,,0,0,0,,{\3c&333333\4c&333333}{\bord2\blur0.7}除非冻得十分牢固
-Dialogue: 1,0:06:21.49,0:06:23.15,Dial-CHI,,0,0,0,,{\3c&333333\4c&333333}{\bord2\blur0.7}但它对魔力很敏感
-Dialogue: 1,0:06:23.15,0:06:23.45,Dial-CHI,,0,0,0,,{\3c&333333\4c&333333}{\bord2\blur0.7}还结实得不像话
-Dialogue: 1,0:06:23.45,0:06:25.07,Dial-CHI,,0,0,0,,{\blur0.7\c&F2ECEB\bord2}{\3c&1A1A1A\4c&1A1A1A}还结实得不像话
-Dialogue: 1,0:06:25.07,0:06:28.12,Dial-CHI,,0,0,0,,{\blur0.7\c&F2ECEB\bord2}{\3c&1A1A1A\4c&1A1A1A}多半在被困之前就会逃掉
+Dialogue: 1,0:03:21.85,0:03:23.72,Dial-CHI,,888,0,0,,{\c&AB9F93\bord1.3\blur0.7\3c&000000\4c&000000}妳說得真悠哉啊
+Dialogue: 1,0:03:24.27,0:03:26.89,Dial-CHI,,0,0,0,,{\c&A89B8D\bord1.5\blur0.7\3c&000000\4c&000000}麻煩的事還在後頭
+Dialogue: 1,0:03:27.90,0:03:32.61,Dial-CHI,,0,0,0,,{\c&A89B8D\bord1.5\blur0.7\3c&000000\4c&000000}我們不能讓隕鐵鳥被其他隊伍奪走
+Dialogue: 1,0:03:33.36,0:03:35.45,Dial-CHI,,0,0,0,,{\c&A89B8D\bord1.5\blur0.7\3c&000000\4c&000000}要和人對決了
+Dialogue: 1,0:03:41.08,0:03:42.03,Dial-CHI,,0,0,0,,{\c&F7F5F5\bord1.5\blur0.7\3c&333333\4c&333333}那麼
+Dialogue: 1,0:03:42.54,0:03:45.29,Dial-CHI,,0,0,0,,{\c&F0F0F0\bord2\blur0.7\3c&1a1a1a\4c&1a1a1a}把觀察隕鐵鳥的結果匯總一下
+Dialogue: 1,0:03:45.79,0:03:47.83,Dial-CHI,,0,1211,0,,{\c&D9D9D9\bord2\blur0.7\3c&1a1a1a\4c&1a1a1a}首先如妳所言
+Dialogue: 1,0:03:47.83,0:03:49.92,Dial-CHI,,0,1211,0,,{\c&D9D9D9\bord2\blur0.7\3c&1a1a1a\4c&1a1a1a}那種鳥能以超音速飛行
+Dialogue: 1,0:03:55.76,0:03:58.93,Dial-CHI,,0,0,0,,{\bord0.5\blur0.7}{\t(2645,3145,\4c&ffffff\bord0\3a&ff)}那種速度不可能追得上
+Dialogue: 1,0:03:59.39,0:04:01.43,Dial-CHI,,0,0,0,,{\blur0.5}{\bord1.5\3c&2E2E2E\4c&2E2E2E}況且牠跟龍一樣結實
+Dialogue: 1,0:04:01.43,0:04:03.56,Dial-CHI,,0,0,0,,{\blur0.5}{\bord1.5\3c&2E2E2E\4c&2E2E2E}普通的攻擊魔法完全不起作用
+Dialogue: 1,0:04:04.47,0:04:04.93,Dial-CHI,,0,0,0,,{\blur0.5}{\bord1.5\3c&2E2E2E\4c&2E2E2E}牠會掙脫禁錮
+Dialogue: 1,0:04:04.93,0:04:05.93,Dial-CHI,,0,0,0,,{\blur0.5}{\bord1.5\3c&2E2E2E\4c&2E2E2E}牠會掙脫禁錮
+Dialogue: 1,0:04:07.19,0:04:10.06,Dial-CHI,,0,0,0,,{\c&EBE7E6}{\blur0.5}{\bord2\3c&190B09\4c&190B09}對魔力也十分敏感
+Dialogue: 1,0:04:10.06,0:04:12.11,Dial-CHI,,0,0,0,,{\c&EBE7E6}{\blur0.5}{\bord2\3c&190B09\4c&190B09}即使我們靠近時抑制著魔力
+Dialogue: 1,0:04:12.11,0:04:13.69,Dial-CHI,,0,0,0,,{\c&EBE7E6}{\blur0.5}{\bord2\3c&190B09\4c&190B09}牠也會立刻逃跑
+Dialogue: 1,0:04:22.62,0:04:24.91,Dial-CHI,,0,0,0,,{\bord2\blur0.5\3c&242822\4c&242822}最大的問題是
+Dialogue: 1,0:04:24.91,0:04:27.46,Dial-CHI,,0,0,0,,{\bord2\blur0.5\3c&242822\4c&242822}隕鐵鳥幾乎沒有魔力
+Dialogue: 1,0:04:27.46,0:04:29.79,Dial-CHI,,0,0,0,,{\bord2\blur0.5\3c&242822\4c&242822}魔力探知派不上用場
+Dialogue: 1,0:04:30.25,0:04:33.13,Dial-CHI,,0,0,0,,{\3c&313131\4c&313131\bord2.5\blur0.7}導致我們根本找不到牠
+Dialogue: 1,0:04:33.13,0:04:34.63,Dial-CHI,,0,0,0,,{\3c&313131\4c&313131\bord2.5\blur0.7}也不知道有多少隻
+Dialogue: 1,0:04:35.30,0:04:39.93,Dial-CHI,,0,0,0,,{\3c&313131\4c&313131\bord1.5\blur0.6}到頭來 只在昨天上午找到過三次
+Dialogue: 1,0:04:40.34,0:04:42.35,Dial-CHI,,0,0,0,,{\3c&313131\4c&313131\bord1.5\blur0.7}恐怕是因為考生在四處尋找
+Dialogue: 1,0:04:42.35,0:04:44.31,Dial-CHI,,0,0,0,,{\3c&313131\4c&313131\bord1.5\blur0.7}導致牠越來越警覺了
+Dialogue: 1,0:04:44.31,0:04:47.64,Dial-CHI,,0,0,0,,{\3c&313131\4c&313131\bord1.5\blur0.7}最壞的情況是牠不再出現了
+Dialogue: 1,0:04:47.98,0:04:50.14,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}況且就算找到了
+Dialogue: 1,0:04:50.14,0:04:52.69,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}也完全沒辦法捕捉
+Dialogue: 1,0:04:52.69,0:04:54.40,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}這一點不必擔心
+Dialogue: 1,0:04:55.19,0:04:56.65,Dial-CHI,,0,0,0,,{\c&9E9790\bord1.5\blur0.7\3c&161114\4c&161114}{\t(22,1106,\c&FAEDD9\3c&4A3122\4c&4A3122\bord1)}其實昨天晚上
+Dialogue: 1,0:04:57.03,0:04:59.15,Dial-CHI,,0,0,0,,{\c&D4C6B0\bord1\3c&291C15\4c&291C15\blur0.7}我試驗了或許能捉到隕鐵鳥的魔法
+Dialogue: 1,0:04:59.15,0:05:01.78,Dial-CHI,,0,0,0,,{\blur0.5\bord2.5\3c&353535\4c&353535}我試驗了或許能捉到隕鐵鳥的魔法
+Dialogue: 1,0:05:02.03,0:05:03.74,Dial-CHI,,0,877,0,,{\c&D9D9D9\bord2\blur0.7\3c&1a1a1a\4c&1a1a1a}妳昨晚確實出去了
+Dialogue: 1,0:05:04.20,0:05:05.70,Dial-CHI,,0,877,0,,{\c&D9D9D9\bord2\blur0.7\3c&1a1a1a\4c&1a1a1a}是怎樣的魔法
+Dialogue: 1,0:05:05.70,0:05:07.37,Dial-CHI,,0,877,0,,{\c&D9D9D9\bord2\blur0.7\3c&1a1a1a\4c&1a1a1a}妳不是見過了嗎
+Dialogue: 1,0:05:09.46,0:05:11.33,Dial-CHI,,0,0,0,,{\c&F5F5F5}{\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}「捕鳥魔法」
+Dialogue: 1,0:05:12.50,0:05:15.09,Dial-CHI,,0,0,0,,{\c&F5F5F5}{\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}那個時代的魔法使遠多於現在
+Dialogue: 1,0:05:15.09,0:05:17.71,Dial-CHI,,0,0,0,,{\c&F5F5F5}{\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}魔法的使用也更為普遍
+Dialogue: 1,0:05:17.71,0:05:21.59,Dial-CHI,,0,0,0,,{\c&F5F5F5}{\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}以狩獵為生的一族創造了這種民間魔法
+Dialogue: 1,0:05:22.09,0:05:23.09,Dial-CHI,,0,0,0,,{\bord0\shad0\alpha&ff\4c&ffffff\t(23,149,\4c&282828\3c&282828\alpha&00\4a&9b\bord2\shad2\c&C4B9AB)\t(441,983,\c&E8FCF6\bord1.5\blur0.7\3c&4F504B\4c&4F504B)}說起來 妳用魔法困住牠了
+Dialogue: 1,0:05:23.09,0:05:25.47,Dial-CHI,,0,0,0,,{\c&CEDBD6\bord2\blur0.8\3c&282828\4c&282828}{\t(2235,2360,\alpha&ff\bord0\shad0\4c&ffffff\3c&ffffff\c&ffffff)}說起來 妳用魔法困住牠了
+Dialogue: 1,0:05:25.93,0:05:28.77,Dial-CHI,,0,0,0,,{\3c&282828\4c&282828\bord2\blur0.7}但那不是鳥 而是魔物
+Dialogue: 1,0:05:28.77,0:05:31.06,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&1a1a1a\4c&1a1a1a}畢竟是民間魔法
+Dialogue: 1,0:05:31.06,0:05:34.56,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&1a1a1a\4c&1a1a1a}大致像鳥的傢伙似乎都捉得住
+Dialogue: 1,0:05:35.02,0:05:37.07,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&1a1a1a\4c&1a1a1a}是強力的禁錮魔法
+Dialogue: 1,0:05:37.07,0:05:39.15,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&1a1a1a\4c&1a1a1a}對隕鐵鳥也有效
+Dialogue: 1,0:05:39.49,0:05:41.74,Dial-CHI,,0,0,0,,{\3c&282828\4c&282828\bord2\blur0.7}為什麼妳不早說
+Dialogue: 1,0:05:42.20,0:05:45.53,Dial-CHI,,0,0,0,,{\3c&282828\4c&282828\bord2\blur0.7}用那個魔法 昨天就能抓住牠了吧
+Dialogue: 1,0:05:45.95,0:05:47.91,Dial-CHI,,0,0,0,,{\c&E0E0E0\bord2\blur0.7\3c&1a1a1a\4c&1a1a1a}事情沒那麼簡單
+Dialogue: 1,0:05:49.54,0:05:52.21,Dial-CHI,,0,0,0,,{\c&FCF7F7\bord2\blur0.7\3c&1a1a1a\4c&1a1a1a}這個魔法的射程只有50公分
+Dialogue: 1,0:05:52.21,0:05:54.54,Dial-CHI,,0,0,0,,{\c&FCF7F7\bord2\blur0.7\3c&1a1a1a\4c&1a1a1a}超出這個距離就沒有效果
+Dialogue: 1,0:05:55.13,0:05:57.13,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&333333\4c&333333}50公分
+Dialogue: 1,0:05:57.13,0:05:59.38,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&333333\4c&333333}離牠最近的一次有多遠
+Dialogue: 1,0:05:59.88,0:06:02.17,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&333333\4c&333333}最近的那次也有3公尺
+Dialogue: 1,0:06:02.17,0:06:04.89,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&333333\4c&333333}而且一進入牠附近20公尺的範圍
+Dialogue: 1,0:06:04.89,0:06:07.31,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&333333\4c&333333}牠似乎就能察覺到
+Dialogue: 1,0:06:07.31,0:06:10.14,Dial-CHI,,0,0,0,,{\c&FCF7F7\bord2\blur0.7\3c&1a1a1a\4c&1a1a1a}現在可謂還有一步之遙
+Dialogue: 1,0:06:10.47,0:06:12.94,Dial-CHI,,0,0,0,,{\c&FCF7F7\bord2\blur0.7\3c&1a1a1a\4c&1a1a1a}這一步也太遠了吧
+Dialogue: 1,0:06:13.48,0:06:15.27,Dial-CHI,,0,0,0,,{\3c&333333\4c&333333}{\bord2\blur0.7}我先確認一下
+Dialogue: 1,0:06:15.27,0:06:18.86,Dial-CHI,,0,0,0,,{\3c&333333\4c&333333}{\bord2\blur0.7}妳們的魔法基本上困不住隕鐵鳥吧
+Dialogue: 1,0:06:18.86,0:06:21.49,Dial-CHI,,0,0,0,,{\3c&333333\4c&333333}{\bord2\blur0.7}除非凍得十分牢固
+Dialogue: 1,0:06:21.49,0:06:23.15,Dial-CHI,,0,0,0,,{\3c&333333\4c&333333}{\bord2\blur0.7}但牠對魔力很敏感
+Dialogue: 1,0:06:23.15,0:06:23.45,Dial-CHI,,0,0,0,,{\3c&333333\4c&333333}{\bord2\blur0.7}還結實得不像話
+Dialogue: 1,0:06:23.45,0:06:25.07,Dial-CHI,,0,0,0,,{\blur0.7\c&F2ECEB\bord2}{\3c&1A1A1A\4c&1A1A1A}還結實得不像話
+Dialogue: 1,0:06:25.07,0:06:28.12,Dial-CHI,,0,0,0,,{\blur0.7\c&F2ECEB\bord2}{\3c&1A1A1A\4c&1A1A1A}多半在被困之前就會逃掉
 Dialogue: 1,0:06:28.95,0:06:30.33,Dial-CHI,,0,0,0,,{\blur0.7\c&F2ECEB\bord2}{\3c&1A1A1A\4c&1A1A1A}如果有大量的水
-Dialogue: 1,0:06:30.33,0:06:33.41,Dial-CHI,,0,0,0,,{\blur0.7\c&F2ECEB\bord2}{\3c&1A1A1A\4c&1A1A1A}用我的魔法应该不难困住它
-Dialogue: 1,0:06:35.17,0:06:39.21,Dial-CHI,,0,0,0,,{\bord2\3c&333333\4c&333333\blur0.7}但我用的是操纵水的魔法
-Dialogue: 1,0:06:39.21,0:06:42.17,Dial-CHI,,0,0,0,,{\bord2\3c&333333\4c&333333\blur0.7}无法凭空生成水
+Dialogue: 1,0:06:30.33,0:06:33.41,Dial-CHI,,0,0,0,,{\blur0.7\c&F2ECEB\bord2}{\3c&1A1A1A\4c&1A1A1A}用我的魔法應該不難困住牠
+Dialogue: 1,0:06:35.17,0:06:39.21,Dial-CHI,,0,0,0,,{\bord2\3c&333333\4c&333333\blur0.7}但我用的是操縱水的魔法
+Dialogue: 1,0:06:39.21,0:06:42.17,Dial-CHI,,0,0,0,,{\bord2\3c&333333\4c&333333\blur0.7}無法憑空生成水
 Dialogue: 1,0:06:43.22,0:06:43.92,Dial-CHI,,0,0,0,,{\bord1.5\blur0.7\3c&333333\4c&333333}所以
-Dialogue: 1,0:06:43.92,0:06:46.47,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&333333\4c&333333}{\t(484,1068,\3c&4c4c4c\4c&4c4c4c\bord1.5)}无法在没有水的地方使用
-Dialogue: 1,0:06:46.47,0:06:49.06,Dial-CHI,,0,0,0,,{\bord1.5\blur0.7\3c&333333\4c&333333}而且魔力很难通过成片的水
-Dialogue: 1,0:06:49.06,0:06:52.68,Dial-CHI,,0,0,0,,{\bord2\blur0.7}{\t(15,1475,\c&CFC8CC\3c&1a1a1a\4c&1a1a1a\bord1.5)}必须事先注入魔力才行
-Dialogue: 1,0:06:53.14,0:06:55.19,Dial-CHI,,0,0,0,,{\blur0.7\c&CFC8CC\3c&1a1a1a\4c&1a1a1a\bord1.5}像雨水那样分散的水
-Dialogue: 1,0:06:55.19,0:06:58.11,Dial-CHI,,0,0,0,,{\blur0.7\c&CFC8CC\3c&1a1a1a\4c&1a1a1a\bord1.5}{\t(559,2894,\bord2\blur0.7\c&DEDEDE\3c&333333\4c&333333)}倒是可以立即大量操纵
+Dialogue: 1,0:06:43.92,0:06:46.47,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&333333\4c&333333}{\t(484,1068,\3c&4c4c4c\4c&4c4c4c\bord1.5)}無法在沒有水的地方使用
+Dialogue: 1,0:06:46.47,0:06:49.06,Dial-CHI,,0,0,0,,{\bord1.5\blur0.7\3c&333333\4c&333333}而且魔力很難通過成片的水
+Dialogue: 1,0:06:49.06,0:06:52.68,Dial-CHI,,0,0,0,,{\bord2\blur0.7}{\t(15,1475,\c&CFC8CC\3c&1a1a1a\4c&1a1a1a\bord1.5)}必須事先注入魔力才行
+Dialogue: 1,0:06:53.14,0:06:55.19,Dial-CHI,,0,0,0,,{\blur0.7\c&CFC8CC\3c&1a1a1a\4c&1a1a1a\bord1.5}像雨水那樣分散的水
+Dialogue: 1,0:06:55.19,0:06:58.11,Dial-CHI,,0,0,0,,{\blur0.7\c&CFC8CC\3c&1a1a1a\4c&1a1a1a\bord1.5}{\t(559,2894,\bord2\blur0.7\c&DEDEDE\3c&333333\4c&333333)}倒是可以立即大量操縱
 Dialogue: 1,0:06:58.11,0:06:58.56,Dial-CHI,,0,0,0,,{\c&DEDEDE\3c&333333\4c&333333\bord2\blur0.7}可一旦向水中注入魔力
 Dialogue: 1,0:06:58.56,0:07:00.78,Dial-CHI,,0,0,0,,{\bord1.5\blur0.7\3c&0A1F32\4c&0A1F32}可一旦向水中注入魔力
-Dialogue: 1,0:07:00.78,0:07:04.07,Dial-CHI,,0,0,0,,{\bord1.5\blur0.7\3c&0A1F32\4c&0A1F32}对魔力敏感的陨铁鸟是绝对不会靠近的
-Dialogue: 1,0:07:05.53,0:07:06.78,Dial-CHI,,0,0,0,,{\c&DEDCDD\bord1.5\3c&181713\4c&181713\blur0.7}不会靠近
-Dialogue: 1,0:07:07.66,0:07:09.99,Dial-CHI,,0,0,0,,{\3c&333333\4c&333333}{\c&F2F2F2\bord1.5\blur0.7}是吗 不会靠近吗
-Dialogue: 1,0:07:12.04,0:07:14.33,Dial-CHI,,0,0,0,,{\c&F2F2F2\bord1.5\blur0.5}这个计划或许可行
-Dialogue: 1,0:07:33.85,0:07:35.43,Dial-CHI,,0,0,0,,{\blur0.8\c&E8DEDC\bord1.5\3c&222222\4c&222222}计划虽然可行
-Dialogue: 1,0:07:35.43,0:07:37.14,Dial-CHI,,0,0,0,,{\blur0.8\c&E8DEDC\bord1.5\3c&222222\4c&222222}但风险太高了
-Dialogue: 1,0:07:37.14,0:07:39.86,Dial-CHI,,0,0,0,,{\blur0.8\c&E8DEDC\bord2\3c&222222\4c&222222}这样无异于挑衅所有的队伍
-Dialogue: 1,0:07:40.61,0:07:43.73,Dial-CHI,,0,0,0,,{\c&F2F2F2\bord2\blur0.7\3c&333333}但或许只有这个办法了
-Dialogue: 1,0:07:46.65,0:07:47.95,Dial-CHI,,0,0,0,,{\c&F2F2F2\bord2\blur0.7\3c&333333}你怕吗
+Dialogue: 1,0:07:00.78,0:07:04.07,Dial-CHI,,0,0,0,,{\bord1.5\blur0.7\3c&0A1F32\4c&0A1F32}對魔力敏感的隕鐵鳥是絕對不會靠近的
+Dialogue: 1,0:07:05.53,0:07:06.78,Dial-CHI,,0,0,0,,{\c&DEDCDD\bord1.5\3c&181713\4c&181713\blur0.7}不會靠近
+Dialogue: 1,0:07:07.66,0:07:09.99,Dial-CHI,,0,0,0,,{\3c&333333\4c&333333}{\c&F2F2F2\bord1.5\blur0.7}是嗎 不會靠近嗎
+Dialogue: 1,0:07:12.04,0:07:14.33,Dial-CHI,,0,0,0,,{\c&F2F2F2\bord1.5\blur0.5}這個計劃或許可行
+Dialogue: 1,0:07:33.85,0:07:35.43,Dial-CHI,,0,0,0,,{\blur0.8\c&E8DEDC\bord1.5\3c&222222\4c&222222}計劃雖然可行
+Dialogue: 1,0:07:35.43,0:07:37.14,Dial-CHI,,0,0,0,,{\blur0.8\c&E8DEDC\bord1.5\3c&222222\4c&222222}但風險太高了
+Dialogue: 1,0:07:37.14,0:07:39.86,Dial-CHI,,0,0,0,,{\blur0.8\c&E8DEDC\bord2\3c&222222\4c&222222}這樣無異於挑釁所有的隊伍
+Dialogue: 1,0:07:40.61,0:07:43.73,Dial-CHI,,0,0,0,,{\c&F2F2F2\bord2\blur0.7\3c&333333}但或許只有這個辦法了
+Dialogue: 1,0:07:46.65,0:07:47.95,Dial-CHI,,0,0,0,,{\c&F2F2F2\bord2\blur0.7\3c&333333}妳怕嗎
 Dialogue: 1,0:07:47.95,0:07:48.61,Dial-CHI,,0,0,0,,{\c&F2F2F2\bord2\blur0.7\3c&333333}拉比涅
 Dialogue: 1,0:07:52.12,0:07:53.54,Dial-CHI,,0,0,0,,{\c&F2F2F2\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}痛痛痛
-Dialogue: 1,0:07:53.54,0:07:54.91,Dial-CHI,,0,0,0,,{\c&F2F2F2\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}头发要掉了
+Dialogue: 1,0:07:53.54,0:07:54.91,Dial-CHI,,0,0,0,,{\c&F2F2F2\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}頭髮要掉了
 Dialogue: 1,0:07:57.92,0:07:58.92,Dial-CHI,,0,0,0,,{\c&F2F0ED\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}我知道了
-Dialogue: 1,0:07:58.92,0:08:00.63,Dial-CHI,,0,0,0,,{\c&DEDCD9\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}那就大干一场吧
-Dialogue: 1,0:08:04.63,0:08:05.55,Dial-CHI,,0,1999,0,,{\c&D1D1D1\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A\pos(920,1929)}总之
-Dialogue: 1,0:08:06.01,0:08:09.14,Dial-CHI,,0,2511,0,,{\c&D1D1D1\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A\pos(720,1929)}就这样潜伏到考核结束吧
-Dialogue: 1,0:08:10.18,0:08:11.76,Dial-CHI,,0,0,0,,{\c&D1D1D1\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A\pos(924.8,1925)}太无趣了吧
-Dialogue: 1,0:08:11.76,0:08:14.64,Dial-CHI,,0,0,0,,{\c&D1D1D1\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A\pos(729.6,1925)}魔法使要堂堂正正地战斗
-Dialogue: 1,0:08:14.64,0:08:18.02,Dial-CHI,,0,0,0,,{\c&D1D1D1\bord1\blur0.7\3c&1A1A1A\4c&1A1A1A\fsp5\fs110\pos(685.33,1926.33)}魔法使也要避免无谓的战斗
-Dialogue: 1,0:08:22.98,0:08:25.07,Dial-CHI,,0,0,0,,{\c&BABABA\bord1\3c&000000\4c&000000\blur0.7}先补充一些水吧
-Dialogue: 1,0:08:25.99,0:08:26.65,Dial-CHI,,0,0,0,,{\c&BABABA\bord1\3c&000000\4c&000000\blur0.7}我记得中央有片湖
-Dialogue: 1,0:08:26.65,0:08:29.16,Dial-CHI,,0,0,0,,{\c&E3E3E3\bord1.2\3c&000000\4c&000000\blur0.7}我记得中央有片湖
-Dialogue: 1,0:08:32.62,0:08:33.78,Dial-CHI,,0,0,0,,{\c&EDEDED\bord2\3c&1A1A1A\4c&1A1A1A\blur0.7}不过
-Dialogue: 1,0:08:33.78,0:08:36.45,Dial-CHI,,0,0,0,,{\c&EDEDED\bord2\3c&1A1A1A\4c&1A1A1A\blur0.7}能这么早抓到陨铁鸟真是走运
-Dialogue: 1,0:08:37.29,0:08:39.37,Dial-CHI,,0,0,0,,{\c&EDEDED\bord2\3c&1A1A1A\4c&1A1A1A\blur0.7}接下来只要潜伏到日落
-Dialogue: 1,0:08:39.37,0:08:41.33,Dial-CHI,,0,0,0,,{\c&EDEDED\bord2\3c&1A1A1A\4c&1A1A1A\blur0.7}就能通过第一场考核
-Dialogue: 1,0:08:43.42,0:08:44.30,Dial-CHI,,444,0,0,,{\c&EDEDED\bord2\3c&1A1A1A\4c&1A1A1A\blur0.7}怎么了
-Dialogue: 1,0:08:44.30,0:08:47.34,Dial-CHI,,0,0,0,,{\c&EDEDED\bord1\3c&1A1A1A\4c&1A1A1A\blur0.7}恐怕不会那么顺利
-Dialogue: 1,0:08:47.76,0:08:50.89,Dial-CHI,,0,0,0,,{\c&EDEDED\bord2\3c&1A1A1A\4c&1A1A1A\blur0.7}我本来以为这是一条路
-Dialogue: 1,0:08:50.89,0:08:52.60,Dial-CHI,,0,0,0,,{\c&EDEDED\bord2\3c&1A1A1A\4c&1A1A1A\blur0.7}其实是干涸的河床
-Dialogue: 1,0:08:53.22,0:08:53.85,Dial-CHI,,0,0,0,,{\c&EDEDED\bord2\3c&000000\4c&000000\blur0.7}类似的地形还有好几处
-Dialogue: 1,0:08:53.85,0:08:55.97,Dial-CHI,,0,0,0,,{\c&EDEDED\bord2\3c&1A1A1A\4c&1A1A1A\blur0.7}类似的地形还有好几处
-Dialogue: 1,0:08:57.18,0:08:59.73,Dial-CHI,,0,0,0,,{\c&EDEDED\bord2\3c&000000\4c&000000\blur0.7}为了限制考核的场地范围
-Dialogue: 1,0:08:59.73,0:09:01.56,Dial-CHI,,0,0,0,,{\c&EDEDED\bord2\3c&000000\4c&000000\blur0.7}周围似乎设置了结界
-Dialogue: 1,0:09:02.81,0:09:04.44,Dial-CHI,,0,0,0,,{\c&EDEDED\bord2\3c&1A1A1A\4c&1A1A1A\blur0.7}这是考核的惯例
-Dialogue: 1,0:09:05.23,0:09:08.82,Dial-CHI,,0,0,0,,{\c&F5F5F5\bord1.5\3c&333333\4c&333333\blur0.7}是能隔绝灰尘的强大物理结界
-Dialogue: 1,0:09:09.20,0:09:11.82,Dial-CHI,,0,0,0,,{\c&EDEDED\bord2\3c&000000\4c&000000\blur0.7}莫非连水也无法通过吗
-Dialogue: 1,0:09:13.87,0:09:15.41,Dial-CHI,,0,0,0,,{\3c&333333\4c&333333\bord1.5\blur0.7}从干涸的情况来看
-Dialogue: 1,0:09:15.41,0:09:18.20,Dial-CHI,,0,0,0,,{\3c&333333\4c&333333\bord1.5\blur0.7}结界是在一周前设置的
-Dialogue: 1,0:09:19.00,0:09:20.96,Dial-CHI,,0,0,0,,{\c&F5F5F5\bord1.5\blur0.7\3c&262626\4c&262626}那么几乎所有的水
-Dialogue: 1,0:09:20.96,0:09:24.21,Dial-CHI,,0,0,0,,{\c&F5F5F5\bord1.5\blur0.7\3c&262626\4c&262626}都会聚集到盆地中央的湖里
-Dialogue: 1,0:09:24.67,0:09:27.25,Dial-CHI,,0,0,0,,{\c&EDEDED\bord2\3c&000000\4c&000000\blur0.7}我们这些考生也是生物
-Dialogue: 1,0:09:27.25,0:09:29.84,Dial-CHI,,0,0,0,,{\c&EDEDED\bord2\3c&000000\4c&000000\blur0.7}要正常活动就需要摄入水分
+Dialogue: 1,0:07:58.92,0:08:00.63,Dial-CHI,,0,0,0,,{\c&DEDCD9\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}那就大幹一場吧
+Dialogue: 1,0:08:04.63,0:08:05.55,Dial-CHI,,0,1999,0,,{\c&D1D1D1\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A\pos(920,1929)}總之
+Dialogue: 1,0:08:06.01,0:08:09.14,Dial-CHI,,0,2511,0,,{\c&D1D1D1\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A\pos(720,1929)}就這樣潛伏到考核結束吧
+Dialogue: 1,0:08:10.18,0:08:11.76,Dial-CHI,,0,0,0,,{\c&D1D1D1\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A\pos(924.8,1925)}太無趣了吧
+Dialogue: 1,0:08:11.76,0:08:14.64,Dial-CHI,,0,0,0,,{\c&D1D1D1\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A\pos(729.6,1925)}魔法使要堂堂正正地戰鬥
+Dialogue: 1,0:08:14.64,0:08:18.02,Dial-CHI,,0,0,0,,{\c&D1D1D1\bord1\blur0.7\3c&1A1A1A\4c&1A1A1A\fsp5\fs110\pos(685.33,1926.33)}魔法使也要避免無謂的戰鬥
+Dialogue: 1,0:08:22.98,0:08:25.07,Dial-CHI,,0,0,0,,{\c&BABABA\bord1\3c&000000\4c&000000\blur0.7}先補充一些水吧
+Dialogue: 1,0:08:25.99,0:08:26.65,Dial-CHI,,0,0,0,,{\c&BABABA\bord1\3c&000000\4c&000000\blur0.7}我記得中央有片湖
+Dialogue: 1,0:08:26.65,0:08:29.16,Dial-CHI,,0,0,0,,{\c&E3E3E3\bord1.2\3c&000000\4c&000000\blur0.7}我記得中央有片湖
+Dialogue: 1,0:08:32.62,0:08:33.78,Dial-CHI,,0,0,0,,{\c&EDEDED\bord2\3c&1A1A1A\4c&1A1A1A\blur0.7}不過
+Dialogue: 1,0:08:33.78,0:08:36.45,Dial-CHI,,0,0,0,,{\c&EDEDED\bord2\3c&1A1A1A\4c&1A1A1A\blur0.7}能這麼早抓到隕鐵鳥真是走運
+Dialogue: 1,0:08:37.29,0:08:39.37,Dial-CHI,,0,0,0,,{\c&EDEDED\bord2\3c&1A1A1A\4c&1A1A1A\blur0.7}接下來只要潛伏到日落
+Dialogue: 1,0:08:39.37,0:08:41.33,Dial-CHI,,0,0,0,,{\c&EDEDED\bord2\3c&1A1A1A\4c&1A1A1A\blur0.7}就能通過第一場考核
+Dialogue: 1,0:08:43.42,0:08:44.30,Dial-CHI,,444,0,0,,{\c&EDEDED\bord2\3c&1A1A1A\4c&1A1A1A\blur0.7}怎麼了
+Dialogue: 1,0:08:44.30,0:08:47.34,Dial-CHI,,0,0,0,,{\c&EDEDED\bord1\3c&1A1A1A\4c&1A1A1A\blur0.7}恐怕不會那麼順利
+Dialogue: 1,0:08:47.76,0:08:50.89,Dial-CHI,,0,0,0,,{\c&EDEDED\bord2\3c&1A1A1A\4c&1A1A1A\blur0.7}我本來以為這是一條路
+Dialogue: 1,0:08:50.89,0:08:52.60,Dial-CHI,,0,0,0,,{\c&EDEDED\bord2\3c&1A1A1A\4c&1A1A1A\blur0.7}其實是乾涸的河床
+Dialogue: 1,0:08:53.22,0:08:53.85,Dial-CHI,,0,0,0,,{\c&EDEDED\bord2\3c&000000\4c&000000\blur0.7}類似的地形還有好幾處
+Dialogue: 1,0:08:53.85,0:08:55.97,Dial-CHI,,0,0,0,,{\c&EDEDED\bord2\3c&1A1A1A\4c&1A1A1A\blur0.7}類似的地形還有好幾處
+Dialogue: 1,0:08:57.18,0:08:59.73,Dial-CHI,,0,0,0,,{\c&EDEDED\bord2\3c&000000\4c&000000\blur0.7}為了限制考核的場地範圍
+Dialogue: 1,0:08:59.73,0:09:01.56,Dial-CHI,,0,0,0,,{\c&EDEDED\bord2\3c&000000\4c&000000\blur0.7}周圍似乎設置了結界
+Dialogue: 1,0:09:02.81,0:09:04.44,Dial-CHI,,0,0,0,,{\c&EDEDED\bord2\3c&1A1A1A\4c&1A1A1A\blur0.7}這是考核的慣例
+Dialogue: 1,0:09:05.23,0:09:08.82,Dial-CHI,,0,0,0,,{\c&F5F5F5\bord1.5\3c&333333\4c&333333\blur0.7}是能隔絕灰塵的強大物理結界
+Dialogue: 1,0:09:09.20,0:09:11.82,Dial-CHI,,0,0,0,,{\c&EDEDED\bord2\3c&000000\4c&000000\blur0.7}莫非連水也無法通過嗎
+Dialogue: 1,0:09:13.87,0:09:15.41,Dial-CHI,,0,0,0,,{\3c&333333\4c&333333\bord1.5\blur0.7}從乾涸的情況來看
+Dialogue: 1,0:09:15.41,0:09:18.20,Dial-CHI,,0,0,0,,{\3c&333333\4c&333333\bord1.5\blur0.7}結界是在一週前設置的
+Dialogue: 1,0:09:19.00,0:09:20.96,Dial-CHI,,0,0,0,,{\c&F5F5F5\bord1.5\blur0.7\3c&262626\4c&262626}那麼幾乎所有的水
+Dialogue: 1,0:09:20.96,0:09:24.21,Dial-CHI,,0,0,0,,{\c&F5F5F5\bord1.5\blur0.7\3c&262626\4c&262626}都會聚集到盆地中央的湖裡
+Dialogue: 1,0:09:24.67,0:09:27.25,Dial-CHI,,0,0,0,,{\c&EDEDED\bord2\3c&000000\4c&000000\blur0.7}我們這些考生也是生物
+Dialogue: 1,0:09:27.25,0:09:29.84,Dial-CHI,,0,0,0,,{\c&EDEDED\bord2\3c&000000\4c&000000\blur0.7}要正常活動就需要攝入水分
 Dialogue: 1,0:09:30.22,0:09:31.38,Dial-CHI,,0,0,0,,{\bord2\3c&262626\4c&262626\blur0.7}即便如此
-Dialogue: 1,0:09:31.38,0:09:34.89,Dial-CHI,,0,0,0,,{\bord2\3c&262626\4c&262626\blur0.7}考生也未必会集中在湖周围吧
-Dialogue: 1,0:09:35.89,0:09:37.10,Dial-CHI,,0,0,0,,{\bord2\3c&262626\4c&262626\blur0.7}没错
-Dialogue: 1,0:09:37.43,0:09:39.60,Dial-CHI,,0,0,0,,{\c&F5F5F5\bord2\3c&262626\4c&262626\blur0.7}我们可以带着水行动
-Dialogue: 1,0:09:40.02,0:09:43.85,Dial-CHI,,0,0,0,,{\c&E8E8E8\bord2.5\3c&262626\4c&262626\blur0.7}但同为生物的陨铁鸟不行
-Dialogue: 1,0:09:44.10,0:09:45.19,Dial-CHI,,0,0,0,,{\bord2\3c&262626\4c&262626\blur0.7}原来如此
-Dialogue: 1,0:09:45.69,0:09:47.73,Dial-CHI,,0,0,0,,{\bord2\3c&262626\4c&262626\blur0.7}注意到这点的人
-Dialogue: 1,0:09:47.73,0:09:51.28,Dial-CHI,,0,0,0,,{\bord2\3c&262626\4c&262626\blur0.7}会埋伏在湖这个最大取水点附近
-Dialogue: 1,0:09:53.99,0:09:56.78,Dial-CHI,,0,0,0,,{\3c&333333\4c&333333}{\bord1.5\blur0.7}决定了 不去取水了
-Dialogue: 1,0:09:56.78,0:09:59.12,Dial-CHI,,0,0,0,,{\3c&333333\4c&333333}{\bord1.5\blur0.7}这也太折磨人了
-Dialogue: 1,0:09:59.12,0:10:01.66,Dial-CHI,,0,0,0,,{\3c&333333\4c&333333}{\bord1.5\blur0.7}{\t(1230,1522,\3c&1A1A1A\4c&1A1A1A\c&F6F5F7)}我的喉咙已经冒烟了
-Dialogue: 1,0:10:01.66,0:10:04.25,Dial-CHI,,0,0,0,,{\3c&1A1A1A\4c&1A1A1A\c&F6F5F7\bord1.5\blur0.7}小水池还是找得到的
-Dialogue: 1,0:10:04.25,0:10:06.79,Dial-CHI,,0,0,0,,{\bord2.5\blur0.7\3c&1a1a1a\4c&1a1a1a\c&E6E6E6}那种水干净吗
-Dialogue: 1,0:10:06.79,0:10:08.34,Dial-CHI,,0,0,0,,{\bord2.5\blur0.7\3c&1a1a1a\4c&1a1a1a\c&E6E6E6}煮沸后姑且能喝
-Dialogue: 1,0:10:41.91,0:10:43.62,Dial-CHI,,0,0,0,,{\c&E6E6E6\bord2\blur0.7\3c&1a1a1a\4c&1a1a1a}{\pos(2886,1928)}真缠人啊
-Dialogue: 1,0:10:43.62,0:10:45.33,Dial-CHI,,0,0,0,,{\c&E6E6E6\bord2\blur0.7\3c&1a1a1a\4c&1a1a1a}{\pos(3132,1932)}竟然没有一击毙命
-Dialogue: 1,0:10:46.33,0:10:48.21,Dial-CHI,,0,333,0,,{\c&D6D6D6\bord1.5\blur0.7\3c&1a1a1a\4c&1a1a1a}你居然来得及反应
+Dialogue: 1,0:09:31.38,0:09:34.89,Dial-CHI,,0,0,0,,{\bord2\3c&262626\4c&262626\blur0.7}考生也未必會集中在湖周圍吧
+Dialogue: 1,0:09:35.89,0:09:37.10,Dial-CHI,,0,0,0,,{\bord2\3c&262626\4c&262626\blur0.7}沒錯
+Dialogue: 1,0:09:37.43,0:09:39.60,Dial-CHI,,0,0,0,,{\c&F5F5F5\bord2\3c&262626\4c&262626\blur0.7}我們可以帶著水行動
+Dialogue: 1,0:09:40.02,0:09:43.85,Dial-CHI,,0,0,0,,{\c&E8E8E8\bord2.5\3c&262626\4c&262626\blur0.7}但同為生物的隕鐵鳥不行
+Dialogue: 1,0:09:44.10,0:09:45.19,Dial-CHI,,0,0,0,,{\bord2\3c&262626\4c&262626\blur0.7}原來如此
+Dialogue: 1,0:09:45.69,0:09:47.73,Dial-CHI,,0,0,0,,{\bord2\3c&262626\4c&262626\blur0.7}注意到這點的人
+Dialogue: 1,0:09:47.73,0:09:51.28,Dial-CHI,,0,0,0,,{\bord2\3c&262626\4c&262626\blur0.7}會埋伏在湖這個最大取水點附近
+Dialogue: 1,0:09:53.99,0:09:56.78,Dial-CHI,,0,0,0,,{\3c&333333\4c&333333}{\bord1.5\blur0.7}決定了 不去取水了
+Dialogue: 1,0:09:56.78,0:09:59.12,Dial-CHI,,0,0,0,,{\3c&333333\4c&333333}{\bord1.5\blur0.7}這也太折磨人了
+Dialogue: 1,0:09:59.12,0:10:01.66,Dial-CHI,,0,0,0,,{\3c&333333\4c&333333}{\bord1.5\blur0.7}{\t(1230,1522,\3c&1A1A1A\4c&1A1A1A\c&F6F5F7)}我的喉嚨已經冒煙了
+Dialogue: 1,0:10:01.66,0:10:04.25,Dial-CHI,,0,0,0,,{\3c&1A1A1A\4c&1A1A1A\c&F6F5F7\bord1.5\blur0.7}小水池還是找得到的
+Dialogue: 1,0:10:04.25,0:10:06.79,Dial-CHI,,0,0,0,,{\bord2.5\blur0.7\3c&1a1a1a\4c&1a1a1a\c&E6E6E6}那種水乾淨嗎
+Dialogue: 1,0:10:06.79,0:10:08.34,Dial-CHI,,0,0,0,,{\bord2.5\blur0.7\3c&1a1a1a\4c&1a1a1a\c&E6E6E6}煮沸後姑且能喝
+Dialogue: 1,0:10:41.91,0:10:43.62,Dial-CHI,,0,0,0,,{\c&E6E6E6\bord2\blur0.7\3c&1a1a1a\4c&1a1a1a}{\pos(2886,1928)}真纏人啊
+Dialogue: 1,0:10:43.62,0:10:45.33,Dial-CHI,,0,0,0,,{\c&E6E6E6\bord2\blur0.7\3c&1a1a1a\4c&1a1a1a}{\pos(3132,1932)}竟然沒有一擊斃命
+Dialogue: 1,0:10:46.33,0:10:48.21,Dial-CHI,,0,333,0,,{\c&D6D6D6\bord1.5\blur0.7\3c&1a1a1a\4c&1a1a1a}妳居然來得及反應
 Dialogue: 1,0:10:50.67,0:10:51.84,Dial-CHI,,0,0,0,,{\c&D6D6D6\bord1.5\blur0.7\3c&1a1a1a\4c&1a1a1a}算了
-Dialogue: 1,0:10:51.84,0:10:54.09,Dial-CHI,,0,777,0,,{\c&D6D6D6\bord1.5\blur0.7\3c&1a1a1a\4c&1a1a1a}把装着陨铁鸟的鸟笼留下
-Dialogue: 1,0:10:54.34,0:10:55.84,Dial-CHI,,0,0,0,,{\c&f2f2f2\bord1.5\blur0.7\3c&333333\4c&333333}我要是说不呢
-Dialogue: 1,0:10:56.18,0:10:58.35,Dial-CHI,,0,0,0,,{\c&D6D6D6\bord1.5\blur0.7\3c&1a1a1a\4c&1a1a1a}那就只能动手了
-Dialogue: 1,0:11:08.86,0:11:10.36,Dial-CHI,,0,0,0,,{\c&D6D6D6\bord1.5\blur0.7\3c&1a1a1a\4c&1a1a1a}那边是湖
-Dialogue: 1,0:11:34.09,0:11:36.47,Dial-CHI,,0,0,0,,{\bord1.5\c&E3E3E6\blur0.7\3c&262626\4c&262626}她把湖冻住了
-Dialogue: 1,0:11:36.47,0:11:38.39,Dial-CHI,,0,333,0,,{\bord1.5\c&EDEDF0\blur0.7\3c&262626\4c&262626}她到底想干什么
-Dialogue: 1,0:11:38.39,0:11:40.10,Dial-CHI,,0,333,0,,{\bord1.5\c&EDEDF0\blur0.7\3c&262626\4c&262626}这可不是闹着玩的
-Dialogue: 1,0:11:40.47,0:11:41.85,Dial-CHI,,0,0,0,,{\c&E8E8E8\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}这股魔力
-Dialogue: 1,0:11:41.85,0:11:43.47,Dial-CHI,,0,0,0,,{\c&E8E8E8\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}是第2队的家伙吧
-Dialogue: 1,0:11:44.06,0:11:45.43,Dial-CHI,,0,0,0,,{\c&D1D1D1\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}在想什么呢
-Dialogue: 1,0:11:46.19,0:11:48.10,Dial-CHI,,0,0,0,,{\c&D1D1D1\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}打算和所有队伍为敌吗
-Dialogue: 1,0:11:48.10,0:11:48.81,Dial-CHI,,0,0,0,,{\bord1.5\blur0.7\3c&333333\4c&333333}打算和所有队伍为敌吗
-Dialogue: 1,0:11:56.99,0:11:58.61,Dial-CHI,,0,0,0,,{\c&CCE7FF}{\bord1.7\blur0.5}{\3c&253473\4c&253473}你们快一点啊
+Dialogue: 1,0:10:51.84,0:10:54.09,Dial-CHI,,0,777,0,,{\c&D6D6D6\bord1.5\blur0.7\3c&1a1a1a\4c&1a1a1a}把裝著隕鐵鳥的鳥籠留下
+Dialogue: 1,0:10:54.34,0:10:55.84,Dial-CHI,,0,0,0,,{\c&f2f2f2\bord1.5\blur0.7\3c&333333\4c&333333}我要是說不呢
+Dialogue: 1,0:10:56.18,0:10:58.35,Dial-CHI,,0,0,0,,{\c&D6D6D6\bord1.5\blur0.7\3c&1a1a1a\4c&1a1a1a}那就只能動手了
+Dialogue: 1,0:11:08.86,0:11:10.36,Dial-CHI,,0,0,0,,{\c&D6D6D6\bord1.5\blur0.7\3c&1a1a1a\4c&1a1a1a}那邊是湖
+Dialogue: 1,0:11:34.09,0:11:36.47,Dial-CHI,,0,0,0,,{\bord1.5\c&E3E3E6\blur0.7\3c&262626\4c&262626}她把湖凍住了
+Dialogue: 1,0:11:36.47,0:11:38.39,Dial-CHI,,0,333,0,,{\bord1.5\c&EDEDF0\blur0.7\3c&262626\4c&262626}她到底想幹什麼
+Dialogue: 1,0:11:38.39,0:11:40.10,Dial-CHI,,0,333,0,,{\bord1.5\c&EDEDF0\blur0.7\3c&262626\4c&262626}這可不是鬧著玩的
+Dialogue: 1,0:11:40.47,0:11:41.85,Dial-CHI,,0,0,0,,{\c&E8E8E8\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}這股魔力
+Dialogue: 1,0:11:41.85,0:11:43.47,Dial-CHI,,0,0,0,,{\c&E8E8E8\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}是第2隊的傢伙吧
+Dialogue: 1,0:11:44.06,0:11:45.43,Dial-CHI,,0,0,0,,{\c&D1D1D1\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}在想什麼呢
+Dialogue: 1,0:11:46.19,0:11:48.10,Dial-CHI,,0,0,0,,{\c&D1D1D1\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}打算和所有隊伍為敵嗎
+Dialogue: 1,0:11:48.10,0:11:48.81,Dial-CHI,,0,0,0,,{\bord1.5\blur0.7\3c&333333\4c&333333}打算和所有隊伍為敵嗎
+Dialogue: 1,0:11:56.99,0:11:58.61,Dial-CHI,,0,0,0,,{\c&CCE7FF}{\bord1.7\blur0.5}{\3c&253473\4c&253473}你們快一點啊
 Dialogue: 1,0:11:58.61,0:12:00.53,Dial-CHI,,0,0,0,,{\3c&3477B8\4c&3477B8}{\bord1\blur0.9}{\c&D9F4FC}快把冰化掉
-Dialogue: 1,0:12:03.12,0:12:04.79,Dial-CHI,,0,0,0,,{\c&D1E1E6}{\bord1.5\blur0.7}{\3c&1A1A1A\4c&1A1A1A}邓肯 怎么办
-Dialogue: 1,0:12:05.37,0:12:08.42,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}{\pos(3199,1920)}白费工夫
-Dialogue: 1,0:12:08.42,0:12:10.38,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}{\pos(3199,1920)}融化了也没有意义
-Dialogue: 1,0:12:11.42,0:12:13.88,Dial-CHI,,0,0,0,,{\bord2}{\3c&333333\4c&333333}{\pos(3177,1920)}如此大张旗鼓地使用魔法
-Dialogue: 1,0:12:13.88,0:12:17.38,Dial-CHI,,0,0,0,,{\bord2}{\pos(3211,1920)}陨铁鸟不会再靠近湖了
-Dialogue: 1,0:12:17.68,0:12:20.64,Dial-CHI,,0,0,0,,{\c&EBEBEB\bord1.5\blur0.7}{\3c&1A1A1A\4c&1A1A1A}我们去抢第2队的陨铁鸟吧
-Dialogue: 1,0:12:21.14,0:12:23.35,Dial-CHI,,0,0,0,,{\bord1\c&F2F4F5\blur0.7\3c&3B3B3B\4c&3B3B3B}敢这样胡闹
-Dialogue: 1,0:12:23.35,0:12:27.27,Dial-CHI,,0,0,0,,{\bord1\c&F2F4F5\blur0.7\3c&3B3B3B\4c&3B3B3B}说明她们有办法捕捉陨铁鸟
-Dialogue: 1,0:12:48.66,0:12:50.04,Dial-CHI,,0,0,0,,{\bord3}芙莉莲大人
-Dialogue: 1,0:12:50.04,0:12:52.04,Dial-CHI,,0,0,0,,{\bord3}您究竟有什么打算
-Dialogue: 1,0:13:00.63,0:13:01.51,Dial-CHI,,0,0,0,,{\bord1.5\blur0.7\3c&262626\4c&262626}先各自迎敌吧
-Dialogue: 1,0:13:01.51,0:13:02.05,Dial-CHI,,0,0,0,,{\bord2.5\3c&333333\4c&333333}先各自迎敌吧
-Dialogue: 1,0:13:07.77,0:13:10.48,Dial-CHI,,0,0,0,,{\3c&1E5296\4c&1E5296}{\bord1\blur0.7}{\c&EBF7FF}快把湖里的冰化掉啊
+Dialogue: 1,0:12:03.12,0:12:04.79,Dial-CHI,,0,0,0,,{\c&D1E1E6}{\bord1.5\blur0.7}{\3c&1A1A1A\4c&1A1A1A}鄧肯 怎麼辦
+Dialogue: 1,0:12:05.37,0:12:08.42,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}{\pos(3199,1920)}白費工夫
+Dialogue: 1,0:12:08.42,0:12:10.38,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}{\pos(3199,1920)}融化了也沒有意義
+Dialogue: 1,0:12:11.42,0:12:13.88,Dial-CHI,,0,0,0,,{\bord2}{\3c&333333\4c&333333}{\pos(3177,1920)}如此大張旗鼓地使用魔法
+Dialogue: 1,0:12:13.88,0:12:17.38,Dial-CHI,,0,0,0,,{\bord2}{\pos(3211,1920)}隕鐵鳥不會再靠近湖了
+Dialogue: 1,0:12:17.68,0:12:20.64,Dial-CHI,,0,0,0,,{\c&EBEBEB\bord1.5\blur0.7}{\3c&1A1A1A\4c&1A1A1A}我們去搶第2隊的隕鐵鳥吧
+Dialogue: 1,0:12:21.14,0:12:23.35,Dial-CHI,,0,0,0,,{\bord1\c&F2F4F5\blur0.7\3c&3B3B3B\4c&3B3B3B}敢這樣胡鬧
+Dialogue: 1,0:12:23.35,0:12:27.27,Dial-CHI,,0,0,0,,{\bord1\c&F2F4F5\blur0.7\3c&3B3B3B\4c&3B3B3B}說明她們有辦法捕捉隕鐵鳥
+Dialogue: 1,0:12:48.66,0:12:50.04,Dial-CHI,,0,0,0,,{\bord3}芙莉蓮大人
+Dialogue: 1,0:12:50.04,0:12:52.04,Dial-CHI,,0,0,0,,{\bord3}您究竟有什麼打算
+Dialogue: 1,0:13:00.63,0:13:01.51,Dial-CHI,,0,0,0,,{\bord1.5\blur0.7\3c&262626\4c&262626}先各自迎敵吧
+Dialogue: 1,0:13:01.51,0:13:02.05,Dial-CHI,,0,0,0,,{\bord2.5\3c&333333\4c&333333}先各自迎敵吧
+Dialogue: 1,0:13:07.77,0:13:10.48,Dial-CHI,,0,0,0,,{\3c&1E5296\4c&1E5296}{\bord1\blur0.7}{\c&EBF7FF}快把湖裡的冰化掉啊
 Dialogue: 1,0:13:10.94,0:13:12.81,Dial-CHI,,0,0,0,,{\bord1.5\3c&262626\4c&262626\blur0.7}愚蠢
-Dialogue: 1,0:13:13.06,0:13:16.53,Dial-CHI,,0,0,0,,{\c&F0F0F0\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}大张旗鼓地用魔法融冰
-Dialogue: 1,0:13:16.53,0:13:20.36,Dial-CHI,,0,0,0,,{\c&F0F0F0\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}这片湖就真的没用了
-Dialogue: 1,0:13:21.32,0:13:23.95,Dial-CHI,,0,0,0,,{\3c&1E5296\4c&1E5296}{\bord1\blur0.7}{\c&EBF7FF}陨铁鸟不会再靠近这里了
-Dialogue: 1,0:13:24.32,0:13:25.08,Dial-CHI,,0,0,0,,{\c&E3E3E3\bord2}{\3c&1A1A1A\4c&1A1A1A}我们走
-Dialogue: 1,0:13:25.08,0:13:26.45,Dial-CHI,,0,0,0,,{\c&E3E3E3\bord2}{\3c&1A1A1A\4c&1A1A1A}嗯 那边
-Dialogue: 1,0:13:26.45,0:13:26.95,Dial-CHI,,0,0,0,,{\c&E3E3E3\bord2}{\3c&1A1A1A\4c&1A1A1A}注意到这件事的人
-Dialogue: 1,0:13:26.95,0:13:28.83,Dial-CHI,,0,0,0,,{\bord1\3c&1A1A1A\4c&1A1A1A\blur0.7}注意到这件事的人
-Dialogue: 1,0:13:28.83,0:13:31.46,Dial-CHI,,0,0,0,,{\bord1\3c&1A1A1A\4c&1A1A1A\blur0.7}似乎在寻找其他水源
-Dialogue: 1,0:13:31.46,0:13:33.71,Dial-CHI,,0,0,0,,{\blur0.7\bord2\c&E7E7E7}{\3c&1A1A1A\4c&1A1A1A}但他们的魔力探知过于稚嫩
-Dialogue: 1,0:13:33.71,0:13:36.42,Dial-CHI,,0,0,0,,{\blur0.7\bord2\c&E7E7E7}{\3c&1A1A1A\4c&1A1A1A}根本不足以应对空中的威胁
-Dialogue: 1,0:13:36.96,0:13:37.96,Dial-CHI,,0,0,0,,{\blur0.7\bord2\c&E7E7E7}{\3c&1A1A1A\4c&1A1A1A}不够成熟啊
-Dialogue: 1,0:13:37.96,0:13:41.13,Dial-CHI,,0,0,0,,{\c&D4D4D4\bord1.5\blur1}{\3c&000000\4c&000000}听说第2队把湖冻住了
-Dialogue: 1,0:13:41.13,0:13:43.39,Dial-CHI,,0,0,0,,{\c&D4D4D4\bord1.5\blur1}{\3c&000000\4c&000000}她们打算扰乱考核吗
-Dialogue: 1,0:13:43.39,0:13:45.14,Dial-CHI,,0,0,0,,{\c&D4D4D4\bord1.5\blur1}{\3c&000000\4c&000000}扰乱考核?
+Dialogue: 1,0:13:13.06,0:13:16.53,Dial-CHI,,0,0,0,,{\c&F0F0F0\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}大張旗鼓地用魔法融冰
+Dialogue: 1,0:13:16.53,0:13:20.36,Dial-CHI,,0,0,0,,{\c&F0F0F0\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}這片湖就真的沒用了
+Dialogue: 1,0:13:21.32,0:13:23.95,Dial-CHI,,0,0,0,,{\3c&1E5296\4c&1E5296}{\bord1\blur0.7}{\c&EBF7FF}隕鐵鳥不會再靠近這裡了
+Dialogue: 1,0:13:24.32,0:13:25.08,Dial-CHI,,0,0,0,,{\c&E3E3E3\bord2}{\3c&1A1A1A\4c&1A1A1A}我們走
+Dialogue: 1,0:13:25.08,0:13:26.45,Dial-CHI,,0,0,0,,{\c&E3E3E3\bord2}{\3c&1A1A1A\4c&1A1A1A}嗯 那邊
+Dialogue: 1,0:13:26.45,0:13:26.95,Dial-CHI,,0,0,0,,{\c&E3E3E3\bord2}{\3c&1A1A1A\4c&1A1A1A}注意到這件事的人
+Dialogue: 1,0:13:26.95,0:13:28.83,Dial-CHI,,0,0,0,,{\bord1\3c&1A1A1A\4c&1A1A1A\blur0.7}注意到這件事的人
+Dialogue: 1,0:13:28.83,0:13:31.46,Dial-CHI,,0,0,0,,{\bord1\3c&1A1A1A\4c&1A1A1A\blur0.7}似乎在尋找其他水源
+Dialogue: 1,0:13:31.46,0:13:33.71,Dial-CHI,,0,0,0,,{\blur0.7\bord2\c&E7E7E7}{\3c&1A1A1A\4c&1A1A1A}但他們的魔力探知過於稚嫩
+Dialogue: 1,0:13:33.71,0:13:36.42,Dial-CHI,,0,0,0,,{\blur0.7\bord2\c&E7E7E7}{\3c&1A1A1A\4c&1A1A1A}根本不足以應對空中的威脅
+Dialogue: 1,0:13:36.96,0:13:37.96,Dial-CHI,,0,0,0,,{\blur0.7\bord2\c&E7E7E7}{\3c&1A1A1A\4c&1A1A1A}不夠成熟啊
+Dialogue: 1,0:13:37.96,0:13:41.13,Dial-CHI,,0,0,0,,{\c&D4D4D4\bord1.5\blur1}{\3c&000000\4c&000000}聽說第2隊把湖凍住了
+Dialogue: 1,0:13:41.13,0:13:43.39,Dial-CHI,,0,0,0,,{\c&D4D4D4\bord1.5\blur1}{\3c&000000\4c&000000}她們打算擾亂考核嗎
+Dialogue: 1,0:13:43.39,0:13:45.14,Dial-CHI,,0,0,0,,{\c&D4D4D4\bord1.5\blur1}{\3c&000000\4c&000000}擾亂考核?
 Dialogue: 1,0:13:45.14,0:13:46.64,Dial-CHI,,0,0,0,,{\c&D4D4D4\bord1.5\blur1}{\3c&000000\4c&000000}非也
-Dialogue: 1,0:13:46.64,0:13:50.73,Dial-CHI,,0,0,0,,{\c&D4D4D4\bord1.5\blur1}{\3c&000000\4c&000000}这是第2队精心设计的计划
-Dialogue: 1,0:13:50.73,0:13:54.23,Dial-CHI,,0,0,0,,{\blur0.7\3c&1a1a1a\4c&1a1a1a\bord1.5}必须弄清楚她们的意图
-Dialogue: 1,0:14:19.13,0:14:20.96,Dial-CHI,,0,0,0,,{\c&9E9E9E\bord2\blur0.7}{\3c&1A1A1A\4c&1A1A1A}被魔物干掉了吗
-Dialogue: 1,0:14:29.68,0:14:31.39,Dial-CHI,,0,0,0,,{\bord1.5\blur0.7}{\c&9E9E9E}{\3c&000000\4c&000000}已经死了
+Dialogue: 1,0:13:46.64,0:13:50.73,Dial-CHI,,0,0,0,,{\c&D4D4D4\bord1.5\blur1}{\3c&000000\4c&000000}這是第2隊精心設計的計劃
+Dialogue: 1,0:13:50.73,0:13:54.23,Dial-CHI,,0,0,0,,{\blur0.7\3c&1a1a1a\4c&1a1a1a\bord1.5}必須弄清楚她們的意圖
+Dialogue: 1,0:14:19.13,0:14:20.96,Dial-CHI,,0,0,0,,{\c&9E9E9E\bord2\blur0.7}{\3c&1A1A1A\4c&1A1A1A}被魔物幹掉了嗎
+Dialogue: 1,0:14:29.68,0:14:31.39,Dial-CHI,,0,0,0,,{\bord1.5\blur0.7}{\c&9E9E9E}{\3c&000000\4c&000000}已經死了
 Dialogue: 1,0:14:33.69,0:14:35.06,Dial-CHI,,0,0,0,,{\3c&000000\4c&000000}{\c&9E9E9E\bord1.5\blur0.7}走吧
-Dialogue: 1,0:14:35.06,0:14:36.23,Dial-CHI,,0,0,0,,{\3c&000000\4c&000000}{\c&9E9E9E\bord1.5\blur0.7}老爷子
-Dialogue: 1,0:14:36.23,0:14:38.02,Dial-CHI,,0,0,0,,{\3c&000000\4c&000000}{\c&9E9E9E\bord1.5\blur0.7}至少把他们放下来吧
-Dialogue: 1,0:14:38.77,0:14:41.36,Dial-CHI,,0,0,0,,{\c&BDBDBD\3c&000000\4c&000000\bord0.7\blur0.7}你不会没看见吧
-Dialogue: 1,0:14:41.36,0:14:43.40,Dial-CHI,,0,0,0,,{\c&BDBDBD\3c&000000\4c&000000\bord0.7\blur0.7}盘旋在上空的魔物
-Dialogue: 1,0:14:44.78,0:14:46.91,Dial-CHI,,0,0,0,,{\bord1\blur0.7\3c&1C1C1C\4c&1C1C1C}{\c&E6E6E6}可不是一只两只
-Dialogue: 1,0:14:47.24,0:14:50.04,Dial-CHI,,0,0,0,,{\c&E6E6E6}{\bord1\blur0.7}它们在尸体上施加了魔法
-Dialogue: 1,0:14:50.04,0:14:53.54,Dial-CHI,,0,0,0,,{\c&E6E6E6}{\bord1\blur0.7}{\t(\c&B4B4B4\3c&1a1a1a\4c&1a1a1a)}能探测到试图放下尸体的人
-Dialogue: 1,0:14:53.91,0:14:55.17,Dial-CHI,,0,0,0,,{\c&E6E6E6}{\bord2}{\3c&1A1A1A\4c&1A1A1A}尸诱鸟
-Dialogue: 1,0:14:55.17,0:14:59.17,Dial-CHI,,0,0,0,,{\c&E6E6E6}{\bord2}{\3c&1A1A1A\4c&1A1A1A}它们就是这样引诱下一个猎物的
-Dialogue: 1,0:14:59.67,0:15:02.76,Dial-CHI,,0,0,0,,{\c&BDBDBD\3c&000000\4c&000000\bord0.7\blur0.7}这支队伍完全落入了圈套
-Dialogue: 1,0:15:02.76,0:15:04.55,Dial-CHI,,0,0,0,,{\c&BDBDBD\3c&000000\4c&000000\bord0.7\blur0.7}所以全军覆没了
-Dialogue: 1,0:15:05.22,0:15:06.55,Dial-CHI,,0,0,0,,{\c&BDBDBD\3c&000000\4c&000000\bord1\blur0.7}不对劲
-Dialogue: 1,0:15:06.55,0:15:09.81,Dial-CHI,,0,0,0,,{\c&BDBDBD\3c&000000\4c&000000\bord1\blur0.7}竟然把考核地点选在魔物栖息之地
+Dialogue: 1,0:14:35.06,0:14:36.23,Dial-CHI,,0,0,0,,{\3c&000000\4c&000000}{\c&9E9E9E\bord1.5\blur0.7}老爺子
+Dialogue: 1,0:14:36.23,0:14:38.02,Dial-CHI,,0,0,0,,{\3c&000000\4c&000000}{\c&9E9E9E\bord1.5\blur0.7}至少把他們放下來吧
+Dialogue: 1,0:14:38.77,0:14:41.36,Dial-CHI,,0,0,0,,{\c&BDBDBD\3c&000000\4c&000000\bord0.7\blur0.7}妳不會沒看見吧
+Dialogue: 1,0:14:41.36,0:14:43.40,Dial-CHI,,0,0,0,,{\c&BDBDBD\3c&000000\4c&000000\bord0.7\blur0.7}盤旋在上空的魔物
+Dialogue: 1,0:14:44.78,0:14:46.91,Dial-CHI,,0,0,0,,{\bord1\blur0.7\3c&1C1C1C\4c&1C1C1C}{\c&E6E6E6}可不是一隻兩隻
+Dialogue: 1,0:14:47.24,0:14:50.04,Dial-CHI,,0,0,0,,{\c&E6E6E6}{\bord1\blur0.7}牠們在屍體上施加了魔法
+Dialogue: 1,0:14:50.04,0:14:53.54,Dial-CHI,,0,0,0,,{\c&E6E6E6}{\bord1\blur0.7}{\t(\c&B4B4B4\3c&1a1a1a\4c&1a1a1a)}能探測到試圖放下屍體的人
+Dialogue: 1,0:14:53.91,0:14:55.17,Dial-CHI,,0,0,0,,{\c&E6E6E6}{\bord2}{\3c&1A1A1A\4c&1A1A1A}屍誘鳥
+Dialogue: 1,0:14:55.17,0:14:59.17,Dial-CHI,,0,0,0,,{\c&E6E6E6}{\bord2}{\3c&1A1A1A\4c&1A1A1A}牠們就是這樣引誘下一個獵物的
+Dialogue: 1,0:14:59.67,0:15:02.76,Dial-CHI,,0,0,0,,{\c&BDBDBD\3c&000000\4c&000000\bord0.7\blur0.7}這支隊伍完全落入了圈套
+Dialogue: 1,0:15:02.76,0:15:04.55,Dial-CHI,,0,0,0,,{\c&BDBDBD\3c&000000\4c&000000\bord0.7\blur0.7}所以全軍覆沒了
+Dialogue: 1,0:15:05.22,0:15:06.55,Dial-CHI,,0,0,0,,{\c&BDBDBD\3c&000000\4c&000000\bord1\blur0.7}不對勁
+Dialogue: 1,0:15:06.55,0:15:09.81,Dial-CHI,,0,0,0,,{\c&BDBDBD\3c&000000\4c&000000\bord1\blur0.7}竟然把考核地點選在魔物棲息之地
 Dialogue: 1,0:15:10.22,0:15:13.27,Dial-CHI,,0,0,0,,{\c&BDBDBD\3c&000000\4c&000000\bord1\blur0.7}似乎根本不在乎考生的死活
-Dialogue: 1,0:15:13.73,0:15:16.94,Dial-CHI,,0,0,0,,{\c&BDBDBD\3c&000000\4c&000000\bord1.5\blur0.7}菈鸥芬 你是首次参加一级考核吧
-Dialogue: 1,0:15:17.40,0:15:19.19,Dial-CHI,,0,0,0,,{\c&BDBDBD\3c&000000\4c&000000\bord1.5\blur0.7}理由再简单不过了
-Dialogue: 1,0:15:20.27,0:15:21.98,Dial-CHI,,0,0,0,,{\c&BDBDBD\3c&000000\4c&000000\bord1.5\blur0.7}轻易送命的人
-Dialogue: 1,0:15:21.98,0:15:24.90,Dial-CHI,,0,0,0,,{\c&BDBDBD\3c&000000\4c&000000\bord1.5\blur0.7}没有资格成为一级魔法使
-Dialogue: 1,0:15:25.53,0:15:27.20,Dial-CHI,,0,0,0,,{\c&E6E6E6}{\bord2\blur0}{\3c&1A1A1A\4c&1A1A1A}大陆魔法协会
-Dialogue: 1,0:15:27.20,0:15:29.91,Dial-CHI,,0,0,0,,{\c&E6E6E6}{\bord2\blur0}{\3c&1A1A1A\4c&1A1A1A}很注重一级魔法使的素质
-Dialogue: 1,0:15:30.83,0:15:33.20,Dial-CHI,,0,0,0,,{\c&E6E6E6}{\bord1.5\blur0.7}{\3c&1A1A1A\4c&1A1A1A}在和魔王军交战的时代
-Dialogue: 1,0:15:33.20,0:15:35.12,Dial-CHI,,0,0,0,,{\c&E6E6E6}{\bord1.5\blur0.7}{\3c&1A1A1A\4c&1A1A1A}那些强大又高傲的魔法使
-Dialogue: 1,0:15:35.12,0:15:37.46,Dial-CHI,,0,0,0,,{\c&E6E6E6}{\bord1.5\blur0.7}{\3c&1A1A1A\4c&1A1A1A}如今仍有不少人为之神往
-Dialogue: 1,0:15:37.92,0:15:40.59,Dial-CHI,,0,0,0,,{\c&B5B5B5\bord2\blur0.7}{\3c&000000\4c&000000}他们的观点太陈旧了
-Dialogue: 1,0:15:41.17,0:15:42.96,Dial-CHI,,0,0,0,,{\c&B5B5B5\bord2\blur0.7}{\3c&000000\4c&000000}没想到啊 邓肯
-Dialogue: 1,0:15:42.96,0:15:46.30,Dial-CHI,,0,0,0,,{\c&B5B5B5\bord2\blur0.7}{\3c&000000\4c&000000}我还以为你会赞同他们的观点
-Dialogue: 1,0:15:46.30,0:15:48.89,Dial-CHI,,0,0,0,,{\c&B5B5B5\bord2\blur0.7}{\3c&000000\4c&000000}魔法使不需要素质
-Dialogue: 1,0:15:49.55,0:15:54.64,Dial-CHI,,0,0,0,,{\c&E6E6E6}{\bord1.5\blur0.7}{\3c&333333\4c&333333}一级魔法使用来象征权威就足够了
-Dialogue: 1,0:15:54.64,0:15:58.10,Dial-CHI,,0,0,0,,{\c&E6E6E6}{\bord1.5\blur0.7}{\3c&333333\4c&333333}魔法使的力量再怎么强大
-Dialogue: 1,0:15:58.10,0:16:01.57,Dial-CHI,,0,0,0,,{\c&E6E6E6}{\bord1.5\blur0.7}{\3c&333333\4c&333333}不能掌控人心就与弱者无异
-Dialogue: 1,0:16:02.23,0:16:04.32,Dial-CHI,,0,0,0,,{\c&CFCFCF\bord2\blur0.7}{\3c&000000\4c&000000}我见过太多远胜于我的魔法使
-Dialogue: 1,0:16:04.32,0:16:05.90,Dial-CHI,,0,0,0,,{\bord1.5\c&E8E8E8\blur0.7}{\3c&000000\4c&000000}我见过太多远胜于我的魔法使
-Dialogue: 1,0:16:05.90,0:16:07.32,Dial-CHI,,0,0,0,,{\bord1.5\c&E8E8E8\blur0.7}{\3c&000000\4c&000000}但他们都因为失势而惨遭迫害
-Dialogue: 1,0:16:07.32,0:16:09.95,Dial-CHI,,0,0,0,,{\bord1.5\blur0.7}{\c&808FAB}{\3c&000000\4c&000000}{\t(2482,2607,\alpha&ff\3c&ffffff\4c&ffffff\c&ffffff)}但他们都因为失势而惨遭迫害
-Dialogue: 1,0:16:10.78,0:16:13.08,Dial-CHI,,0,0,0,,{\c&E6E6E6}{\bord1.5\blur0.7}{\3c&1A1A1A\4c&1A1A1A}强大的力量能使人畏服
-Dialogue: 1,0:16:13.08,0:16:15.70,Dial-CHI,,0,0,0,,{\c&E6E6E6}{\bord1.5\blur0.7}{\3c&1A1A1A\4c&1A1A1A}但这样的权威不会长久
-Dialogue: 1,0:16:16.00,0:16:20.42,Dial-CHI,,0,0,0,,{\bord1.5\3c&1A1A1A\4c&1A1A1A\blur0.7}况且魔法并不是什么崇高的东西
-Dialogue: 1,0:16:20.42,0:16:21.84,Dial-CHI,,0,0,0,,{\bord1.5\3c&1A1A1A\4c&1A1A1A\blur0.7}原来如此
-Dialogue: 1,0:16:21.84,0:16:24.59,Dial-CHI,,0,0,0,,{\bord1.5\3c&1A1A1A\4c&1A1A1A\blur0.7}你是在为自己的弱小辩护吗
-Dialogue: 1,0:16:25.21,0:16:27.72,Dial-CHI,,0,0,0,,{\3c&666666\4c&666666}{\bord1\3c&1A1A1A\4c&1A1A1A\blur0.7}年轻人真敢说啊
-Dialogue: 1,0:16:27.72,0:16:31.09,Dial-CHI,,0,0,0,,{\3c&666666\4c&666666}{\bord1\3c&1A1A1A\4c&1A1A1A\blur0.7}我闭着眼睛都能打败你
-Dialogue: 1,0:17:03.38,0:17:06.51,Dial-CHI,,0,0,0,,{\c&CCCCCC}{\bord1.5\blur0.7}{\3c&000000\4c&000000}完全探测不到第2队
-Dialogue: 1,0:17:07.34,0:17:09.72,Dial-CHI,,0,0,0,,{\c&CCCCCC}{\bord1.5\blur0.7}{\3c&000000\4c&000000}隐藏魔力潜伏起来了吧
-Dialogue: 1,0:17:11.39,0:17:12.89,Dial-CHI,,0,277,0,,{\bord1.5\blur0.7\c&DEDCD9}{\3c&000000\4c&000000}这里也是
-Dialogue: 1,0:17:12.89,0:17:15.51,Dial-CHI,,0,277,0,,{\bord1.5\blur0.7\c&DEDCD9}{\3c&000000\4c&000000}找到的水源都是这样
-Dialogue: 1,0:17:17.68,0:17:21.27,Dial-CHI,,0,0,0,,{\bord2\c&F2E7DA}{\3c&54483B\4c&54483B}水中被注入了少许魔力
-Dialogue: 1,0:17:23.02,0:17:24.44,Dial-CHI,,666,0,0,,{\c&F2F2F2}{\bord2}{\3c&333333\4c&333333}什么都感受不到
+Dialogue: 1,0:15:13.73,0:15:16.94,Dial-CHI,,0,0,0,,{\c&BDBDBD\3c&000000\4c&000000\bord1.5\blur0.7}拉歐芬 妳是首次參加一級考核吧
+Dialogue: 1,0:15:17.40,0:15:19.19,Dial-CHI,,0,0,0,,{\c&BDBDBD\3c&000000\4c&000000\bord1.5\blur0.7}理由再簡單不過了
+Dialogue: 1,0:15:20.27,0:15:21.98,Dial-CHI,,0,0,0,,{\c&BDBDBD\3c&000000\4c&000000\bord1.5\blur0.7}輕易送命的人
+Dialogue: 1,0:15:21.98,0:15:24.90,Dial-CHI,,0,0,0,,{\c&BDBDBD\3c&000000\4c&000000\bord1.5\blur0.7}沒有資格成為一級魔法使
+Dialogue: 1,0:15:25.53,0:15:27.20,Dial-CHI,,0,0,0,,{\c&E6E6E6}{\bord2\blur0}{\3c&1A1A1A\4c&1A1A1A}大陸魔法協會
+Dialogue: 1,0:15:27.20,0:15:29.91,Dial-CHI,,0,0,0,,{\c&E6E6E6}{\bord2\blur0}{\3c&1A1A1A\4c&1A1A1A}很注重一級魔法使的素質
+Dialogue: 1,0:15:30.83,0:15:33.20,Dial-CHI,,0,0,0,,{\c&E6E6E6}{\bord1.5\blur0.7}{\3c&1A1A1A\4c&1A1A1A}在和魔王軍交戰的時代
+Dialogue: 1,0:15:33.20,0:15:35.12,Dial-CHI,,0,0,0,,{\c&E6E6E6}{\bord1.5\blur0.7}{\3c&1A1A1A\4c&1A1A1A}那些強大又高傲的魔法使
+Dialogue: 1,0:15:35.12,0:15:37.46,Dial-CHI,,0,0,0,,{\c&E6E6E6}{\bord1.5\blur0.7}{\3c&1A1A1A\4c&1A1A1A}如今仍有不少人為之神往
+Dialogue: 1,0:15:37.92,0:15:40.59,Dial-CHI,,0,0,0,,{\c&B5B5B5\bord2\blur0.7}{\3c&000000\4c&000000}他們的觀點太陳舊了
+Dialogue: 1,0:15:41.17,0:15:42.96,Dial-CHI,,0,0,0,,{\c&B5B5B5\bord2\blur0.7}{\3c&000000\4c&000000}沒想到啊 鄧肯
+Dialogue: 1,0:15:42.96,0:15:46.30,Dial-CHI,,0,0,0,,{\c&B5B5B5\bord2\blur0.7}{\3c&000000\4c&000000}我還以為你會贊同他們的觀點
+Dialogue: 1,0:15:46.30,0:15:48.89,Dial-CHI,,0,0,0,,{\c&B5B5B5\bord2\blur0.7}{\3c&000000\4c&000000}魔法使不需要素質
+Dialogue: 1,0:15:49.55,0:15:54.64,Dial-CHI,,0,0,0,,{\c&E6E6E6}{\bord1.5\blur0.7}{\3c&333333\4c&333333}一級魔法使用來象徵權威就足夠了
+Dialogue: 1,0:15:54.64,0:15:58.10,Dial-CHI,,0,0,0,,{\c&E6E6E6}{\bord1.5\blur0.7}{\3c&333333\4c&333333}魔法使的力量再怎麼強大
+Dialogue: 1,0:15:58.10,0:16:01.57,Dial-CHI,,0,0,0,,{\c&E6E6E6}{\bord1.5\blur0.7}{\3c&333333\4c&333333}不能掌控人心就與弱者無異
+Dialogue: 1,0:16:02.23,0:16:04.32,Dial-CHI,,0,0,0,,{\c&CFCFCF\bord2\blur0.7}{\3c&000000\4c&000000}我見過太多遠勝於我的魔法使
+Dialogue: 1,0:16:04.32,0:16:05.90,Dial-CHI,,0,0,0,,{\bord1.5\c&E8E8E8\blur0.7}{\3c&000000\4c&000000}我見過太多遠勝於我的魔法使
+Dialogue: 1,0:16:05.90,0:16:07.32,Dial-CHI,,0,0,0,,{\bord1.5\c&E8E8E8\blur0.7}{\3c&000000\4c&000000}但他們都因為失勢而慘遭迫害
+Dialogue: 1,0:16:07.32,0:16:09.95,Dial-CHI,,0,0,0,,{\bord1.5\blur0.7}{\c&808FAB}{\3c&000000\4c&000000}{\t(2482,2607,\alpha&ff\3c&ffffff\4c&ffffff\c&ffffff)}但他們都因為失勢而慘遭迫害
+Dialogue: 1,0:16:10.78,0:16:13.08,Dial-CHI,,0,0,0,,{\c&E6E6E6}{\bord1.5\blur0.7}{\3c&1A1A1A\4c&1A1A1A}強大的力量能使人畏服
+Dialogue: 1,0:16:13.08,0:16:15.70,Dial-CHI,,0,0,0,,{\c&E6E6E6}{\bord1.5\blur0.7}{\3c&1A1A1A\4c&1A1A1A}但這樣的權威不會長久
+Dialogue: 1,0:16:16.00,0:16:20.42,Dial-CHI,,0,0,0,,{\bord1.5\3c&1A1A1A\4c&1A1A1A\blur0.7}況且魔法並不是什麼崇高的東西
+Dialogue: 1,0:16:20.42,0:16:21.84,Dial-CHI,,0,0,0,,{\bord1.5\3c&1A1A1A\4c&1A1A1A\blur0.7}原來如此
+Dialogue: 1,0:16:21.84,0:16:24.59,Dial-CHI,,0,0,0,,{\bord1.5\3c&1A1A1A\4c&1A1A1A\blur0.7}你是在為自己的弱小辯護嗎
+Dialogue: 1,0:16:25.21,0:16:27.72,Dial-CHI,,0,0,0,,{\3c&666666\4c&666666}{\bord1\3c&1A1A1A\4c&1A1A1A\blur0.7}年輕人真敢說啊
+Dialogue: 1,0:16:27.72,0:16:31.09,Dial-CHI,,0,0,0,,{\3c&666666\4c&666666}{\bord1\3c&1A1A1A\4c&1A1A1A\blur0.7}我閉著眼睛都能打敗你
+Dialogue: 1,0:17:03.38,0:17:06.51,Dial-CHI,,0,0,0,,{\c&CCCCCC}{\bord1.5\blur0.7}{\3c&000000\4c&000000}完全探測不到第2隊
+Dialogue: 1,0:17:07.34,0:17:09.72,Dial-CHI,,0,0,0,,{\c&CCCCCC}{\bord1.5\blur0.7}{\3c&000000\4c&000000}隱藏魔力潛伏起來了吧
+Dialogue: 1,0:17:11.39,0:17:12.89,Dial-CHI,,0,277,0,,{\bord1.5\blur0.7\c&DEDCD9}{\3c&000000\4c&000000}這裡也是
+Dialogue: 1,0:17:12.89,0:17:15.51,Dial-CHI,,0,277,0,,{\bord1.5\blur0.7\c&DEDCD9}{\3c&000000\4c&000000}找到的水源都是這樣
+Dialogue: 1,0:17:17.68,0:17:21.27,Dial-CHI,,0,0,0,,{\bord2\c&F2E7DA}{\3c&54483B\4c&54483B}水中被注入了少許魔力
+Dialogue: 1,0:17:23.02,0:17:24.44,Dial-CHI,,666,0,0,,{\c&F2F2F2}{\bord2}{\3c&333333\4c&333333}什麼都感受不到
 Dialogue: 1,0:17:25.69,0:17:26.53,Dial-CHI,,666,0,0,,{\c&F2F2F2}{\bord1.5\blur0.7}{\3c&1A1A1A\4c&1A1A1A}你呢
 Dialogue: 1,0:17:26.90,0:17:28.15,Dial-CHI,,0,422,0,,{\c&F2F2F2\bord2.5}{\3c&1A1A1A\4c&1A1A1A}我也感受不到
-Dialogue: 1,0:17:28.74,0:17:30.40,Dial-CHI,,0,422,0,,{\c&F2F2F2\bord2.5}{\3c&1A1A1A\4c&1A1A1A}是第2队干的吗
-Dialogue: 1,0:17:30.78,0:17:34.24,Dial-CHI,,0,0,0,,{\c&F2F2F2\bord2.5}{\3c&1A1A1A\4c&1A1A1A}施术者本人想必也感受不到吧
-Dialogue: 1,0:17:34.24,0:17:36.58,Dial-CHI,,0,0,0,,{\c&F2F2F2\bord2.5}{\3c&1A1A1A\4c&1A1A1A}注入的魔力极少
-Dialogue: 1,0:17:36.58,0:17:39.04,Dial-CHI,,0,0,0,,{\c&F2F2F2\bord2.5}{\3c&1A1A1A\4c&1A1A1A}但陨铁鸟能感受到
-Dialogue: 1,0:17:39.79,0:17:42.54,Dial-CHI,,0,0,0,,{\bord2\blur0.7}{\3c&1A1A1A\4c&1A1A1A}它们不会再靠近这处水源了
-Dialogue: 1,0:17:43.00,0:17:44.84,Dial-CHI,,0,0,0,,{\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}这么做有什么企图
+Dialogue: 1,0:17:28.74,0:17:30.40,Dial-CHI,,0,422,0,,{\c&F2F2F2\bord2.5}{\3c&1A1A1A\4c&1A1A1A}是第2隊做的嗎
+Dialogue: 1,0:17:30.78,0:17:34.24,Dial-CHI,,0,0,0,,{\c&F2F2F2\bord2.5}{\3c&1A1A1A\4c&1A1A1A}施術者本人想必也感受不到吧
+Dialogue: 1,0:17:34.24,0:17:36.58,Dial-CHI,,0,0,0,,{\c&F2F2F2\bord2.5}{\3c&1A1A1A\4c&1A1A1A}注入的魔力極少
+Dialogue: 1,0:17:36.58,0:17:39.04,Dial-CHI,,0,0,0,,{\c&F2F2F2\bord2.5}{\3c&1A1A1A\4c&1A1A1A}但隕鐵鳥能感受到
+Dialogue: 1,0:17:39.79,0:17:42.54,Dial-CHI,,0,0,0,,{\bord2\blur0.7}{\3c&1A1A1A\4c&1A1A1A}牠們不會再靠近這處水源了
+Dialogue: 1,0:17:43.00,0:17:44.84,Dial-CHI,,0,0,0,,{\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}這麼做有什麼企圖
 Dialogue: 1,0:17:45.59,0:17:46.59,Dial-CHI,,0,0,0,,{\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}我懂了
-Dialogue: 1,0:17:46.59,0:17:49.05,Dial-CHI,,0,0,0,,{\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}存在没有注入魔力的水源
-Dialogue: 1,0:17:50.09,0:17:53.05,Dial-CHI,,0,0,0,,{\c&E4E4E4\bord2\blur0.7}{\3c&1A1A1A\4c&1A1A1A}第2队就在那处水源附近
-Dialogue: 1,0:17:53.05,0:17:53.76,Dial-CHI,,0,0,0,,{\c&E4E4E4\bord1\blur0.7}{\3c&1A1A1A\4c&1A1A1A}第2队就在那处水源附近
-Dialogue: 1,0:17:54.30,0:17:55.60,Dial-CHI,,0,0,0,,{\c&E4E4E4\bord2\blur0.7}{\3c&1A1A1A\4c&1A1A1A}要怎么找
+Dialogue: 1,0:17:46.59,0:17:49.05,Dial-CHI,,0,0,0,,{\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}存在沒有注入魔力的水源
+Dialogue: 1,0:17:50.09,0:17:53.05,Dial-CHI,,0,0,0,,{\c&E4E4E4\bord2\blur0.7}{\3c&1A1A1A\4c&1A1A1A}第2隊就在那處水源附近
+Dialogue: 1,0:17:53.05,0:17:53.76,Dial-CHI,,0,0,0,,{\c&E4E4E4\bord1\blur0.7}{\3c&1A1A1A\4c&1A1A1A}第2隊就在那處水源附近
+Dialogue: 1,0:17:54.30,0:17:55.60,Dial-CHI,,0,0,0,,{\c&E4E4E4\bord2\blur0.7}{\3c&1A1A1A\4c&1A1A1A}要怎麼找
 Dialogue: 1,0:17:57.81,0:17:59.77,Dial-CHI,,0,0,0,,{\c&D9D9D9}{\3c&1A1A1A\4c&1A1A1A\bord2\blur0.7}先休息一下
-Dialogue: 1,0:17:59.77,0:18:00.60,Dial-CHI,,0,0,0,,{\c&D9D9D9}{\3c&1A1A1A\4c&1A1A1A\bord2\blur0.7}邓肯
-Dialogue: 1,0:18:01.10,0:18:03.48,Dial-CHI,,0,0,0,,{\c&D9D9D9}{\3c&1A1A1A\4c&1A1A1A\bord2\blur0.7}考核区域太辽阔了
-Dialogue: 1,0:18:03.48,0:18:07.82,Dial-CHI,,0,0,0,,{\c&D9D9D9}{\3c&1A1A1A\4c&1A1A1A\bord2\blur0.7}要找出认真潜伏的魔法使是不可能的
+Dialogue: 1,0:17:59.77,0:18:00.60,Dial-CHI,,0,0,0,,{\c&D9D9D9}{\3c&1A1A1A\4c&1A1A1A\bord2\blur0.7}鄧肯
+Dialogue: 1,0:18:01.10,0:18:03.48,Dial-CHI,,0,0,0,,{\c&D9D9D9}{\3c&1A1A1A\4c&1A1A1A\bord2\blur0.7}考核區域太遼闊了
+Dialogue: 1,0:18:03.48,0:18:07.82,Dial-CHI,,0,0,0,,{\c&D9D9D9}{\3c&1A1A1A\4c&1A1A1A\bord2\blur0.7}要找出認真潛伏的魔法使是不可能的
 Dialogue: 1,0:18:08.15,0:18:09.32,Dial-CHI,,0,0,0,,{\c&D9D9D9}{\3c&1A1A1A\4c&1A1A1A\bord2\blur0.7}等吧
-Dialogue: 1,0:18:09.32,0:18:12.36,Dial-CHI,,0,0,0,,{\c&e6e6e6}{\3c&1A1A1A\4c&1A1A1A\bord1.5\blur0.7}她们会告诉我们位置的
-Dialogue: 1,0:18:15.03,0:18:18.83,Dial-CHI,,0,0,0,,{\3c&333333\4c&333333\bord2\blur0.7\t(22,1816,0.5,\c&E6DADB\3c&1A1A1A\4c&1A1A1A)}水池和泉水里都注入魔力了
-Dialogue: 1,0:18:19.24,0:18:22.83,Dial-CHI,,0,0,0,,{\bord1.1\3c&1A1A1A\4c&1A1A1A\blur0.7\c&E6E3E4}但可能还有没找到的水源
-Dialogue: 1,0:18:23.67,0:18:27.59,Dial-CHI,,0,333,0,,{\bord1.5\blur0.7\3c&333333\4c&333333}限制住陨铁鸟取水的地方就行了
-Dialogue: 1,0:18:28.59,0:18:31.67,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&333333\4c&333333\c&E9EBF2}那我就在这里埋伏陨铁鸟吧
-Dialogue: 1,0:18:41.22,0:18:42.60,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A\c&F2EBE9}难以置信
+Dialogue: 1,0:18:09.32,0:18:12.36,Dial-CHI,,0,0,0,,{\c&e6e6e6}{\3c&1A1A1A\4c&1A1A1A\bord1.5\blur0.7}她們會告訴我們位置的
+Dialogue: 1,0:18:15.03,0:18:18.83,Dial-CHI,,0,0,0,,{\3c&333333\4c&333333\bord2\blur0.7\t(22,1816,0.5,\c&E6DADB\3c&1A1A1A\4c&1A1A1A)}水池和泉水裡都注入魔力了
+Dialogue: 1,0:18:19.24,0:18:22.83,Dial-CHI,,0,0,0,,{\bord1.1\3c&1A1A1A\4c&1A1A1A\blur0.7\c&E6E3E4}但可能還有沒找到的水源
+Dialogue: 1,0:18:23.67,0:18:27.59,Dial-CHI,,0,333,0,,{\bord1.5\blur0.7\3c&333333\4c&333333}限制住隕鐵鳥取水的地方就行了
+Dialogue: 1,0:18:28.59,0:18:31.67,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&333333\4c&333333\c&E9EBF2}那我就在這裡埋伏隕鐵鳥吧
+Dialogue: 1,0:18:41.22,0:18:42.60,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A\c&F2EBE9}難以置信
 Dialogue: 1,0:18:42.60,0:18:45.10,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A\c&F2EBE9}魔力竟然能被完全消除
-Dialogue: 1,0:18:45.44,0:18:47.23,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&333333\4c&333333\c&E9EBF2}并不完全
-Dialogue: 1,0:18:47.23,0:18:50.07,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&333333\4c&333333\c&E9EBF2}一动就会泄漏少许魔力
-Dialogue: 1,0:18:50.53,0:18:51.23,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&333333\4c&333333\c&E9EBF2}你看
-Dialogue: 1,0:18:51.86,0:18:53.49,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&333333\4c&333333\c&E9EBF2}看不出来
-Dialogue: 1,0:18:54.45,0:18:55.99,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A\c&F2EBE9}我们负责把风
-Dialogue: 1,0:18:59.24,0:19:00.99,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&333333\4c&333333\c&E9EBF2}你可别拖后退
+Dialogue: 1,0:18:45.44,0:18:47.23,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&333333\4c&333333\c&E9EBF2}並不完全
+Dialogue: 1,0:18:47.23,0:18:50.07,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&333333\4c&333333\c&E9EBF2}一動就會洩漏少許魔力
+Dialogue: 1,0:18:50.53,0:18:51.23,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&333333\4c&333333\c&E9EBF2}妳看
+Dialogue: 1,0:18:51.86,0:18:53.49,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&333333\4c&333333\c&E9EBF2}看不出來
+Dialogue: 1,0:18:54.45,0:18:55.99,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A\c&F2EBE9}我們負責把風
+Dialogue: 1,0:18:59.24,0:19:00.99,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&333333\4c&333333\c&E9EBF2}妳可別拖後退
 Dialogue: 1,0:19:00.99,0:19:02.20,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&333333\4c&333333\c&E9EBF2}吵死了
-Dialogue: 1,0:19:02.75,0:19:05.79,Dial-CHI,,0,0,0,,{\bord1.5\blur0.7\3c&333333\4c&333333\c&EBEBEB}{\t(1935,3020,\bord1.5)}只要下场雨 我就能帮到你们了
-Dialogue: 1,0:19:05.79,0:19:08.46,Dial-CHI,,0,0,0,,{\bord1.5\blur0.7\3c&333333\4c&333333\c&EBEBEB}可惜雨水被结界挡住了
-Dialogue: 1,0:20:14.90,0:20:16.70,Dial-CHI,,0,0,0,,{\c&E6E6E6}{\bord1.5\blur0.7}{\3c&1A1A1A\4c&1A1A1A}芙莉莲 抓住了吗
-Dialogue: 1,0:20:17.70,0:20:20.70,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&333333\4c&333333}{\c&E6E6E6}没有白挑衅别的队伍啊
-Dialogue: 1,0:20:21.20,0:20:23.45,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}{\c&D4D4D4}这样就通过第一场考核了
+Dialogue: 1,0:19:02.75,0:19:05.79,Dial-CHI,,0,0,0,,{\bord1.5\blur0.7\3c&333333\4c&333333\c&EBEBEB}{\t(1935,3020,\bord1.5)}只要下場雨 我就能幫到妳們了
+Dialogue: 1,0:19:05.79,0:19:08.46,Dial-CHI,,0,0,0,,{\bord1.5\blur0.7\3c&333333\4c&333333\c&EBEBEB}可惜雨水被結界擋住了
+Dialogue: 1,0:20:14.90,0:20:16.70,Dial-CHI,,0,0,0,,{\c&E6E6E6}{\bord1.5\blur0.7}{\3c&1A1A1A\4c&1A1A1A}芙莉蓮 抓住了嗎
+Dialogue: 1,0:20:17.70,0:20:20.70,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&333333\4c&333333}{\c&E6E6E6}沒有白挑釁別的隊伍啊
+Dialogue: 1,0:20:21.20,0:20:23.45,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}{\c&D4D4D4}這樣就通過第一場考核了
 Dialogue: 1,0:20:26.20,0:20:27.21,Dial-CHI,,0,0,0,,{\bord1.5\c&DFE2E6\blur0.7\3c&1A1A1A\4c&1A1A1A}不
 Dialogue: 1,0:20:28.04,0:20:29.21,Dial-CHI,,1511,0,0,,{\c&CBCDD4\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}找到了
 Dialogue: 1,0:20:29.21,0:20:32.04,Dial-CHI,,0,0,0,,{\c&B6BCC2\bord2\blur0.7}{\3c&000000\4c&000000}果然用了魔法
-Dialogue: 1,0:20:32.04,0:20:34.34,Dial-CHI,,0,0,0,,{\c&B6BCC2\bord2\blur0.7}{\3c&000000\4c&000000}再优秀的魔法使
-Dialogue: 1,0:20:34.34,0:20:35.96,Dial-CHI,,0,0,0,,{\c&B6BCC2\bord2\blur0.7}{\3c&000000\4c&000000}也会在这一刻露出破绽
-Dialogue: 1,0:20:35.96,0:20:36.92,Dial-CHI,,0,0,0,,{\bord1.5\c&E9EBF2\blur0.7\3c&333333\4c&333333}也会在这一刻露出破绽
-Dialogue: 1,0:20:37.72,0:20:39.80,Dial-CHI,,0,0,0,,{\bord1.5\3c&1A1A1A\4c&1A1A1A\blur0.7}{\c&E6E6E6}被人探测到了
-Dialogue: 1,0:20:39.80,0:20:40.97,Dial-CHI,,0,0,0,,{\bord1.5\3c&1A1A1A\4c&1A1A1A\blur0.7}{\c&E6E6E6}赶快离开这里
-Dialogue: 1,0:20:46.85,0:20:50.56,Dial-CHI,,0,0,0,,{\bord1.2\3c&1A1A1A\4c&1A1A1A\blur0.7\c&EBF0F5}逃跑怕是来不及了
-Dialogue: 1,0:20:51.15,0:20:52.81,Dial-CHI,,0,0,0,,{\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}「以花为钢」
-Dialogue: 1,0:21:01.28,0:21:02.28,Dial-CHI,,0,0,0,,{\bord1.5\blur0.7\3c&333333\4c&333333}「以石为弹」
-Dialogue: 1,0:21:04.74,0:21:05.91,Dial-CHI,,0,0,0,,{\c&F0F2F5\bord2.5\blur0.7\3c&333333\4c&333333}跟炮弹一样
-Dialogue: 1,0:21:08.62,0:21:10.04,Dial-CHI,,0,0,0,,{\c&DBDBDB}{\bord2\blur0.7}{\3c&1A1A1A\4c&1A1A1A}又拉开距离了
-Dialogue: 1,0:21:17.30,0:21:20.05,Dial-CHI,,0,0,0,,{\bord2\blur0.7}{\t(1060,1227,\3c&1a1a1a\4c&1a1a1a\c&DBDBDB)}尽管手法娴熟且毫无破绽
+Dialogue: 1,0:20:32.04,0:20:34.34,Dial-CHI,,0,0,0,,{\c&B6BCC2\bord2\blur0.7}{\3c&000000\4c&000000}再優秀的魔法使
+Dialogue: 1,0:20:34.34,0:20:35.96,Dial-CHI,,0,0,0,,{\c&B6BCC2\bord2\blur0.7}{\3c&000000\4c&000000}也會在這一刻露出破綻
+Dialogue: 1,0:20:35.96,0:20:36.92,Dial-CHI,,0,0,0,,{\bord1.5\c&E9EBF2\blur0.7\3c&333333\4c&333333}也會在這一刻露出破綻
+Dialogue: 1,0:20:37.72,0:20:39.80,Dial-CHI,,0,0,0,,{\bord1.5\3c&1A1A1A\4c&1A1A1A\blur0.7}{\c&E6E6E6}被人探測到了
+Dialogue: 1,0:20:39.80,0:20:40.97,Dial-CHI,,0,0,0,,{\bord1.5\3c&1A1A1A\4c&1A1A1A\blur0.7}{\c&E6E6E6}趕快離開這裡
+Dialogue: 1,0:20:46.85,0:20:50.56,Dial-CHI,,0,0,0,,{\bord1.2\3c&1A1A1A\4c&1A1A1A\blur0.7\c&EBF0F5}逃跑怕是來不及了
+Dialogue: 1,0:20:51.15,0:20:52.81,Dial-CHI,,0,0,0,,{\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}「以花為鋼」
+Dialogue: 1,0:21:01.28,0:21:02.28,Dial-CHI,,0,0,0,,{\bord1.5\blur0.7\3c&333333\4c&333333}「以石為彈」
+Dialogue: 1,0:21:04.74,0:21:05.91,Dial-CHI,,0,0,0,,{\c&F0F2F5\bord2.5\blur0.7\3c&333333\4c&333333}跟砲彈一樣
+Dialogue: 1,0:21:08.62,0:21:10.04,Dial-CHI,,0,0,0,,{\c&DBDBDB}{\bord2\blur0.7}{\3c&1A1A1A\4c&1A1A1A}又拉開距離了
+Dialogue: 1,0:21:17.30,0:21:20.05,Dial-CHI,,0,0,0,,{\bord2\blur0.7}{\t(1060,1227,\3c&1a1a1a\4c&1a1a1a\c&DBDBDB)}儘管手法嫻熟且毫無破綻
 Dialogue: 1,0:21:20.05,0:21:21.51,Dial-CHI,,0,0,0,,{\c&DCE1E3\bord2\blur0.7}{\3c&1A1A1A\4c&1A1A1A}但打法很老套
-Dialogue: 1,0:21:21.93,0:21:24.43,Dial-CHI,,0,0,0,,{\c&DCE1E3\bord2\blur0.7}{\3c&1A1A1A\4c&1A1A1A}仿佛在和爷爷战斗一样
-Dialogue: 1,0:21:25.01,0:21:27.68,Dial-CHI,,0,0,0,,{\c&DCDEDD\3c&1A1A1A\4c&1A1A1A}{\bord1\blur0.7}普通攻击魔法和防御魔法
-Dialogue: 1,0:21:27.68,0:21:30.48,Dial-CHI,,0,0,0,,{\c&DCDEDD\3c&1A1A1A\4c&1A1A1A}{\bord1\blur0.7}你用的都是基础魔法
-Dialogue: 1,0:21:30.48,0:21:32.44,Dial-CHI,,0,0,0,,{\c&DCDEDD\3c&1A1A1A\4c&1A1A1A}{\bord1\blur0.7}是不打算掀开底牌吗
-Dialogue: 1,0:21:32.81,0:21:36.94,Dial-CHI,,1711,0,0,,{\c&DEDEDE\bord2\blur0.8}{\3c&1A1A1A\4c&1A1A1A}有人要求我 战斗时只能使用基础魔法
-Dialogue: 1,0:21:37.19,0:21:39.82,Dial-CHI,,0,555,0,,{\c&F2F2F2\3c&1A1A1A\4c&1A1A1A}{\bord1.5\blur0.7}是令师的教导吧
-Dialogue: 1,0:21:39.82,0:21:41.15,Dial-CHI,,0,0,0,,{\3c&333333\4c&333333}{\bord1\blur0.7}没错
-Dialogue: 1,0:21:41.15,0:21:44.57,Dial-CHI,,0,0,0,,{\3c&333333\4c&333333}{\bord1\blur0.7}她说基础魔法足以应付当代的魔法使
-Dialogue: 1,0:21:45.16,0:21:46.20,Dial-CHI,,0,444,0,,{\c&F2F2F2\3c&1A1A1A\4c&1A1A1A}{\bord1.5\blur0.7}是吗
-Dialogue: 1,0:21:55.38,0:21:56.46,Dial-CHI,,0,0,0,,{\c&E3E1E2\bord2\blur0.7}{\3c&1A1A1A\4c&1A1A1A}又是这样
-Dialogue: 1,0:21:56.96,0:21:59.34,Dial-CHI,,0,0,0,,{\c&E3E1E2\bord2\blur0.7}{\3c&1A1A1A\4c&1A1A1A}这股违和感是怎么回事
-Dialogue: 1,0:21:59.88,0:22:03.59,Dial-CHI,,0,0,0,,{\c&E3E1E2\bord2\blur0.7}{\3c&1A1A1A\4c&1A1A1A}仿佛正在和老练的魔法使对峙
-Dialogue: 1,0:22:04.22,0:22:07.39,Dial-CHI,,0,0,0,,{\c&D4D4D4}{\bord1\blur0.7}{\3c&000000\4c&000000}这样战斗想必很为难吧
-Dialogue: 1,0:22:07.39,0:22:08.89,Dial-CHI,,0,0,0,,{\c&D4D4D4}{\bord1\blur0.7}{\3c&000000\4c&000000}如果对手是威亚贝尔
-Dialogue: 1,0:22:08.89,0:22:11.02,Dial-CHI,,0,0,0,,{\c&D4D4D4}{\bord1\blur0.7}{\3c&000000\4c&000000}你现在已经死了
-Dialogue: 1,0:22:11.02,0:22:12.85,Dial-CHI,,0,0,0,,{\c&D4D4D4}{\bord1\blur0.7}{\3c&000000\4c&000000}这话就奇怪了
-Dialogue: 1,0:22:13.10,0:22:15.27,Dial-CHI,,0,0,0,,{\c&E1E6E8\bord2\blur0.7}{\3c&1A1A1A\4c&1A1A1A}队伍里最强的人
-Dialogue: 1,0:22:15.27,0:22:16.23,Dial-CHI,,0,0,0,,{\c&E1E6E8\bord2\blur0.7}{\3c&1A1A1A\4c&1A1A1A}应该是你吧
-Dialogue: 1,0:22:27.03,0:22:30.37,Dial-CHI,,0,0,0,,{\c&E1E6E8\bord2\blur0.7}{\3c&1A1A1A\4c&1A1A1A}威亚贝尔常年和魔王军残党作战
-Dialogue: 1,0:22:30.37,0:22:32.62,Dial-CHI,,0,0,0,,{\c&E1E6E8\bord2\blur0.7}{\3c&1A1A1A\4c&1A1A1A}他是北部魔法队的队长
-Dialogue: 1,0:22:33.33,0:22:35.50,Dial-CHI,,1211,0,0,,{\c&E1E6E8\bord2\blur0.7}{\3c&1A1A1A\4c&1A1A1A}我们的实战经验差距悬殊
-Dialogue: 1,0:22:36.33,0:22:39.05,Dial-CHI,,0,0,0,,{\bord1\blur0.7\3c&1A1A1A\4c&1A1A1A}他的魔法毫无道德可言
-Dialogue: 1,0:22:39.05,0:22:40.88,Dial-CHI,,0,0,0,,{\bord1\blur0.7\3c&1A1A1A\4c&1A1A1A}为了取胜不择手段
-Dialogue: 1,0:22:42.17,0:22:44.51,Dial-CHI,,0,0,0,,{\c&E1E6E8\bord2\blur0.7}{\3c&000000\4c&000000}现在和他交战的人
+Dialogue: 1,0:21:21.93,0:21:24.43,Dial-CHI,,0,0,0,,{\c&DCE1E3\bord2\blur0.7}{\3c&1A1A1A\4c&1A1A1A}彷彿在和爺爺戰鬥一樣
+Dialogue: 1,0:21:25.01,0:21:27.68,Dial-CHI,,0,0,0,,{\c&DCDEDD\3c&1A1A1A\4c&1A1A1A}{\bord1\blur0.7}普通攻擊魔法和防禦魔法
+Dialogue: 1,0:21:27.68,0:21:30.48,Dial-CHI,,0,0,0,,{\c&DCDEDD\3c&1A1A1A\4c&1A1A1A}{\bord1\blur0.7}妳用的都是基礎魔法
+Dialogue: 1,0:21:30.48,0:21:32.44,Dial-CHI,,0,0,0,,{\c&DCDEDD\3c&1A1A1A\4c&1A1A1A}{\bord1\blur0.7}是不打算掀開底牌嗎
+Dialogue: 1,0:21:32.81,0:21:36.94,Dial-CHI,,1711,0,0,,{\c&DEDEDE\bord2\blur0.8}{\3c&1A1A1A\4c&1A1A1A}有人要求我 戰鬥時只能使用基礎魔法
+Dialogue: 1,0:21:37.19,0:21:39.82,Dial-CHI,,0,555,0,,{\c&F2F2F2\3c&1A1A1A\4c&1A1A1A}{\bord1.5\blur0.7}是令師的教導吧
+Dialogue: 1,0:21:39.82,0:21:41.15,Dial-CHI,,0,0,0,,{\3c&333333\4c&333333}{\bord1\blur0.7}沒錯
+Dialogue: 1,0:21:41.15,0:21:44.57,Dial-CHI,,0,0,0,,{\3c&333333\4c&333333}{\bord1\blur0.7}她說基礎魔法足以應付當代的魔法使
+Dialogue: 1,0:21:45.16,0:21:46.20,Dial-CHI,,0,444,0,,{\c&F2F2F2\3c&1A1A1A\4c&1A1A1A}{\bord1.5\blur0.7}是嗎
+Dialogue: 1,0:21:55.38,0:21:56.46,Dial-CHI,,0,0,0,,{\c&E3E1E2\bord2\blur0.7}{\3c&1A1A1A\4c&1A1A1A}又是這樣
+Dialogue: 1,0:21:56.96,0:21:59.34,Dial-CHI,,0,0,0,,{\c&E3E1E2\bord2\blur0.7}{\3c&1A1A1A\4c&1A1A1A}這股違和感是怎麼回事
+Dialogue: 1,0:21:59.88,0:22:03.59,Dial-CHI,,0,0,0,,{\c&E3E1E2\bord2\blur0.7}{\3c&1A1A1A\4c&1A1A1A}彷彿正在和老練的魔法使對峙
+Dialogue: 1,0:22:04.22,0:22:07.39,Dial-CHI,,0,0,0,,{\c&D4D4D4}{\bord1\blur0.7}{\3c&000000\4c&000000}這樣戰鬥想必很為難吧
+Dialogue: 1,0:22:07.39,0:22:08.89,Dial-CHI,,0,0,0,,{\c&D4D4D4}{\bord1\blur0.7}{\3c&000000\4c&000000}如果對手是威亞貝爾
+Dialogue: 1,0:22:08.89,0:22:11.02,Dial-CHI,,0,0,0,,{\c&D4D4D4}{\bord1\blur0.7}{\3c&000000\4c&000000}妳現在已經死了
+Dialogue: 1,0:22:11.02,0:22:12.85,Dial-CHI,,0,0,0,,{\c&D4D4D4}{\bord1\blur0.7}{\3c&000000\4c&000000}這話就奇怪了
+Dialogue: 1,0:22:13.10,0:22:15.27,Dial-CHI,,0,0,0,,{\c&E1E6E8\bord2\blur0.7}{\3c&1A1A1A\4c&1A1A1A}隊伍裡最強的人
+Dialogue: 1,0:22:15.27,0:22:16.23,Dial-CHI,,0,0,0,,{\c&E1E6E8\bord2\blur0.7}{\3c&1A1A1A\4c&1A1A1A}應該是妳吧
+Dialogue: 1,0:22:27.03,0:22:30.37,Dial-CHI,,0,0,0,,{\c&E1E6E8\bord2\blur0.7}{\3c&1A1A1A\4c&1A1A1A}威亞貝爾常年和魔王軍殘黨作戰
+Dialogue: 1,0:22:30.37,0:22:32.62,Dial-CHI,,0,0,0,,{\c&E1E6E8\bord2\blur0.7}{\3c&1A1A1A\4c&1A1A1A}他是北部魔法隊的隊長
+Dialogue: 1,0:22:33.33,0:22:35.50,Dial-CHI,,1211,0,0,,{\c&E1E6E8\bord2\blur0.7}{\3c&1A1A1A\4c&1A1A1A}我們的實戰經驗差距懸殊
+Dialogue: 1,0:22:36.33,0:22:39.05,Dial-CHI,,0,0,0,,{\bord1\blur0.7\3c&1A1A1A\4c&1A1A1A}他的魔法毫無道德可言
+Dialogue: 1,0:22:39.05,0:22:40.88,Dial-CHI,,0,0,0,,{\bord1\blur0.7\3c&1A1A1A\4c&1A1A1A}為了取勝不擇手段
+Dialogue: 1,0:22:42.17,0:22:44.51,Dial-CHI,,0,0,0,,{\c&E1E6E8\bord2\blur0.7}{\3c&000000\4c&000000}現在和他交戰的人
 Dialogue: 1,0:22:45.01,0:22:46.97,Dial-CHI,,0,0,0,,{\c&C8CDCF\bord2\blur0.7}{\3c&000000\4c&000000}恐怕凶多吉少
-Dialogue: 1,0:22:48.22,0:22:50.06,Dial-CHI,,0,0,0,,{\c&C8CDCF\bord2\blur0.7}{\3c&000000\4c&000000}是吗
+Dialogue: 1,0:22:48.22,0:22:50.06,Dial-CHI,,0,0,0,,{\c&C8CDCF\bord2\blur0.7}{\3c&000000\4c&000000}是嗎
 Dialogue: 0,0:00:02.98,0:00:03.98,Dial-JPN,,0,0,0,,{\c&D8DDE6\bord3\3c&333333\4c&333333}これより
 Dialogue: 0,0:00:04.36,0:00:07.99,Dial-JPN,,0,0,0,,{\c&D1D8DE}{\bord2}{\3c&1A1A1A\4c&1A1A1A}一級魔法使い選抜試験を行う
 Dialogue: 0,0:00:08.49,0:00:09.78,Dial-JPN,,0,0,0,,{\c&D8DDE6\bord3\3c&333333\4c&333333}パーティー戦だ
@@ -782,125 +783,125 @@ Dialogue: 2,0:14:53.91,0:14:55.17,Ruby,,0,0,0,,{\c&E6E6E6}{\bord2}{\3c&1A1A1A\4c
 Dialogue: 2,0:20:51.15,0:20:52.81,Ruby,,0,0,0,,{\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}Jubelade
 Dialogue: 2,0:21:01.28,0:21:02.28,Ruby,,0,0,0,,{\bord1.5\blur0.7\3c&333333\4c&333333}Doragate
 Comment: 0,0:00:00.00,0:00:00.00,//,,0,0,0,, ————Screen————
-Dialogue: 0,0:01:47.00,0:01:50.01,CHS - Title,蓝 y2-,0,0,0,,{\an7\fad(0,0)\blur0.5\1c&FF9D00\fscx97\pos(2636,1878)}精心设计的计划
-Dialogue: 1,0:01:47.00,0:01:50.01,CHS - Title,绿 x2-,0,0,0,,{\an7\fad(0,0)\blur0.5\1c&78F275\fscx97\pos(2634,1880)}精心设计的计划
-Dialogue: 2,0:01:47.00,0:01:50.01,CHS - Title,红 y2,0,0,0,,{\an7\fad(0,0)\blur0.5\1c&2D4BF4\fscx97\pos(2636,1882)}精心设计的计划
-Dialogue: 3,0:01:47.00,0:01:50.01,CHS - Title,紫 x2,0,0,0,,{\an7\fad(0,0)\blur0.5\1c&D279D4\fscx97\pos(2638,1880)}精心设计的计划
-Dialogue: 4,0:01:47.00,0:01:50.01,CHS - Title,x=2636  y=1880,0,0,0,,{\an7\fad(0,0)\1c&EBF7ED\bord0.2\blur10\3a&aa\fscx97\pos(2636,1880)}精心设计的计划
-Dialogue: 2,0:08:04.17,0:08:09.14,Screen,偏色：蓝2,0,0,0,,{\an2\fad(0,0)\blur1\1c&FFAE2B\fscx97\pos(1920,1741)}第4队  兰特二级魔法使
-Dialogue: 0,0:08:04.17,0:08:09.14,Screen,偏色：绿2,0,0,0,,{\an2\fad(0,0)\blur1\1c&8FFD8B\fscx97\pos(1919,1742)}第4队  兰特二级魔法使
-Dialogue: 3,0:08:04.17,0:08:09.14,Screen,偏色：红2,0,0,0,,{\an2\fad(0,0)\blur1\1c&5069F3\fscx97\pos(1920,1743)}第4队  兰特二级魔法使
-Dialogue: 4,0:08:04.17,0:08:09.14,Screen,,0,0,0,,{\an2\fad(0,0)\1c&FDFFED\t(\1c&ffffff)\bord0.2\blur10\3a&aa\fscx97\pos(1920,1742)}第4队  兰特二级魔法使
-Dialogue: 0,0:08:09.14,0:08:14.64,Screen,偏色：蓝2,0,0,0,,{\an2\fad(0,0)\blur1\1c&FF9D00\fscx97\pos(1920,1741)}第4队  尤蓓尔三级魔法使
-Dialogue: 1,0:08:09.14,0:08:14.64,Screen,偏色：绿2,0,0,0,,{\an2\fad(0,0)\blur1\1c&5CA45A\fscx97\pos(1919,1742)}第4队  尤蓓尔三级魔法使
-Dialogue: 2,0:08:09.14,0:08:14.64,Screen,偏色：红2,0,0,0,,{\an2\fad(0,0)\blur1\1c&2D4BF4\fscx97\pos(1921,1743)}第4队  尤蓓尔三级魔法使
-Dialogue: 3,0:08:09.14,0:08:14.64,Screen,,0,0,0,,{\an2\fad(0,0)\1c&FDFFED\bord0.2\blur10\3a&aa\fscx97\pos(1920,1742)}第4队  尤蓓尔三级魔法使
-Dialogue: 0,0:08:14.64,0:08:18.02,Screen,偏色：蓝2,0,0,0,,{\an2\fad(0,0)\blur1\1c&FF9D00\fscx97\pos(1920,1741)}第4队  菲伦三级魔法使
-Dialogue: 1,0:08:14.64,0:08:18.02,Screen,偏色：绿2,0,0,0,,{\an2\fad(0,0)\blur1\1c&5CA45A\fscx97\pos(1919,1742)}第4队  菲伦三级魔法使
-Dialogue: 2,0:08:14.64,0:08:18.02,Screen,偏色：红2,0,0,0,,{\an2\fad(0,0)\blur1\1c&2D4BF4\fscx97\pos(1921,1743)}第4队  菲伦三级魔法使
-Dialogue: 3,0:08:14.64,0:08:18.02,Screen,,0,0,0,,{\an2\fad(0,0)\1c&FDFFED\bord0.2\blur10\3a&aa\fscx97\pos(1920,1742)}第4队  菲伦三级魔法使
-Dialogue: 0,0:10:30.07,0:10:33.57,Screen,偏色：绿 x-1,0,0,0,,{\an2\fad(0,0)\blur0.7\1c&A8F380\fscx97\pos(1919,1742)}第8队  夏尔夫三级魔法使
-Dialogue: 1,0:10:30.07,0:10:33.57,Screen,偏色：紫 x1,0,0,0,,{\an2\fad(0,0)\blur0.7\1c&F3B4E8\fscx97\pos(1921,1742)}第8队  夏尔夫三级魔法使
-Dialogue: 3,0:10:30.07,0:10:33.57,Screen,偏色：蓝 y-1,0,0,0,,{\an2\fad(0,0)\blur0.7\1c&F2DDB1\fscx97\pos(1920,1741)}第8队  夏尔夫三级魔法使
-Dialogue: 3,0:10:30.07,0:10:33.57,Screen,偏色：红 y1,0,0,0,,{\an2\fad(0,0)\blur0.7\1c&BFC1F3\fscx97\pos(1920,1743)}第8队  夏尔夫三级魔法使
-Dialogue: 4,0:10:30.07,0:10:33.57,Screen,,0,0,0,,{\an2\fad(0,0)\1c&ffffff\bord0.2\blur10\3a&cc\fscx97\3c&0\pos(1920,1742)}第8队  夏尔夫三级魔法使
-Dialogue: 2,0:10:33.57,0:10:37.07,Screen,偏色：绿 x-1,0,0,0,,{\an2\fad(0,0)\blur0.7\1c&CCFFB1\fscx97\pos(1919,1742)}第8队  艾蕾二级魔法使
-Dialogue: 0,0:10:33.57,0:10:37.07,Screen,偏色：紫 x1,0,0,0,,{\an2\fad(0,0)\blur0.7\1c&F3B4E8\fscx97\pos(1921,1742)}第8队  艾蕾二级魔法使
-Dialogue: 1,0:10:33.57,0:10:37.07,Screen,偏色：蓝 y-1,0,0,0,,{\an2\fad(0,0)\blur0.7\1c&F2DDB1\fscx97\pos(1920,1741)}第8队  艾蕾二级魔法使
-Dialogue: 3,0:10:33.57,0:10:37.07,Screen,偏色：红 y1,0,0,0,,{\an2\fad(0,0)\blur0.7\1c&BFC1F3\fscx97\pos(1920,1743)}第8队  艾蕾二级魔法使
-Dialogue: 4,0:10:33.57,0:10:37.07,Screen,,0,0,0,,{\an2\fad(0,0)\1c&ffffff\bord0.2\blur10\3a&cc\fscx97\3c&0\pos(1920,1742)}第8队  艾蕾二级魔法使
-Dialogue: 2,0:10:41.79,0:10:45.33,Screen,偏色：绿 x-1,0,0,0,前半 -,{\an2\fad(0,0)\blur0.7\1c&A8F380\fscx97\pos(1919,1742)}第8队  威亚贝尔二{\alpha&ff}级魔法使
-Dialogue: 0,0:10:41.79,0:10:45.33,Screen,偏色：紫 x1,0,0,0,前半 -,{\an2\fad(0,0)\blur0.7\1c&F3B4E8\fscx97\pos(1921,1742)}第8队  威亚贝尔二{\alpha&ff}级魔法使
-Dialogue: 1,0:10:41.79,0:10:45.33,Screen,偏色：蓝 y-1,0,0,0,前半 -,{\an2\fad(0,0)\blur0.7\1c&F2DDB1\fscx97\pos(1920,1741)}第8队  威亚贝尔二{\alpha&ff}级魔法使
-Dialogue: 3,0:10:41.79,0:10:45.33,Screen,偏色：红 y1,0,0,0,前半 -,{\an2\fad(0,0)\blur0.7\1c&A0A3FF\fscx97\pos(1920,1743)}第8队  威亚贝尔二{\alpha&ff}级魔法使
-Dialogue: 4,0:10:41.79,0:10:45.33,Screen,,0,0,0,前半 -,{\an2\fad(0,0)\1c&ffffff\bord0.2\blur15\3a&aa\fscx97\3c&0\pos(1920,1742)}第8队  威亚贝尔二{\alpha&ff}级魔法使
-Dialogue: 2,0:10:41.79,0:10:45.33,Screen,偏色：绿 x-1,0,0,0,- 后半,{\alpha&ff}{\an2\fad(0,0)\blur0.7\1c&A8F380\fscx97\pos(1919,1742)}第8队  威亚贝尔二{\alpha&00}{\c&59FF00}级魔法使
-Dialogue: 0,0:10:41.79,0:10:45.33,Screen,偏色：紫 x1,0,0,0,- 后半,{\alpha&ff}{\an2\fad(0,0)\blur0.7\1c&F3B4E8\fscx97\pos(1921,1742)}第8队  威亚贝尔二{\alpha&00}{\c&FD1DD7}级魔法使
-Dialogue: 1,0:10:41.79,0:10:45.33,Screen,偏色：蓝 y-1,0,0,0,- 后半,{\alpha&ff}{\an2\fad(0,0)\blur0.7\1c&F2DDB1\fscx97\pos(1920,1741)}第8队  威亚贝尔二{\alpha&00}{\c&FCAF08}级魔法使
-Dialogue: 3,0:10:41.79,0:10:45.33,Screen,偏色：红 y1,0,0,0,- 后半,{\alpha&ff}{\an2\fad(0,0)\blur0.7\1c&BFC1F3\fscx97\pos(1920,1743)}第8队  威亚贝尔二{\alpha&00}{\c&2F36F7}级魔法使
-Dialogue: 4,0:10:41.79,0:10:45.33,Screen,,0,0,0,- 后半,{\alpha&ff}{\an2\fad(0,0)\1c&ffffff\bord0.2\blur10\fscx97\3c&0\pos(1920,1742)}第8队  威亚贝尔二{\alpha&00}{\3c&ffffff\bord1\3a&bb}级魔法使
-Dialogue: 2,0:12:05.37,0:12:10.38,Screen,偏色：绿 x-1,0,0,0,前半 -,{\alpha&00}{\an2\fad(0,0)\blur0.7\1c&ACFF80\fscx97\pos(1919,1742)}第13队  邓肯二{\alpha&ff}级魔法使
-Dialogue: 0,0:12:05.37,0:12:10.38,Screen,偏色：紫 x1,0,0,0,前半 -,{\alpha&00}{\an2\fad(0,0)\blur0.7\1c&FF8FEC\fscx97\pos(1921,1742)}第13队  邓肯二{\alpha&ff}级魔法使
-Dialogue: 1,0:12:05.37,0:12:10.38,Screen,偏色：蓝 y-1,0,0,0,前半 -,{\alpha&00}{\an2\fad(0,0)\blur0.7\1c&FFD780\fscx97\pos(1920,1741)}第13队  邓肯二{\alpha&ff}级魔法使
-Dialogue: 3,0:12:05.37,0:12:10.38,Screen,偏色：红 y1,0,0,0,前半 -,{\alpha&00}{\an2\fad(0,0)\blur0.7\1c&9195FF\fscx97\pos(1920,1743)}第13队  邓肯二{\alpha&ff}级魔法使
-Dialogue: 4,0:12:05.37,0:12:10.38,Screen,,0,0,0,前半 -,{\alpha&00}{\an2\fad(0,0)\1c&ffffff\bord0.2\blur10\3a&bb\fscx97\3c&000000\pos(1920,1742)}第13队  邓肯二{\alpha&ff}级魔法使
-Dialogue: 0,0:12:05.37,0:12:10.38,Screen,偏色：绿 x-1,0,0,0,- 后半,{\alpha&ff}{\an2\fad(0,0)\blur0.7\1c&A8F380\fscx97\pos(1919,1742)}第13队  邓肯二{\alpha&00}级魔法使
-Dialogue: 1,0:12:05.37,0:12:10.38,Screen,偏色：紫 x1,0,0,0,- 后半,{\alpha&ff}{\an2\fad(0,0)\blur0.7\1c&F3B4E8\fscx97\pos(1921,1742)}第13队  邓肯二{\alpha&00}级魔法使
-Dialogue: 3,0:12:05.37,0:12:10.38,Screen,偏色：蓝 y-1,0,0,0,- 后半,{\alpha&ff}{\an2\fad(0,0)\blur0.7\1c&F2DDB1\fscx97\pos(1920,1741)}第13队  邓肯二{\alpha&00}级魔法使
-Dialogue: 3,0:12:05.37,0:12:10.38,Screen,偏色：红 y1,0,0,0,- 后半,{\alpha&ff}{\an2\fad(0,0)\blur0.7\1c&BFC1F3\fscx97\pos(1920,1743)}第13队  邓肯二{\alpha&00}级魔法使
-Dialogue: 4,0:12:05.37,0:12:10.38,Screen,,0,0,0,- 后半,{\alpha&ff}{\an2\fad(0,0)\1c&ffffff\bord0.2\blur10\fscx97\3c&0\pos(1920,1742)}第13队  邓肯二{\alpha&00\3a&cc}级魔法使
-Dialogue: 0,0:12:10.38,0:12:13.88,Screen,偏色：绿 x-1,0,0,0,前半 -,{\an2\fad(0,0)\blur1\1c&A8F380\fscx97\pos(1919,1742)\iclip(m 1492 1637.15 l 1488.43 1677.23 1486.65 1700.39 1483.98 1729.78 1483.98 1741.36 1476.85 1882.09 2489.63 1882.99 2484.29 1525.81 1497.34 1589.05)}第13队  利希塔二级魔法使
-Dialogue: 1,0:12:10.38,0:12:13.88,Screen,偏色：紫 x1,0,0,0,前半 -,{\an2\fad(0,0)\blur1\1c&F3B4E8\fscx97\pos(1921,1742)\iclip(m 1492 1637.15 l 1488.43 1677.23 1486.65 1700.39 1483.98 1729.78 1483.98 1741.36 1476.85 1882.09 2489.63 1882.99 2484.29 1525.81 1497.34 1589.05)}第13队  利希塔二级魔法使
-Dialogue: 3,0:12:10.38,0:12:13.88,Screen,偏色：蓝 y-1,0,0,0,前半 -,{\an2\fad(0,0)\blur1\1c&F2DDB1\fscx97\pos(1920,1741)\iclip(m 1492 1637.15 l 1488.43 1677.23 1486.65 1700.39 1483.98 1729.78 1483.98 1741.36 1476.85 1882.09 2489.63 1882.99 2484.29 1525.81 1497.34 1589.05)}第13队  利希塔二级魔法使
-Dialogue: 3,0:12:10.38,0:12:13.88,Screen,偏色：红 y1,0,0,0,前半 -,{\an2\fad(0,0)\blur1\1c&BFC1F3\fscx97\pos(1920,1743)\iclip(m 1492 1637.15 l 1488.43 1677.23 1486.65 1700.39 1483.98 1729.78 1483.98 1741.36 1476.85 1882.09 2489.63 1882.99 2484.29 1525.81 1497.34 1589.05)}第13队  利希塔二级魔法使
-Dialogue: 2,0:12:10.38,0:12:13.88,Screen,偏色：绿 x-1,0,0,0,- 后半,{\an2\fad(0,0)\blur1\1c&59FF00\fscx97\pos(1919,1742)\clip(m 1492 1637.15 l 1488.43 1677.23 1486.65 1700.39 1483.98 1729.78 1483.98 1741.36 1476.85 1882.09 2489.63 1882.99 2484.29 1525.81 1497.34 1589.05)}第13队  利希塔二级魔法使
-Dialogue: 0,0:12:10.38,0:12:13.88,Screen,偏色：紫 x1,0,0,0,- 后半,{\an2\fad(0,0)\blur1\1c&FD1DD7\fscx97\pos(1921,1742)\clip(m 1492 1637.15 l 1488.43 1677.23 1486.65 1700.39 1483.98 1729.78 1483.98 1741.36 1476.85 1882.09 2489.63 1882.99 2484.29 1525.81 1497.34 1589.05)}第13队  利希塔二级魔法使
-Dialogue: 1,0:12:10.38,0:12:13.88,Screen,偏色：蓝 y-1,0,0,0,- 后半,{\an2\fad(0,0)\blur1\1c&FCAF08\fscx97\pos(1920,1741)\clip(m 1492 1637.15 l 1488.43 1677.23 1486.65 1700.39 1483.98 1729.78 1483.98 1741.36 1476.85 1882.09 2489.63 1882.99 2484.29 1525.81 1497.34 1589.05)}第13队  利希塔二级魔法使
-Dialogue: 3,0:12:10.38,0:12:13.88,Screen,偏色：红 y1,0,0,0,- 后半,{\an2\fad(0,0)\blur1\1c&2F36F7\fscx97\pos(1920,1743)\clip(m 1492 1637.15 l 1488.43 1677.23 1486.65 1700.39 1483.98 1729.78 1483.98 1741.36 1476.85 1882.09 2489.63 1882.99 2484.29 1525.81 1497.34 1589.05)}第13队  利希塔二级魔法使
-Dialogue: 3,0:12:10.38,0:12:13.88,Screen,,0,0,0,1920;1742,{\an2\fad(0,0)\1c&ffffff\bord0.2\blur10\3a&aa\fscx97\pos(1920,1742)}第13队  利希塔二级魔法使
-Dialogue: 0,0:12:13.88,0:12:17.38,Screen,偏色：绿 x-1,0,0,0,,{\an2\fad(0,0)\blur0.7\1c&A8F380\fscx97\pos(1919,1742)}第13队  菈鸥芬三级魔法使
-Dialogue: 1,0:12:13.88,0:12:17.38,Screen,偏色：紫 x1,0,0,0,,{\an2\fad(0,0)\blur0.7\1c&F3B4E8\fscx97\pos(1921,1742)}第13队  菈鸥芬三级魔法使
-Dialogue: 3,0:12:13.88,0:12:17.38,Screen,偏色：蓝 y-1,0,0,0,,{\an2\fad(0,0)\blur0.7\1c&F2DDB1\fscx97\pos(1920,1741)}第13队  菈鸥芬三级魔法使
-Dialogue: 3,0:12:13.88,0:12:17.38,Screen,偏色：红 y1,0,0,0,,{\an2\fad(0,0)\blur0.7\1c&BFC1F3\fscx97\pos(1920,1743)}第13队  菈鸥芬三级魔法使
-Dialogue: 4,0:12:13.88,0:12:17.38,Screen,,0,0,0,,{\an2\fad(0,0)\1c&ffffff\bord0.2\blur10\3a&bb\fscx97\3c&0\pos(1920,1742)}第13队  菈鸥芬三级魔法使
-Comment: 0,0:00:17.00,0:00:17.08,//,,0,0,0,,————OP2「晴る」（定位帧）————
+Dialogue: 0,0:01:47.00,0:01:50.01,CHT - Title,蓝 y2-,0,0,0,,{\an7\fad(0,0)\blur0.5\1c&FF9D00\fscx97\pos(2636,1878)}精心設計的計劃
+Dialogue: 1,0:01:47.00,0:01:50.01,CHT - Title,绿 x2-,0,0,0,,{\an7\fad(0,0)\blur0.5\1c&78F275\fscx97\pos(2634,1880)}精心設計的計劃
+Dialogue: 2,0:01:47.00,0:01:50.01,CHT - Title,红 y2,0,0,0,,{\an7\fad(0,0)\blur0.5\1c&2D4BF4\fscx97\pos(2636,1882)}精心設計的計劃
+Dialogue: 3,0:01:47.00,0:01:50.01,CHT - Title,紫 x2,0,0,0,,{\an7\fad(0,0)\blur0.5\1c&D279D4\fscx97\pos(2638,1880)}精心設計的計劃
+Dialogue: 4,0:01:47.00,0:01:50.01,CHT - Title,x=2636  y=1880,0,0,0,,{\an7\fad(0,0)\1c&EBF7ED\bord0.2\blur10\3a&aa\fscx97\pos(2636,1880)}精心設計的計劃
+Dialogue: 2,0:08:04.17,0:08:09.14,Screen,偏色：蓝2,0,0,0,,{\an2\fad(0,0)\blur1\1c&FFAE2B\fscx97\pos(1920,1741)}第4隊  蘭特二級魔法使
+Dialogue: 0,0:08:04.17,0:08:09.14,Screen,偏色：绿2,0,0,0,,{\an2\fad(0,0)\blur1\1c&8FFD8B\fscx97\pos(1919,1742)}第4隊  蘭特二級魔法使
+Dialogue: 3,0:08:04.17,0:08:09.14,Screen,偏色：红2,0,0,0,,{\an2\fad(0,0)\blur1\1c&5069F3\fscx97\pos(1920,1743)}第4隊  蘭特二級魔法使
+Dialogue: 4,0:08:04.17,0:08:09.14,Screen,,0,0,0,,{\an2\fad(0,0)\1c&FDFFED\t(\1c&ffffff)\bord0.2\blur10\3a&aa\fscx97\pos(1920,1742)}第4隊  蘭特二級魔法使
+Dialogue: 0,0:08:09.14,0:08:14.64,Screen,偏色：蓝2,0,0,0,,{\an2\fad(0,0)\blur1\1c&FF9D00\fscx97\pos(1920,1741)}第4隊  尤蓓爾三級魔法使
+Dialogue: 1,0:08:09.14,0:08:14.64,Screen,偏色：绿2,0,0,0,,{\an2\fad(0,0)\blur1\1c&5CA45A\fscx97\pos(1919,1742)}第4隊  尤蓓爾三級魔法使
+Dialogue: 2,0:08:09.14,0:08:14.64,Screen,偏色：红2,0,0,0,,{\an2\fad(0,0)\blur1\1c&2D4BF4\fscx97\pos(1921,1743)}第4隊  尤蓓爾三級魔法使
+Dialogue: 3,0:08:09.14,0:08:14.64,Screen,,0,0,0,,{\an2\fad(0,0)\1c&FDFFED\bord0.2\blur10\3a&aa\fscx97\pos(1920,1742)}第4隊  尤蓓爾三級魔法使
+Dialogue: 0,0:08:14.64,0:08:18.02,Screen,偏色：蓝2,0,0,0,,{\an2\fad(0,0)\blur1\1c&FF9D00\fscx97\pos(1920,1741)}第4隊  費倫三級魔法使
+Dialogue: 1,0:08:14.64,0:08:18.02,Screen,偏色：绿2,0,0,0,,{\an2\fad(0,0)\blur1\1c&5CA45A\fscx97\pos(1919,1742)}第4隊  費倫三級魔法使
+Dialogue: 2,0:08:14.64,0:08:18.02,Screen,偏色：红2,0,0,0,,{\an2\fad(0,0)\blur1\1c&2D4BF4\fscx97\pos(1921,1743)}第4隊  費倫三級魔法使
+Dialogue: 3,0:08:14.64,0:08:18.02,Screen,,0,0,0,,{\an2\fad(0,0)\1c&FDFFED\bord0.2\blur10\3a&aa\fscx97\pos(1920,1742)}第4隊  費倫三級魔法使
+Dialogue: 0,0:10:30.07,0:10:33.57,Screen,偏色：绿 x-1,0,0,0,,{\an2\fad(0,0)\blur0.7\1c&A8F380\fscx97\pos(1919,1742)}第8隊  夏爾夫三級魔法使
+Dialogue: 1,0:10:30.07,0:10:33.57,Screen,偏色：紫 x1,0,0,0,,{\an2\fad(0,0)\blur0.7\1c&F3B4E8\fscx97\pos(1921,1742)}第8隊  夏爾夫三級魔法使
+Dialogue: 3,0:10:30.07,0:10:33.57,Screen,偏色：蓝 y-1,0,0,0,,{\an2\fad(0,0)\blur0.7\1c&F2DDB1\fscx97\pos(1920,1741)}第8隊  夏爾夫三級魔法使
+Dialogue: 3,0:10:30.07,0:10:33.57,Screen,偏色：红 y1,0,0,0,,{\an2\fad(0,0)\blur0.7\1c&BFC1F3\fscx97\pos(1920,1743)}第8隊  夏爾夫三級魔法使
+Dialogue: 4,0:10:30.07,0:10:33.57,Screen,,0,0,0,,{\an2\fad(0,0)\1c&ffffff\bord0.2\blur10\3a&cc\fscx97\3c&0\pos(1920,1742)}第8隊  夏爾夫三級魔法使
+Dialogue: 2,0:10:33.57,0:10:37.07,Screen,偏色：绿 x-1,0,0,0,,{\an2\fad(0,0)\blur0.7\1c&CCFFB1\fscx97\pos(1919,1742)}第8隊  艾莉二級魔法使
+Dialogue: 0,0:10:33.57,0:10:37.07,Screen,偏色：紫 x1,0,0,0,,{\an2\fad(0,0)\blur0.7\1c&F3B4E8\fscx97\pos(1921,1742)}第8隊  艾莉二級魔法使
+Dialogue: 1,0:10:33.57,0:10:37.07,Screen,偏色：蓝 y-1,0,0,0,,{\an2\fad(0,0)\blur0.7\1c&F2DDB1\fscx97\pos(1920,1741)}第8隊  艾莉二級魔法使
+Dialogue: 3,0:10:33.57,0:10:37.07,Screen,偏色：红 y1,0,0,0,,{\an2\fad(0,0)\blur0.7\1c&BFC1F3\fscx97\pos(1920,1743)}第8隊  艾莉二級魔法使
+Dialogue: 4,0:10:33.57,0:10:37.07,Screen,,0,0,0,,{\an2\fad(0,0)\1c&ffffff\bord0.2\blur10\3a&cc\fscx97\3c&0\pos(1920,1742)}第8隊  艾莉二級魔法使
+Dialogue: 2,0:10:41.79,0:10:45.33,Screen,偏色：绿 x-1,0,0,0,前半 -,{\an2\fad(0,0)\blur0.7\1c&A8F380\fscx97\pos(1919,1742)}第8隊  威亞貝爾二{\alpha&ff}級魔法使
+Dialogue: 0,0:10:41.79,0:10:45.33,Screen,偏色：紫 x1,0,0,0,前半 -,{\an2\fad(0,0)\blur0.7\1c&F3B4E8\fscx97\pos(1921,1742)}第8隊  威亞貝爾二{\alpha&ff}級魔法使
+Dialogue: 1,0:10:41.79,0:10:45.33,Screen,偏色：蓝 y-1,0,0,0,前半 -,{\an2\fad(0,0)\blur0.7\1c&F2DDB1\fscx97\pos(1920,1741)}第8隊  威亞貝爾二{\alpha&ff}級魔法使
+Dialogue: 3,0:10:41.79,0:10:45.33,Screen,偏色：红 y1,0,0,0,前半 -,{\an2\fad(0,0)\blur0.7\1c&A0A3FF\fscx97\pos(1920,1743)}第8隊  威亞貝爾二{\alpha&ff}級魔法使
+Dialogue: 4,0:10:41.79,0:10:45.33,Screen,,0,0,0,前半 -,{\an2\fad(0,0)\1c&ffffff\bord0.2\blur15\3a&aa\fscx97\3c&0\pos(1920,1742)}第8隊  威亞貝爾二{\alpha&ff}級魔法使
+Dialogue: 2,0:10:41.79,0:10:45.33,Screen,偏色：绿 x-1,0,0,0,- 后半,{\alpha&ff}{\an2\fad(0,0)\blur0.7\1c&A8F380\fscx97\pos(1919,1742)}第8隊  威亞貝爾二{\alpha&00}{\c&59FF00}級魔法使
+Dialogue: 0,0:10:41.79,0:10:45.33,Screen,偏色：紫 x1,0,0,0,- 后半,{\alpha&ff}{\an2\fad(0,0)\blur0.7\1c&F3B4E8\fscx97\pos(1921,1742)}第8隊  威亞貝爾二{\alpha&00}{\c&FD1DD7}級魔法使
+Dialogue: 1,0:10:41.79,0:10:45.33,Screen,偏色：蓝 y-1,0,0,0,- 后半,{\alpha&ff}{\an2\fad(0,0)\blur0.7\1c&F2DDB1\fscx97\pos(1920,1741)}第8隊  威亞貝爾二{\alpha&00}{\c&FCAF08}級魔法使
+Dialogue: 3,0:10:41.79,0:10:45.33,Screen,偏色：红 y1,0,0,0,- 后半,{\alpha&ff}{\an2\fad(0,0)\blur0.7\1c&BFC1F3\fscx97\pos(1920,1743)}第8隊  威亞貝爾二{\alpha&00}{\c&2F36F7}級魔法使
+Dialogue: 4,0:10:41.79,0:10:45.33,Screen,,0,0,0,- 后半,{\alpha&ff}{\an2\fad(0,0)\1c&ffffff\bord0.2\blur10\fscx97\3c&0\pos(1920,1742)}第8隊  威亞貝爾二{\alpha&00}{\3c&ffffff\bord1\3a&bb}級魔法使
+Dialogue: 2,0:12:05.37,0:12:10.38,Screen,偏色：绿 x-1,0,0,0,前半 -,{\alpha&00}{\an2\fad(0,0)\blur0.7\1c&ACFF80\fscx97\pos(1919,1742)}第13隊  鄧肯二{\alpha&ff}級魔法使
+Dialogue: 0,0:12:05.37,0:12:10.38,Screen,偏色：紫 x1,0,0,0,前半 -,{\alpha&00}{\an2\fad(0,0)\blur0.7\1c&FF8FEC\fscx97\pos(1921,1742)}第13隊  鄧肯二{\alpha&ff}級魔法使
+Dialogue: 1,0:12:05.37,0:12:10.38,Screen,偏色：蓝 y-1,0,0,0,前半 -,{\alpha&00}{\an2\fad(0,0)\blur0.7\1c&FFD780\fscx97\pos(1920,1741)}第13隊  鄧肯二{\alpha&ff}級魔法使
+Dialogue: 3,0:12:05.37,0:12:10.38,Screen,偏色：红 y1,0,0,0,前半 -,{\alpha&00}{\an2\fad(0,0)\blur0.7\1c&9195FF\fscx97\pos(1920,1743)}第13隊  鄧肯二{\alpha&ff}級魔法使
+Dialogue: 4,0:12:05.37,0:12:10.38,Screen,,0,0,0,前半 -,{\alpha&00}{\an2\fad(0,0)\1c&ffffff\bord0.2\blur10\3a&bb\fscx97\3c&000000\pos(1920,1742)}第13隊  鄧肯二{\alpha&ff}級魔法使
+Dialogue: 0,0:12:05.37,0:12:10.38,Screen,偏色：绿 x-1,0,0,0,- 后半,{\alpha&ff}{\an2\fad(0,0)\blur0.7\1c&A8F380\fscx97\pos(1919,1742)}第13隊  鄧肯二{\alpha&00}級魔法使
+Dialogue: 1,0:12:05.37,0:12:10.38,Screen,偏色：紫 x1,0,0,0,- 后半,{\alpha&ff}{\an2\fad(0,0)\blur0.7\1c&F3B4E8\fscx97\pos(1921,1742)}第13隊  鄧肯二{\alpha&00}級魔法使
+Dialogue: 3,0:12:05.37,0:12:10.38,Screen,偏色：蓝 y-1,0,0,0,- 后半,{\alpha&ff}{\an2\fad(0,0)\blur0.7\1c&F2DDB1\fscx97\pos(1920,1741)}第13隊  鄧肯二{\alpha&00}級魔法使
+Dialogue: 3,0:12:05.37,0:12:10.38,Screen,偏色：红 y1,0,0,0,- 后半,{\alpha&ff}{\an2\fad(0,0)\blur0.7\1c&BFC1F3\fscx97\pos(1920,1743)}第13隊  鄧肯二{\alpha&00}級魔法使
+Dialogue: 4,0:12:05.37,0:12:10.38,Screen,,0,0,0,- 后半,{\alpha&ff}{\an2\fad(0,0)\1c&ffffff\bord0.2\blur10\fscx97\3c&0\pos(1920,1742)}第13隊  鄧肯二{\alpha&00\3a&cc}級魔法使
+Dialogue: 0,0:12:10.38,0:12:13.88,Screen,偏色：绿 x-1,0,0,0,前半 -,{\an2\fad(0,0)\blur1\1c&A8F380\fscx97\pos(1919,1742)\iclip(m 1492 1637.15 l 1488.43 1677.23 1486.65 1700.39 1483.98 1729.78 1483.98 1741.36 1476.85 1882.09 2489.63 1882.99 2484.29 1525.81 1497.34 1589.05)}第13隊  利希塔二級魔法使
+Dialogue: 1,0:12:10.38,0:12:13.88,Screen,偏色：紫 x1,0,0,0,前半 -,{\an2\fad(0,0)\blur1\1c&F3B4E8\fscx97\pos(1921,1742)\iclip(m 1492 1637.15 l 1488.43 1677.23 1486.65 1700.39 1483.98 1729.78 1483.98 1741.36 1476.85 1882.09 2489.63 1882.99 2484.29 1525.81 1497.34 1589.05)}第13隊  利希塔二級魔法使
+Dialogue: 3,0:12:10.38,0:12:13.88,Screen,偏色：蓝 y-1,0,0,0,前半 -,{\an2\fad(0,0)\blur1\1c&F2DDB1\fscx97\pos(1920,1741)\iclip(m 1492 1637.15 l 1488.43 1677.23 1486.65 1700.39 1483.98 1729.78 1483.98 1741.36 1476.85 1882.09 2489.63 1882.99 2484.29 1525.81 1497.34 1589.05)}第13隊  利希塔二級魔法使
+Dialogue: 3,0:12:10.38,0:12:13.88,Screen,偏色：红 y1,0,0,0,前半 -,{\an2\fad(0,0)\blur1\1c&BFC1F3\fscx97\pos(1920,1743)\iclip(m 1492 1637.15 l 1488.43 1677.23 1486.65 1700.39 1483.98 1729.78 1483.98 1741.36 1476.85 1882.09 2489.63 1882.99 2484.29 1525.81 1497.34 1589.05)}第13隊  利希塔二級魔法使
+Dialogue: 2,0:12:10.38,0:12:13.88,Screen,偏色：绿 x-1,0,0,0,- 后半,{\an2\fad(0,0)\blur1\1c&59FF00\fscx97\pos(1919,1742)\clip(m 1492 1637.15 l 1488.43 1677.23 1486.65 1700.39 1483.98 1729.78 1483.98 1741.36 1476.85 1882.09 2489.63 1882.99 2484.29 1525.81 1497.34 1589.05)}第13隊  利希塔二級魔法使
+Dialogue: 0,0:12:10.38,0:12:13.88,Screen,偏色：紫 x1,0,0,0,- 后半,{\an2\fad(0,0)\blur1\1c&FD1DD7\fscx97\pos(1921,1742)\clip(m 1492 1637.15 l 1488.43 1677.23 1486.65 1700.39 1483.98 1729.78 1483.98 1741.36 1476.85 1882.09 2489.63 1882.99 2484.29 1525.81 1497.34 1589.05)}第13隊  利希塔二級魔法使
+Dialogue: 1,0:12:10.38,0:12:13.88,Screen,偏色：蓝 y-1,0,0,0,- 后半,{\an2\fad(0,0)\blur1\1c&FCAF08\fscx97\pos(1920,1741)\clip(m 1492 1637.15 l 1488.43 1677.23 1486.65 1700.39 1483.98 1729.78 1483.98 1741.36 1476.85 1882.09 2489.63 1882.99 2484.29 1525.81 1497.34 1589.05)}第13隊  利希塔二級魔法使
+Dialogue: 3,0:12:10.38,0:12:13.88,Screen,偏色：红 y1,0,0,0,- 后半,{\an2\fad(0,0)\blur1\1c&2F36F7\fscx97\pos(1920,1743)\clip(m 1492 1637.15 l 1488.43 1677.23 1486.65 1700.39 1483.98 1729.78 1483.98 1741.36 1476.85 1882.09 2489.63 1882.99 2484.29 1525.81 1497.34 1589.05)}第13隊  利希塔二級魔法使
+Dialogue: 3,0:12:10.38,0:12:13.88,Screen,,0,0,0,1920;1742,{\an2\fad(0,0)\1c&ffffff\bord0.2\blur10\3a&aa\fscx97\pos(1920,1742)}第13隊  利希塔二級魔法使
+Dialogue: 0,0:12:13.88,0:12:17.38,Screen,偏色：绿 x-1,0,0,0,,{\an2\fad(0,0)\blur0.7\1c&A8F380\fscx97\pos(1919,1742)}第13隊  拉歐芬三級魔法使
+Dialogue: 1,0:12:13.88,0:12:17.38,Screen,偏色：紫 x1,0,0,0,,{\an2\fad(0,0)\blur0.7\1c&F3B4E8\fscx97\pos(1921,1742)}第13隊  拉歐芬三級魔法使
+Dialogue: 3,0:12:13.88,0:12:17.38,Screen,偏色：蓝 y-1,0,0,0,,{\an2\fad(0,0)\blur0.7\1c&F2DDB1\fscx97\pos(1920,1741)}第13隊  拉歐芬三級魔法使
+Dialogue: 3,0:12:13.88,0:12:17.38,Screen,偏色：红 y1,0,0,0,,{\an2\fad(0,0)\blur0.7\1c&BFC1F3\fscx97\pos(1920,1743)}第13隊  拉歐芬三級魔法使
+Dialogue: 4,0:12:13.88,0:12:17.38,Screen,,0,0,0,,{\an2\fad(0,0)\1c&ffffff\bord0.2\blur10\3a&bb\fscx97\3c&0\pos(1920,1742)}第13隊  拉歐芬三級魔法使
+Comment: 0,0:00:17.00,0:00:17.08,//,,0,0,0,,————OP2「晴る」（定位幀）————
 Dialogue: 0,0:00:26.26,0:00:30.09,OP-JP-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}貴方は風のように
 Dialogue: 1,0:00:26.26,0:00:30.09,OP-JP-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}貴方は風のように
-Dialogue: 2,0:00:26.26,0:00:30.09,OP-CN-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}你似清风拂面
-Dialogue: 3,0:00:26.26,0:00:30.09,OP-CN-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}你似清风拂面
+Dialogue: 2,0:00:26.26,0:00:30.09,OP-CN-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}你似清風拂面
+Dialogue: 3,0:00:26.26,0:00:30.09,OP-CN-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}你似清風拂面
 Dialogue: 0,0:00:30.09,0:00:34.72,OP-JP-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}目を閉じては夕暮れ
 Dialogue: 1,0:00:30.09,0:00:34.72,OP-JP-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}目を閉じては夕暮れ
-Dialogue: 2,0:00:30.09,0:00:34.72,OP-CN-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}于暮色中阖眼
-Dialogue: 3,0:00:30.09,0:00:34.72,OP-CN-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}于暮色中阖眼
+Dialogue: 2,0:00:30.09,0:00:34.72,OP-CN-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}於暮色中闔眼
+Dialogue: 3,0:00:30.09,0:00:34.72,OP-CN-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}於暮色中闔眼
 Dialogue: 0,0:00:34.72,0:00:40.19,OP-JP-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}何を思っているんだろうか
 Dialogue: 1,0:00:34.72,0:00:40.19,OP-JP-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}何を思っているんだろうか
-Dialogue: 2,0:00:34.72,0:00:40.19,OP-CN-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}不知心头作何念
-Dialogue: 3,0:00:34.72,0:00:40.19,OP-CN-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}不知心头作何念
+Dialogue: 2,0:00:34.72,0:00:40.19,OP-CN-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}不知心頭作何念
+Dialogue: 3,0:00:34.72,0:00:40.19,OP-CN-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}不知心頭作何念
 Dialogue: 0,0:00:45.11,0:00:48.95,OP-JP-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}目蓋を開いていた
 Dialogue: 1,0:00:45.11,0:00:48.95,OP-JP-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}目蓋を開いていた
-Dialogue: 2,0:00:45.11,0:00:48.95,OP-CN-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}见你掀开眼帘
-Dialogue: 3,0:00:45.11,0:00:48.95,OP-CN-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}见你掀开眼帘
+Dialogue: 2,0:00:45.11,0:00:48.95,OP-CN-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}見你掀開眼簾
+Dialogue: 3,0:00:45.11,0:00:48.95,OP-CN-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}見你掀開眼簾
 Dialogue: 0,0:00:48.95,0:00:53.12,OP-JP-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}貴方の目はビイドロ
 Dialogue: 1,0:00:48.95,0:00:53.12,OP-JP-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}貴方の目はビイドロ
-Dialogue: 2,0:00:48.95,0:00:53.12,OP-CN-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}眸中溢彩万千
-Dialogue: 3,0:00:48.95,0:00:53.12,OP-CN-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}眸中溢彩万千
+Dialogue: 2,0:00:48.95,0:00:53.12,OP-CN-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}眸中溢彩萬千
+Dialogue: 3,0:00:48.95,0:00:53.12,OP-CN-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}眸中溢彩萬千
 Dialogue: 0,0:00:53.57,0:01:00.21,OP-JP-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}少しだけ晴るの匂いがした
 Dialogue: 1,0:00:53.57,0:01:00.21,OP-JP-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}少しだけ晴るの匂いがした
-Dialogue: 2,0:00:53.57,0:01:00.21,OP-CN-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}好一幕雨晴烟晚
-Dialogue: 3,0:00:53.57,0:01:00.21,OP-CN-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}好一幕雨晴烟晚
+Dialogue: 2,0:00:53.57,0:01:00.21,OP-CN-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}好一幕雨晴煙晚
+Dialogue: 3,0:00:53.57,0:01:00.21,OP-CN-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}好一幕雨晴煙晚
 Dialogue: 0,0:01:06.25,0:01:11.47,OP-JP-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}晴れに晴れ、花よ咲け
 Dialogue: 1,0:01:06.25,0:01:11.47,OP-JP-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}晴れに晴れ、花よ咲け
-Dialogue: 2,0:01:06.25,0:01:11.47,OP-CN-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}风和日暖春满园
-Dialogue: 3,0:01:06.25,0:01:11.47,OP-CN-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}风和日暖春满园
+Dialogue: 2,0:01:06.25,0:01:11.47,OP-CN-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}風和日暖春滿園
+Dialogue: 3,0:01:06.25,0:01:11.47,OP-CN-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}風和日暖春滿園
 Dialogue: 0,0:01:11.47,0:01:15.68,OP-JP-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}咲いて晴るのせい
 Dialogue: 1,0:01:11.47,0:01:15.68,OP-JP-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}咲いて晴るのせい
-Dialogue: 2,0:01:11.47,0:01:15.68,OP-CN-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}缘是晴空金阳艳
-Dialogue: 3,0:01:11.47,0:01:15.68,OP-CN-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}缘是晴空金阳艳
+Dialogue: 2,0:01:11.47,0:01:15.68,OP-CN-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}緣是晴空金陽艷
+Dialogue: 3,0:01:11.47,0:01:15.68,OP-CN-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}緣是晴空金陽艷
 Dialogue: 0,0:01:15.68,0:01:20.10,OP-JP-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}降り止めば雨でさえ
 Dialogue: 1,0:01:15.68,0:01:20.10,OP-JP-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}降り止めば雨でさえ
-Dialogue: 2,0:01:15.68,0:01:20.10,OP-CN-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}阴雨含羞止连绵
-Dialogue: 3,0:01:15.68,0:01:20.10,OP-CN-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}阴雨含羞止连绵
+Dialogue: 2,0:01:15.68,0:01:20.10,OP-CN-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}陰雨含羞止連綿
+Dialogue: 3,0:01:15.68,0:01:20.10,OP-CN-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}陰雨含羞止連綿
 Dialogue: 0,0:01:20.10,0:01:25.06,OP-JP-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}貴方を飾る晴る
 Dialogue: 1,0:01:20.10,0:01:25.06,OP-JP-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}貴方を飾る晴る
-Dialogue: 2,0:01:20.10,0:01:25.06,OP-CN-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}因是晴风寻春遍
-Dialogue: 3,0:01:20.10,0:01:25.06,OP-CN-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}因是晴风寻春遍
+Dialogue: 2,0:01:20.10,0:01:25.06,OP-CN-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}因是晴風尋春遍
+Dialogue: 3,0:01:20.10,0:01:25.06,OP-CN-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}因是晴風尋春遍
 Dialogue: 0,0:01:25.06,0:01:30.40,OP-JP-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}胸を打つ音よ凪げ
 Dialogue: 1,0:01:25.06,0:01:30.40,OP-JP-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}胸を打つ音よ凪げ
-Dialogue: 2,0:01:25.06,0:01:30.40,OP-CN-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}心潮滚滚终成眠
-Dialogue: 3,0:01:25.06,0:01:30.40,OP-CN-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}心潮滚滚终成眠
+Dialogue: 2,0:01:25.06,0:01:30.40,OP-CN-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}心潮滾滾終成眠
+Dialogue: 3,0:01:25.06,0:01:30.40,OP-CN-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}心潮滾滾終成眠
 Dialogue: 0,0:01:30.40,0:01:34.53,OP-JP-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}僕ら晴る風
 Dialogue: 1,0:01:30.40,0:01:34.53,OP-JP-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}僕ら晴る風
-Dialogue: 2,0:01:30.40,0:01:34.53,OP-CN-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}晴风双双作缱绻
-Dialogue: 3,0:01:30.40,0:01:34.53,OP-CN-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}晴风双双作缱绻
+Dialogue: 2,0:01:30.40,0:01:34.53,OP-CN-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}晴風雙雙作繾綣
+Dialogue: 3,0:01:30.40,0:01:34.53,OP-CN-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}晴風雙雙作繾綣
 Dialogue: 0,0:01:34.53,0:01:38.91,OP-JP-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}あの雲も越えてゆけ
 Dialogue: 1,0:01:34.53,0:01:38.91,OP-JP-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}あの雲も越えてゆけ
-Dialogue: 2,0:01:34.53,0:01:38.91,OP-CN-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}步月登云入管弦
-Dialogue: 3,0:01:34.53,0:01:38.91,OP-CN-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}步月登云入管弦
+Dialogue: 2,0:01:34.53,0:01:38.91,OP-CN-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}步月登雲入管弦
+Dialogue: 3,0:01:34.53,0:01:38.91,OP-CN-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}步月登雲入管弦
 Dialogue: 0,0:01:38.91,0:01:43.54,OP-JP-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}遠くまだ遠くまで
 Dialogue: 1,0:01:38.91,0:01:43.54,OP-JP-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}遠くまだ遠くまで
-Dialogue: 2,0:01:38.91,0:01:43.54,OP-CN-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}轻歌曼舞接远天
-Dialogue: 3,0:01:38.91,0:01:43.54,OP-CN-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}轻歌曼舞接远天
-Comment: 0,0:22:50.06,0:22:50.10,//,,0,0,0,,————ED「Anytime Anywhere」（定位帧）————
+Dialogue: 2,0:01:38.91,0:01:43.54,OP-CN-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}輕歌曼舞接遠天
+Dialogue: 3,0:01:38.91,0:01:43.54,OP-CN-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}輕歌曼舞接遠天
+Comment: 0,0:22:50.06,0:22:50.10,//,,0,0,0,,————ED「Anytime Anywhere」（定位幀）————
 Dialogue: 0,0:22:50.22,0:22:53.18,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,500)}And I'm alright
 Dialogue: 1,0:22:50.22,0:22:53.18,ED-JP-17-28,,0,0,0,,{\fad(300,500)}And I'm alright
 Dialogue: 2,0:22:50.22,0:22:53.18,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}我挺好的
@@ -911,110 +912,110 @@ Dialogue: 2,0:22:51.39,0:22:53.18,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\an8\fa
 Dialogue: 3,0:22:51.39,0:22:53.18,ED-CN-17-28,,0,0,0,,{\an8\fad(300,500)}一切安好
 Dialogue: 0,0:22:53.18,0:22:56.02,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,500)}Yeah I hear you
 Dialogue: 1,0:22:53.18,0:22:56.02,ED-JP-17-28,,0,0,0,,{\fad(300,500)}Yeah I hear you
-Dialogue: 2,0:22:53.18,0:22:56.02,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}我听得见
-Dialogue: 3,0:22:53.18,0:22:56.02,ED-CN-17-28,,0,0,0,,{\fad(300,500)}我听得见
+Dialogue: 2,0:22:53.18,0:22:56.02,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}我聽得見
+Dialogue: 3,0:22:53.18,0:22:56.02,ED-CN-17-28,,0,0,0,,{\fad(300,500)}我聽得見
 Dialogue: 0,0:22:54.60,0:22:56.02,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\an8\pos(1920,26)\fad(300,500)}I care about you
 Dialogue: 1,0:22:54.60,0:22:56.02,ED-JP-17-28,,0,0,0,,{\an8\pos(1920,26)\fad(300,500)}I care about you
 Dialogue: 2,0:22:54.60,0:22:56.02,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\an8\fad(300,500)}朝思暮念
 Dialogue: 3,0:22:54.60,0:22:56.02,ED-CN-17-28,,0,0,0,,{\an8\fad(300,500)}朝思暮念
 Dialogue: 0,0:22:56.02,0:23:01.94,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,500)}伸びた髪を風がからかってる
 Dialogue: 1,0:22:56.02,0:23:01.94,ED-JP-17-28,,0,0,0,,{\fad(300,500)}伸びた髪を風がからかってる
-Dialogue: 2,0:22:56.02,0:23:01.94,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}清风拂起我的一头长发
-Dialogue: 3,0:22:56.02,0:23:01.94,ED-CN-17-28,,0,0,0,,{\fad(300,500)}清风拂起我的一头长发
+Dialogue: 2,0:22:56.02,0:23:01.94,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}清風拂起我的一頭長髮
+Dialogue: 3,0:22:56.02,0:23:01.94,ED-CN-17-28,,0,0,0,,{\fad(300,500)}清風拂起我的一頭長髮
 Dialogue: 0,0:23:01.94,0:23:04.78,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,500)}全部意味があるよ
 Dialogue: 1,0:23:01.94,0:23:04.78,ED-JP-17-28,,0,0,0,,{\fad(300,500)}全部意味があるよ
-Dialogue: 2,0:23:01.94,0:23:04.78,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}万物自有其理
-Dialogue: 3,0:23:01.94,0:23:04.78,ED-CN-17-28,,0,0,0,,{\fad(300,500)}万物自有其理
+Dialogue: 2,0:23:01.94,0:23:04.78,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}萬物自有其理
+Dialogue: 3,0:23:01.94,0:23:04.78,ED-CN-17-28,,0,0,0,,{\fad(300,500)}萬物自有其理
 Dialogue: 0,0:23:04.78,0:23:07.82,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,500)}立ち止まった日々も
 Dialogue: 1,0:23:04.78,0:23:07.82,ED-JP-17-28,,0,0,0,,{\fad(300,500)}立ち止まった日々も
 Dialogue: 2,0:23:04.78,0:23:07.82,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}彷徨亦是如此
 Dialogue: 3,0:23:04.78,0:23:07.82,ED-CN-17-28,,0,0,0,,{\fad(300,500)}彷徨亦是如此
 Dialogue: 0,0:23:07.82,0:23:13.62,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,500)}今さらわかってあなたに追いついたよ
 Dialogue: 1,0:23:07.82,0:23:13.62,ED-JP-17-28,,0,0,0,,{\fad(300,500)}今さらわかってあなたに追いついたよ
-Dialogue: 2,0:23:07.82,0:23:13.62,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}如今的我终于追上了你
-Dialogue: 3,0:23:07.82,0:23:13.62,ED-CN-17-28,,0,0,0,,{\fad(300,500)}如今的我终于追上了你
+Dialogue: 2,0:23:07.82,0:23:13.62,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}如今的我終於追上了你
+Dialogue: 3,0:23:07.82,0:23:13.62,ED-CN-17-28,,0,0,0,,{\fad(300,500)}如今的我終於追上了你
 Dialogue: 0,0:23:13.96,0:23:17.42,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,500)}ほら、この目じゃなければ
 Dialogue: 1,0:23:13.96,0:23:17.42,ED-JP-17-28,,0,0,0,,{\fad(300,500)}ほら、この目じゃなければ
-Dialogue: 2,0:23:13.96,0:23:17.42,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}如果没有这双眼睛
-Dialogue: 3,0:23:13.96,0:23:17.42,ED-CN-17-28,,0,0,0,,{\fad(300,500)}如果没有这双眼睛
+Dialogue: 2,0:23:13.96,0:23:17.42,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}如果沒有這雙眼睛
+Dialogue: 3,0:23:13.96,0:23:17.42,ED-CN-17-28,,0,0,0,,{\fad(300,500)}如果沒有這雙眼睛
 Dialogue: 0,0:23:17.42,0:23:20.42,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,500)}見えなかったものが
 Dialogue: 1,0:23:17.42,0:23:20.42,ED-JP-17-28,,0,0,0,,{\fad(300,500)}見えなかったものが
-Dialogue: 2,0:23:17.42,0:23:20.42,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}曾经错过的风景
-Dialogue: 3,0:23:17.42,0:23:20.42,ED-CN-17-28,,0,0,0,,{\fad(300,500)}曾经错过的风景
+Dialogue: 2,0:23:17.42,0:23:20.42,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}曾經錯過的風景
+Dialogue: 3,0:23:17.42,0:23:20.42,ED-CN-17-28,,0,0,0,,{\fad(300,500)}曾經錯過的風景
 Dialogue: 0,0:23:20.42,0:23:25.26,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,500)}どうして？溢れてく
 Dialogue: 1,0:23:20.42,0:23:25.26,ED-JP-17-28,,0,0,0,,{\fad(300,500)}どうして？溢れてく
-Dialogue: 2,0:23:20.42,0:23:25.26,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}怎会纷纷映入眼帘
-Dialogue: 3,0:23:20.42,0:23:25.26,ED-CN-17-28,,0,0,0,,{\fad(300,500)}怎会纷纷映入眼帘
+Dialogue: 2,0:23:20.42,0:23:25.26,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}怎會紛紛映入眼簾
+Dialogue: 3,0:23:20.42,0:23:25.26,ED-CN-17-28,,0,0,0,,{\fad(300,500)}怎會紛紛映入眼簾
 Dialogue: 0,0:23:25.26,0:23:26.43,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\fad(200,200)}せめて
 Dialogue: 1,0:23:25.26,0:23:26.43,ED-JP-17-28,,0,0,0,,{\fad(200,200)}せめて
-Dialogue: 2,0:23:25.26,0:23:26.43,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(200,200)}知道吗
-Dialogue: 3,0:23:25.26,0:23:26.43,ED-CN-17-28,,0,0,0,,{\fad(200,200)}知道吗
+Dialogue: 2,0:23:25.26,0:23:26.43,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(200,200)}知道嗎
+Dialogue: 3,0:23:25.26,0:23:26.43,ED-CN-17-28,,0,0,0,,{\fad(200,200)}知道嗎
 Dialogue: 0,0:23:26.43,0:23:31.43,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,500)}会いたいよなんて言わないから
 Dialogue: 1,0:23:26.43,0:23:31.43,ED-JP-17-28,,0,0,0,,{\fad(300,500)}会いたいよなんて言わないから
-Dialogue: 2,0:23:26.43,0:23:31.43,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}我不会将思念宣之于口
-Dialogue: 3,0:23:26.43,0:23:31.43,ED-CN-17-28,,0,0,0,,{\fad(300,500)}我不会将思念宣之于口
+Dialogue: 2,0:23:26.43,0:23:31.43,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}我不會將思念宣之於口
+Dialogue: 3,0:23:26.43,0:23:31.43,ED-CN-17-28,,0,0,0,,{\fad(300,500)}我不會將思念宣之於口
 Dialogue: 0,0:23:31.43,0:23:37.19,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,500)}ねえ、今日だけは思い出していいかな
 Dialogue: 1,0:23:31.43,0:23:37.19,ED-JP-17-28,,0,0,0,,{\fad(300,500)}ねえ、今日だけは思い出していいかな
-Dialogue: 2,0:23:31.43,0:23:37.19,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}但至少今天让我想起你
-Dialogue: 3,0:23:31.43,0:23:37.19,ED-CN-17-28,,0,0,0,,{\fad(300,500)}但至少今天让我想起你
+Dialogue: 2,0:23:31.43,0:23:37.19,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}但至少今天讓我想起你
+Dialogue: 3,0:23:31.43,0:23:37.19,ED-CN-17-28,,0,0,0,,{\fad(300,500)}但至少今天讓我想起你
 Dialogue: 0,0:23:37.19,0:23:38.15,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\fad(200,200)}だから
 Dialogue: 1,0:23:37.19,0:23:38.15,ED-JP-17-28,,0,0,0,,{\fad(200,200)}だから
 Dialogue: 2,0:23:37.19,0:23:38.15,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(200,200)}所以啊
 Dialogue: 3,0:23:37.19,0:23:38.15,ED-CN-17-28,,0,0,0,,{\fad(200,200)}所以啊
 Dialogue: 0,0:23:38.15,0:23:43.19,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,500)}あなたとまた巡りあったら
 Dialogue: 1,0:23:38.15,0:23:43.19,ED-JP-17-28,,0,0,0,,{\fad(300,500)}あなたとまた巡りあったら
-Dialogue: 2,0:23:38.15,0:23:43.19,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}如果能够再度与你相逢
-Dialogue: 3,0:23:38.15,0:23:43.19,ED-CN-17-28,,0,0,0,,{\fad(300,500)}如果能够再度与你相逢
+Dialogue: 2,0:23:38.15,0:23:43.19,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}如果能夠再度與你相逢
+Dialogue: 3,0:23:38.15,0:23:43.19,ED-CN-17-28,,0,0,0,,{\fad(300,500)}如果能夠再度與你相逢
 Dialogue: 0,0:23:43.19,0:23:48.95,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,500)}もう迷わない今を選ぶんだろう
 Dialogue: 1,0:23:43.19,0:23:48.95,ED-JP-17-28,,0,0,0,,{\fad(300,500)}もう迷わない今を選ぶんだろう
-Dialogue: 2,0:23:43.19,0:23:48.95,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}我定然要与你朝夕相伴
-Dialogue: 3,0:23:43.19,0:23:48.95,ED-CN-17-28,,0,0,0,,{\fad(300,500)}我定然要与你朝夕相伴
+Dialogue: 2,0:23:43.19,0:23:48.95,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}我定然要與你朝夕相伴
+Dialogue: 3,0:23:43.19,0:23:48.95,ED-CN-17-28,,0,0,0,,{\fad(300,500)}我定然要與你朝夕相伴
 Dialogue: 0,0:23:50.16,0:23:53.08,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\an8\pos(1920,26)\fad(300,500)}Anytime anywhere yah
 Dialogue: 1,0:23:50.16,0:23:53.08,ED-JP-17-28,,0,0,0,,{\an8\pos(1920,26)\fad(300,500)}Anytime anywhere yah
 Dialogue: 2,0:23:50.16,0:23:53.08,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\an8\fad(300,500)}跨越朝夕
 Dialogue: 3,0:23:50.16,0:23:53.08,ED-CN-17-28,,0,0,0,,{\an8\fad(300,500)}跨越朝夕
 Dialogue: 0,0:23:51.66,0:23:54.75,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,500)}どこにいても
 Dialogue: 1,0:23:51.66,0:23:54.75,ED-JP-17-28,,0,0,0,,{\fad(300,500)}どこにいても
-Dialogue: 2,0:23:51.66,0:23:54.75,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}无论身在何方
-Dialogue: 3,0:23:51.66,0:23:54.75,ED-CN-17-28,,0,0,0,,{\fad(300,500)}无论身在何方
+Dialogue: 2,0:23:51.66,0:23:54.75,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}無論身在何方
+Dialogue: 3,0:23:51.66,0:23:54.75,ED-CN-17-28,,0,0,0,,{\fad(300,500)}無論身在何方
 Dialogue: 0,0:23:53.08,0:23:56.08,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\an8\pos(1920,26)\fad(300,500)}Anytime anywhere
 Dialogue: 1,0:23:53.08,0:23:56.08,ED-JP-17-28,,0,0,0,,{\an8\pos(1920,26)\fad(300,500)}Anytime anywhere
-Dialogue: 2,0:23:53.08,0:23:56.08,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\an8\fad(300,500)}遍历万方
-Dialogue: 3,0:23:53.08,0:23:56.08,ED-CN-17-28,,0,0,0,,{\an8\fad(300,500)}遍历万方
+Dialogue: 2,0:23:53.08,0:23:56.08,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\an8\fad(300,500)}遍歷萬方
+Dialogue: 3,0:23:53.08,0:23:56.08,ED-CN-17-28,,0,0,0,,{\an8\fad(300,500)}遍歷萬方
 Dialogue: 0,0:23:54.75,0:23:57.67,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,500)}笑ってみせて
 Dialogue: 1,0:23:54.75,0:23:57.67,ED-JP-17-28,,0,0,0,,{\fad(300,500)}笑ってみせて
-Dialogue: 2,0:23:54.75,0:23:57.67,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}都要笑口常开
-Dialogue: 3,0:23:54.75,0:23:57.67,ED-CN-17-28,,0,0,0,,{\fad(300,500)}都要笑口常开
+Dialogue: 2,0:23:54.75,0:23:57.67,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}都要笑口常開
+Dialogue: 3,0:23:54.75,0:23:57.67,ED-CN-17-28,,0,0,0,,{\fad(300,500)}都要笑口常開
 Dialogue: 0,0:23:56.08,0:23:58.67,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\an8\pos(1920,26)\fad(300,500)}Anytime anywhere
 Dialogue: 1,0:23:56.08,0:23:58.67,ED-JP-17-28,,0,0,0,,{\an8\pos(1920,26)\fad(300,500)}Anytime anywhere
-Dialogue: 2,0:23:56.08,0:23:58.67,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\an8\fad(300,500)}恒长如故
-Dialogue: 3,0:23:56.08,0:23:58.67,ED-CN-17-28,,0,0,0,,{\an8\fad(300,500)}恒长如故
+Dialogue: 2,0:23:56.08,0:23:58.67,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\an8\fad(300,500)}恆長如故
+Dialogue: 3,0:23:56.08,0:23:58.67,ED-CN-17-28,,0,0,0,,{\an8\fad(300,500)}恆長如故
 Dialogue: 0,0:23:57.67,0:24:00.67,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,500)}目を閉じればいつも
 Dialogue: 1,0:23:57.67,0:24:00.67,ED-JP-17-28,,0,0,0,,{\fad(300,500)}目を閉じればいつも
-Dialogue: 2,0:23:57.67,0:24:00.67,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}闭上双眼就能
-Dialogue: 3,0:23:57.67,0:24:00.67,ED-CN-17-28,,0,0,0,,{\fad(300,500)}闭上双眼就能
+Dialogue: 2,0:23:57.67,0:24:00.67,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}閉上雙眼就能
+Dialogue: 3,0:23:57.67,0:24:00.67,ED-CN-17-28,,0,0,0,,{\fad(300,500)}閉上雙眼就能
 Dialogue: 0,0:23:58.67,0:24:00.67,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\an8\pos(1920,26)\fad(300,500)}I'll be there
 Dialogue: 1,0:23:58.67,0:24:00.67,ED-JP-17-28,,0,0,0,,{\an8\pos(1920,26)\fad(300,500)}I'll be there
-Dialogue: 2,0:23:58.67,0:24:00.67,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\an8\fad(300,500)}我仍在那里
-Dialogue: 3,0:23:58.67,0:24:00.67,ED-CN-17-28,,0,0,0,,{\an8\fad(300,500)}我仍在那里
+Dialogue: 2,0:23:58.67,0:24:00.67,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\an8\fad(300,500)}我仍在那裡
+Dialogue: 3,0:23:58.67,0:24:00.67,ED-CN-17-28,,0,0,0,,{\an8\fad(300,500)}我仍在那裡
 Dialogue: 0,0:24:00.67,0:24:03.51,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,500)}絶対なんてなくても
 Dialogue: 1,0:24:00.67,0:24:03.51,ED-JP-17-28,,0,0,0,,{\fad(300,500)}絶対なんてなくても
-Dialogue: 2,0:24:00.67,0:24:03.51,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}即使前路缥缈未定
-Dialogue: 3,0:24:00.67,0:24:03.51,ED-CN-17-28,,0,0,0,,{\fad(300,500)}即使前路缥缈未定
+Dialogue: 2,0:24:00.67,0:24:03.51,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}即使前路縹緲未定
+Dialogue: 3,0:24:00.67,0:24:03.51,ED-CN-17-28,,0,0,0,,{\fad(300,500)}即使前路縹緲未定
 Dialogue: 0,0:24:03.51,0:24:06.59,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,500)}いつでも届いているから
 Dialogue: 1,0:24:03.51,0:24:06.59,ED-JP-17-28,,0,0,0,,{\fad(300,500)}いつでも届いているから
-Dialogue: 2,0:24:03.51,0:24:06.59,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}我也总是心有所念
-Dialogue: 3,0:24:03.51,0:24:06.59,ED-CN-17-28,,0,0,0,,{\fad(300,500)}我也总是心有所念
+Dialogue: 2,0:24:03.51,0:24:06.59,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}我也總是心有所念
+Dialogue: 3,0:24:03.51,0:24:06.59,ED-CN-17-28,,0,0,0,,{\fad(300,500)}我也總是心有所念
 Dialogue: 0,0:24:06.59,0:24:09.64,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,500)}その涙だって大丈夫
 Dialogue: 1,0:24:06.59,0:24:09.64,ED-JP-17-28,,0,0,0,,{\fad(300,500)}その涙だって大丈夫
-Dialogue: 2,0:24:06.59,0:24:09.64,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}纵是落泪也无妨
-Dialogue: 3,0:24:06.59,0:24:09.64,ED-CN-17-28,,0,0,0,,{\fad(300,500)}纵是落泪也无妨
+Dialogue: 2,0:24:06.59,0:24:09.64,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}縱是落淚也無妨
+Dialogue: 3,0:24:06.59,0:24:09.64,ED-CN-17-28,,0,0,0,,{\fad(300,500)}縱是落淚也無妨
 Dialogue: 0,0:24:09.64,0:24:12.97,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,500)}きっと夜が明けるよ
 Dialogue: 1,0:24:09.64,0:24:12.97,ED-JP-17-28,,0,0,0,,{\fad(300,500)}きっと夜が明けるよ
-Dialogue: 2,0:24:09.64,0:24:12.97,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}黎明一定会到来
-Dialogue: 3,0:24:09.64,0:24:12.97,ED-CN-17-28,,0,0,0,,{\fad(300,500)}黎明一定会到来
+Dialogue: 2,0:24:09.64,0:24:12.97,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}黎明一定會到來
+Dialogue: 3,0:24:09.64,0:24:12.97,ED-CN-17-28,,0,0,0,,{\fad(300,500)}黎明一定會到來
 Dialogue: 0,0:24:12.97,0:24:20.02,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\an8\pos(1920,26)\fad(300,0)}I'm whispering our lullaby for you to come back home
 Dialogue: 1,0:24:12.97,0:24:20.02,ED-JP-17-28,,0,0,0,,{\an8\pos(1920,26)\fad(300,0)}I'm whispering our lullaby for you to come back home
-Dialogue: 2,0:24:12.97,0:24:20.02,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\an8\fad(300,0)}我正哼着摇篮曲，愿你回家不迷路
-Dialogue: 3,0:24:12.97,0:24:20.02,ED-CN-17-28,,0,0,0,,{\an8\fad(300,0)}我正哼着摇篮曲，愿你回家不迷路
+Dialogue: 2,0:24:12.97,0:24:20.02,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\an8\fad(300,0)}我正哼著搖籃曲，願你回家不迷路
+Dialogue: 3,0:24:12.97,0:24:20.02,ED-CN-17-28,,0,0,0,,{\an8\fad(300,0)}我正哼著搖籃曲，願你回家不迷路
 Comment: 0,0:00:00.00,0:00:00.00,//,,0,0,0,,————END————
