@@ -1,0 +1,1002 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 3840
+PlayResY: 2160
+LayoutResX: 1920
+LayoutResY: 1080
+Title: 葬送的芙莉莲 - 22.chs
+Original Script: 拨雪寻春（Haruhana）
+Original Translation: 平原、火树银花
+Original Timing: 混乱怪魔、阮芷澧兰
+Script Updated By: 一星、田姆斯邦德、yuygfgg、知世
+Update Details: BD Ver. 2025-11-22 19:06:53
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正屏显雅宋_GBK,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,10,10,10,1
+Style: Dial-JPN,FOT-ModeMinALarge Std M,94,&H00FFFFFF,&H000000FF,&H004C4C4C,&H9B4C4C4C,0,0,0,0,100,100,8,0,1,4,2,2,40,40,51,1
+Style: Dial-CHI,方正屏显雅宋_GBK,122,&H00FFFFFF,&H000000FF,&H004C4C4C,&H9B4C4C4C,0,0,0,0,100,100,10,0,1,4,2,2,40,40,151,1
+Style: Screen,獅尾加糖宋體SC-Regular,80,&H00F6FCFC,&H000000FF,&H00F6FCFC,&H00000000,0,0,0,0,100,100,10,0,1,0,0,2,30,30,320,1
+Style: OP-JP-17-28,獅尾加糖宋體JP-Bold,80,&H00FFFFFF,&H000000FF,&H00666666,&H00000000,0,0,0,0,100,100,6,0,1,0,0,2,10,10,49,1
+Style: OP-CN-17-28,獅尾加糖宋體SC-Bold,110,&H00FCFCFC,&H000000FF,&H00666666,&H00000000,0,0,0,0,100,100,11,0,1,0,0,2,10,10,154,1
+Style: ED-JP-17-28,A-OTF Ryumin Pro B-KL,100,&H00000000,&H000000FF,&H6FFFFFFF,&H00000000,0,0,0,0,100,100,6,0,1,3,0,2,10,10,49,1
+Style: ED-CN-17-28,方正中雅宋_GBK,122,&H00000000,&H000000FF,&H6FFFFFFF,&H00000000,0,0,0,0,100,100,11,0,1,4,0,2,10,10,154,1
+Style: Ruby,獅尾加糖宋體SC-Regular,60,&H00FFFFFF,&H000000FF,&H004C4C4C,&H9B4C4C4C,0,0,0,0,100,100,3,0,1,4,2,2,40,40,290,1
+Style: CHS - Title,方正FW筑紫明朝 简 L,112,&H00F6FDFB,&H000000FF,&H00F6F6ED,&H00000000,0,0,0,0,100,100,10,0,1,0,0,2,20,20,20,1
+Style: CHS - Staff-17-28,獅尾加糖宋體SC-Black,96,&H00FFFFFF,&H000000FF,&H00666666,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,0,0,0,1
+Style: CHS - Staff-17-28-2,獅尾加糖宋體SC-Bold,96,&H00FFFFFF,&H000000FF,&H00666666,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:25.00,0:00:25.05,Default,,0,0,0,,————制作信息（定位帧）————
+Dialogue: 0,0:00:25.67,0:00:29.63,CHS - Staff-17-28-2,BLUR,0,0,0,,{\1a&ff\fscx90\fscy98\an5\3c&4C4C4C\fs69\fsp7\bord4.5\blur4\pos(1923.93,1354.9)}{\3a&f4\t(17,476,\3a&66)\t(3444,3938,\3a&ee)}译制
+Dialogue: 1,0:00:25.67,0:00:29.63,CHS - Staff-17-28-2,bord,0,0,0,,{\1a&ff\fscx90\fscy98\an5\3c&676767\fs69\fsp7\blur0.5\bord2\pos(1923.93,1354.9)}{\3a&f4\t(17,476,\3a&0)\t(3444,3938,\3a&ee)}译制
+Dialogue: 2,0:00:25.67,0:00:29.63,CHS - Staff-17-28-2,加粗,0,0,0,,{\fscx90\fscy98\an5\3c&ffffff\fs69\fsp7\ybord0.1\pos(1923.93,1354.9)}{\alpha&e8\t(17,476,\alpha&0)\t(3444,3945,\alpha&e8)}译制
+Dialogue: 0,0:00:25.67,0:00:29.63,CHS - Staff-17-28-2,BLUR,0,0,0,,{\1a&ff\fscy97\an5\3c&4C4C4C\fs82\fsp7.5\bord3.5\blur3\pos(1924.38,1441.97)}{\3a&f4\t(17,476,\3a&44)\t(3444,3938,\3a&ee)}拨雪寻春
+Dialogue: 0,0:00:25.67,0:00:29.63,CHS - Staff-17-28-2,bord,0,0,0,,{\1a&ff\fscy97\an5\3c&676767\fs82\fsp7.5\blur0.5\bord2\pos(1924.38,1441.97)}{\3a&f4\t(17,476,\3a&0)\t(3444,3938,\3a&ee)}拨雪寻春
+Dialogue: 0,0:00:25.67,0:00:29.63,CHS - Staff-17-28-2,,0,0,0,,{\fscy97\an5\3c&ffffff\fs82\fsp7.5\pos(1924.38,1441.97)}{\alpha&e8\t(17,476,\alpha&0)\t(3444,3938,\alpha&e8)}拨雪寻春
+Dialogue: 0,0:00:25.67,0:00:29.63,CHS - Staff-17-28-2,BLUR,0,0,0,,{\1a&ff\an8\3c&4C4C4C\fs59\bord3\blur3\pos(1922.96,1489.5)}{\3a&f4\t(17,476,\3a&0)\t(3444,3938,\3a&ee)}本字幕基{\fsp-10}于{\fsp}「{\fsp}AGPLv3通用协{\fsp5}议{\fsp-12}」{\fsp}许可使用
+Dialogue: 0,0:00:25.67,0:00:29.63,CHS - Staff-17-28-2,bord,0,0,0,,{\1a&ff\an8\3c&676767\fs59\blur0.5\bord1.5\pos(1922.96,1489.5)\fscx100\fscy101}{\3a&f4\t(17,476,\3a&0)\t(3444,3938,\3a&ee)}本字幕基{\fsp-10}于{\fsp}「{\fsp}AGPLv3通用协{\fsp5}议{\fsp-12}」{\fsp}许可使用
+Dialogue: 0,0:00:25.67,0:00:29.63,CHS - Staff-17-28-2,加粗,0,0,0,,{\an8\3c&ffffff\fs59\bord0.1\pos(1922.96,1489.5)\fscx100\fscy101}{\alpha&e8\t(17,476,\alpha&0)\t(3444,3938,\alpha&e8)}本字幕基{\fsp-10}于{\fsp}「{\fsp}AGPLv3通用协{\fsp5}议{\fsp-12}」{\fsp}许可使用
+Dialogue: 0,0:00:30.13,0:00:34.18,CHS - Staff-17-28-2,BLUR,0,0,0,,{\1a&ff\fscx98\fscy98\an5\3c&4C4C4C\fs69\fsp\bord3.5\blur2.2\pos(778.38,682.02)}{\3a&f8\t(17,518,\3a&44)\t(3521,4021,\3a&f8)}校对
+Dialogue: 0,0:00:30.13,0:00:34.18,CHS - Staff-17-28-2,bord,0,0,0,,{\1a&ff\fscx98\fscy98\an5\3c&676767\fs69\fsp\blur0.5\bord2\pos(778.38,682.02)}{\3a&ee\t(17,518,\3a&0)\t(3521,4021,\3a&ee)}校对
+Dialogue: 0,0:00:30.13,0:00:34.18,CHS - Staff-17-28-2,加粗,0,0,0,,{\fscx98\fscy98\an5\3c&ffffff\fs69\fsp\ybord0.1\pos(778.38,682.02)}{\alpha&dd\t(17,518,\alpha&0)\t(3521,4021,\alpha&df)}校对
+Dialogue: 0,0:00:30.13,0:00:34.18,CHS - Staff-17-28-2,BLUR,0,0,0,,{\1a&ff\fscy97\an5\3c&4C4C4C\fs82\fsp7.5\bord3.5\blur3\pos(784.47,791.52)}{\3a&f8\t(17,518,\3a&44)\t(3521,4021,\3a&f8)}火树银花
+Dialogue: 0,0:00:30.13,0:00:34.18,CHS - Staff-17-28-2,bord,0,0,0,,{\1a&ff\fscy97\an5\3c&676767\fs82\fsp7.5\blur0.5\bord2\pos(784.47,791.52)}{\3a&ee\t(17,518,\3a&0)\t(3521,4021,\3a&ee)}火树银花
+Dialogue: 0,0:00:30.13,0:00:34.18,CHS - Staff-17-28-2,,0,0,0,,{\fscy97\an5\3c&ffffff\fs82\fsp7.5\pos(784.47,791.52)}{\alpha&dd\t(17,518,\alpha&0)\t(3521,4021,\alpha&df)}火树银花
+Dialogue: 0,0:00:30.13,0:00:34.18,CHS - Staff-17-28-2,BLUR,0,0,0,,{\1a&ff\fscx\fscy98\an5\3c&4C4C4C\fs69\fsp\bord3.5\blur2.2\pos(777.92,1368.44)}{\3a&f8\t(17,518,\3a&0)\t(3521,4021,\3a&f8)}翻译
+Dialogue: 0,0:00:30.13,0:00:34.18,CHS - Staff-17-28-2,bord,0,0,0,,{\1a&ff\fscx\fscy98\an5\3c&676767\fs69\fsp\blur0.5\bord2\pos(777.92,1368.44)}{\3a&ee\t(17,518,\3a&0)\t(3521,4021,\3a&ee)}翻译
+Dialogue: 0,0:00:30.13,0:00:34.18,CHS - Staff-17-28-2,加粗,0,0,0,,{\fscx\fscy98\an5\3c&ffffff\fs69\fsp\ybord0.1\pos(777.92,1368.44)}{\alpha&dd\t(17,518,\alpha&0)\t(3521,4021,\alpha&df)}翻译
+Dialogue: 0,0:00:30.13,0:00:34.18,CHS - Staff-17-28-2,BLUR,0,0,0,,{\1a&ff\fscy97\an5\3c&4C4C4C\fs82\fsp7.5\bord3.5\blur3\pos(784.36,1474.83)}{\3a&f8\t(17,518,\3a&22)\t(3521,4021,\3a&f8)}平原
+Dialogue: 0,0:00:30.13,0:00:34.18,CHS - Staff-17-28-2,bord,0,0,0,,{\1a&ff\fscy97\an5\3c&676767\fs82\fsp7.5\blur0.5\bord2\pos(784.36,1474.83)}{\3a&ee\t(17,518,\3a&0)\t(3521,4021,\3a&ee)}平原
+Dialogue: 0,0:00:30.13,0:00:34.18,CHS - Staff-17-28-2,,0,0,0,,{\fscy97\an5\3c&ffffff\fs82\fsp7.5\pos(784.36,1474.83)}{\alpha&dd\t(17,518,\alpha&0)\t(3521,4021,\alpha&df)}平原
+Dialogue: 0,0:00:30.13,0:00:34.18,CHS - Staff-17-28-2,BLUR,0,0,0,,{\1a&ff\fscy97\an5\3c&4C4C4C\fs82\fsp7.5\bord3.5\blur3\pos(784.36,1574.55)}{\3a&f8\t(17,518,\3a&44)\t(3521,4021,\3a&f8)}火树银花
+Dialogue: 0,0:00:30.13,0:00:34.18,CHS - Staff-17-28-2,bord,0,0,0,,{\1a&ff\fscy97\an5\3c&676767\fs82\fsp7.5\blur0.5\bord2\pos(784.36,1574.55)}{\3a&ee\t(17,518,\3a&0)\t(3521,4021,\3a&ee)}火树银花
+Dialogue: 0,0:00:30.13,0:00:34.18,CHS - Staff-17-28-2,,0,0,0,,{\fscy97\an5\3c&ffffff\fs82\fsp7.5\pos(784.36,1574.55)}{\alpha&dd\t(17,518,\alpha&0)\t(3521,4021,\alpha&df)}火树银花
+Dialogue: 0,0:00:34.47,0:00:38.77,CHS - Staff-17-28-2,BLUR,0,0,0,,{\1a&ff\fscx\fscy98\an5\3c&4c4c4c\fs69\fsp\bord4\blur2.5\pos(777.92,1368.44)}{\3a&ee\t(17,525,\3a&44)\t(3779,4279,\3a&ee)}繁化
+Dialogue: 0,0:00:34.47,0:00:38.77,CHS - Staff-17-28-2,bord,0,0,0,,{\1a&ff\fscx\fscy98\an5\3c&676767\fs69\fsp\blur0.5\bord2\pos(777.92,1368.44)}{\3a&ee\t(17,525,\3a&0)\t(3779,4279,\3a&ee)}繁化
+Dialogue: 0,0:00:34.47,0:00:38.77,CHS - Staff-17-28-2,加粗,0,0,0,,{\fscx\fscy98\an5\3c&ffffff\fs69\fsp\ybord0.1\pos(777.92,1368.44)}{\alpha&e8\t(17,525,\alpha&0)\t(3779,4279,\alpha&df)}繁化
+Dialogue: 0,0:00:34.47,0:00:38.77,CHS - Staff-17-28-2,BLUR,0,0,0,,{\1a&ff\fscy97\an5\3c&4c4c4c\fs82\fsp7.5\bord5\blur3\pos(784.36,1474.83)}{\3a&ee\t(17,525,\3a&66)\t(3779,4279,\3a&ee)}一星
+Dialogue: 0,0:00:34.47,0:00:38.77,CHS - Staff-17-28-2,bord,0,0,0,,{\1a&ff\fscy97\an5\3c&676767\fs82\fsp7.5\blur0.5\bord2\pos(784.36,1474.83)}{\3a&ee\t(17,525,\3a&0)\t(3779,4279,\3a&ee)}一星
+Dialogue: 0,0:00:34.47,0:00:38.77,CHS - Staff-17-28-2,,0,0,0,,{\fscy97\an5\3c&ffffff\fs82\fsp7.5\pos(784.36,1474.83)}{\alpha&e8\t(17,525,\alpha&0)\t(3779,4279,\alpha&df)}一星
+Dialogue: 0,0:00:34.47,0:00:38.77,CHS - Staff-17-28-2,BLUR,0,0,0,,{\1a&ff\fscx\fscy98\an5\3c&676767\fs69\fsp\bord3.5\blur2.2\pos(3019.67,1367.75)}{\3a&ee\t(17,525,\3a&22)\t(3779,4279,\3a&ee)}轴效
+Dialogue: 0,0:00:34.47,0:00:38.77,CHS - Staff-17-28-2,bord,0,0,0,,{\1a&ff\fscx\fscy98\an5\3c&676767\fs69\fsp\blur0.5\bord2\pos(3019.67,1367.75)}{\3a&ee\t(17,525,\3a&0)\t(3779,4279,\3a&ee)}轴效
+Dialogue: 0,0:00:34.47,0:00:38.77,CHS - Staff-17-28-2,加粗,0,0,0,,{\fscx\fscy98\an5\3c&ffffff\fs69\fsp\ybord0.1\pos(3019.67,1367.75)}{\alpha&e8\t(17,525,\alpha&0)\t(3779,4279,\alpha&df)}轴效
+Dialogue: 0,0:00:34.47,0:00:38.77,CHS - Staff-17-28-2,BLUR,0,0,0,,{\1a&ff\fscy97\an5\3c&333333\fs82\fsp7.5\bord3.5\blur2.5\pos(3025.67,1473.75)}{\3a&ee\t(17,525,\3a&44)\t(3779,4279,\3a&ee)}混乱怪魔
+Dialogue: 0,0:00:34.47,0:00:38.77,CHS - Staff-17-28-2,bord,0,0,0,,{\1a&ff\fscy97\an5\3c&676767\fs82\fsp7.5\blur0.5\bord1\pos(3025.67,1473.75)}{\3a&ee\t(17,525,\3a&0)\t(3779,4279,\3a&ee)}混乱怪魔
+Dialogue: 0,0:00:34.47,0:00:38.77,CHS - Staff-17-28-2,,0,0,0,,{\fscy97\an5\3c&ffffff\fs82\fsp7.5\pos(3025.67,1473.75)}{\alpha&e8\t(17,525,\alpha&0)\t(3779,4279,\alpha&df)}混乱怪魔
+Dialogue: 0,0:00:34.47,0:00:38.77,CHS - Staff-17-28-2,BLUR,0,0,0,,{\1a&ff\fscy97\an5\3c&333333\fs82\fsp7.5\bord3.5\blur2.5\pos(3029.56,1573.85)}{\3a&ee\t(17,525,\3a&44)\t(3779,4279,\3a&ee)}沅芷澧兰
+Dialogue: 0,0:00:34.47,0:00:38.77,CHS - Staff-17-28-2,bord,0,0,0,,{\1a&ff\fscy97\an5\3c&676767\fs82\fsp7.5\blur0.5\bord1\pos(3029.56,1573.85)}{\3a&ee\t(17,525,\3a&0)\t(3779,4279,\3a&ee)}沅芷澧兰
+Dialogue: 0,0:00:34.47,0:00:38.77,CHS - Staff-17-28-2,,0,0,0,,{\fscy97\an5\3c&ffffff\fs82\fsp7.5\pos(3029.56,1573.85)}{\alpha&e8\t(17,525,\alpha&0)\t(3779,4279,\alpha&df)}沅芷澧兰
+Dialogue: 0,0:00:39.23,0:00:43.06,CHS - Staff-17-28,BLUR,0,0,0,,{\1a&ff\fscx\fscy98\an5\3c&595959\fs69\fsp\bord6.5\blur1.7\pos(600.45,1399.21)}{\3a&ff\t(17,520,\3a&88)\t(3314,3815,\3a&ff)}压制
+Dialogue: 0,0:00:39.23,0:00:43.06,CHS - Staff-17-28,bord,0,0,0,,{\1a&ff\fscx\fscy98\an5\3c&595959\fs69\fsp\blur0.5\bord2\pos(600.45,1399.21)}{\3a&ee\t(17,520,\3a&44)\t(3314,3815,\3a&ee)}压制
+Dialogue: 0,0:00:39.23,0:00:43.06,CHS - Staff-17-28,加粗,0,0,0,,{\fscx\fscy98\an5\3c&ffffff\fs69\fsp\ybord0.1\pos(600.45,1399.21)}{\alpha&e8\t(17,520,\alpha&0)\t(3314,3815,\alpha&e8)}压制
+Dialogue: 0,0:00:39.23,0:00:43.06,CHS - Staff-17-28,BLUR,0,0,0,,{\1a&ff\fscy97\an5\3c&595959\fs82\fsp7.5\bord6.5\blur1.7\pos(606.45,1505.21)}{\3a&ff\t(17,520,\3a&88)\t(3314,3815,\3a&ff)}田姆斯邦德
+Dialogue: 0,0:00:39.23,0:00:43.06,CHS - Staff-17-28,bord,0,0,0,,{\1a&ff\fscy97\an5\3c&595959\fs82\fsp7.5\blur0.5\bord2\pos(606.45,1505.21)}{\3a&ee\t(17,520,\3a&44)\t(3314,3815,\3a&ee)}田姆斯邦德
+Dialogue: 0,0:00:39.23,0:00:43.06,CHS - Staff-17-28,,0,0,0,,{\fscy97\an5\3c&ffffff\fs82\fsp7.5\pos(606.45,1505.21)}{\alpha&e8\t(17,520,\alpha&0)\t(3314,3815,\alpha&e8)}田姆斯邦德
+Dialogue: 0,0:00:39.23,0:00:43.06,CHS - Staff-17-28,BLUR,0,0,0,,{\1a&ff\an5\3c&595959\fs82\fsp2\bord6.5\blur1.7\fscx100\fscy97\pos(605.73,1603.65)}{\3a&ff\t(17,520,\3a&88)\t(3314,3815,\3a&ff)}yuygfgg
+Dialogue: 0,0:00:39.23,0:00:43.06,CHS - Staff-17-28,bord,0,0,0,,{\1a&ff\an5\3c&595959\fs82\fsp2\blur0.5\bord2\fscx100\fscy97\pos(605.73,1603.65)}{\3a&ee\t(17,520,\3a&44)\t(3314,3815,\3a&ee)}yuygfgg
+Dialogue: 0,0:00:39.23,0:00:43.06,CHS - Staff-17-28,,0,0,0,,{\an5\3c&ffffff\fs82\fsp2\fscx100\fscy97\pos(605.73,1603.65)}{\alpha&e8\t(17,520,\alpha&0)\t(3314,3815,\alpha&e8)}yuygfgg
+Dialogue: 0,0:00:39.23,0:00:43.06,CHS - Staff-17-28,BLUR,0,0,0,,{\1a&ff\fscx\fscy98\an5\3c&595959\fs69\fsp\bord6.5\blur1.7\pos(600.45,1802.19)}{\3a&ff\t(17,520,\3a&88)\t(3314,3815,\3a&ff)}美工
+Dialogue: 0,0:00:39.23,0:00:43.06,CHS - Staff-17-28,bord,0,0,0,,{\1a&ff\fscx\fscy98\an5\3c&595959\fs69\fsp\blur0.5\bord2\pos(600.45,1802.19)}{\3a&ee\t(17,520,\3a&0)\t(3314,3815,\3a&ee)}美工
+Dialogue: 0,0:00:39.23,0:00:43.06,CHS - Staff-17-28,加粗,0,0,0,,{\fscx\fscy98\an5\3c&ffffff\fs69\fsp\ybord0.1\pos(600.45,1802.19)}{\alpha&e8\t(17,520,\alpha&0)\t(3314,3815,\alpha&e8)}美工
+Dialogue: 0,0:00:39.23,0:00:43.06,CHS - Staff-17-28,BLUR,0,0,0,,{\1a&ff\fscy97\an5\3c&595959\fs82\fsp7.5\bord6.5\blur1.7\pos(606.45,1908.19)}{\3a&ff\t(17,520,\3a&88)\t(3314,3815,\3a&ff)}知世
+Dialogue: 0,0:00:39.23,0:00:43.06,CHS - Staff-17-28,bord,0,0,0,,{\1a&ff\fscy97\an5\3c&595959\fs82\fsp7.5\blur0.5\bord2\pos(606.45,1908.19)}{\3a&ee\t(17,520,\3a&0)\t(3314,3815,\3a&ee)}知世
+Dialogue: 0,0:00:39.23,0:00:43.06,CHS - Staff-17-28,,0,0,0,,{\fscy97\an5\3c&ffffff\fs82\fsp7.5\pos(606.45,1908.19)}{\alpha&e8\t(17,520,\alpha&0)\t(3314,3815,\alpha&e8)}知世
+Comment: 0,0:00:19.37,0:00:21.38,//,,0,0,0,,————台词————
+Dialogue: 1,0:00:05.44,0:00:06.99,Dial-CHI,,0,0,0,,{\c&EDD4C5\bord1.5\blur0.7\3c&1A1A1A&\4c&1A1A1A&}现在我宣布
+Dialogue: 0,0:00:05.44,0:00:06.99,Dial-JPN,,0,0,0,,{\c&EDD4C5\bord1.5\blur0.7\3c&1A1A1A&\4c&1A1A1A&}現時刻をもって
+Dialogue: 1,0:00:06.99,0:00:09.36,Dial-CHI,,0,0,0,,{\c&EDD4C5\bord1.5\blur0.7\3c&1A1A1A&\4c&1A1A1A&}第一场考核正式结束
+Dialogue: 0,0:00:06.99,0:00:09.36,Dial-JPN,,0,0,0,,{\c&EDD4C5\bord1.5\blur0.7\3c&1A1A1A&\4c&1A1A1A&}第一次試験を終了とする
+Dialogue: 6,0:00:10.20,0:00:11.37,Dial-CHI,,0,0,0,,{\c&FFEDDB}{\3c&1A1A1A\4c&1A1A1A}{\bord2\blur0.7}{\pos(1960,1612.2)}第一场考核的合格者
+Dialogue: 5,0:00:10.20,0:00:11.37,Dial-JPN,,0,0,0,,{\c&FFEDDB}{\3c&1A1A1A\4c&1A1A1A}{\bord2\blur0.7}{\pos(1960,1712.2)}第一次試験合格者は
+Dialogue: 6,0:00:11.37,0:00:12.41,Dial-CHI,,0,0,0,,{\c&FFE7D9\3c&1A1A1A\4c&1A1A1A\bord2\blur0.7\pos(1960,1612.2)}第一场考核的合格者
+Dialogue: 5,0:00:11.37,0:00:12.41,Dial-JPN,,0,0,0,,{\c&FFE7D9\3c&1A1A1A\4c&1A1A1A\bord2\blur0.7\pos(1960,1712.2)}第一次試験合格者は
+Dialogue: 1,0:00:12.41,0:00:13.37,Dial-CHI,,0,0,0,,{\c&FFE7D9\3c&1A1A1A\4c&1A1A1A\bord2\blur0.7\pos(1960,1612.2)}共6队18人
+Dialogue: 0,0:00:12.41,0:00:13.37,Dial-JPN,,0,0,0,,{\c&FFE7D9\3c&1A1A1A\4c&1A1A1A\bord2\blur0.7\pos(1960,1712.2)}計６パーティー18名
+Dialogue: 1,0:00:13.37,0:00:14.41,Dial-CHI,,0,0,0,,{\c&EDD6C7}{\3c&1A1A1A\4c&1A1A1A}{\bord2\blur0.7}{\pos(1960,1612.2)}共6队18人
+Dialogue: 0,0:00:13.37,0:00:14.41,Dial-JPN,,0,0,0,,{\c&EDD6C7}{\3c&1A1A1A\4c&1A1A1A}{\bord2\blur0.7}{\pos(1960,1712.2)}計６パーティー18名
+Dialogue: 1,0:00:15.37,0:00:17.37,Dial-CHI,,0,0,0,,{\c&F2DACB\3c&1A1A1A\4c&1A1A1A\bord1.5\blur0.7\pos(1960,1612.2)}第二场考核三天后举行
+Dialogue: 0,0:00:15.37,0:00:17.37,Dial-JPN,,0,0,0,,{\c&F2DACB\3c&1A1A1A\4c&1A1A1A\bord1.5\blur0.7\pos(1960,1712.2)}第二次試験は 3 日後だ
+Dialogue: 1,0:00:18.21,0:00:19.37,Dial-CHI,,0,0,0,,{\c&FAE4D7}{\3c&1A1A1A\4c&1A1A1A}{\bord1.5\blur0.7}{\pos(1960,1612.2)}详情将另行通知
+Dialogue: 0,0:00:18.21,0:00:19.37,Dial-JPN,,0,0,0,,{\c&FAE4D7}{\3c&1A1A1A\4c&1A1A1A}{\bord1.5\blur0.7}{\pos(1960,1712.2)}詳細については追って通達する
+Dialogue: 1,0:00:19.37,0:00:20.71,Dial-CHI,,0,0,0,,{\c&FFE9DB\3c&1A1A1A\4c&1A1A1A\bord1.2\blur0.7\pos(1960,1612.2)}详情将另行通知
+Dialogue: 0,0:00:19.37,0:00:20.71,Dial-JPN,,0,0,0,,{\c&FFE9DB\3c&1A1A1A\4c&1A1A1A\bord1.2\blur0.7\pos(1960,1712.2)}詳細については追って通達する
+Dialogue: 1,0:00:22.13,0:00:23.29,Dial-CHI,,0,0,0,,{\c&D6C2B6}{\bord1.5\blur0.7}{\3c&000000\4c&000000}完毕
+Dialogue: 0,0:00:22.13,0:00:23.29,Dial-JPN,,0,0,0,,{\c&D6C2B6}{\bord1.5\blur0.7}{\3c&000000\4c&000000}以上だ
+Dialogue: 1,0:00:23.29,0:00:24.13,Dial-CHI,,0,0,0,,{\c&D6C2B6}{\bord1.5\blur0.7}{\3c&000000\4c&000000}解散
+Dialogue: 0,0:00:23.29,0:00:24.13,Dial-JPN,,0,0,0,,{\c&D6C2B6}{\bord1.5\blur0.7}{\3c&000000\4c&000000}解散
+Dialogue: 1,0:02:11.44,0:02:13.45,Dial-CHI,,0,0,0,,{\c&D7E8FA\bord1\blur0.7\3c&3F3D4A\4c&3F3D4A}已经傍晚了吗
+Dialogue: 0,0:02:11.44,0:02:13.45,Dial-JPN,,0,0,0,,{\c&D7E8FA\bord1\blur0.7\3c&3F3D4A\4c&3F3D4A}夕方か
+Dialogue: 1,0:02:13.45,0:02:16.41,Dial-CHI,,0,0,0,,{\c&D7E8FA\bord1\blur0.7\3c&3F3D4A\4c&3F3D4A}懒散的感觉还真不赖
+Dialogue: 0,0:02:13.45,0:02:16.41,Dial-JPN,,0,0,0,,{\c&D7E8FA\bord1\blur0.7\3c&3F3D4A\4c&3F3D4A}だらだらするのも悪くはないな
+Dialogue: 1,0:02:25.25,0:02:26.67,Dial-CHI,,0,1511,0,,{\c&CEDBF5}{\bord2\blur0.7}{\3c&324663\4c&324663}怎么了
+Dialogue: 0,0:02:25.25,0:02:26.67,Dial-JPN,,0,1511,0,,{\c&CEDBF5}{\bord2\blur0.7}{\3c&324663\4c&324663}何だ
+Dialogue: 1,0:02:30.00,0:02:31.55,Dial-CHI,,0,0,0,,{\c&7E7896\3c&07070A\4c&07070A\bord1.5}来了来了
+Dialogue: 0,0:02:30.00,0:02:31.55,Dial-JPN,,0,0,0,,{\c&7E7896\3c&07070A\4c&07070A\bord1.5}はいは～い
+Dialogue: 1,0:02:43.60,0:02:44.60,Dial-CHI,,0,0,0,,{\c&9FA2BF}{\bord1.5\blur0.7}{\3c&000000\4c&000000}菲伦
+Dialogue: 0,0:02:43.60,0:02:44.60,Dial-JPN,,0,0,0,,{\c&9FA2BF}{\bord1.5\blur0.7}{\3c&000000\4c&000000}フェルン
+Dialogue: 1,0:02:45.06,0:02:47.81,Dial-CHI,,0,0,0,,{\c&9FA2BF}{\bord1.5\blur0.7}{\3c&000000\4c&000000}你们不是去参加一级魔法使考核了吗
+Dialogue: 0,0:02:45.06,0:02:47.81,Dial-JPN,,0,0,0,,{\c&9FA2BF}{\bord1.5\blur0.7}{\3c&000000\4c&000000}一級魔法使いの試験に行ってたんじゃ
+Dialogue: 1,0:02:48.57,0:02:52.32,Dial-CHI,,0,0,0,,{\c&C7D7F0\bord1.2\blur0.7\3c&000000\4c&000000}第一场考核结束了 我们昨天晚上就回来了
+Dialogue: 0,0:02:48.57,0:02:52.32,Dial-JPN,,0,0,0,,{\c&C7D7F0\bord1.2\blur0.7\3c&000000\4c&000000}第一次試験が終わって　昨日の夜に帰ってきました
+Dialogue: 1,0:02:53.03,0:02:56.74,Dial-CHI,,0,0,0,,{\c&C7D7F0\bord1.2\blur0.7\3c&000000\4c&000000}休塔尔克大人 现在已经傍晚了吧
+Dialogue: 0,0:02:53.03,0:02:56.74,Dial-JPN,,0,0,0,,{\c&C7D7F0\bord1.2\blur0.7\3c&000000\4c&000000}シュタルク様　今　夕方ですよね
+Dialogue: 1,0:02:59.99,0:03:01.41,Dial-CHI,,0,0,0,,{\c&D4E1FA}{\bord2\blur0.7\3c&2C3440\4c&2C3440}您一直在睡吧
+Dialogue: 0,0:02:59.99,0:03:01.41,Dial-JPN,,0,0,0,,{\c&D4E1FA}{\bord2\blur0.7\3c&2C3440\4c&2C3440}寝てたでしょ
+Dialogue: 1,0:03:04.16,0:03:05.54,Dial-CHI,,0,0,0,,{\c&D4E1FA}{\bord3}{\blur0.7\3c&3C424C\4c&3C424C}熬夜了吗
+Dialogue: 0,0:03:04.16,0:03:05.54,Dial-JPN,,0,0,0,,{\c&D4E1FA}{\bord3}{\blur0.7\3c&3C424C\4c&3C424C}夜更かししたの?
+Dialogue: 1,0:03:07.83,0:03:08.42,Dial-CHI,,0,222,0,,{\c&AFB9E0\3c&000000\4c&000000\bord1.3\blur0.7}是的
+Dialogue: 0,0:03:07.83,0:03:08.42,Dial-JPN,,0,222,0,,{\c&AFB9E0\3c&000000\4c&000000\bord1.3\blur0.7}はい
+Dialogue: 1,0:03:08.96,0:03:09.92,Dial-CHI,,0,0,0,,{\c&D9E6FF}{\bord0.7\blur0.7}{\3c&3D4054\4c&3D4054}还做了什么
+Dialogue: 0,0:03:08.96,0:03:09.92,Dial-JPN,,0,0,0,,{\c&D9E6FF}{\bord0.7\blur0.7}{\3c&3D4054\4c&3D4054}他には?
+Dialogue: 1,0:03:10.80,0:03:13.30,Dial-CHI,,1444,0,0,,{\c&AFBCE0\3c&2B2D41\4c&2B2D41\bord1.5\blur0.7}还在夜里喝了果汁
+Dialogue: 0,0:03:10.80,0:03:13.30,Dial-JPN,,1444,0,0,,{\c&AFBCE0\3c&2B2D41\4c&2B2D41\bord1.5\blur0.7}夜中にジュースも飲みました
+Dialogue: 1,0:03:15.01,0:03:17.80,Dial-CHI,,0,0,0,,{\c&BFD2F5}{\bord1.5\blur0.7\3c&3C424C\4c&3C424C}抱歉 我知道错了
+Dialogue: 0,0:03:15.01,0:03:17.80,Dial-JPN,,0,0,0,,{\c&BFD2F5}{\bord1.5\blur0.7\3c&3C424C\4c&3C424C}ごめん　ごめんってば
+Dialogue: 1,0:03:18.68,0:03:19.30,Dial-CHI,,0,0,0,,{\c&BFD2F5}{\bord1.5\blur0.7\3c&3C424C\4c&3C424C}又惹菲伦生气了
+Dialogue: 0,0:03:18.68,0:03:19.30,Dial-JPN,,0,0,0,,{\c&BFD2F5}{\bord1.5\blur0.7\3c&3C424C\4c&3C424C}怒らせちゃった
+Dialogue: 1,0:03:19.30,0:03:20.18,Dial-CHI,,0,0,0,,{\c&A5ACCC\bord1.5\blur0.7\3c&000000\4c&000000}又惹菲伦生气了
+Dialogue: 0,0:03:19.30,0:03:20.18,Dial-JPN,,0,0,0,,{\c&A5ACCC\bord1.5\blur0.7\3c&000000\4c&000000}怒らせちゃった
+Dialogue: 1,0:03:20.93,0:03:24.35,Dial-CHI,,0,0,0,,{\c&A5ACCC\bord1.5\blur0.7\3c&000000\4c&000000}芙莉莲大人 您也刚睡醒吧
+Dialogue: 0,0:03:20.93,0:03:24.35,Dial-JPN,,0,0,0,,{\c&A5ACCC\bord1.5\blur0.7\3c&000000\4c&000000}フリーレン様も　さっき起きたばかりですよね
+Dialogue: 1,0:03:24.35,0:03:26.06,Dial-CHI,,0,0,0,,{\c&A5ACCC\bord1.5\blur0.7\3c&000000\4c&000000}迁怒于我了
+Dialogue: 0,0:03:24.35,0:03:26.06,Dial-JPN,,0,0,0,,{\c&A5ACCC\bord1.5\blur0.7\3c&000000\4c&000000}飛び火した
+Dialogue: 1,0:03:29.52,0:03:32.36,Dial-CHI,,0,0,0,,{\c&C7E0FF}{\bord2\blur0.7\3c&14191F\4c&14191F}看来今天得哄菲伦开心了
+Dialogue: 0,0:03:29.52,0:03:32.36,Dial-JPN,,0,0,0,,{\c&C7E0FF}{\bord2\blur0.7\3c&14191F\4c&14191F}こりゃ今日はフェルンのご機嫌取りだね
+Dialogue: 1,0:03:32.82,0:03:34.53,Dial-CHI,,0,0,0,,{\c&C7E0FF}{\bord2\blur0.7\3c&14191F\4c&14191F}怎么哄啊
+Dialogue: 0,0:03:32.82,0:03:34.53,Dial-JPN,,0,0,0,,{\c&C7E0FF}{\bord2\blur0.7\3c&14191F\4c&14191F}どうするつもりだよ
+Dialogue: 1,0:03:35.15,0:03:37.49,Dial-CHI,,0,0,0,,{\c&C7E0FF}{\bord2\blur0.7\3c&14191F\4c&14191F}带她去吃好吃的
+Dialogue: 0,0:03:35.15,0:03:37.49,Dial-JPN,,0,0,0,,{\c&C7E0FF}{\bord2\blur0.7\3c&14191F\4c&14191F}おいしいものでも食べに行こうか
+Dialogue: 1,0:03:37.49,0:03:38.82,Dial-CHI,,0,0,0,,{\c&C7E0FF}{\bord2\blur0.7\3c&14191F\4c&14191F}吃好吃的?
+Dialogue: 0,0:03:37.49,0:03:38.82,Dial-JPN,,0,0,0,,{\c&C7E0FF}{\bord2\blur0.7\3c&14191F\4c&14191F}おいしいもの?
+Dialogue: 1,0:03:39.41,0:03:40.91,Dial-CHI,,0,0,0,,{\c&CCE3FF\bord2\blur0.7\3c&2F3945\4c&2F3945}虽然有点贵
+Dialogue: 0,0:03:39.41,0:03:40.91,Dial-JPN,,0,0,0,,{\c&CCE3FF\bord2\blur0.7\3c&2F3945\4c&2F3945}ちょっと高いけど
+Dialogue: 1,0:03:40.91,0:03:42.74,Dial-CHI,,0,0,0,,{\c&CCE3FF\bord2\blur0.7\3c&2F3945\4c&2F3945}我之前和辛美尔他们来的时候
+Dialogue: 0,0:03:40.91,0:03:42.74,Dial-JPN,,0,0,0,,{\c&CCE3FF\bord2\blur0.7\3c&2F3945\4c&2F3945}前にヒンメルたちと来た時に
+Dialogue: 1,0:03:42.74,0:03:44.58,Dial-CHI,,0,0,0,,{\c&CCE3FF\bord2\blur0.7\3c&2F3945\4c&2F3945}找到了一家好店
+Dialogue: 0,0:03:42.74,0:03:44.58,Dial-JPN,,0,0,0,,{\c&CCE3FF\bord2\blur0.7\3c&2F3945\4c&2F3945}いい店を見つけたんだよね
+Dialogue: 1,0:03:45.08,0:03:48.17,Dial-CHI,,0,0,0,,{\c&CCDCFF}{\bord2\blur0.7\3c&171F26\4c&171F26}那已经是80年前的事了
+Dialogue: 0,0:03:45.08,0:03:48.17,Dial-JPN,,0,0,0,,{\c&CCDCFF}{\bord2\blur0.7\3c&171F26\4c&171F26}それ　80 年以上前のことだろ
+Dialogue: 1,0:03:48.17,0:03:49.50,Dial-CHI,,0,0,0,,{\c&CCDCFF}{\bord2\blur0.7\3c&171F26\4c&171F26}那家店还在吗
+Dialogue: 0,0:03:48.17,0:03:49.50,Dial-JPN,,0,0,0,,{\c&CCDCFF}{\bord2\blur0.7\3c&171F26\4c&171F26}まだあるのかよ
+Dialogue: 1,0:04:07.10,0:04:07.81,Dial-CHI,,0,0,0,,{\c&D9CDB8\bord1.5\blur0.7\3c&1C1B12\4c&1C1B12}哎呀
+Dialogue: 0,0:04:07.10,0:04:07.81,Dial-JPN,,0,0,0,,{\c&D9CDB8\bord1.5\blur0.7\3c&1C1B12\4c&1C1B12}まぁ
+Dialogue: 1,0:04:07.81,0:04:10.36,Dial-CHI,,0,0,0,,{\c&D4D4BE}{\bord1.5\blur0.7}{\3c&2E2813\4c&2E2813}灯亮了
+Dialogue: 0,0:04:07.81,0:04:10.36,Dial-JPN,,0,0,0,,{\c&D4D4BE}{\bord1.5\blur0.7}{\3c&2E2813\4c&2E2813}灯りがついたわ
+Dialogue: 1,0:04:10.36,0:04:12.44,Dial-CHI,,0,0,0,,{\c&D4D4BE}{\bord1.5\blur0.7}{\3c&2E2813\4c&2E2813}我说了马上就能修好
+Dialogue: 0,0:04:10.36,0:04:12.44,Dial-JPN,,0,0,0,,{\c&D4D4BE}{\bord1.5\blur0.7}{\3c&2E2813\4c&2E2813}すぐ直るって言っただろう
+Dialogue: 1,0:04:13.44,0:04:16.49,Dial-CHI,,0,0,0,,{\c&AEBFD1\bord1.8\blur0.7\3c&1A1A1A\4c&1A1A1A}一直以来麻烦你了 利希塔
+Dialogue: 0,0:04:13.44,0:04:16.49,Dial-JPN,,0,0,0,,{\c&AEBFD1\bord1.8\blur0.7\3c&1A1A1A\4c&1A1A1A}いつもありがとうね　リヒター
+Dialogue: 1,0:04:16.49,0:04:17.20,Dial-CHI,,0,0,0,,{\c&AEBFD1\bord1.8\blur0.7\3c&1A1A1A\4c&1A1A1A}别客气
+Dialogue: 0,0:04:16.49,0:04:17.20,Dial-JPN,,0,0,0,,{\c&AEBFD1\bord1.8\blur0.7\3c&1A1A1A\4c&1A1A1A}ああ
+Dialogue: 1,0:04:17.20,0:04:20.32,Dial-CHI,,0,0,0,,{\c&D4E6FF}{\bord2\blur0.7\3c&232F50\4c&232F50}对了 收下这个吧
+Dialogue: 0,0:04:17.20,0:04:20.32,Dial-JPN,,0,0,0,,{\c&D4E6FF}{\bord2\blur0.7\3c&232F50\4c&232F50}そうだ　よかったらこれも
+Dialogue: 1,0:04:21.91,0:04:23.12,Dial-CHI,,0,0,0,,{\c&B5CEEB\bord1.5\blu0.7\3c&14121F\4c&14121F}再见
+Dialogue: 0,0:04:21.91,0:04:23.12,Dial-JPN,,0,0,0,,{\c&B5CEEB\bord1.5\blu0.7\3c&14121F\4c&14121F}それじゃあね
+Dialogue: 1,0:04:30.54,0:04:33.50,Dial-CHI,,0,0,0,,{\c&B8D4F5}{\bord1.5\blur0.7\3c&0D0E1A\4c&0D0E1A}婆婆 我已经不是小孩子了
+Dialogue: 0,0:04:30.54,0:04:33.50,Dial-JPN,,0,0,0,,{\c&B8D4F5}{\bord1.5\blur0.7\3c&0D0E1A\4c&0D0E1A}おい　婆ちゃん　もうガキじゃないんだ
+Dialogue: 1,0:04:33.50,0:04:35.42,Dial-CHI,,0,0,0,,{\c&B8D4F5}{\bord1.5\blur0.7\3c&0D0E1A\4c&0D0E1A}已经老大不小了
+Dialogue: 0,0:04:33.50,0:04:35.42,Dial-JPN,,0,0,0,,{\c&B8D4F5}{\bord1.5\blur0.7\3c&0D0E1A\4c&0D0E1A}いい年したおっさんだぜ
+Dialogue: 1,0:04:36.09,0:04:40.09,Dial-CHI,,0,0,0,,{\c&B8D4F5}{\bord1.5\blur0.7\3c&0D0E1A\4c&0D0E1A}在我这老婆子眼里 你永远是小孩子
+Dialogue: 0,0:04:36.09,0:04:40.09,Dial-JPN,,0,0,0,,{\c&B8D4F5}{\bord1.5\blur0.7\3c&0D0E1A\4c&0D0E1A}私みたいな年寄りから見たら　子供のままさ
+Dialogue: 1,0:04:40.09,0:04:41.97,Dial-CHI,,0,0,0,,{\c&B8D4F5}{\bord1.5\blur0.7\3c&0D0E1A\4c&0D0E1A}总不会换口味了吧
+Dialogue: 0,0:04:40.09,0:04:41.97,Dial-JPN,,0,0,0,,{\c&B8D4F5}{\bord1.5\blur0.7\3c&0D0E1A\4c&0D0E1A}好きだったろう　それ
+Dialogue: 1,0:04:53.98,0:04:56.40,Dial-CHI,,0,0,0,,{\c&A8C2E0\bord1.5\blur0.7\3c&211E21\4c&211E21\t(1524,2399,\c&C7DFFF)}抱歉 本店已经打烊了
+Dialogue: 0,0:04:53.98,0:04:56.40,Dial-JPN,,0,0,0,,{\c&A8C2E0\bord1.5\blur0.7\3c&211E21\4c&211E21\t(1524,2399,\c&C7DFFF)}悪いな　もう店じまいだ
+Dialogue: 1,0:04:57.07,0:05:00.74,Dial-CHI,,0,0,0,,{\c&C7DFFF}{\bord1.5\blur0.7\3c&211E21\4c&211E21}被某个疯老头逼着跟人干了一架
+Dialogue: 0,0:04:57.07,0:05:00.74,Dial-JPN,,0,0,0,,{\c&C7DFFF}{\bord1.5\blur0.7\3c&211E21\4c&211E21}イカれた爺さんに殴り合いのケンカをやらされたものでな
+Dialogue: 1,0:05:01.20,0:05:03.49,Dial-CHI,,0,0,0,,{\c&BDD6F2\bord1.5\blur0.7\3c&000000\4c&000000}不休养一下可不行
+Dialogue: 0,0:05:01.20,0:05:03.49,Dial-JPN,,0,0,0,,{\c&BDD6F2\bord1.5\blur0.7\3c&000000\4c&000000}体を休めないといけないんだ
+Dialogue: 1,0:05:04.08,0:05:07.45,Dial-CHI,,0,0,0,,{\c&BDD6F2\bord1.5\blur0.7\3c&000000\4c&000000}利希塔 那可真是场灾难
+Dialogue: 0,0:05:04.08,0:05:07.45,Dial-JPN,,0,0,0,,{\c&BDD6F2\bord1.5\blur0.7\3c&000000\4c&000000}それは災難だったな　リヒター
+Dialogue: 1,0:05:07.45,0:05:10.04,Dial-CHI,,0,0,0,,{\c&BDD6F2\bord1.5\blur0.7\3c&000000\4c&000000}不如和我们一起吃顿饭
+Dialogue: 0,0:05:07.45,0:05:10.04,Dial-JPN,,0,0,0,,{\c&BDD6F2\bord1.5\blur0.7\3c&000000\4c&000000}なら　飯でも一緒にどうだ
+Dialogue: 1,0:05:10.04,0:05:12.25,Dial-CHI,,0,0,0,,{\c&BDD6F2\bord1.5\blur0.7\3c&000000\4c&000000}我们在找一家店
+Dialogue: 0,0:05:10.04,0:05:12.25,Dial-JPN,,0,0,0,,{\c&BDD6F2\bord1.5\blur0.7\3c&000000\4c&000000}探している店があるのだが
+Dialogue: 1,0:05:12.25,0:05:15.13,Dial-CHI,,0,0,0,,{\c&BDD6F2\bord1.5\blur0.7\3c&000000\4c&000000}可老夫和菈鸥芬人生地不熟的
+Dialogue: 0,0:05:12.25,0:05:15.13,Dial-JPN,,0,0,0,,{\c&BDD6F2\bord1.5\blur0.7\3c&000000\4c&000000}儂とラオフェンでは土地勘がなくてな
+Dialogue: 1,0:05:16.67,0:05:18.46,Dial-CHI,,0,0,0,,{\c&B9D1ED}{\bord1.5\blur0.7\3c&0D0D1A\4c&0D0D1A}我说菈鸥芬啊
+Dialogue: 0,0:05:16.67,0:05:18.46,Dial-JPN,,0,0,0,,{\c&B9D1ED}{\bord1.5\blur0.7\3c&0D0D1A\4c&0D0D1A}そもそもラオフェン
+Dialogue: 1,0:05:18.46,0:05:20.01,Dial-CHI,,0,0,0,,{\c&B9D1ED}{\bord1.5\blur0.7\3c&0D0D1A\4c&0D0D1A}你怎么和邓肯凑一块了
+Dialogue: 0,0:05:18.46,0:05:20.01,Dial-JPN,,0,0,0,,{\c&B9D1ED}{\bord1.5\blur0.7\3c&0D0D1A\4c&0D0D1A}なぜデンケンと一緒にいる
+Dialogue: 1,0:05:21.22,0:05:23.09,Dial-CHI,,0,0,0,,{\c&BDD6F2\bord2\blur0.7\3c&14131C\4c&14131C}你吃的东西又是怎么回事
+Dialogue: 0,0:05:21.22,0:05:23.09,Dial-JPN,,0,0,0,,{\c&BDD6F2\bord2\blur0.7\3c&14131C\4c&14131C}その食ってるものはどうしたんだ
+Dialogue: 1,0:05:23.09,0:05:25.31,Dial-CHI,,0,0,0,,{\c&BDD6F2\bord2\blur0.7\3c&14131C\4c&14131C}是爷爷给我买的
+Dialogue: 0,0:05:23.09,0:05:25.31,Dial-JPN,,0,0,0,,{\c&BDD6F2\bord2\blur0.7\3c&14131C\4c&14131C}爺さんに買ってもらった
+Dialogue: 1,0:05:25.31,0:05:26.51,Dial-CHI,,0,0,0,,{\c&BDD6F2\bord2\blur0.7\3c&14131C\4c&14131C}不会分给你的
+Dialogue: 0,0:05:25.31,0:05:26.51,Dial-JPN,,0,0,0,,{\c&BDD6F2\bord2\blur0.7\3c&14131C\4c&14131C}あげないよ
+Dialogue: 1,0:05:26.51,0:05:29.23,Dial-CHI,,0,0,0,,{\c&B3D1F2}{\bord2\blur0.7\3c&14131C\4c&14131C}你怎么完全变成他孙女了
+Dialogue: 0,0:05:26.51,0:05:29.23,Dial-JPN,,0,0,0,,{\c&B3D1F2}{\bord2\blur0.7\3c&14131C\4c&14131C}おいおい　完全に孫じゃねえか
+Dialogue: 1,0:05:30.10,0:05:33.02,Dial-CHI,,0,0,0,,{\c&B3D1F2}{\bord2\blur0.7\3c&14131C\4c&14131C}请回吧 我们已经不是队友了
+Dialogue: 0,0:05:30.10,0:05:33.02,Dial-JPN,,0,0,0,,{\c&B3D1F2}{\bord2\blur0.7\3c&14131C\4c&14131C}帰れ　俺たちはもうパーティーじゃない
+Dialogue: 1,0:05:34.48,0:05:37.32,Dial-CHI,,0,0,0,,{\c&C7E2FF\bord1.5\blur0.7\3c&314163\4c&314163}不谙处世之道啊
+Dialogue: 0,0:05:34.48,0:05:37.32,Dial-JPN,,0,0,0,,{\c&C7E2FF\bord1.5\blur0.7\3c&314163\4c&314163}処世術がなっておらんな
+Dialogue: 1,0:05:37.78,0:05:40.82,Dial-CHI,,0,0,0,,{\c&C7E2FF}{\bord1\blur0.7\3c&394554\4c&394554}{\t(2310,3019,\c&BDD7F2\bord1.5\blur0.7\3c&0C0D10\4c&0C0D10)}只要还以魔法使的身份活在世上
+Dialogue: 0,0:05:37.78,0:05:40.82,Dial-JPN,,0,0,0,,{\c&C7E2FF}{\bord1\blur0.7\3c&394554\4c&394554}{\t(2310,3019,\c&BDD7F2\bord1.5\blur0.7\3c&0C0D10\4c&0C0D10)}魔法使いとして生きていくのなら
+Dialogue: 1,0:05:40.82,0:05:44.70,Dial-CHI,,0,0,0,,{\c&BDD7F2\bord1.5\blur0.7\3c&0C0D10\4c&0C0D10}你讨好老夫就没有坏处
+Dialogue: 0,0:05:40.82,0:05:44.70,Dial-JPN,,0,0,0,,{\c&BDD7F2\bord1.5\blur0.7\3c&0C0D10\4c&0C0D10}儂の機嫌は取っておいて損はないぞ
+Dialogue: 1,0:05:44.70,0:05:47.49,Dial-CHI,,0,0,0,,{\c&D9E9FF}{\bord1.5\blur0.7\3c&505266\4c&505266}这里有的是饭馆
+Dialogue: 0,0:05:44.70,0:05:47.49,Dial-JPN,,0,0,0,,{\c&D9E9FF}{\bord1.5\blur0.7\3c&505266\4c&505266}飯屋なんかいくらでもある
+Dialogue: 1,0:05:47.49,0:05:48.62,Dial-CHI,,0,0,0,,{\c&D9E9FF}{\bord1.5\blur0.7\3c&505266\4c&505266}随便找一个就行了
+Dialogue: 0,0:05:47.49,0:05:48.62,Dial-JPN,,0,0,0,,{\c&D9E9FF}{\bord1.5\blur0.7\3c&505266\4c&505266}適当に入れ
+Dialogue: 1,0:05:49.54,0:05:51.08,Dial-CHI,,0,0,0,,{\c&D9E9FF}{\bord1.5\blur0.7\3c&505266\4c&505266}那家店
+Dialogue: 0,0:05:49.54,0:05:51.08,Dial-JPN,,0,0,0,,{\c&D9E9FF}{\bord1.5\blur0.7\3c&505266\4c&505266}妻と
+Dialogue: 1,0:05:51.92,0:05:55.79,Dial-CHI,,2051,0,0,,{\c&B6D2F2\bord1.5\blur0.7\3c&0F1126\4c&0F1126}是妻子生前和老夫一起去过的店
+Dialogue: 0,0:05:51.92,0:05:55.79,Dial-JPN,,2051,0,0,,{\c&B6D2F2\bord1.5\blur0.7\3c&0F1126\4c&0F1126}生前　妻と一緒に行った店でな
+Dialogue: 1,0:05:55.79,0:05:58.71,Dial-CHI,,1511,0,0,,{\c&B6D2F2\bord1.5\blur0.7\3c&0F1126\4c&0F1126}老夫忘不了那个味道
+Dialogue: 0,0:05:55.79,0:05:58.71,Dial-JPN,,1511,0,0,,{\c&B6D2F2\bord1.5\blur0.7\3c&0F1126\4c&0F1126}その味が忘れられん
+Dialogue: 1,0:06:01.17,0:06:02.97,Dial-CHI,,0,0,0,,{\c&A5ADD1}{\bord1.5\blur0.7\3c&000000\4c&000000}是你请客吧
+Dialogue: 0,0:06:01.17,0:06:02.97,Dial-JPN,,0,0,0,,{\c&A5ADD1}{\bord1.5\blur0.7\3c&000000\4c&000000}おごりだろうな
+Dialogue: 1,0:06:02.97,0:06:05.14,Dial-CHI,,0,0,0,,{\c&ABC9EB\bord1.5\blur0.7\3c&000000\4c&000000}当然了
+Dialogue: 0,0:06:02.97,0:06:05.14,Dial-JPN,,0,0,0,,{\c&ABC9EB\bord1.5\blur0.7\3c&000000\4c&000000}当たり前だ
+Dialogue: 1,0:06:05.14,0:06:07.81,Dial-CHI,,0,0,0,,{\c&ABC9EB\bord1.5\blur0.7\3c&000000\4c&000000}老夫说过 不会让你吃亏的
+Dialogue: 0,0:06:05.14,0:06:07.81,Dial-JPN,,0,0,0,,{\c&ABC9EB\bord1.5\blur0.7\3c&000000\4c&000000}言っただろう　損はさせん
+Dialogue: 1,0:06:37.84,0:06:39.25,Dial-CHI,,0,0,0,,{\c&B8A5AC}{\bord1.5\blur0.7\3c&0D0D0D\4c&0D0D0D}眼睛男
+Dialogue: 0,0:06:37.84,0:06:39.25,Dial-JPN,,0,0,0,,{\c&B8A5AC}{\bord1.5\blur0.7\3c&0D0D0D\4c&0D0D0D}メガネ君
+Dialogue: 1,0:06:40.55,0:06:41.88,Dial-CHI,,0,0,0,,{\c&9E868E\bord1.5\blur0.7\3c&000000\4c&000000}尤蓓尔
+Dialogue: 0,0:06:40.55,0:06:41.88,Dial-JPN,,0,0,0,,{\c&9E868E\bord1.5\blur0.7\3c&000000\4c&000000}ユーベル
+Dialogue: 1,0:06:41.88,0:06:43.68,Dial-CHI,,0,0,0,,{\c&9E868E\bord1.5\blur0.7\3c&000000\4c&000000}我们是初次见面吧
+Dialogue: 0,0:06:41.88,0:06:43.68,Dial-JPN,,0,0,0,,{\c&9E868E\bord1.5\blur0.7\3c&000000\4c&000000}はじめましてだね
+Dialogue: 1,0:06:44.13,0:06:47.14,Dial-CHI,,0,0,0,,{\c&9E868E\bord1.5\blur0.7\3c&000000\4c&000000}在城里总算是见到本尊了
+Dialogue: 0,0:06:44.13,0:06:47.14,Dial-JPN,,0,0,0,,{\c&9E868E\bord1.5\blur0.7\3c&000000\4c&000000}街中ではさすがに分身じゃないんだ
+Dialogue: 1,0:06:47.51,0:06:50.81,Dial-CHI,,0,0,0,,{\c&B8A5AC}{\bord1.5\blur0.7\3c&000000\4c&000000}要闲聊的话 就边走边说吧
+Dialogue: 0,0:06:47.51,0:06:50.81,Dial-JPN,,0,0,0,,{\c&B8A5AC}{\bord1.5\blur0.7\3c&000000\4c&000000}世間話なら　歩きながらでもいいかな
+Dialogue: 1,0:06:50.81,0:06:52.35,Dial-CHI,,0,0,0,,{\c&B8A5AC}{\bord1.5\blur0.7\3c&000000\4c&000000}行是行
+Dialogue: 0,0:06:50.81,0:06:52.35,Dial-JPN,,0,0,0,,{\c&B8A5AC}{\bord1.5\blur0.7\3c&000000\4c&000000}いいけどさ
+Dialogue: 1,0:06:52.35,0:06:55.10,Dial-CHI,,0,0,0,,{\c&B8A5AC}{\bord1.5\blur0.7\3c&000000\4c&000000}但你要是逃跑的话 别怪我下杀手
+Dialogue: 0,0:06:52.35,0:06:55.10,Dial-JPN,,0,0,0,,{\c&B8A5AC}{\bord1.5\blur0.7\3c&000000\4c&000000}走って逃げたりしたら　殺しちゃうかも
+Dialogue: 1,0:06:57.48,0:06:59.61,Dial-CHI,,0,0,0,,{\c&C4B1B8\bord1.5\blur0.7\3c&0D0D0D\4c&0D0D0D}我能问个问题吗
+Dialogue: 0,0:06:57.48,0:06:59.61,Dial-JPN,,0,0,0,,{\c&C4B1B8\bord1.5\blur0.7\3c&0D0D0D\4c&0D0D0D}1 つ　質間いいかな
+Dialogue: 1,0:07:02.36,0:07:07.16,Dial-CHI,,0,0,0,,{\c&C4B1B8\bord1.5\blur0.7\3c&0D0D0D\4c&0D0D0D}你这种人 对杀人应该毫不在意吧
+Dialogue: 0,0:07:02.36,0:07:07.16,Dial-JPN,,0,0,0,,{\c&C4B1B8\bord1.5\blur0.7\3c&0D0D0D\4c&0D0D0D}君ってさ　人を殺すことを何とも思ってないでしょ
+Dialogue: 1,0:07:09.66,0:07:11.74,Dial-CHI,,0,0,0,,{\c&B8A5AC}{\bord1.5\blur0.7\3c&000000\4c&000000}为什么没有对威亚贝尔下杀手
+Dialogue: 0,0:07:09.66,0:07:11.74,Dial-JPN,,0,0,0,,{\c&B8A5AC}{\bord1.5\blur0.7\3c&000000\4c&000000}何でヴィアベルを殺さなかったの?
+Dialogue: 1,0:07:12.41,0:07:13.91,Dial-CHI,,0,0,0,,{\c&B8A5AC}{\bord1.5\blur0.7\3c&000000\4c&000000}总不会没找到机会吧
+Dialogue: 0,0:07:12.41,0:07:13.91,Dial-JPN,,0,0,0,,{\c&B8A5AC}{\bord1.5\blur0.7\3c&000000\4c&000000}殺すチャンスあったでしょ
+Dialogue: 1,0:07:14.96,0:07:16.50,Dial-CHI,,0,0,0,,{\c&B8A5AC\bord1.5\blur0.7\3c&000000\4c&000000}你看到了啊
+Dialogue: 0,0:07:14.96,0:07:16.50,Dial-JPN,,0,0,0,,{\c&B8A5AC\bord1.5\blur0.7\3c&000000\4c&000000}見てたんだ
+Dialogue: 1,0:07:16.92,0:07:18.54,Dial-CHI,,0,0,0,,{\c&B8A5AC\bord1.5\blur0.7\3c&000000\4c&000000}真是无懈可击
+Dialogue: 0,0:07:16.92,0:07:18.54,Dial-JPN,,0,0,0,,{\c&B8A5AC\bord1.5\blur0.7\3c&000000\4c&000000}油断も隙もないね
+Dialogue: 1,0:07:22.76,0:07:25.55,Dial-CHI,,0,0,0,,{\c&C4B1B8}{\bord1.5\blur0.7\3c&000000\4c&000000}描述起来有些困难啊
+Dialogue: 0,0:07:22.76,0:07:25.55,Dial-JPN,,0,0,0,,{\c&C4B1B8}{\bord1.5\blur0.7\3c&000000\4c&000000}難しい表現なんだけどさ
+Dialogue: 1,0:07:25.55,0:07:27.43,Dial-CHI,,0,0,0,,{\c&E6E6E6\bord1.5\blur0.7\3c&000000\4c&000000}真令人惊讶
+Dialogue: 0,0:07:25.55,0:07:27.43,Dial-JPN,,0,0,0,,{\c&E6E6E6\bord1.5\blur0.7\3c&000000\4c&000000}驚いたよ
+Dialogue: 1,0:07:27.43,0:07:29.97,Dial-CHI,,0,0,0,,{\bord2\blur0.7}{\3c&1A1A1A\4c&1A1A1A}明明双手早已沾满鲜血
+Dialogue: 0,0:07:27.43,0:07:29.97,Dial-JPN,,0,0,0,,{\bord2\blur0.7}{\3c&1A1A1A\4c&1A1A1A}とうに両手は血で染まっているのに
+Dialogue: 1,0:07:29.97,0:07:32.56,Dial-CHI,,0,0,0,,{\bord2\blur0.7}{\3c&1A1A1A\4c&1A1A1A}却还在努力维持人性
+Dialogue: 0,0:07:29.97,0:07:32.56,Dial-JPN,,0,0,0,,{\bord2\blur0.7}{\3c&1A1A1A\4c&1A1A1A}まだ人間でありたいと思っているんだ
+Dialogue: 1,0:07:34.10,0:07:38.23,Dial-CHI,,0,0,0,,{\c&CFCFCF\bord1.5\blur0.7\3c&000000\4c&000000}没错 这是为酝酿杀心争取时间
+Dialogue: 0,0:07:34.10,0:07:38.23,Dial-JPN,,0,0,0,,{\c&CFCFCF\bord1.5\blur0.7\3c&000000\4c&000000}そうだ　これは殺す覚悟のための時間だ
+Dialogue: 1,0:07:40.11,0:07:42.36,Dial-CHI,,0,0,0,,{\c&B8A5AC}{\bord1.5\blur0.7\3c&000000\4c&000000}兴许是有同感吧
+Dialogue: 0,0:07:40.11,0:07:42.36,Dial-JPN,,0,0,0,,{\c&B8A5AC}{\bord1.5\blur0.7\3c&000000\4c&000000}共感しちゃったからかな
+Dialogue: 1,0:07:43.36,0:07:47.20,Dial-CHI,,0,0,0,,{\c&B8A5AC}{\bord1.5\blur0.7\3c&000000\4c&000000}我也想有酝酿杀心的时间
+Dialogue: 0,0:07:43.36,0:07:47.20,Dial-JPN,,0,0,0,,{\c&B8A5AC}{\bord1.5\blur0.7\3c&000000\4c&000000}私も殺すまでの猶予が欲しくなった
+Dialogue: 1,0:07:50.16,0:07:53.29,Dial-CHI,,0,222,0,,{\c&B8A5AC\bord1.5\blur0.7\3c&000000\4c&000000}身体动不了了 这是
+Dialogue: 0,0:07:50.16,0:07:53.29,Dial-JPN,,0,222,0,,{\c&B8A5AC\bord1.5\blur0.7\3c&000000\4c&000000}体が動かない　これは
+Dialogue: 1,0:07:53.83,0:07:55.62,Dial-CHI,,0,666,0,,{\c&B8A5AC\bord1.5\blur0.7\3c&000000\4c&000000}禁锢所见
+Dialogue: 0,0:07:53.83,0:07:55.62,Dial-JPN,,0,666,0,,{\c&B8A5AC\bord1.5\blur0.7\3c&000000\4c&000000}ソルガニール
+Dialogue: 2,0:07:53.83,0:07:55.62,Ruby,,0,666,0,,{\c&B8A5AC\bord1.5\blur0.7\3c&000000\4c&000000}Sorganeel
+Dialogue: 1,0:07:55.62,0:07:58.08,Dial-CHI,,0,666,0,,{\c&B8A5AC\bord1.5\blur0.7\3c&000000\4c&000000}将所见之人禁锢起来的魔法
+Dialogue: 0,0:07:55.62,0:07:58.08,Dial-JPN,,0,666,0,,{\c&B8A5AC\bord1.5\blur0.7\3c&000000\4c&000000}見た者を拘束する魔法
+Dialogue: 0,0:07:59.13,0:08:01.50,Dial-CHI,,0,0,0,,{\c&AB919A}{\bord1.5\blur0.7\3c&000000\4c&000000}一个人擅长的魔法
+Dialogue: 0,0:07:59.13,0:08:01.50,Dial-JPN,,0,0,0,,{\c&AB919A}{\bord1.5\blur0.7\3c&000000\4c&000000}その人が得意とする魔法は
+Dialogue: 1,0:08:01.50,0:08:04.59,Dial-CHI,,0,0,0,,{\c&AB919A}{\bord1.5\blur0.7\3c&000000\4c&000000}和他的人生与人性息息相关
+Dialogue: 0,0:08:01.50,0:08:04.59,Dial-JPN,,0,0,0,,{\c&AB919A}{\bord1.5\blur0.7\3c&000000\4c&000000}人生や人間性に大きく関わっている
+Dialogue: 1,0:08:06.93,0:08:09.30,Dial-CHI,,0,0,0,,{\c&B8A5AC\bord1.5\blur0.7\3c&000000\4c&000000}我一直以来都是如此
+Dialogue: 0,0:08:06.93,0:08:09.30,Dial-JPN,,0,0,0,,{\c&B8A5AC\bord1.5\blur0.7\3c&000000\4c&000000}私は昔からそうなんだ
+Dialogue: 1,0:08:10.01,0:08:13.89,Dial-CHI,,0,0,0,,{\c&B8A5AC\bord1.5\blur0.7\3c&000000\4c&000000}{\t(2065,2691,\c&F7FBFA\bord1\3c&4c4c4c\4c&4c4c4c)}只要能产生同感 就能使用相应的魔法
+Dialogue: 0,0:08:10.01,0:08:13.89,Dial-JPN,,0,0,0,,{\c&B8A5AC\bord1.5\blur0.7\3c&000000\4c&000000}{\t(2065,2691,\c&F7FBFA\bord1\3c&4c4c4c\4c&4c4c4c)}共感できることでその魔法が使えるようになるし
+Dialogue: 1,0:08:13.89,0:08:16.43,Dial-CHI,,0,0,0,,{\blur0.7\c&F7FBFA\bord1\3c&4c4c4c\4c&4c4c4c)}不能产生同感则无法使用
+Dialogue: 0,0:08:13.89,0:08:16.43,Dial-JPN,,0,0,0,,{\blur0.7\c&F7FBFA\bord1\3c&4c4c4c\4c&4c4c4c)}共感できない魔法は使えない
+Dialogue: 1,0:08:17.44,0:08:18.73,Dial-CHI,,1711,0,0,,{\c&B29DA4}{\bord1.5\blur0.7}{\3c&000000\4c&000000}眼镜男
+Dialogue: 0,0:08:17.44,0:08:18.73,Dial-JPN,,1711,0,0,,{\c&B29DA4}{\bord1.5\blur0.7}{\3c&000000\4c&000000}メガネ君
+Dialogue: 1,0:08:18.73,0:08:24.48,Dial-CHI,,1711,0,0,,{\c&B29DA4}{\bord1.5\blur0.7}{\3c&000000\4c&000000}你的分身 是足以媲美本体的完美复制体
+Dialogue: 0,0:08:18.73,0:08:24.48,Dial-JPN,,1711,0,0,,{\c&B29DA4}{\bord1.5\blur0.7}{\3c&000000\4c&000000}君の分身は本人と同一の機能を持つほどの完璧な複製だ
+Dialogue: 1,0:08:24.48,0:08:29.11,Dial-CHI,,0,0,0,,{\c&B29DA4}{\bord1.5\blur0.7\3c&000000\4c&000000}你在思考些什么 又有着怎样的人生经历呢
+Dialogue: 0,0:08:24.48,0:08:29.11,Dial-JPN,,0,0,0,,{\c&B29DA4}{\bord1.5\blur0.7\3c&000000\4c&000000}君は何を思って　どんな人生を歩んできたの?
+Dialogue: 1,0:08:29.11,0:08:30.74,Dial-CHI,,0,0,0,,{\c&B29DA4}{\bord1.5\blur0.7\3c&000000\4c&000000}跟我说说
+Dialogue: 0,0:08:29.11,0:08:30.74,Dial-JPN,,0,0,0,,{\c&B29DA4}{\bord1.5\blur0.7\3c&000000\4c&000000}教えてよ
+Dialogue: 1,0:08:32.08,0:08:33.41,Dial-CHI,,0,0,0,,{\c&A69098\bord1.5\blur0.7\3c&000000\4c&000000}原来如此
+Dialogue: 0,0:08:32.08,0:08:33.41,Dial-JPN,,0,0,0,,{\c&A69098\bord1.5\blur0.7\3c&000000\4c&000000}なるほどね
+Dialogue: 1,0:08:34.16,0:08:37.04,Dial-CHI,,0,0,0,,{\c&A69098\bord1.5\blur0.7\3c&000000\4c&000000}你是凭感觉使用魔法的类型
+Dialogue: 0,0:08:34.16,0:08:37.04,Dial-JPN,,0,0,0,,{\c&A69098\bord1.5\blur0.7\3c&000000\4c&000000}君って感覚で魔法を使うタイプなんだ
+Dialogue: 1,0:08:37.62,0:08:41.00,Dial-CHI,,0,0,0,,{\c&A69098\bord1.5\blur0.7\3c&000000\4c&000000}对魔法的运作原理一无所知
+Dialogue: 0,0:08:37.62,0:08:41.00,Dial-JPN,,0,0,0,,{\c&A69098\bord1.5\blur0.7\3c&000000\4c&000000}その魔法がどんな原理で動いているのかも知らずに
+Dialogue: 1,0:08:41.00,0:08:42.63,Dial-CHI,,0,0,0,,{\c&A69098\bord1.5\blur0.7\3c&000000\4c&000000}全凭感觉在使用
+Dialogue: 0,0:08:41.00,0:08:42.63,Dial-JPN,,0,0,0,,{\c&A69098\bord1.5\blur0.7\3c&000000\4c&000000}そのまま使っちゃうタイプ
+Dialogue: 1,0:08:45.38,0:08:49.38,Dial-CHI,,0,0,0,,{\c&B8A5AC\bord1.5\blur0.7}{\3c&000000\4c&000000}我对你这种笨蛋没有好感
+Dialogue: 0,0:08:45.38,0:08:49.38,Dial-JPN,,0,0,0,,{\c&B8A5AC\bord1.5\blur0.7}{\3c&000000\4c&000000}僕　そういう頭の足りない子嫌いなんだよね
+Dialogue: 1,0:08:50.18,0:08:52.26,Dial-CHI,,0,0,0,,{\c&A69098\bord1.5\blur0.7\3c&000000\4c&000000}这可算不上回答
+Dialogue: 0,0:08:50.18,0:08:52.26,Dial-JPN,,0,0,0,,{\c&A69098\bord1.5\blur0.7\3c&000000\4c&000000}答えになっていないよ
+Dialogue: 1,0:08:52.26,0:08:56.02,Dial-CHI,,0,333,0,,{\c&B8A5AC\bord1\blur0.7}{\3c&000000\4c&000000}我不喜欢你这种人 所以不想告诉你
+Dialogue: 0,0:08:52.26,0:08:56.02,Dial-JPN,,0,333,0,,{\c&B8A5AC\bord1\blur0.7}{\3c&000000\4c&000000}気に食わないから教えてやんないって言ってるんだよ
+Dialogue: 1,0:08:59.14,0:09:01.40,Dial-CHI,,0,0,0,,{\c&A69098\bord1.5\blur0.7\3c&000000\4c&000000}你要杀掉我也没关系
+Dialogue: 0,0:08:59.14,0:09:01.40,Dial-JPN,,0,0,0,,{\c&A69098\bord1.5\blur0.7\3c&000000\4c&000000}別に僕を殺したっていいよ
+Dialogue: 1,0:09:02.15,0:09:06.03,Dial-CHI,,333,0,0,,{\c&A69098\bord1.5\blur0.7\3c&000000\4c&000000}不过那么做的话 你就再也无法产生同感了
+Dialogue: 0,0:09:02.15,0:09:06.03,Dial-JPN,,333,0,0,,{\c&A69098\bord1.5\blur0.7\3c&000000\4c&000000}そんなことをしたら　二度と共感はできないと思うけど
+Dialogue: 1,0:09:12.53,0:09:14.41,Dial-CHI,,0,0,0,,{\c&99858C}{\bord1.5\blur0.7\3c&000000\4c&000000}不 不用了
+Dialogue: 0,0:09:12.53,0:09:14.41,Dial-JPN,,0,0,0,,{\c&99858C}{\bord1.5\blur0.7\3c&000000\4c&000000}いや　いいよ
+Dialogue: 1,0:09:15.08,0:09:18.50,Dial-CHI,,0,0,0,,{\c&99858C}{\bord1.5\blur0.7\3c&000000\4c&000000}我已经对你有所了解了
+Dialogue: 0,0:09:15.08,0:09:18.50,Dial-JPN,,0,0,0,,{\c&99858C}{\bord1.5\blur0.7\3c&000000\4c&000000}君という人間が少し分かった気がする
+Dialogue: 1,0:09:18.50,0:09:19.12,Dial-CHI,,0,0,0,,{\c&99858C}{\bord1.5\blur0.7\3c&000000\4c&000000}是吗
+Dialogue: 0,0:09:18.50,0:09:19.12,Dial-JPN,,0,0,0,,{\c&99858C}{\bord1.5\blur0.7\3c&000000\4c&000000}そう
+Dialogue: 1,0:09:19.79,0:09:21.79,Dial-CHI,,0,0,0,,{\c&99858C}{\bord1.5\blur0.7\3c&000000\4c&000000}但我想了解更多
+Dialogue: 0,0:09:19.79,0:09:21.79,Dial-JPN,,0,0,0,,{\c&99858C}{\bord1.5\blur0.7\3c&000000\4c&000000}もっと知りたいかな
+Dialogue: 1,0:09:25.42,0:09:28.13,Dial-CHI,,0,1311,0,,{\c&9C878D\bord1.5\blur0.7\3c&000000\4c&000000}接下来你打算去哪
+Dialogue: 0,0:09:25.42,0:09:28.13,Dial-JPN,,0,1311,0,,{\c&9C878D\bord1.5\blur0.7\3c&000000\4c&000000}これからどこに行くつもりだったの?
+Dialogue: 1,0:09:28.13,0:09:31.30,Dial-CHI,,0,1311,0,,{\c&9C878D\bord1.5\blur0.7\3c&000000\4c&000000}不知道 你别跟过来
+Dialogue: 0,0:09:28.13,0:09:31.30,Dial-JPN,,0,1311,0,,{\c&9C878D\bord1.5\blur0.7\3c&000000\4c&000000}さぁね　ついてくるなよ
+Dialogue: 1,0:09:32.64,0:09:33.80,Dial-CHI,,0,0,0,,{\c&D9BBA3}{\bord1.5\blur0.7\3c&000000\4c&000000}就是这里
+Dialogue: 0,0:09:32.64,0:09:33.80,Dial-JPN,,0,0,0,,{\c&D9BBA3}{\bord1.5\blur0.7\3c&000000\4c&000000}ここだ
+Dialogue: 1,0:09:34.43,0:09:37.06,Dial-CHI,,0,0,0,,{\c&D9BBA3\bord1.5\blur0.7\3c&000000\4c&000000}邓肯 你的眼光不错嘛
+Dialogue: 0,0:09:34.43,0:09:37.06,Dial-JPN,,0,0,0,,{\c&D9BBA3\bord1.5\blur0.7\3c&000000\4c&000000}目の付け所が良かったな　デンケン
+Dialogue: 1,0:09:37.72,0:09:40.35,Dial-CHI,,0,0,0,,{\c&D9BBA3\bord1.5\blur0.7\3c&000000\4c&000000}这是城里最好的店
+Dialogue: 0,0:09:37.72,0:09:40.35,Dial-JPN,,0,0,0,,{\c&D9BBA3\bord1.5\blur0.7\3c&000000\4c&000000}ここはこの街で一番うまい店だ
+Dialogue: 1,0:09:40.35,0:09:41.31,Dial-CHI,,0,0,0,,{\c&D9BBA3\bord1.5\blur0.7\3c&000000\4c&000000}我也常来
+Dialogue: 0,0:09:40.35,0:09:41.31,Dial-JPN,,0,0,0,,{\c&D9BBA3\bord1.5\blur0.7\3c&000000\4c&000000}俺もよく来る
+Dialogue: 1,0:09:42.52,0:09:46.98,Dial-CHI,,0,0,0,,{\c&C2A48C}{\bord1.5\blur0.7\3c&000000\4c&000000}距离老夫和妻子上次来已经五十多年了
+Dialogue: 0,0:09:42.52,0:09:46.98,Dial-JPN,,0,0,0,,{\c&C2A48C}{\bord1.5\blur0.7\3c&000000\4c&000000}妻とここを訪れたのは50 年も前だが
+Dialogue: 1,0:09:46.98,0:09:48.57,Dial-CHI,,0,0,0,,{\c&C2A48C}{\bord1.5\blur0.7\3c&000000\4c&000000}这里还是一如当年啊
+Dialogue: 0,0:09:46.98,0:09:48.57,Dial-JPN,,0,0,0,,{\c&C2A48C}{\bord1.5\blur0.7\3c&000000\4c&000000}当時の雰囲気のままだ
+Dialogue: 1,0:09:48.57,0:09:49.36,Dial-CHI,,0,0,0,,{\c&D9BBA3\bord1.5\blur0.7\3c&000000\4c&000000}这里还是一如当年啊
+Dialogue: 0,0:09:48.57,0:09:49.36,Dial-JPN,,0,0,0,,{\c&D9BBA3\bord1.5\blur0.7\3c&000000\4c&000000}当時の雰囲気のままだ
+Dialogue: 1,0:09:51.24,0:09:53.41,Dial-CHI,,0,0,0,,{\c&F2DDCB}{\bord1.5\blur0.7\3c&383027\4c&383027}真令人惊讶
+Dialogue: 0,0:09:51.24,0:09:53.41,Dial-JPN,,0,0,0,,{\c&F2DDCB}{\bord1.5\blur0.7\3c&383027\4c&383027}不思議なものだな
+Dialogue: 1,0:09:58.54,0:09:59.66,Dial-CHI,,0,0,0,,{\c&DFE9ED\bord1.5\blur0.7\3c&000000\4c&000000}真的吗
+Dialogue: 0,0:09:58.54,0:09:59.66,Dial-JPN,,0,0,0,,{\c&DFE9ED\bord1.5\blur0.7\3c&000000\4c&000000}本当ですか
+Dialogue: 1,0:10:00.66,0:10:04.12,Dial-CHI,,0,0,0,,{\c&D2DCE1}{\bord1.5\blur0.7\3c&000000\4c&000000}真的可以随便点甜点吗
+Dialogue: 0,0:10:00.66,0:10:04.12,Dial-JPN,,0,0,0,,{\c&D2DCE1}{\bord1.5\blur0.7\3c&000000\4c&000000}本当にデザートをいくらでも頼んでいいんですか
+Dialogue: 1,0:10:04.13,0:10:04.96,Dial-CHI,,0,0,0,,{\c&D2DCE1}{\bord1.5\blur0.7\3c&000000\4c&000000}当然
+Dialogue: 0,0:10:04.13,0:10:04.96,Dial-JPN,,0,0,0,,{\c&D2DCE1}{\bord1.5\blur0.7\3c&000000\4c&000000}いいよ
+Dialogue: 1,0:10:05.38,0:10:07.46,Dial-CHI,,0,0,0,,{\c&C7D4D9\bord1.5\blur0.7\3c&000000\4c&000000}邓肯 是芙莉莲
+Dialogue: 0,0:10:05.38,0:10:07.46,Dial-JPN,,0,0,0,,{\c&C7D4D9\bord1.5\blur0.7\3c&000000\4c&000000}デンケン　フリーレンだ
+Dialogue: 1,0:10:07.71,0:10:09.84,Dial-CHI,,1111,0,0,,{\c&D5E1E7}{\bord1.5\blur0.7\3c&000000\4c&000000}选哪个好呢
+Dialogue: 0,0:10:07.71,0:10:09.84,Dial-JPN,,1111,0,0,,{\c&D5E1E7}{\bord1.5\blur0.7\3c&000000\4c&000000}どれにすっかな
+Dialogue: 1,0:10:09.84,0:10:11.42,Dial-CHI,,1111,0,0,,{\c&D5E1E7}{\bord1.5\blur0.7\3c&000000\4c&000000}我推荐这个
+Dialogue: 0,0:10:09.84,0:10:11.42,Dial-JPN,,1111,0,0,,{\c&D5E1E7}{\bord1.5\blur0.7\3c&000000\4c&000000}お薦めはね
+Dialogue: 1,0:10:11.93,0:10:15.43,Dial-CHI,,0,0,0,,{\c&E6F7FF\bord2\blur0.7\3c&1a1a1a\4c&1a1a1a}还没到生日 居然就这么奢侈
+Dialogue: 0,0:10:11.93,0:10:15.43,Dial-JPN,,0,0,0,,{\c&E6F7FF\bord2\blur0.7\3c&1a1a1a\4c&1a1a1a}誕生日でもないのに　こんな贅沢を
+Dialogue: 1,0:10:15.97,0:10:18.97,Dial-CHI,,0,0,0,,{\c&C7D4D9}{\bord1.5\blur0.7\3c&000000\4c&000000}不必理会 她看上去挺开心的
+Dialogue: 0,0:10:15.97,0:10:18.97,Dial-JPN,,0,0,0,,{\c&C7D4D9}{\bord1.5\blur0.7\3c&000000\4c&000000}放っておけ　楽しそうではないか
+Dialogue: 1,0:10:19.52,0:10:22.02,Dial-CHI,,0,0,0,,{\c&C7D4D9}{\bord1.5\blur0.7\3c&000000\4c&000000}吃饭本就是件开心的事
+Dialogue: 0,0:10:19.52,0:10:22.02,Dial-JPN,,0,0,0,,{\c&C7D4D9}{\bord1.5\blur0.7\3c&000000\4c&000000}食事は楽しんでするものだ
+Dialogue: 1,0:10:22.56,0:10:24.60,Dial-CHI,,0,0,0,,{\c&C7D4D9}{\bord1.5\blur0.7\3c&000000\4c&000000}我们也是为此而来
+Dialogue: 0,0:10:22.56,0:10:24.60,Dial-JPN,,0,0,0,,{\c&C7D4D9}{\bord1.5\blur0.7\3c&000000\4c&000000}儂らもそのために来た
+Dialogue: 1,0:10:36.12,0:10:38.12,Dial-CHI,,0,0,0,,{\c&EBF9FF\bord1.8\blur0.7\3c&000000\4c&000000}好 我要填满肚子
+Dialogue: 0,0:10:36.12,0:10:38.12,Dial-JPN,,0,0,0,,{\c&EBF9FF\bord1.8\blur0.7\3c&000000\4c&000000}よ～し　食いためるぞ
+Dialogue: 1,0:10:38.12,0:10:40.12,Dial-CHI,,0,0,0,,{\c&EBF9FF\bord1.8\blur0.7\3c&000000\4c&000000}好大的分量
+Dialogue: 0,0:10:38.12,0:10:40.12,Dial-JPN,,0,0,0,,{\c&EBF9FF\bord1.8\blur0.7\3c&000000\4c&000000}すごい量だな
+Dialogue: 1,0:10:40.12,0:10:43.37,Dial-CHI,,0,0,0,,{\c&EBF9FF\bord1.8\blur0.7\3c&000000\4c&000000}芙莉莲大人偶尔也会大快朵颐啊
+Dialogue: 0,0:10:40.12,0:10:43.37,Dial-JPN,,0,0,0,,{\c&EBF9FF\bord1.8\blur0.7\3c&000000\4c&000000}フリーレン様って　たまにこういうことしますよね
+Dialogue: 1,0:10:49.00,0:10:52.17,Dial-CHI,,0,0,0,,{\c&EBF9FF}{\bord2\blur0.7\3c&0D0D0D\4c&0D0D0D}你们从魔族手中取回了我的传家宝菜刀
+Dialogue: 0,0:10:49.00,0:10:52.17,Dial-JPN,,0,0,0,,{\c&EBF9FF}{\bord2\blur0.7\3c&0D0D0D\4c&0D0D0D}家宝の包丁を魔族から取り戻してくださり
+Dialogue: 1,0:10:52.17,0:10:53.42,Dial-CHI,,0,0,0,,{\c&EBF9FF}{\bord2\blur0.7\3c&0D0D0D\4c&0D0D0D}感激不尽
+Dialogue: 0,0:10:52.17,0:10:53.42,Dial-JPN,,0,0,0,,{\c&EBF9FF}{\bord2\blur0.7\3c&0D0D0D\4c&0D0D0D}ありがとうございます
+Dialogue: 1,0:10:53.88,0:10:57.18,Dial-CHI,,0,0,0,,{\3c&1E1F26\4c&1E1F26\c&E8F4FA\bord1.5\blur0.7}我雷卡身为本世纪的天才厨师
+Dialogue: 0,0:10:53.88,0:10:57.18,Dial-JPN,,0,0,0,,{\3c&1E1F26\4c&1E1F26\c&E8F4FA\bord1.5\blur0.7}この世紀の天才料理人レッカーが
+Dialogue: 1,0:10:57.18,0:11:01.81,Dial-CHI,,0,0,0,,{\3c&1E1F26\4c&1E1F26\c&E8F4FA\bord1.5\blur0.7}将为各位奉上最周到的招待与最丰厚的报酬
+Dialogue: 0,0:10:57.18,0:11:01.81,Dial-JPN,,0,0,0,,{\3c&1E1F26\4c&1E1F26\c&E8F4FA\bord1.5\blur0.7}最大限のもてなしと可能な限りの報酬をお渡ししましょう
+Dialogue: 1,0:11:02.93,0:11:04.85,Dial-CHI,,0,0,0,,{\c&E8F6FC}{\bord1.7\blur0.7\3c&000000\4c&000000}好大的分量
+Dialogue: 0,0:11:02.93,0:11:04.85,Dial-JPN,,0,0,0,,{\c&E8F6FC}{\bord1.7\blur0.7\3c&000000\4c&000000}すごい量ですね
+Dialogue: 1,0:11:04.85,0:11:07.44,Dial-CHI,,0,0,0,,{\c&E8F6FC}{\bord1.7\blur0.7\3c&000000\4c&000000}这里的饭菜味道特别棒
+Dialogue: 0,0:11:04.85,0:11:07.44,Dial-JPN,,0,0,0,,{\c&E8F6FC}{\bord1.7\blur0.7\3c&000000\4c&000000}ここの料理はおいしいからね
+Dialogue: 1,0:11:07.44,0:11:09.48,Dial-CHI,,0,0,0,,{\c&E8F6FC}{\bord1.7\blur0.7\3c&000000\4c&000000}要好品尝一番才行
+Dialogue: 0,0:11:07.44,0:11:09.48,Dial-JPN,,0,0,0,,{\c&E8F6FC}{\bord1.7\blur0.7\3c&000000\4c&000000}たっぷり味わわないとね
+Dialogue: 1,0:11:09.48,0:11:11.61,Dial-CHI,,0,0,0,,{\c&E8F6FC}{\bord1.7\blur0.7\3c&000000\4c&000000}也不用一顿吃这么多吧
+Dialogue: 0,0:11:09.48,0:11:11.61,Dial-JPN,,0,0,0,,{\c&E8F6FC}{\bord1.7\blur0.7\3c&000000\4c&000000}一度にそんなに食べなくても
+Dialogue: 1,0:11:11.61,0:11:13.03,Dial-CHI,,0,0,0,,{\c&E8F6FC}{\bord1.7\blur0.7\3c&000000\4c&000000}下次再来不就行了
+Dialogue: 0,0:11:11.61,0:11:13.03,Dial-JPN,,0,0,0,,{\c&E8F6FC}{\bord1.7\blur0.7\3c&000000\4c&000000}また来ればいいじゃないか
+Dialogue: 1,0:11:13.90,0:11:18.03,Dial-CHI,,0,0,0,,{\c&E1EEF2\bord2\blur0.7\3c&0D0D0D\4c&0D0D0D}这么想只会让记忆中的众多美味一去不复返
+Dialogue: 0,0:11:13.90,0:11:18.03,Dial-JPN,,0,0,0,,{\c&E1EEF2\bord2\blur0.7\3c&0D0D0D\4c&0D0D0D}そう思って二度と食べられなくなった味がたくさんあるからね
+Dialogue: 1,0:11:20.54,0:11:22.79,Dial-CHI,,0,0,0,,{\c&EDFBFF}{\bord1.5\blur0.7\3c&273640\4c&273640}芙莉莲大人 请您放心
+Dialogue: 0,0:11:20.54,0:11:22.79,Dial-JPN,,0,0,0,,{\c&EDFBFF}{\bord1.5\blur0.7\3c&273640\4c&273640}ご安心ください　フリーレン様
+Dialogue: 1,0:11:25.08,0:11:28.59,Dial-CHI,,1666,0,0,,{\c&E6F2F7\bord1\blur0.7\3c&2F3C4A\4c&2F3C4A}本店的味道当然要流传后世
+Dialogue: 0,0:11:25.08,0:11:28.59,Dial-JPN,,1666,0,0,,{\c&E6F2F7\bord1\blur0.7\3c&2F3C4A\4c&2F3C4A}当店の味は後世まで遺すつもりです
+Dialogue: 1,0:11:28.59,0:11:31.30,Dial-CHI,,1666,0,0,,{\c&E6F2F7\bord1\blur0.7\3c&2F3C4A\4c&2F3C4A}要流传百年 甚至两百年
+Dialogue: 0,0:11:28.59,0:11:31.30,Dial-JPN,,1666,0,0,,{\c&E6F2F7\bord1\blur0.7\3c&2F3C4A\4c&2F3C4A}100 年後も　200 年後も
+Dialogue: 1,0:11:33.97,0:11:35.17,Dial-CHI,,0,0,0,,{\c&EBFAFF}{\bord1.5\blur0.7\3c&121212\4c&121212}是吗
+Dialogue: 0,0:11:33.97,0:11:35.17,Dial-JPN,,0,0,0,,{\c&EBFAFF}{\bord1.5\blur0.7\3c&121212\4c&121212}そう
+Dialogue: 1,0:11:35.17,0:11:38.68,Dial-CHI,,0,0,0,,{\c&EBFAFF}{\bord1.5\blur0.7\3c&121212\4c&121212}真有趣 厨师都这么说
+Dialogue: 0,0:11:35.17,0:11:38.68,Dial-JPN,,0,0,0,,{\c&EBFAFF}{\bord1.5\blur0.7\3c&121212\4c&121212}面白いよね　料理人は皆そう言う
+Dialogue: 1,0:11:39.14,0:11:43.68,Dial-CHI,,0,0,0,,{\c&EBFAFF}{\bord1.5\blur0.7\3c&121212\4c&121212}结果还是改变了原有的味道 试图留下自己的痕迹
+Dialogue: 0,0:11:39.14,0:11:43.68,Dial-JPN,,0,0,0,,{\c&EBFAFF}{\bord1.5\blur0.7\3c&121212\4c&121212}そう言って　過去の料理の味を変えて　爪痕を残そうとする
+Dialogue: 1,0:11:46.10,0:11:50.06,Dial-CHI,,0,0,0,,{\c&F2FBFF\bord1.7\blur0.7\3c&0D0D0D\4c&0D0D0D}到时候再去找更美味的佳肴就行了
+Dialogue: 0,0:11:46.10,0:11:50.06,Dial-JPN,,0,0,0,,{\c&F2FBFF\bord1.7\blur0.7\3c&0D0D0D\4c&0D0D0D}その時はもっとおいしい味を探しにいけばいい
+Dialogue: 1,0:11:50.44,0:11:52.48,Dial-CHI,,0,0,0,,{\c&F2FBFF}{\bord1.5\blur0.7\3c&414548\4c&414548}辛美尔大人 恕我直言
+Dialogue: 0,0:11:50.44,0:11:52.48,Dial-JPN,,0,0,0,,{\c&F2FBFF}{\bord1.5\blur0.7\3c&414548\4c&414548}お言葉ですが　ヒンメル様
+Dialogue: 1,0:11:52.90,0:11:56.45,Dial-CHI,,0,0,0,,{\c&F2FBFF}{\bord1.5\blur0.7\3c&414548\4c&414548}世上没有人能做出更美味的佳肴
+Dialogue: 0,0:11:52.90,0:11:56.45,Dial-JPN,,0,0,0,,{\c&F2FBFF}{\bord1.5\blur0.7\3c&414548\4c&414548}私を超える味など　この世にありませんよ
+Dialogue: 1,0:11:56.45,0:11:59.41,Dial-CHI,,0,0,0,,{\c&F2FBFF\bord1.3\blur0.7\3c&1A1A1A\4c&1A1A1A}那你一定要让它流传后世
+Dialogue: 0,0:11:56.45,0:11:59.41,Dial-JPN,,0,0,0,,{\c&F2FBFF\bord1.3\blur0.7\3c&1A1A1A\4c&1A1A1A}ならしっかり未来まで届けるんだ
+Dialogue: 1,0:11:59.99,0:12:03.62,Dial-CHI,,0,0,0,,{\c&F2FBFF\bord1.3\blur0.7\3c&1A1A1A\4c&1A1A1A}就当作这次的报酬吧
+Dialogue: 0,0:11:59.99,0:12:03.62,Dial-JPN,,0,0,0,,{\c&F2FBFF\bord1.3\blur0.7\3c&1A1A1A\4c&1A1A1A}それが僕が要求する今回の報酬だよ
+Dialogue: 1,0:12:06.87,0:12:09.17,Dial-CHI,,0,0,0,,{\c&E6F4FA\bord1.5\blur0.7}{\3c&000000\4c&000000}既然是勇者大人的要求
+Dialogue: 0,0:12:06.87,0:12:09.17,Dial-JPN,,0,0,0,,{\c&E6F4FA\bord1.5\blur0.7}{\3c&000000\4c&000000}勇者様の頼みとあらば
+Dialogue: 1,0:12:09.17,0:12:14.84,Dial-CHI,,0,0,0,,{\c&E6F4FA\bord1.5\blur0.7}{\3c&000000\4c&000000}{\t(4646,5647,\c&EDFAFF\shad0\alpha&ff\4c&E6F4FA\bord0.5)}在下定会完成这个迄今无人成就的伟业
+Dialogue: 0,0:12:09.17,0:12:14.84,Dial-JPN,,0,0,0,,{\c&E6F4FA\bord1.5\blur0.7}{\3c&000000\4c&000000}{\t(4646,5647,\c&EDFAFF\shad0\alpha&ff\4c&E6F4FA\bord0.5)}今まで料理人が成し遂げられなかった偉業を果たしてみせましょう
+Dialogue: 1,0:12:20.30,0:12:23.47,Dial-CHI,,0,0,0,,{\c&EDFBFF\bord2\blur0.7\3c&0D0D0D\4c&0D0D0D}芙莉莲 这也太好吃了
+Dialogue: 0,0:12:20.30,0:12:23.47,Dial-JPN,,0,0,0,,{\c&EDFBFF\bord2\blur0.7\3c&0D0D0D\4c&0D0D0D}フリーレン　これめちゃくちゃうまいぞ
+Dialogue: 1,0:12:23.93,0:12:26.27,Dial-CHI,,0,0,0,,{\c&EDFBFF\bord2\blur0.7\3c&0D0D0D\4c&0D0D0D}这味道真是让人受宠若惊
+Dialogue: 0,0:12:23.93,0:12:26.27,Dial-JPN,,0,0,0,,{\c&EDFBFF\bord2\blur0.7\3c&0D0D0D\4c&0D0D0D}こんなに幸せでいいのでしょうか
+Dialogue: 1,0:12:33.44,0:12:34.78,Dial-CHI,,0,0,0,,{\c&EDF6FA}{\bord2\blur0.7\3c&1C262E\4c&1C262E}什么嘛
+Dialogue: 0,0:12:33.44,0:12:34.78,Dial-JPN,,0,0,0,,{\c&EDF6FA}{\bord2\blur0.7\3c&1C262E\4c&1C262E}何だよ
+Dialogue: 1,0:12:34.78,0:12:37.82,Dial-CHI,,0,0,0,,{\c&EDF6FA}{\bord1.5\blur0.7}{\3c&161D24\4c&161D24}当初那么信誓旦旦的 味道不还是变了
+Dialogue: 0,0:12:34.78,0:12:37.82,Dial-JPN,,0,0,0,,{\c&EDF6FA}{\bord1.5\blur0.7}{\3c&161D24\4c&161D24}あれだけ意気込んでおいて　味変わってるじゃん
+Dialogue: 1,0:12:39.91,0:12:40.78,Dial-CHI,,0,0,0,,{\c&EDF6FA}{\bord2\blur0.7\3c&1C262E\4c&1C262E}不过
+Dialogue: 0,0:12:39.91,0:12:40.78,Dial-JPN,,0,0,0,,{\c&EDF6FA}{\bord2\blur0.7\3c&1C262E\4c&1C262E}でも
+Dialogue: 1,0:12:41.41,0:12:44.49,Dial-CHI,,0,0,0,,{\c&CCDEE6\3c&000000\4c&000000\bord1.5\blur0.7}不用去寻找更美味的佳肴了
+Dialogue: 0,0:12:41.41,0:12:44.49,Dial-JPN,,0,0,0,,{\c&CCDEE6\3c&000000\4c&000000\bord1.5\blur0.7}もっとおいしい味を探す手間は省けた
+Dialogue: 1,0:12:45.70,0:12:47.91,Dial-CHI,,0,0,0,,{\c&EDF6FA}{\bord2\blur0.7\3c&0C1114\4c&0C1114}比当初美味多了
+Dialogue: 0,0:12:45.70,0:12:47.91,Dial-JPN,,0,0,0,,{\c&EDF6FA}{\bord2\blur0.7\3c&0C1114\4c&0C1114}あの時よりもずっとおいしい
+Dialogue: 1,0:12:53.59,0:12:56.13,Dial-CHI,,0,0,0,,{\c&EDFBFF\bord2\blur0.7\3c&0D0D0D\4c&0D0D0D}真是太好吃了
+Dialogue: 0,0:12:53.59,0:12:56.13,Dial-JPN,,0,0,0,,{\c&EDFBFF\bord2\blur0.7\3c&0D0D0D\4c&0D0D0D}本当においしいな
+Dialogue: 1,0:12:56.13,0:12:59.30,Dial-CHI,,0,0,0,,{\c&EDFBFF\bord2\blur0.7\3c&0D0D0D\4c&0D0D0D}休塔尔克大人 沾到脸上了
+Dialogue: 0,0:12:56.13,0:12:59.30,Dial-JPN,,0,0,0,,{\c&EDFBFF\bord2\blur0.7\3c&0D0D0D\4c&0D0D0D}頬についてますよ　シュタルク様
+Dialogue: 1,0:12:59.30,0:13:02.22,Dial-CHI,,0,0,0,,{\c&D5DEE6}{\bord2\blur0.7\3c&000000\4c&000000}不吃蔬菜可不行
+Dialogue: 0,0:12:59.30,0:13:02.22,Dial-JPN,,0,0,0,,{\c&D5DEE6}{\bord2\blur0.7\3c&000000\4c&000000}野菜も食べんといかんぞ
+Dialogue: 1,0:13:02.22,0:13:04.43,Dial-CHI,,0,0,0,,{\c&D5DEE6}{\bord2\blur0.7\3c&000000\4c&000000}完全变成爷爷了
+Dialogue: 0,0:13:02.22,0:13:04.43,Dial-JPN,,0,0,0,,{\c&D5DEE6}{\bord2\blur0.7\3c&000000\4c&000000}完全にお爺ちゃんじゃねえか
+Dialogue: 1,0:13:06.14,0:13:08.06,Dial-CHI,,0,0,0,,{\c&E1EDF2\bord2\blur0.7\3c&000000\4c&000000}没想到你饭量这么小
+Dialogue: 0,0:13:06.14,0:13:08.06,Dial-JPN,,0,0,0,,{\c&E1EDF2\bord2\blur0.7\3c&000000\4c&000000}意外と小食なんだね
+Dialogue: 1,0:13:08.69,0:13:10.44,Dial-CHI,,0,0,0,,{\c&E1EDF2\bord2\blur0.7\3c&000000\4c&000000}这也没什么吧
+Dialogue: 0,0:13:08.69,0:13:10.44,Dial-JPN,,0,0,0,,{\c&E1EDF2\bord2\blur0.7\3c&000000\4c&000000}いいだろ　別に
+Dialogue: 1,0:13:12.02,0:13:14.73,Dial-CHI,,0,0,0,,{\c&D6B6A3}{\bord1.5\blur0.7\3c&000000\4c&000000}芙莉莲大人 那家店真好吃啊
+Dialogue: 0,0:13:12.02,0:13:14.73,Dial-JPN,,0,0,0,,{\c&D6B6A3}{\bord1.5\blur0.7\3c&000000\4c&000000}おいしかったですね　フリーレン様
+Dialogue: 1,0:13:17.78,0:13:19.95,Dial-CHI,,0,1111,0,,{\c&D9C1AB\bord1.5\blur0.7\3c&000000\4c&000000}还好菲伦消气了
+Dialogue: 0,0:13:17.78,0:13:19.95,Dial-JPN,,0,1111,0,,{\c&D9C1AB\bord1.5\blur0.7\3c&000000\4c&000000}機嫌直ってよかった
+Dialogue: 1,0:13:21.16,0:13:23.70,Dial-CHI,,0,1111,0,,{\c&D9C1AB\bord1.5\blur0.7\3c&000000\4c&000000}话说 你的钱包还好吗
+Dialogue: 0,0:13:21.16,0:13:23.70,Dial-JPN,,0,1111,0,,{\c&D9C1AB\bord1.5\blur0.7\3c&000000\4c&000000}ところで　お金は大丈夫なのか
+Dialogue: 1,0:13:24.41,0:13:26.45,Dial-CHI,,0,1111,0,,{\c&D9C1AB\bord1.5\blur0.7\3c&000000\4c&000000}私房钱用光了
+Dialogue: 0,0:13:24.41,0:13:26.45,Dial-JPN,,0,1111,0,,{\c&D9C1AB\bord1.5\blur0.7\3c&000000\4c&000000}ヘソクリなくなっちゃった
+Dialogue: 1,0:13:29.54,0:13:32.00,Dial-CHI,,0,0,0,,{\3c&262626\4c&262626}{\bord2}{\blur0.7}这便是「无」的境界
+Dialogue: 0,0:13:29.54,0:13:32.00,Dial-JPN,,0,0,0,,{\3c&262626\4c&262626}{\bord2}{\blur0.7}これぞ「無」の境地
+Dialogue: 1,0:13:33.04,0:13:37.34,Dial-CHI,,0,0,0,,{\c&EDEDED\3c&000000\4c&000000\bord1.7\blur0.7}你终于领悟了「武」的精髓
+Dialogue: 0,0:13:33.04,0:13:37.34,Dial-JPN,,0,0,0,,{\c&EDEDED\3c&000000\4c&000000\bord1.7\blur0.7}よくぞ「武」の真髄までたどり着いた
+Dialogue: 1,0:13:38.38,0:13:42.51,Dial-CHI,,0,0,0,,{\c&EDEDED\3c&000000\4c&000000}{\bord1.5\blur0.7}老夫已经没有什么可以传授给你了
+Dialogue: 0,0:13:38.38,0:13:42.51,Dial-JPN,,0,0,0,,{\c&EDEDED\3c&000000\4c&000000}{\bord1.5\blur0.7}お主に教えることはもう何もない
+Dialogue: 1,0:13:53.31,0:13:54.86,Dial-CHI,,777,0,0,,{\bord2\blur0.7\3c&262626\4c&262626}那位老爷爷是谁
+Dialogue: 0,0:13:53.31,0:13:54.86,Dial-JPN,,777,0,0,,{\bord2\blur0.7\3c&262626\4c&262626}あのお爺さん　誰
+Dialogue: 1,0:13:55.48,0:13:56.69,Dial-CHI,,777,0,0,,{\bord2\blur0.7\3c&262626\4c&262626}不认识
+Dialogue: 0,0:13:55.48,0:13:56.69,Dial-JPN,,777,0,0,,{\bord2\blur0.7\3c&262626\4c&262626}知らない人
+Dialogue: 1,0:13:57.28,0:13:59.57,Dial-CHI,,777,0,0,,{\bord2\blur0.7\3c&262626\4c&262626}他总是在我修行的时候来搭话
+Dialogue: 0,0:13:57.28,0:13:59.57,Dial-JPN,,777,0,0,,{\bord2\blur0.7\3c&262626\4c&262626}何か修行してると話しかけてくるの
+Dialogue: 1,0:14:00.36,0:14:03.45,Dial-CHI,,777,0,0,,{\bord2\blur0.7\3c&262626\4c&262626}看来你挺讨怪人喜欢啊
+Dialogue: 0,0:14:00.36,0:14:03.45,Dial-JPN,,777,0,0,,{\bord2\blur0.7\3c&262626\4c&262626}シュタルクって変な人に好かれるよね
+Dialogue: 1,0:14:03.95,0:14:06.08,Dial-CHI,,0,0,0,,{\bord1.5}{\blur0.7\3c&262626\4c&262626}算了 你有空吗
+Dialogue: 0,0:14:03.95,0:14:06.08,Dial-JPN,,0,0,0,,{\bord1.5}{\blur0.7\3c&262626\4c&262626}まぁいいや　ちょっといい?
+Dialogue: 1,0:14:06.91,0:14:08.83,Dial-CHI,,0,0,0,,{\c&EBEBEB\bord1.5\blur0.5\3c&000000\4c&000000}想请你帮个忙
+Dialogue: 0,0:14:06.91,0:14:08.83,Dial-JPN,,0,0,0,,{\c&EBEBEB\bord1.5\blur0.5\3c&000000\4c&000000}力を借りたいんだけれども
+Dialogue: 1,0:14:09.29,0:14:10.83,Dial-CHI,,0,0,0,,{\c&EBEBEB\bord1.5\blur0.5\3c&000000\4c&000000}发生什么事了
+Dialogue: 0,0:14:09.29,0:14:10.83,Dial-JPN,,0,0,0,,{\c&EBEBEB\bord1.5\blur0.5\3c&000000\4c&000000}何があったんだ
+Dialogue: 1,0:14:14.25,0:14:15.88,Dial-CHI,,0,1544,0,,{\c&EDF7F7}{\bord1.5\blur0.7\3c&2B3338\4c&2B3338}看起来相当生气啊
+Dialogue: 0,0:14:14.25,0:14:15.88,Dial-JPN,,0,1544,0,,{\c&EDF7F7}{\bord1.5\blur0.7\3c&2B3338\4c&2B3338}むちゃくちゃ怒ってる
+Dialogue: 1,0:14:16.46,0:14:18.55,Dial-CHI,,0,1666,0,,{\c&EDF7F7}{\bord1.5\blur0.7\3c&2B3338\4c&2B3338}心情变得比昨天还要糟糕
+Dialogue: 0,0:14:16.46,0:14:18.55,Dial-JPN,,0,1666,0,,{\c&EDF7F7}{\bord1.5\blur0.7\3c&2B3338\4c&2B3338}昨日より機嫌　悪いじゃねえか
+Dialogue: 1,0:14:19.71,0:14:21.22,Dial-CHI,,0,1222,0,,{\c&EDF7F7}{\bord1.5\blur0.7\3c&2B3338\4c&2B3338}你干什么了
+Dialogue: 0,0:14:19.71,0:14:21.22,Dial-JPN,,0,1222,0,,{\c&EDF7F7}{\bord1.5\blur0.7\3c&2B3338\4c&2B3338}何やったんだよ
+Dialogue: 1,0:14:21.72,0:14:26.01,Dial-CHI,,1833,0,0,,{\c&EDF7F7\bord1.5\blur0.7\3c&0A0C0D\4c&0A0C0D}今天轮到我出去买东西 但我睡过头了
+Dialogue: 0,0:14:21.72,0:14:26.01,Dial-JPN,,1833,0,0,,{\c&EDF7F7\bord1.5\blur0.7\3c&0A0C0D\4c&0A0C0D}今日の買い出し当番　私だったのに寝坊しちゃったから
+Dialogue: 1,0:14:26.01,0:14:29.93,Dial-CHI,,0,1955,0,,{\c&EDF7F7}{\bord1.5\blur0.7\3c&2B3338\4c&2B3338}这不是常有的事吗 有啥好生气的
+Dialogue: 0,0:14:26.01,0:14:29.93,Dial-JPN,,0,1955,0,,{\c&EDF7F7}{\bord1.5\blur0.7\3c&2B3338\4c&2B3338}そんなの　いつものことだろ　何で今更
+Dialogue: 1,0:14:29.93,0:14:33.98,Dial-CHI,,1855,0,0,,{\c&EDF7F7\bord1.5\blur0.7\3c&0A0C0D\4c&0A0C0D}菲伦是持续积攒怒气 最后爆发的类型
+Dialogue: 0,0:14:29.93,0:14:33.98,Dial-JPN,,1855,0,0,,{\c&EDF7F7\bord1.5\blur0.7\3c&0A0C0D\4c&0A0C0D}フェルンは積もりに積もって爆発するタイプなんだよ
+Dialogue: 1,0:14:33.98,0:14:35.73,Dial-CHI,,0,1444,0,,{\c&EDF7F7}{\bord1.5\blur0.7\3c&2B3338\4c&2B3338}爆发了会怎么样
+Dialogue: 0,0:14:33.98,0:14:35.73,Dial-JPN,,0,1444,0,,{\c&EDF7F7}{\bord1.5\blur0.7\3c&2B3338\4c&2B3338}爆発したらどうなるんだ
+Dialogue: 1,0:14:36.94,0:14:38.98,Dial-CHI,,1666,0,0,,{\c&EDF7F7\bord1.5\blur0.7\3c&0A0C0D\4c&0A0C0D}她不和我说话了
+Dialogue: 0,0:14:36.94,0:14:38.98,Dial-JPN,,1666,0,0,,{\c&EDF7F7\bord1.5\blur0.7\3c&0A0C0D\4c&0A0C0D}口を利いてくれなくなっちゃう
+Dialogue: 1,0:14:39.40,0:14:41.36,Dial-CHI,,0,1255,0,,{\c&EDF7F7}{\bord1.5\blur0.7\3c&2B3338\4c&2B3338}小孩子赌气吗
+Dialogue: 0,0:14:39.40,0:14:41.36,Dial-JPN,,0,1255,0,,{\c&EDF7F7}{\bord1.5\blur0.7\3c&2B3338\4c&2B3338}子供のケンカかよ
+Dialogue: 1,0:14:41.86,0:14:43.70,Dial-CHI,,0,555,0,,{\c&F5FEFF}{\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}拜托了 休塔尔克
+Dialogue: 0,0:14:41.86,0:14:43.70,Dial-JPN,,0,555,0,,{\c&F5FEFF}{\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}お願いだよ　シュタルク
+Dialogue: 1,0:14:43.70,0:14:45.07,Dial-CHI,,0,555,0,,{\c&F5FEFF}{\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}帮我们调停
+Dialogue: 0,0:14:43.70,0:14:45.07,Dial-JPN,,0,555,0,,{\c&F5FEFF}{\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}仲裁してよ
+Dialogue: 1,0:14:45.07,0:14:47.78,Dial-CHI,,0,555,0,,{\c&F5FEFF}{\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}她是不会跟我说话的
+Dialogue: 0,0:14:45.07,0:14:47.78,Dial-JPN,,0,555,0,,{\c&F5FEFF}{\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}私だと話してくれないんだよ
+Dialogue: 1,0:14:48.45,0:14:51.62,Dial-CHI,,0,555,0,,{\c&F5FEFF}{\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}不要 好可怕
+Dialogue: 0,0:14:48.45,0:14:51.62,Dial-JPN,,0,555,0,,{\c&F5FEFF}{\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}やだよ　怖いもん
+Dialogue: 1,0:14:52.29,0:14:53.54,Dial-CHI,,0,0,0,,{\c&F5FEFF\bord1.5\blur0.7\3c&262626\4c&262626}可不嘛
+Dialogue: 0,0:14:52.29,0:14:53.54,Dial-JPN,,0,0,0,,{\c&F5FEFF\bord1.5\blur0.7\3c&262626\4c&262626}そうだよね
+Dialogue: 1,0:14:54.04,0:14:55.75,Dial-CHI,,0,0,0,,{\c&F5FEFF\bord1.5\blur0.7\3c&262626\4c&262626}抱歉 不该勉强你
+Dialogue: 0,0:14:54.04,0:14:55.75,Dial-JPN,,0,0,0,,{\c&F5FEFF\bord1.5\blur0.7\3c&262626\4c&262626}むちゃ言ってごめんね
+Dialogue: 1,0:15:02.97,0:15:05.68,Dial-CHI,,0,0,0,,{\c&DCE5E8}{\bord1.5\blur0.7\3c&23263B\4c&23263B}我说 菲伦小姐
+Dialogue: 0,0:15:02.97,0:15:05.68,Dial-JPN,,0,0,0,,{\c&DCE5E8}{\bord1.5\blur0.7\3c&23263B\4c&23263B}あの　フェルンさん
+Dialogue: 1,0:15:05.68,0:15:09.18,Dial-CHI,,0,0,0,,{\c&DCE5E8}{\bord1.5\blur0.7\3c&23263B\4c&23263B}芙莉莲已经知道错了
+Dialogue: 0,0:15:05.68,0:15:09.18,Dial-JPN,,0,0,0,,{\c&DCE5E8}{\bord1.5\blur0.7\3c&23263B\4c&23263B}本人もこうして反省しているわけですし
+Dialogue: 1,0:15:11.06,0:15:11.89,Dial-CHI,,0,0,0,,{\c&DCE5E8}{\bord1.5\blur0.7\3c&23263B\4c&23263B}想吃
+Dialogue: 0,0:15:11.06,0:15:11.89,Dial-JPN,,0,0,0,,{\c&DCE5E8}{\bord1.5\blur0.7\3c&23263B\4c&23263B}食べたい
+Dialogue: 1,0:15:14.31,0:15:15.94,Dial-CHI,,0,0,0,,{\c&CBD4D6\bord1.5\blur0.7\3c&000000\4c&000000}想吃零食
+Dialogue: 0,0:15:14.31,0:15:15.94,Dial-JPN,,0,0,0,,{\c&CBD4D6\bord1.5\blur0.7\3c&000000\4c&000000}おやつ食べたい
+Dialogue: 1,0:15:20.86,0:15:23.11,Dial-CHI,,1166,0,0,,{\c&F2EEEB}{\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}这人真的好麻烦
+Dialogue: 0,0:15:20.86,0:15:23.11,Dial-JPN,,1166,0,0,,{\c&F2EEEB}{\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}面倒くせぇ　この人
+Dialogue: 1,0:15:23.61,0:15:26.07,Dial-CHI,,0,0,0,,{\c&F5F8FC\bord1.5\blur0.7\3c&202326\4c&202326}那大家一起去买吧
+Dialogue: 0,0:15:23.61,0:15:26.07,Dial-JPN,,0,0,0,,{\c&F5F8FC\bord1.5\blur0.7\3c&202326\4c&202326}じゃあ　みんなで買いに行こうぜ
+Dialogue: 1,0:15:26.66,0:15:29.12,Dial-CHI,,0,0,0,,{\c&F5F8FC\bord1.5\blur0.7\3c&202326\4c&202326}我还有私房钱吗
+Dialogue: 0,0:15:26.66,0:15:29.12,Dial-JPN,,0,0,0,,{\c&F5F8FC\bord1.5\blur0.7\3c&202326\4c&202326}ヘソクリまだあったかな
+Dialogue: 1,0:15:36.75,0:15:38.88,Dial-CHI,,0,0,0,,{\3c&353238\4c&353238}{\bord1.5}{\blur0.7}咦 那个人
+Dialogue: 0,0:15:36.75,0:15:38.88,Dial-JPN,,0,0,0,,{\3c&353238\4c&353238}{\bord1.5}{\blur0.7}あれ　あいつ
+Dialogue: 1,0:15:38.88,0:15:42.76,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&333333\4c&333333}好像是北部魔法队的威亚贝尔
+Dialogue: 0,0:15:38.88,0:15:42.76,Dial-JPN,,0,0,0,,{\bord2\blur0.7\3c&333333\4c&333333}確か北部魔法隊のヴィアベルだっけ
+Dialogue: 1,0:15:45.22,0:15:46.72,Dial-CHI,,0,0,0,,{\bord1.5}{\blur0.7}你是战士吧
+Dialogue: 0,0:15:45.22,0:15:46.72,Dial-JPN,,0,0,0,,{\bord1.5}{\blur0.7}お前戦士だろ
+Dialogue: 1,0:15:47.57,0:15:49.10,Dial-CHI,,0,0,0,,{\bord1.5}{\blur0.7}请问有事吗
+Dialogue: 0,0:15:47.57,0:15:49.10,Dial-JPN,,0,0,0,,{\bord1.5}{\blur0.7}ちょっと何ですか
+Dialogue: 1,0:15:49.64,0:15:50.26,Dial-CHI,,0,0,0,,{\bord1.5}{\blur0.7}怎么样
+Dialogue: 0,0:15:49.64,0:15:50.26,Dial-JPN,,0,0,0,,{\bord1.5}{\blur0.7}どうだ
+Dialogue: 1,0:15:52.64,0:15:53.64,Dial-CHI,,0,0,0,,{\bord1.5}{\blur0.7}干嘛呀
+Dialogue: 0,0:15:52.64,0:15:53.64,Dial-JPN,,0,0,0,,{\bord1.5}{\blur0.7}なに
+Dialogue: 1,0:15:55.39,0:15:57.48,Dial-CHI,,0,0,0,,{\c&EBEBEB\bord1.5\blur0.7\3c&000000\4c&000000}这家伙不行
+Dialogue: 0,0:15:55.39,0:15:57.48,Dial-JPN,,0,0,0,,{\c&EBEBEB\bord1.5\blur0.7\3c&000000\4c&000000}ダメだな　こいつじゃ
+Dialogue: 1,0:16:01.11,0:16:02.61,Dial-CHI,,0,0,0,,{\c&F2F2F2}{\bord2\blur0.7\3c&24262B\4c&24262B}他们在干嘛
+Dialogue: 0,0:16:01.11,0:16:02.61,Dial-JPN,,0,0,0,,{\c&F2F2F2}{\bord2\blur0.7\3c&24262B\4c&24262B}何やってんだろ
+Dialogue: 1,0:16:03.90,0:16:05.36,Dial-CHI,,911,0,0,,{\bord1.5\blur0.7\3c&333333\4c&333333}久等了 康涅
+Dialogue: 0,0:16:03.90,0:16:05.36,Dial-JPN,,911,0,0,,{\bord1.5\blur0.7\3c&333333\4c&333333}待たせたな　カンネ
+Dialogue: 1,0:16:07.66,0:16:10.95,Dial-CHI,,0,0,0,,{\3c&333333\4c&333333\bord1}{\blur0.7}拉比涅 你这副打扮比平时还要可爱
+Dialogue: 0,0:16:07.66,0:16:10.95,Dial-JPN,,0,0,0,,{\3c&333333\4c&333333\bord1}{\blur0.7}いつにも増してかわいい格好だね　ラヴィーネ
+Dialogue: 1,0:16:11.70,0:16:14.87,Dial-CHI,,0,0,0,,{\3c&333333\4c&333333\bord1}{\blur0.7}兄长们从帝都回来了
+Dialogue: 0,0:16:11.70,0:16:14.87,Dial-JPN,,0,0,0,,{\3c&333333\4c&333333\bord1}{\blur0.7}兄貴たちが帝都から帰ってきてんだよ
+Dialogue: 1,0:16:17.62,0:16:21.38,Dial-CHI,,0,0,0,,{\c&F2F1F0\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}每次回家都要买一堆多余的东西
+Dialogue: 0,0:16:17.62,0:16:21.38,Dial-JPN,,0,0,0,,{\c&F2F1F0\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}毎回毎回　余計な物買ってきやがって
+Dialogue: 1,0:16:21.38,0:16:24.01,Dial-CHI,,0,0,0,,{\c&F2EFED}{\bord1.5\blur0.7\3c&262626\4c&262626}我又不是换装娃娃
+Dialogue: 0,0:16:21.38,0:16:24.01,Dial-JPN,,0,0,0,,{\c&F2EFED}{\bord1.5\blur0.7\3c&262626\4c&262626}私は着せ替え人形じゃねえぞ
+Dialogue: 1,0:16:24.55,0:16:26.38,Dial-CHI,,0,0,0,,{\c&F5F2F0\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}老妈也兴致勃勃的
+Dialogue: 0,0:16:24.55,0:16:26.38,Dial-JPN,,0,0,0,,{\c&F5F2F0\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}おふくろもノリノリでさ
+Dialogue: 1,0:16:26.38,0:16:28.38,Dial-CHI,,0,0,0,,{\c&E0DFDE}{\bord1.5\blur0.7\3c&000000\4c&000000}根本不会阻止他们
+Dialogue: 0,0:16:26.38,0:16:28.38,Dial-JPN,,0,0,0,,{\c&E0DFDE}{\bord1.5\blur0.7\3c&000000\4c&000000}一切止めやしねえ
+Dialogue: 1,0:16:31.05,0:16:33.39,Dial-CHI,,0,0,0,,{\bord1.5\blur0.7\3c&435C73\4c&435C73}这不是比我还受宠吗
+Dialogue: 0,0:16:31.05,0:16:33.39,Dial-JPN,,0,0,0,,{\bord1.5\blur0.7\3c&435C73\4c&435C73}私より甘やかされてんじゃん
+Dialogue: 1,0:16:33.39,0:16:36.06,Dial-CHI,,0,0,0,,{\bord1.5\blur0.7\3c&435C73\4c&435C73}那你和我换换吧
+Dialogue: 0,0:16:33.39,0:16:36.06,Dial-JPN,,0,0,0,,{\bord1.5\blur0.7\3c&435C73\4c&435C73}そう思うなら代わってくれよ
+Dialogue: 1,0:16:36.06,0:16:39.40,Dial-CHI,,0,0,0,,{\bord1.5\blur0.7\3c&435C73\4c&435C73}被拿来和优秀的兄长们比较简直太糟心了
+Dialogue: 0,0:16:36.06,0:16:39.40,Dial-JPN,,0,0,0,,{\bord1.5\blur0.7\3c&435C73\4c&435C73}優秀な兄貴たちと比べられるのは地獄だぜ
+Dialogue: 1,0:16:39.94,0:16:41.27,Dial-CHI,,0,0,0,,{\bord1.5}{\blur0.7\3c&1A1A1A\4c&1A1A1A}好了 走吧
+Dialogue: 0,0:16:39.94,0:16:41.27,Dial-JPN,,0,0,0,,{\bord1.5}{\blur0.7\3c&1A1A1A\4c&1A1A1A}ほら　行くぞ
+Dialogue: 1,0:16:41.27,0:16:42.86,Dial-CHI,,0,0,0,,{\bord1.5}{\blur0.7\3c&1A1A1A\4c&1A1A1A}我快喘不过气了
+Dialogue: 0,0:16:41.27,0:16:42.86,Dial-JPN,,0,0,0,,{\bord1.5}{\blur0.7\3c&1A1A1A\4c&1A1A1A}息が詰まりそうだ
+Dialogue: 1,0:16:47.36,0:16:50.70,Dial-CHI,,0,0,0,,{\bord2}{\blur0.7}{\3c&333333\4c&333333}那我今天就当您的护花使者吧
+Dialogue: 0,0:16:47.36,0:16:50.70,Dial-JPN,,0,0,0,,{\bord1.5\blur0.7\3c&333333\4c&333333}じゃあ　今日は私がエスコートするね
+Dialogue: 1,0:16:50.70,0:16:51.62,Dial-CHI,,0,0,0,,{\bord2}{\blur0.7}{\3c&333333\4c&333333}拉比涅小姐
+Dialogue: 0,0:16:50.70,0:16:51.62,Dial-JPN,,0,0,0,,{\bord1.5\blur0.7\3c&333333\4c&333333}ラヴィーネちゃん
+Dialogue: 1,0:16:57.29,0:17:01.04,Dial-CHI,,0,0,0,,{\bord1.5}{\blur0.7}痛痛痛 头发要掉了
+Dialogue: 0,0:16:57.29,0:17:01.04,Dial-JPN,,0,0,0,,{\bord1.5}{\blur0.7}痛い痛い　取れちゃう
+Dialogue: 1,0:17:22.06,0:17:24.07,Dial-CHI,,0,0,0,,{\c&E3E8E8\3c&000000\4c&000000\bord2\blur0.7}那个 菲伦小姐
+Dialogue: 0,0:17:22.06,0:17:24.07,Dial-JPN,,0,0,0,,{\c&E3E8E8\3c&000000\4c&000000\bord2\blur0.7}あの　フェルンさん
+Dialogue: 1,0:17:24.61,0:17:26.15,Dial-CHI,,0,0,0,,{\c&E3E8E8\3c&000000\4c&000000\bord2\blur0.7}您喜欢哪种
+Dialogue: 0,0:17:24.61,0:17:26.15,Dial-JPN,,0,0,0,,{\c&E3E8E8\3c&000000\4c&000000\bord2\blur0.7}どれにしましょうか?
+Dialogue: 1,0:17:26.69,0:17:28.32,Dial-CHI,,0,0,0,,{\c&E3E8E8\3c&000000\4c&000000\bord2\blur0.7}哪种都行
+Dialogue: 0,0:17:26.69,0:17:28.32,Dial-JPN,,0,0,0,,{\c&E3E8E8\3c&000000\4c&000000\bord2\blur0.7}別にどれでも
+Dialogue: 1,0:17:28.32,0:17:30.66,Dial-CHI,,0,0,0,,{\c&E3E8E8\3c&000000\4c&000000\bord2\blur0.7}休塔尔克大人 您选就是了
+Dialogue: 0,0:17:28.32,0:17:30.66,Dial-JPN,,0,0,0,,{\c&E3E8E8\3c&000000\4c&000000\bord2\blur0.7}シュタルク様　選んでいいですよ
+Dialogue: 1,0:17:32.70,0:17:35.24,Dial-CHI,,0,0,0,,{\c&E3E1E1}{\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}她这反应 说明选哪个都不对
+Dialogue: 0,0:17:32.70,0:17:35.24,Dial-JPN,,0,0,0,,{\c&E3E1E1}{\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}これ　どれでもよくない時のやつだ
+Dialogue: 1,0:17:37.20,0:17:38.83,Dial-CHI,,0,0,0,,{\c&D9DEDE\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}怎么办
+Dialogue: 0,0:17:37.20,0:17:38.83,Dial-JPN,,0,0,0,,{\c&D9DEDE\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}どうしよう
+Dialogue: 1,0:17:38.83,0:17:40.92,Dial-CHI,,0,0,0,,{\c&D9DEDE\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}问我也没用
+Dialogue: 0,0:17:38.83,0:17:40.92,Dial-JPN,,0,0,0,,{\c&D9DEDE\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}私に聞かれても困るよ
+Dialogue: 1,0:17:44.84,0:17:47.30,Dial-CHI,,0,0,0,,{\c&E3E7E8}{\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}那不是芙莉莲吗
+Dialogue: 0,0:17:44.84,0:17:47.30,Dial-JPN,,0,0,0,,{\c&E3E7E8}{\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}あれ　フリーレンじゃねえか
+Dialogue: 1,0:17:52.01,0:17:53.30,Dial-CHI,,0,0,0,,{\bord2.5\blur0.7\3c&404040\4c&404040}太巧了
+Dialogue: 0,0:17:52.01,0:17:53.30,Dial-JPN,,0,0,0,,{\bord2.5\blur0.7\3c&404040\4c&404040}ちょうどよかった
+Dialogue: 1,0:17:53.30,0:17:56.35,Dial-CHI,,0,0,0,,{\bord2.5\blur0.7\3c&404040\4c&404040}我们正想去旅馆找你玩呢
+Dialogue: 0,0:17:53.30,0:17:56.35,Dial-JPN,,0,0,0,,{\bord2.5\blur0.7\3c&404040\4c&404040}宿に遊びに行こうかと思っていたところなんだ
+Dialogue: 1,0:17:57.10,0:17:58.06,Dial-CHI,,0,0,0,,{\bord2.5\blur0.7}{\3c&333333\4c&333333}她们是谁
+Dialogue: 0,0:17:57.10,0:17:58.06,Dial-JPN,,0,0,0,,{\bord2.5\blur0.7}{\3c&333333\4c&333333}誰なの
+Dialogue: 1,0:17:58.73,0:18:01.98,Dial-CHI,,0,0,0,,{\bord2.5\blur0.7}{\3c&333333\4c&333333}第一场考核跟我一队的人
+Dialogue: 0,0:17:58.73,0:18:01.98,Dial-JPN,,0,0,0,,{\bord2.5\blur0.7}{\3c&333333\4c&333333}一次試験で同じパーティーだった子たちだよ
+Dialogue: 1,0:18:01.98,0:18:06.15,Dial-CHI,,0,0,0,,{\bord2.5\blur0.7}{\3c&333333\4c&333333}是这样的 芙莉莲帮了我们不少忙
+Dialogue: 0,0:18:01.98,0:18:06.15,Dial-JPN,,0,0,0,,{\bord2.5\blur0.7}{\3c&333333\4c&333333}あのね　フリーレンにはたくさん助けてもらったんだよ！
+Dialogue: 1,0:18:06.15,0:18:08.74,Dial-CHI,,0,0,0,,{\bord2.5\blur0.7}{\3c&333333\4c&333333}还有 她就像个老师
+Dialogue: 0,0:18:06.15,0:18:08.74,Dial-JPN,,0,0,0,,{\bord2.5\blur0.7}{\3c&333333\4c&333333}あとね　先生みたいだった
+Dialogue: 1,0:18:10.78,0:18:12.91,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&262626\4c&262626}还不是因为你们总吵架
+Dialogue: 0,0:18:10.78,0:18:12.91,Dial-JPN,,0,0,0,,{\bord2\blur0.7\3c&262626\4c&262626}2 人がケンカするせいでね
+Dialogue: 1,0:18:12.91,0:18:14.49,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&262626\4c&262626}是拉比涅不好
+Dialogue: 0,0:18:12.91,0:18:14.49,Dial-JPN,,0,0,0,,{\bord2\blur0.7\3c&262626\4c&262626}ラヴィーネが悪い
+Dialogue: 1,0:18:15.07,0:18:16.99,Dial-CHI,,2222,0,0,,{\bord2\blur0.7\3c&262626\4c&262626}痛痛痛
+Dialogue: 0,0:18:15.07,0:18:16.99,Dial-JPN,,2222,0,0,,{\bord2\blur0.7\3c&262626\4c&262626}痛っ　痛い
+Dialogue: 1,0:18:15.24,0:18:18.12,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&262626\4c&262626}周围全是女孩子真的很劳神
+Dialogue: 0,0:18:15.24,0:18:18.12,Dial-JPN,,0,0,0,,{\bord2\blur0.7\3c&262626\4c&262626}女の子ばっかりで居心地悪いなぁ
+Dialogue: 1,0:18:18.79,0:18:19.37,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&262626\4c&262626}喂
+Dialogue: 0,0:18:18.79,0:18:19.37,Dial-JPN,,0,0,0,,{\bord2\blur0.7\3c&262626\4c&262626}おい
+Dialogue: 1,0:18:19.87,0:18:21.66,Dial-CHI,,0,0,0,,{\bord2\blur0.7}{\3c&1A1A1A\4c&1A1A1A}你是战士吧
+Dialogue: 0,0:18:19.87,0:18:21.66,Dial-JPN,,0,0,0,,{\bord2\blur0.7}{\3c&1A1A1A\4c&1A1A1A}お前戦士だろ
+Dialogue: 1,0:18:24.50,0:18:25.98,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&000000\4c&000000}呃 等一下
+Dialogue: 0,0:18:24.50,0:18:25.98,Dial-JPN,,0,0,0,,{\bord2\blur0.7\3c&000000\4c&000000}あぁ　ちょっと
+Dialogue: 1,0:18:25.98,0:18:27.34,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&000000\4c&000000}别这样
+Dialogue: 0,0:18:25.98,0:18:27.34,Dial-JPN,,0,0,0,,{\bord2\blur0.7\3c&000000\4c&000000}やだ
+Dialogue: 1,0:18:27.34,0:18:28.63,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&000000\4c&000000}有事吗
+Dialogue: 0,0:18:27.34,0:18:28.63,Dial-JPN,,0,0,0,,{\bord2\blur0.7\3c&000000\4c&000000}なに
+Dialogue: 1,0:18:29.71,0:18:32.01,Dial-CHI,,0,0,0,,{\bord1.5\blur0.7}{\3c&000000\4c&000000}你小子挺不错嘛
+Dialogue: 0,0:18:29.71,0:18:32.01,Dial-JPN,,0,0,0,,{\bord1.5\blur0.7}{\3c&000000\4c&000000}お前　すごくいいな
+Dialogue: 1,0:18:32.01,0:18:33.80,Dial-CHI,,0,0,0,,{\bord1.5\blur0.7}{\3c&000000\4c&000000}什么情况
+Dialogue: 0,0:18:32.01,0:18:33.80,Dial-JPN,,0,0,0,,{\bord1.5\blur0.7}{\3c&000000\4c&000000}何なの
+Dialogue: 1,0:18:34.47,0:18:36.35,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}我们接了大陆魔法协会的委托
+Dialogue: 0,0:18:34.47,0:18:36.35,Dial-JPN,,0,0,0,,{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}大陸魔法協会から
+Dialogue: 1,0:18:36.35,0:18:40.14,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}内容是讨伐毁坏农作物的狮子猪
+Dialogue: 0,0:18:36.35,0:18:40.14,Dial-JPN,,0,0,0,,{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}農作物を荒らす獅子猪の討伐依頼を受けていてな
+Dialogue: 1,0:18:40.52,0:18:42.19,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}正在寻找前卫
+Dialogue: 0,0:18:40.52,0:18:42.19,Dial-JPN,,0,0,0,,{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}前衛を探していたんだ
+Dialogue: 1,0:18:43.14,0:18:44.69,Dial-CHI,,0,0,0,,{\bord2\blur0.7}{\3c&1A1A1A\4c&1A1A1A}我们在考核时见过吧
+Dialogue: 0,0:18:43.14,0:18:44.69,Dial-JPN,,0,0,0,,{\bord2\blur0.7}{\3c&1A1A1A\4c&1A1A1A}試験で会ったな
+Dialogue: 0,0:18:44.69,0:18:46.36,Dial-CHI,,0,0,0,,{\bord2\blur0.7}{\3c&1A1A1A\4c&1A1A1A}他是你的同伴吗
+Dialogue: 0,0:18:44.69,0:18:46.36,Dial-JPN,,0,0,0,,{\bord2\blur0.7}{\3c&1A1A1A\4c&1A1A1A}こいつお前の仲間か
+Dialogue: 1,0:18:46.36,0:18:47.27,Dial-CHI,,0,0,0,,{\bord2\blur0.7}{\3c&1A1A1A\4c&1A1A1A}借我们使使?
+Dialogue: 0,0:18:46.36,0:18:47.27,Dial-JPN,,0,0,0,,{\bord2\blur0.7}{\3c&1A1A1A\4c&1A1A1A}借りてっていい?
+Dialogue: 1,0:18:47.57,0:18:48.11,Dial-CHI,,1311,0,0,,{\c&E4E9EB\bord2\blur0.7\3c&000000\4c&000000}请便
+Dialogue: 0,0:18:47.57,0:18:48.11,Dial-JPN,,1311,0,0,,{\c&E4E9EB\bord2\blur0.7\3c&000000\4c&000000}どうぞ
+Dialogue: 1,0:18:48.11,0:18:49.40,Dial-CHI,,1311,0,0,,{\c&E4E9EB\bord2\blur0.7\3c&000000\4c&000000}好过分
+Dialogue: 0,0:18:48.11,0:18:49.40,Dial-JPN,,1311,0,0,,{\c&E4E9EB\bord2\blur0.7\3c&000000\4c&000000}ひどい
+Dialogue: 1,0:18:51.48,0:18:53.40,Dial-CHI,,1899,0,0,,{\bord1.5\blur0.7}{\3c&1A1A1A\4c&1A1A1A}太过分了
+Dialogue: 0,0:18:51.48,0:18:53.40,Dial-JPN,,1899,0,0,,{\bord1.5\blur0.7}{\3c&1A1A1A\4c&1A1A1A}ひどいよ
+Dialogue: 1,0:18:52.15,0:18:54.07,Dial-CHI,,0,0,0,,{\bord1.5\blur0.7}{\3c&1A1A1A\4c&1A1A1A}他被带走了 没关系吗
+Dialogue: 0,0:18:52.15,0:18:54.07,Dial-JPN,,0,0,0,,{\bord1.5\blur0.7}{\3c&1A1A1A\4c&1A1A1A}連れてかれちゃったけどいいの?
+Dialogue: 1,0:18:54.61,0:18:57.91,Dial-CHI,,0,0,0,,{\bord1.5\blur0.7}{\3c&1A1A1A\4c&1A1A1A}没关系的 对方并没有打坏注意
+Dialogue: 0,0:18:54.61,0:18:57.91,Dial-JPN,,0,0,0,,{\bord1.5\blur0.7}{\3c&1A1A1A\4c&1A1A1A}大丈夫でしょう　害意が全くありませんでした
+Dialogue: 1,0:18:58.33,0:19:00.62,Dial-CHI,,0,0,0,,{\bord1.5\blur0.7}{\3c&1A1A1A\4c&1A1A1A}虽然像是换了一个人
+Dialogue: 0,0:18:58.33,0:19:00.62,Dial-JPN,,0,0,0,,{\bord1.5\blur0.7}{\3c&1A1A1A\4c&1A1A1A}同じ人物とは思えないほどに
+Dialogue: 1,0:19:00.62,0:19:04.00,Dial-CHI,,0,0,0,,{\bord1.5\blur0.7}{\3c&1A1A1A\4c&1A1A1A}是会开启工作模式的类型吗
+Dialogue: 0,0:19:00.62,0:19:04.00,Dial-JPN,,0,0,0,,{\bord1.5\blur0.7}{\3c&1A1A1A\4c&1A1A1A}仕事でオンオフ切り替えるタイプなんじゃねえの
+Dialogue: 1,0:19:04.00,0:19:05.21,Dial-CHI,,0,0,0,,{\bord1.5\blur0.7}{\3c&1A1A1A\4c&1A1A1A}兄长们也是这样
+Dialogue: 0,0:19:04.00,0:19:05.21,Dial-JPN,,0,0,0,,{\bord1.5\blur0.7}{\3c&1A1A1A\4c&1A1A1A}兄貴たちもそうだ
+Dialogue: 1,0:19:08.09,0:19:09.30,Dial-CHI,,0,0,0,,{\c&F5F8FC\bord1.5\blur0.7\3c&202326\4c&202326}来 芙莉莲
+Dialogue: 0,0:19:08.09,0:19:09.30,Dial-JPN,,0,0,0,,{\c&F5F8FC\bord1.5\blur0.7\3c&202326\4c&202326}はい　フリーレン
+Dialogue: 1,0:19:09.96,0:19:11.05,Dial-CHI,,0,0,0,,{\c&D8E1E4}{\bord2\blur0.7\3c&17191C\4c&17191C}这是我们的谢礼
+Dialogue: 0,0:19:09.96,0:19:11.05,Dial-JPN,,0,0,0,,{\c&D8E1E4}{\bord2\blur0.7\3c&17191C\4c&17191C}これ　お礼ね
+Dialogue: 1,0:19:13.17,0:19:15.76,Dial-CHI,,0,0,0,,{\c&E6F0F2\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}我并没有做要你们道谢的事
+Dialogue: 0,0:19:13.17,0:19:15.76,Dial-JPN,,0,0,0,,{\c&E6F0F2\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}お礼なんてもらうようなことしてないよ
+Dialogue: 1,0:19:17.01,0:19:17.76,Dial-CHI,,0,0,0,,{\c&E6F0F2\bord2\blur0.7}{\3c&000000\4c&000000}不
+Dialogue: 0,0:19:17.01,0:19:17.76,Dial-JPN,,0,0,0,,{\c&E6F0F2\bord2\blur0.7}{\3c&000000\4c&000000}いいや
+Dialogue: 1,0:19:18.47,0:19:19.92,Dial-CHI,,0,0,0,,{\c&EBF2F5\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}没有你的话
+Dialogue: 0,0:19:18.47,0:19:19.92,Dial-JPN,,0,0,0,,{\c&EBF2F5\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}フリーレンがいなかったら
+Dialogue: 1,0:19:19.92,0:19:22.97,Dial-CHI,,0,0,0,,{\c&EBF2F5\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}我们就无法晋级第二场考核
+Dialogue: 0,0:19:19.92,0:19:22.97,Dial-JPN,,0,0,0,,{\c&EBF2F5\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}私たちは第二次試験まで進めなかった
+Dialogue: 1,0:19:22.98,0:19:24.14,Dial-CHI,,0,0,0,,{\c&EBF2F5\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}谢谢你
+Dialogue: 0,0:19:22.98,0:19:24.14,Dial-JPN,,0,0,0,,{\c&EBF2F5\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}ありがとう
+Dialogue: 1,0:19:26.52,0:19:29.69,Dial-CHI,,0,0,0,,{\c&EBF2F5\bord1.5\blur0.7}{\3c&363838\4c&363838}{\t(604,1647,\bord1\c&ffffff)}谢谢你 辛美尔大人
+Dialogue: 0,0:19:26.52,0:19:29.69,Dial-JPN,,0,0,0,,{\c&EBF2F5\bord1.5\blur0.7}{\3c&363838\4c&363838}{\t(604,1647,\bord1\c&ffffff)}ありがとう　ヒンメル様
+Dialogue: 1,0:19:30.98,0:19:32.86,Dial-CHI,,0,0,0,,{\3c&262626\4c&262626\bord2}已经没事了
+Dialogue: 0,0:19:30.98,0:19:32.86,Dial-JPN,,0,0,0,,{\3c&262626\4c&262626\bord2}もう心配ないよ
+Dialogue: 1,0:19:33.99,0:19:36.45,Dial-CHI,,0,0,0,,{\3c&262626\4c&262626\bord2}快回家吧 爸爸妈妈还在等你
+Dialogue: 0,0:19:33.99,0:19:36.45,Dial-JPN,,0,0,0,,{\3c&262626\4c&262626\bord2}さぁ　パパとママが待ってるよ
+Dialogue: 1,0:19:44.16,0:19:46.62,Dial-CHI,,0,1444,0,,{\bord2\blur0.7}{\3c&000000\4c&000000}你为什么要帮助别人
+Dialogue: 0,0:19:44.16,0:19:46.62,Dial-JPN,,0,1444,0,,{\bord2\blur0.7}{\3c&000000\4c&000000}ヒンメルは何で人助けをするの
+Dialogue: 1,0:19:47.83,0:19:49.34,Dial-CHI,,0,1111,0,,{\bord2\blur0.7}{\3c&000000\4c&000000}因为我是勇者
+Dialogue: 0,0:19:47.83,0:19:49.34,Dial-JPN,,0,1111,0,,{\bord2\blur0.7}{\3c&000000\4c&000000}勇者だからさ
+Dialogue: 1,0:19:49.34,0:19:51.05,Dial-CHI,,0,1222,0,,{\bord2\blur0.7}{\3c&000000\4c&000000}我不是这个意思
+Dialogue: 0,0:19:49.34,0:19:51.05,Dial-JPN,,0,1222,0,,{\bord2\blur0.7}{\3c&000000\4c&000000}そういうことじゃなくて
+Dialogue: 1,0:19:53.38,0:19:54.92,Dial-CHI,,0,0,0,,{\bord1.5\blur0.7\3c&2E4154\4c&2E4154}这个嘛
+Dialogue: 0,0:19:53.38,0:19:54.92,Dial-JPN,,0,0,0,,{\bord1.5\blur0.7\3c&2E4154\4c&2E4154}そうだね
+Dialogue: 1,0:19:55.26,0:19:57.93,Dial-CHI,,0,0,0,,{\bord1.5\blur0.7}{\3c&1D1E1F\4c&1D1E1F}或许是为了自己吧
+Dialogue: 0,0:19:55.26,0:19:57.93,Dial-JPN,,0,0,0,,{\bord1.5\blur0.7}{\3c&1D1E1F\4c&1D1E1F}もしかしたら　自分のためかもな
+Dialogue: 1,0:19:59.10,0:20:00.70,Dial-CHI,,0,0,0,,{\bord1.5\blur0.7}{\3c&1D1E1F\4c&1D1E1F}想让别人记住自己
+Dialogue: 0,0:19:59.10,0:20:00.70,Dial-JPN,,0,0,0,,{\bord1.5\blur0.7}{\3c&1D1E1F\4c&1D1E1F}誰かに少しでも
+Dialogue: 1,0:20:00.70,0:20:04.06,Dial-CHI,,0,0,0,,{\bord1.5\blur0.7}{\3c&1D1E1F\4c&1D1E1F}哪怕只有模糊的印象
+Dialogue: 0,0:20:00.70,0:20:04.06,Dial-JPN,,0,0,0,,{\bord1.5\blur0.7}{\3c&1D1E1F\4c&1D1E1F}自分のことを覚えていてもらいたいのかもしれない
+Dialogue: 1,0:20:07.48,0:20:09.40,Dial-CHI,,0,0,0,,{\bord1.5\blur0.7\3c&050505\4c&050505}所谓活着
+Dialogue: 0,0:20:07.48,0:20:09.40,Dial-JPN,,0,0,0,,{\bord1.5\blur0.7\3c&050505\4c&050505}生きているということは
+Dialogue: 1,0:20:09.40,0:20:12.94,Dial-CHI,,0,0,0,,{\bord1.5\blur0.7\3c&050505\4c&050505}就是为人所知 以及被人铭记
+Dialogue: 0,0:20:09.40,0:20:12.94,Dial-JPN,,0,0,0,,{\bord1.5\blur0.7\3c&050505\4c&050505}誰かに知ってもらって　覚えていて貰うことだ
+Dialogue: 1,0:20:14.86,0:20:18.07,Dial-CHI,,0,0,0,,{\bord1.2}{\blur0.7\3c&0D0D0D\4c&0D0D0D}要怎样才能被人铭记
+Dialogue: 0,0:20:14.86,0:20:18.07,Dial-JPN,,0,0,0,,{\bord1.2}{\blur0.7\3c&0D0D0D\4c&0D0D0D}覚えていてもらうためにはどうすればいいんだろう
+Dialogue: 1,0:20:19.99,0:20:21.16,Dial-CHI,,0,0,0,,{\bord1.5\blur0.7\3c&050505\4c&050505}一点点就好
+Dialogue: 0,0:20:19.99,0:20:21.16,Dial-JPN,,0,0,0,,{\bord1.5\blur0.7\3c&050505\4c&050505}ほんの少しでいい
+Dialogue: 1,0:20:21.99,0:20:24.20,Dial-CHI,,0,0,0,,{\bord1.5\blur0.7\3c&050505\4c&050505}去改变对方的人生轨迹
+Dialogue: 0,0:20:21.99,0:20:24.20,Dial-JPN,,0,0,0,,{\bord1.5\blur0.7\3c&050505\4c&050505}誰かの人生を変えてあげればいい
+Dialogue: 1,0:20:25.33,0:20:27.21,Dial-CHI,,0,0,0,,{\bord1.5\blur0.7\3c&050505\4c&050505}这样就足够了
+Dialogue: 0,0:20:25.33,0:20:27.21,Dial-JPN,,0,0,0,,{\bord1.5\blur0.7\3c&050505\4c&050505}きっとそれだけで十分なんだ
+Dialogue: 1,0:20:37.01,0:20:40.35,Dial-CHI,,0,0,0,,{\3c&333333\4c&333333\c&EDF4F7}{\bord1.5\blur0.7}{\t(2562,3312,\alpha&f8)}听我说 拉比涅那时候…
+Dialogue: 0,0:20:37.01,0:20:40.35,Dial-JPN,,0,0,0,,{\3c&333333\4c&333333\c&EDF4F7}{\bord1.5\blur0.7}{\t(2562,3312,\alpha&f8)}それでね　あの時ラヴィーネが…
+Dialogue: 1,0:20:40.35,0:20:42.85,Dial-CHI,,0,0,0,,{\fad(1270,0)\c&E6EBEB\bord1.5\blur0.7\3c&211316\4c&211316}不对 那个人是你吧
+Dialogue: 0,0:20:40.35,0:20:42.85,Dial-JPN,,0,0,0,,{\fad(1270,0)\c&E6EBEB\bord1.5\blur0.7\3c&211316\4c&211316}いやいや　それはカンネの方だろ
+Dialogue: 1,0:20:42.85,0:20:43.60,Dial-CHI,,0,0,0,,{\c&D9E1E4}{\bord1.5\blur0.7\3c&000000\4c&000000}不对 那个人是你吧
+Dialogue: 0,0:20:42.85,0:20:43.60,Dial-JPN,,0,0,0,,{\c&D9E1E4}{\bord1.5\blur0.7\3c&000000\4c&000000}いやいや　それはカンネの方だろ
+Dialogue: 1,0:20:43.60,0:20:45.31,Dial-CHI,,0,0,0,,{\c&D9E1E4}{\bord1.5\blur0.7\3c&000000\4c&000000}呃 是这样吗
+Dialogue: 0,0:20:43.60,0:20:45.31,Dial-JPN,,0,0,0,,{\c&D9E1E4}{\bord1.5\blur0.7\3c&000000\4c&000000}えっ　そうだっけ
+Dialogue: 1,0:20:45.31,0:20:47.10,Dial-CHI,,0,0,0,,{\c&D9E1E4}{\bord1.5\blur0.7\3c&000000\4c&000000}我记得那时候
+Dialogue: 0,0:20:45.31,0:20:47.10,Dial-JPN,,0,0,0,,{\c&D9E1E4}{\bord1.5\blur0.7\3c&000000\4c&000000}あの時だってほら
+Dialogue: 1,0:20:49.56,0:20:53.61,Dial-CHI,,0,0,0,,{\c&E1EAED\bord1.9\blur0.7\3c&292929\4c&292929}芙莉莲大人 她们带来的点心非常美味
+Dialogue: 0,0:20:49.56,0:20:53.61,Dial-JPN,,0,0,0,,{\c&E1EAED\bord1.9\blur0.7\3c&292929\4c&292929}フリーレン様　このもらったお菓子めちゃくちゃおいしいですよ
+Dialogue: 1,0:20:54.07,0:20:55.86,Dial-CHI,,0,0,0,,{\c&E1EAED\bord1.9\blur0.7\3c&292929\4c&292929}终于消气了
+Dialogue: 0,0:20:54.07,0:20:55.86,Dial-JPN,,0,0,0,,{\c&E1EAED\bord1.9\blur0.7\3c&292929\4c&292929}やっと機嫌直った
+Dialogue: 1,0:20:56.61,0:20:58.15,Dial-CHI,,0,0,0,,{\c&F2FFFE}{\bord1.5\blur0.7\3c&4c4c4c\4c&4c4c4c}对了 芙莉莲
+Dialogue: 0,0:20:56.61,0:20:58.15,Dial-JPN,,0,0,0,,{\c&F2FFFE}{\bord1.5\blur0.7\3c&4c4c4c\4c&4c4c4c}そういえば　フリーレン
+Dialogue: 1,0:20:58.15,0:21:00.66,Dial-CHI,,0,0,0,,{\c&F2FFFE}{\bord1.5\blur0.7\3c&4c4c4c\4c&4c4c4c}第二天早上怎么都叫不醒你
+Dialogue: 0,0:20:58.15,0:21:00.66,Dial-JPN,,0,0,0,,{\c&F2FFFE}{\bord1.5\blur0.7\3c&4c4c4c\4c&4c4c4c}2 日目の朝なかなか起きなかったな
+Dialogue: 1,0:21:00.66,0:21:04.37,Dial-CHI,,0,0,0,,{\c&F2FFFE}{\bord1.5\blur0.7\3c&4c4c4c\4c&4c4c4c}{\t(2519,3603,0.7,\3c&333333\4c&333333)}别聊这个话题 不然菲伦又要生气了
+Dialogue: 0,0:21:00.66,0:21:04.37,Dial-JPN,,0,0,0,,{\c&F2FFFE}{\bord1.5\blur0.7\3c&4c4c4c\4c&4c4c4c}{\t(2519,3603,0.7,\3c&333333\4c&333333)}その話はやめて　また機嫌が悪くなっちゃう
+Dialogue: 1,0:21:06.79,0:21:07.58,Dial-CHI,,0,0,0,,{\c&EBEBEB\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}芙莉莲
+Dialogue: 0,0:21:06.79,0:21:07.58,Dial-JPN,,0,0,0,,{\c&EBEBEB\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}フリーレン
+Dialogue: 1,0:21:09.21,0:21:12.75,Dial-CHI,,0,0,0,,{\c&EBEBEB\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}按照往年的惯例 一级考核还有第三场
+Dialogue: 0,0:21:09.21,0:21:12.75,Dial-JPN,,0,0,0,,{\c&EBEBEB\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}一級試験は例年通りなら　第三次試験まである
+Dialogue: 1,0:21:13.17,0:21:15.05,Dial-CHI,,0,0,0,,{\c&EBEBEB\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}下次我们就是对手了
+Dialogue: 0,0:21:13.17,0:21:15.05,Dial-JPN,,0,0,0,,{\c&EBEBEB\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}次からは敵同士だな
+Dialogue: 1,0:21:15.55,0:21:16.51,Dial-CHI,,0,0,0,,{\c&EBEBEB\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}是啊
+Dialogue: 0,0:21:15.55,0:21:16.51,Dial-JPN,,0,0,0,,{\c&EBEBEB\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}そうだね
+Dialogue: 1,0:21:26.27,0:21:27.10,Dial-CHI,,0,0,0,,{\c&F5FCFF}{\bord1\blur0.7\3c&242F38\4c&242F38}那是什么
+Dialogue: 0,0:21:26.27,0:21:27.10,Dial-JPN,,0,0,0,,{\c&F5FCFF}{\bord1\blur0.7\3c&242F38\4c&242F38}何だろう
+Dialogue: 1,0:21:28.06,0:21:29.94,Dial-CHI,,0,0,0,,{\c&F5FCFF}{\bord1\blur0.7\3c&242F38\4c&242F38}是下一场考核的通知
+Dialogue: 0,0:21:28.06,0:21:29.94,Dial-JPN,,0,0,0,,{\c&F5FCFF}{\bord1\blur0.7\3c&242F38\4c&242F38}次の試験の通知ですね
+Dialogue: 1,0:21:30.48,0:21:32.81,Dial-CHI,,0,0,0,,{\c&EDF7FA\bord1.2\blur0.7\3c&323738\4c&323738}有第二场考核的地点和日期
+Dialogue: 0,0:21:30.48,0:21:32.81,Dial-JPN,,0,0,0,,{\c&EDF7FA\bord1.2\blur0.7\3c&323738\4c&323738}第二次試験の会場と日時
+Dialogue: 1,0:21:32.81,0:21:36.15,Dial-CHI,,0,0,0,,{\c&EDF7FA\bord1.2\blur0.7\3c&323738\4c&323738}还有考官的名字
+Dialogue: 0,0:21:32.81,0:21:36.15,Dial-JPN,,0,0,0,,{\c&EDF7FA\bord1.2\blur0.7\3c&323738\4c&323738}それと担当の試験官の名前ですね
+Dialogue: 1,0:21:36.15,0:21:40.03,Dial-CHI,,0,0,0,,{\c&EDF7FA\bord1.2\blur0.7\3c&323738\4c&323738}考官是苒则啊 真不走运
+Dialogue: 0,0:21:36.15,0:21:40.03,Dial-JPN,,0,0,0,,{\c&EDF7FA\bord1.2\blur0.7\3c&323738\4c&323738}試験官はゼンゼか　ツイてねえな
+Dialogue: 1,0:21:40.03,0:21:42.74,Dial-CHI,,0,0,0,,{\c&EDF7FA\bord1.2\blur0.7\3c&323738\4c&323738}好不容易才通过第一场考核
+Dialogue: 0,0:21:40.03,0:21:42.74,Dial-JPN,,0,0,0,,{\c&EDF7FA\bord1.2\blur0.7\3c&323738\4c&323738}せっかく第一次試験に受かったのに
+Dialogue: 1,0:21:43.37,0:21:44.83,Dial-CHI,,0,0,0,,{\c&EDF7FA\bord1.2\blur0.7\3c&323738\4c&323738}什么意思
+Dialogue: 0,0:21:43.37,0:21:44.83,Dial-JPN,,0,0,0,,{\c&EDF7FA\bord1.2\blur0.7\3c&323738\4c&323738}どういうことですか
+Dialogue: 1,0:21:46.70,0:21:49.75,Dial-CHI,,0,0,0,,{\bord2}{\blur0.7\3c&1A1A1A\4c&1A1A1A}苒则以前担任过四次考官
+Dialogue: 0,0:21:46.70,0:21:49.75,Dial-JPN,,0,0,0,,{\bord2}{\blur0.7\3c&1A1A1A\4c&1A1A1A}ゼンゼの担当した試験は過去 4 回
+Dialogue: 1,0:21:50.62,0:21:52.96,Dial-CHI,,0,0,0,,{\bord2}{\blur0.7\3c&1A1A1A\4c&1A1A1A}但每次都无人合格
+Dialogue: 0,0:21:50.62,0:21:52.96,Dial-JPN,,0,0,0,,{\bord2}{\blur0.7\3c&1A1A1A\4c&1A1A1A}いずれも合格者はゼロ人だ
+Dialogue: 1,0:22:23.41,0:22:25.33,Dial-CHI,,0,0,0,,{\3c&000000\4c&000000\bord1.5\blur0.7\c&E0E0E0}这肉真好吃
+Dialogue: 0,0:22:23.41,0:22:25.33,Dial-JPN,,0,0,0,,{\3c&000000\4c&000000\bord1.5\blur0.7\c&E0E0E0}肉　うまいな
+Dialogue: 1,0:22:25.33,0:22:27.33,Dial-CHI,,0,0,0,,{\3c&000000\4c&000000\bord1.5\blur0.7\c&E0E0E0}{\t(181,848,\c&ffffff)}你可真厉害
+Dialogue: 0,0:22:25.33,0:22:27.33,Dial-JPN,,0,0,0,,{\3c&000000\4c&000000\bord1.5\blur0.7\c&E0E0E0}{\t(181,848,\c&ffffff)}お前すげぇな
+Dialogue: 1,0:22:27.33,0:22:29.00,Dial-CHI,,0,0,0,,{\3c&000000\4c&000000\bord1.5\blur0.7}让我见识到了「武」的精髓
+Dialogue: 0,0:22:27.33,0:22:29.00,Dial-JPN,,0,0,0,,{\3c&000000\4c&000000\bord1.5\blur0.7}「武」の真髄を見たぜ
+Dialogue: 1,0:22:34.00,0:22:36.67,Dial-CHI,,0,0,0,,{\bord1.5}{\blur0.7\3c&1A1A1A\4c&1A1A1A}好严苛的考核内容
+Dialogue: 0,0:22:34.00,0:22:36.67,Dial-JPN,,0,0,0,,{\bord1.5}{\blur0.7\3c&1A1A1A\4c&1A1A1A}何てひどい試験内容だ
+Dialogue: 1,0:22:38.96,0:22:39.76,Dial-CHI,,666,0,0,,{\bord1.2\blur0.7\3c&1A1A1A\4c&1A1A1A}是吗
+Dialogue: 0,0:22:38.96,0:22:39.76,Dial-JPN,,666,0,0,,{\bord1.2\blur0.7\3c&1A1A1A\4c&1A1A1A}そう
+Dialogue: 1,0:22:40.92,0:22:43.05,Dial-CHI,,1211,0,0,,{\bord1.2\blur0.7\3c&1A1A1A\4c&1A1A1A}我是和平主义者
+Dialogue: 0,0:22:40.92,0:22:43.05,Dial-JPN,,1211,0,0,,{\bord1.2\blur0.7\3c&1A1A1A\4c&1A1A1A}私は平和主義者だよ
+Dialogue: 1,0:22:45.80,0:22:47.60,Dial-CHI,,0,0,0,,{\bord2\blur0.7}{\3c&262626\4c&262626}和你不同
+Dialogue: 0,0:22:45.80,0:22:47.60,Dial-JPN,,0,0,0,,{\bord2\blur0.7}{\3c&262626\4c&262626}ゲナウとは違ってね
+Comment: 0,0:00:00.00,0:00:00.00,//,,0,0,0,,————屏幕字————
+Dialogue: 0,0:01:55.01,0:01:58.01,CHS - Title,蓝，y2-,0,0,0,,{\an7\fad(0,0)\blur0.5\1c&FF9D00\fscx97\pos(2659,1878)}下次就是敌人了
+Dialogue: 1,0:01:55.01,0:01:58.01,CHS - Title,绿，x2-,0,0,0,,{\an7\fad(0,0)\blur0.5\1c&78F275\fscx97\pos(2657,1880)}下次就是敌人了
+Dialogue: 2,0:01:55.01,0:01:58.01,CHS - Title,红，y2,0,0,0,,{\an7\fad(0,0)\blur0.5\1c&2D4BF4\fscx97\pos(2659,1882)}下次就是敌人了
+Dialogue: 3,0:01:55.01,0:01:58.01,CHS - Title,紫，x2,0,0,0,,{\an7\fad(0,0)\blur0.5\1c&D279D4\fscx97\pos(2661,1880)}下次就是敌人了
+Dialogue: 4,0:01:55.01,0:01:58.01,CHS - Title,x=2636  y=1880,0,0,0,,{\an7\fad(0,0)\1c&EBF7ED\bord0.2\blur10\3a&aa\fscx97\pos(2659,1880)}下次就是敌人了
+Dialogue: 0,0:00:09.36,0:00:11.37,Screen,blur,0,0,0,,{\blur5\1a&H66&\fs90\fn方正屏显雅宋_GBK\b1\pos(1137,2070)}托恩
+Dialogue: 0,0:00:09.36,0:00:11.37,Screen,x-1，y-1,0,0,0,,{\blur1\1c&DFF518&\fs90\fn方正屏显雅宋_GBK\b1\pos(1136,2069)}托恩
+Dialogue: 0,0:00:09.36,0:00:11.37,Screen,x+1，y+1,0,0,0,,{\blur1\1c&804EE4&\fs90\fn方正屏显雅宋_GBK\b1\pos(1138,2071)}托恩
+Dialogue: 0,0:00:09.36,0:00:11.37,Screen,,0,0,0,,{\fs90\fn方正屏显雅宋_GBK\b1\pos(1137,2070)}托恩
+Dialogue: 0,0:00:09.36,0:00:11.37,Screen,blur,0,0,0,,{\blur5\1a&H66&\fs90\fn方正屏显雅宋_GBK\b1\pos(1990,2070)}梅特黛
+Dialogue: 0,0:00:09.36,0:00:11.37,Screen,x-1，y-1,0,0,0,,{\blur1\1c&E9DF25&\fs90\fn方正屏显雅宋_GBK\b1\pos(1989,2069)}梅特黛
+Dialogue: 0,0:00:09.36,0:00:11.37,Screen,x+1，y+1,0,0,0,,{\blur1\1c&804EE4&\fs90\fn方正屏显雅宋_GBK\b1\pos(1991,2071)}梅特黛
+Dialogue: 0,0:00:09.36,0:00:11.37,Screen,,0,0,0,,{\fs90\fn方正屏显雅宋_GBK\b1\pos(1990,2070)}梅特黛
+Dialogue: 0,0:00:09.36,0:00:11.37,Screen,blur,0,0,0,,{\c&000000\blur20\1a&88&\fs90\fn方正屏显雅宋_GBK\b1\pos(2772,2070)}莲华
+Dialogue: 0,0:00:09.36,0:00:11.37,Screen,x-1，y-1,0,0,0,,{\blur1\1c&E7EE31&\fs90\fn方正屏显雅宋_GBK\b1\pos(2771,2069)}莲华
+Dialogue: 0,0:00:09.36,0:00:11.37,Screen,x+1，y+1,0,0,0,,{\blur1\1c&D17CF2&\fs90\fn方正屏显雅宋_GBK\b1\pos(2773,2071)}莲华
+Dialogue: 5,0:00:09.36,0:00:11.37,Screen,,0,0,0,,{\fs90\fn方正屏显雅宋_GBK\b1\pos(2772,2070)}莲华
+Dialogue: 0,0:00:11.37,0:00:13.37,Screen,blur,0,0,0,,{\blur5\1a&aa&\fs90\fn方正屏显雅宋_GBK\b1\pos(954,2070)}拉比涅
+Dialogue: 0,0:00:11.37,0:00:13.37,Screen,x-1，y-1,0,0,0,,{\blur1\1c&E9DF25&\fs90\fn方正屏显雅宋_GBK\b1\pos(953,2069)}拉比涅
+Dialogue: 0,0:00:11.37,0:00:13.37,Screen,x+1，y+1,0,0,0,,{\blur1\1c&804EE4&\fs90\fn方正屏显雅宋_GBK\b1\pos(955,2071)}拉比涅
+Dialogue: 5,0:00:11.37,0:00:13.37,Screen,,0,0,0,,{\fs90\fn方正屏显雅宋_GBK\b1\pos(954,2070)}拉比涅
+Dialogue: 0,0:00:11.37,0:00:13.37,Screen,blur,0,0,0,,{\c&000000\blur20\1a&88&\fs90\fn方正屏显雅宋_GBK\b1\pos(1936,2070)}芙莉莲
+Dialogue: 0,0:00:11.37,0:00:13.37,Screen,x+1，y+1,0,0,0,,{\blur1\1c&A77DF4&\fs90\fn方正屏显雅宋_GBK\b1\pos(1937,2071)}芙莉莲
+Dialogue: 0,0:00:11.37,0:00:13.37,Screen,x-1，y-1,0,0,0,,{\blur1\1c&FBFF8A&\fs90\fn方正屏显雅宋_GBK\b1\pos(1935,2069)}芙莉莲
+Dialogue: 5,0:00:11.37,0:00:13.37,Screen,,0,0,0,,{\fs90\fn方正屏显雅宋_GBK\b1\pos(1936,2070)}芙莉莲
+Dialogue: 0,0:00:11.37,0:00:13.37,Screen,blur,0,0,0,,{\c&000000\blur20\1a&88&\fs90\fn方正屏显雅宋_GBK\b1\pos(2866,2070)}康涅
+Dialogue: 0,0:00:11.37,0:00:13.37,Screen,粉 x2,0,0,0,,{\blur1\1c&F069FF&\fs90\fn方正屏显雅宋_GBK\b1\pos(2867,2070)}康涅
+Dialogue: 1,0:00:11.37,0:00:13.37,Screen,蓝绿 x-2，y-2,0,0,0,,{\blur1\1c&E3E85F&\fs90\fn方正屏显雅宋_GBK\b1\pos(2865,2069)}康涅
+Dialogue: 0,0:00:11.37,0:00:13.37,Screen,红 y2,0,0,0,,{\blur1\1c&2B08D4&\alpha&88\fs90\fn方正屏显雅宋_GBK\b1\pos(2866,2071)}康涅
+Dialogue: 5,0:00:11.37,0:00:13.37,Screen,,0,0,0,,{\fs90\fn方正屏显雅宋_GBK\b1\pos(2866,2070)}康涅
+Dialogue: 0,0:00:13.37,0:00:15.37,Screen,blur,0,0,0,,{\blur5\1a&H66&\fs90\fn方正屏显雅宋_GBK\b1\pos(1071,2070)}兰特
+Dialogue: 2,0:00:13.37,0:00:15.37,Screen,x-1，y-1,0,0,0,,{\blur1\1c&EDEB68&\fs90\fn方正屏显雅宋_GBK\b1\pos(1070,2069)}兰特
+Dialogue: 0,0:00:13.37,0:00:15.37,Screen,x+1，y+1,0,0,0,,{\blur1\1c&8C34EB&\fs90\fn方正屏显雅宋_GBK\b1\pos(1072,2071)}兰特
+Dialogue: 6,0:00:13.37,0:00:15.37,Screen,,0,0,0,,{\fs90\fn方正屏显雅宋_GBK\b1\pos(1071,2070)}兰特
+Dialogue: 0,0:00:13.37,0:00:15.37,Screen,blur,0,0,0,,{\blur5\1a&H66&\fs90\fn方正屏显雅宋_GBK\b1\pos(1949,2070)}菲伦
+Dialogue: 2,0:00:13.37,0:00:15.37,Screen,x-1，y-1,0,0,0,,{\blur1\1c&EDEB68&\fs90\fn方正屏显雅宋_GBK\b1\pos(1948,2069)}菲伦
+Dialogue: 0,0:00:13.37,0:00:15.37,Screen,x+1，y+1,0,0,0,,{\blur1\1c&8C34EB&\fs90\fn方正屏显雅宋_GBK\b1\pos(1950,2071)}菲伦
+Dialogue: 5,0:00:13.37,0:00:15.37,Screen,,0,0,0,,{\fs90\fn方正屏显雅宋_GBK\b1\pos(1949,2070)}菲伦
+Dialogue: 0,0:00:13.37,0:00:15.37,Screen,blur,0,0,0,,{\blur5\1a&H66&\fs90\fn方正屏显雅宋_GBK\b1\pos(2860,2070)}尤蓓尔
+Dialogue: 2,0:00:13.37,0:00:15.37,Screen,x-1，y-1,0,0,0,,{\blur1\1c&EDEB68&\fs90\fn方正屏显雅宋_GBK\b1\pos(2859,2069)}尤蓓尔
+Dialogue: 0,0:00:13.37,0:00:15.37,Screen,x+1，y+1,0,0,0,,{\blur1\1c&8533F3&\fs90\fn方正屏显雅宋_GBK\b1\pos(2861,2071)}尤蓓尔
+Dialogue: 5,0:00:13.37,0:00:15.37,Screen,,0,0,0,,{\fs90\fn方正屏显雅宋_GBK\b1\pos(2860,2070)}尤蓓尔
+Dialogue: 0,0:00:15.37,0:00:17.37,Screen,blur,0,0,0,,{\c&ffffff\blur25\1a&aa&\fs90\fn方正屏显雅宋_GBK\b1\pos(954,2070)}夏尔夫
+Dialogue: 0,0:00:15.37,0:00:17.37,Screen,x-1，y-1,0,0,0,,{\blur1\1c&DDE528&\fs90\fn方正屏显雅宋_GBK\b1\pos(953,2069)}夏尔夫
+Dialogue: 0,0:00:15.37,0:00:17.37,Screen,x+1，y+1,0,0,0,,{\blur1\1c&BA73F0&\alpha&22\fs90\fn方正屏显雅宋_GBK\b1\pos(955,2071)}夏尔夫
+Dialogue: 5,0:00:15.37,0:00:17.37,Screen,,0,0,0,,{\fs90\fn方正屏显雅宋_GBK\b1\pos(954,2070)}夏尔夫
+Dialogue: 0,0:00:15.37,0:00:17.37,Screen,blur,0,0,0,,{\c&ffffff\blur25\1a&aa&\fs90\fn方正屏显雅宋_GBK\b1\pos(2042,2070)}威亚贝尔
+Dialogue: 0,0:00:15.37,0:00:17.37,Screen,x-1，y-1,0,0,0,,{\blur1\1c&DDE528&\fs90\fn方正屏显雅宋_GBK\b1\pos(2041,2069)}威亚贝尔
+Dialogue: 0,0:00:15.37,0:00:17.37,Screen,x+1，y+1,0,0,0,,{\blur1\1c&BA73F0&\alpha&00\fs90\fn方正屏显雅宋_GBK\b1\pos(2043,2071)}威亚贝尔
+Dialogue: 5,0:00:15.37,0:00:17.37,Screen,,0,0,0,,{\fs90\fn方正屏显雅宋_GBK\b1\pos(2042,2070)}威亚贝尔
+Dialogue: 0,0:00:15.37,0:00:17.37,Screen,blur,0,0,0,,{\c&ffffff\blur25\1a&99&\fs90\fn方正屏显雅宋_GBK\b1\pos(3010,2070)}艾蕾
+Dialogue: 2,0:00:15.37,0:00:17.37,Screen,x-1，y-1,0,0,0,,{\blur1\1c&E9F062&\alpha&33\fs90\fn方正屏显雅宋_GBK\b1\pos(3009,2069)}艾蕾
+Dialogue: 0,0:00:15.37,0:00:17.37,Screen,x+1，y+1,0,0,0,,{\blur1\1c&BA73F0&\alpha&00\fs90\fn方正屏显雅宋_GBK\b1\pos(3011,2071)}艾蕾
+Dialogue: 5,0:00:15.37,0:00:17.37,Screen,,0,0,0,,{\fs90\fn方正屏显雅宋_GBK\b1\pos(3010,2070)}艾蕾
+Dialogue: 0,0:00:17.37,0:00:19.37,Screen,blur,0,0,0,,{\blur5\1a&H66&\fs90\fn方正屏显雅宋_GBK\b1\pos(1017,2070)}利希塔
+Dialogue: 0,0:00:17.37,0:00:19.37,Screen,x-1，y-1,0,0,0,,{\blur1\1c&DDE528&\fs90\fn方正屏显雅宋_GBK\b1\pos(1016,2069)}利希塔
+Dialogue: 0,0:00:17.37,0:00:19.37,Screen,x+1，y+1,0,0,0,,{\blur1\1c&7525E9&\alpha&44\fs90\fn方正屏显雅宋_GBK\b1\pos(1018,2071)}利希塔
+Dialogue: 0,0:00:17.37,0:00:19.37,Screen,,0,0,0,,{\fs90\fn方正屏显雅宋_GBK\b1\pos(1017,2070)}利希塔
+Dialogue: 0,0:00:17.37,0:00:19.37,Screen,blur,0,0,0,,{\blur5\1a&H66&\fs90\fn方正屏显雅宋_GBK\b1\pos(1917,2070)}邓肯
+Dialogue: 0,0:00:17.37,0:00:19.37,Screen,x-1，y-1,0,0,0,,{\blur1\1c&DDE528&\fs90\fn方正屏显雅宋_GBK\b1\pos(1916,2069)}邓肯
+Dialogue: 0,0:00:17.37,0:00:19.37,Screen,x+1，y+1,0,0,0,,{\blur1\1c&7525E9&\alpha&00\fs90\fn方正屏显雅宋_GBK\b1\pos(1918,2071)}邓肯
+Dialogue: 6,0:00:17.37,0:00:19.37,Screen,,0,0,0,,{\fs90\fn方正屏显雅宋_GBK\b1\pos(1917,2070)}邓肯
+Dialogue: 0,0:00:17.37,0:00:19.37,Screen,blur,0,0,0,,{\blur5\1a&H66&\fs90\fn方正屏显雅宋_GBK\b1\pos(2882,2070)}菈鸥芬
+Dialogue: 0,0:00:17.37,0:00:19.37,Screen,x-1，y-1,0,0,0,,{\blur1\1c&DDE528&\fs90\fn方正屏显雅宋_GBK\b1\pos(2881,2069)}菈鸥芬
+Dialogue: 0,0:00:17.37,0:00:19.37,Screen,x+1，y+1,0,0,0,,{\blur1\1c&7525E9&\alpha&44\fs90\fn方正屏显雅宋_GBK\b1\pos(2883,2071)}菈鸥芬
+Dialogue: 0,0:00:17.37,0:00:19.37,Screen,,0,0,0,,{\fs90\fn方正屏显雅宋_GBK\b1\pos(2882,2070)}菈鸥芬
+Dialogue: 0,0:00:19.37,0:00:21.38,Screen,blur,0,0,0,,{\blur5\1a&88&\fs90\fn方正屏显雅宋_GBK\b1\pos(860,2070)}布莱伊
+Dialogue: 0,0:00:19.37,0:00:21.38,Screen,x-1，y-1,0,0,0,,{\blur1\1c&DDE528&\fs90\fn方正屏显雅宋_GBK\b1\pos(859,2069)}布莱伊
+Dialogue: 0,0:00:19.37,0:00:21.38,Screen,x+1，y+1,0,0,0,,{\blur1\1c&955AED&\alpha&22\fs90\fn方正屏显雅宋_GBK\b1\pos(861,2071)}布莱伊
+Dialogue: 0,0:00:19.37,0:00:21.38,Screen,,0,0,0,,{\fs90\fn方正屏显雅宋_GBK\b1\pos(860,2070)}布莱伊
+Dialogue: 0,0:00:19.37,0:00:21.38,Screen,blur,0,0,0,,{\c&000000\blur25\1a&aa&\fs90\fn方正屏显雅宋_GBK\b1\pos(1851,2070)}艾蒂露
+Dialogue: 0,0:00:19.37,0:00:21.38,Screen,x-1，y-1,0,0,0,,{\blur1\1c&DDE528&\alpha&33\fs90\fn方正屏显雅宋_GBK\b1\pos(1850,2069)}艾蒂露
+Dialogue: 0,0:00:19.37,0:00:21.38,Screen,x+1，y+1,0,0,0,,{\blur1\1c&B353F2&\alpha&44\fs90\fn方正屏显雅宋_GBK\b1\pos(1852,2071)}艾蒂露
+Dialogue: 5,0:00:19.37,0:00:21.38,Screen,,0,0,0,,{\fs90\fn方正屏显雅宋_GBK\b1\pos(1851,2070)}艾蒂露
+Dialogue: 0,0:00:19.37,0:00:21.38,Screen,blur,0,0,0,,{\blur5\1a&H66&\fs90\fn方正屏显雅宋_GBK\b1\pos(2979,2070)}敦斯特
+Dialogue: 0,0:00:19.37,0:00:21.38,Screen,x-1，y-1,0,0,0,,{\blur1\1c&DDE528&\fs90\fn方正屏显雅宋_GBK\b1\pos(2978,2069)}敦斯特
+Dialogue: 0,0:00:19.37,0:00:21.38,Screen,x+1，y+1,0,0,0,,{\blur1\1c&8B4AED&\alpha&00\fs90\fn方正屏显雅宋_GBK\b1\pos(2980,2071)}敦斯特
+Dialogue: 0,0:00:19.37,0:00:21.38,Screen,,0,0,0,,{\fs90\fn方正屏显雅宋_GBK\b1\pos(2979,2070)}敦斯特
+Comment: 0,0:00:25.00,0:00:25.09,Default,,0,0,0,,————OP2「晴る」（定位帧）————
+Dialogue: 0,0:00:34.26,0:00:38.10,OP-JP-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}貴方は風のように
+Dialogue: 1,0:00:34.26,0:00:38.10,OP-JP-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}貴方は風のように
+Dialogue: 2,0:00:34.26,0:00:38.10,OP-CN-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}你似清风拂面
+Dialogue: 3,0:00:34.26,0:00:38.10,OP-CN-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}你似清风拂面
+Dialogue: 0,0:00:38.10,0:00:42.73,OP-JP-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}目を閉じては夕暮れ
+Dialogue: 1,0:00:38.10,0:00:42.73,OP-JP-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}目を閉じては夕暮れ
+Dialogue: 2,0:00:38.10,0:00:42.73,OP-CN-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}于暮色中阖眼
+Dialogue: 3,0:00:38.10,0:00:42.73,OP-CN-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}于暮色中阖眼
+Dialogue: 0,0:00:42.73,0:00:48.19,OP-JP-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}何を思っているんだろうか
+Dialogue: 1,0:00:42.73,0:00:48.19,OP-JP-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}何を思っているんだろうか
+Dialogue: 2,0:00:42.73,0:00:48.19,OP-CN-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}不知心头作何念
+Dialogue: 3,0:00:42.73,0:00:48.19,OP-CN-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}不知心头作何念
+Dialogue: 0,0:00:53.12,0:00:56.95,OP-JP-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}目蓋を開いていた
+Dialogue: 1,0:00:53.12,0:00:56.95,OP-JP-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}目蓋を開いていた
+Dialogue: 2,0:00:53.12,0:00:56.95,OP-CN-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}见你掀开眼帘
+Dialogue: 3,0:00:53.12,0:00:56.95,OP-CN-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}见你掀开眼帘
+Dialogue: 0,0:00:56.95,0:01:01.12,OP-JP-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}貴方の目はビイドロ
+Dialogue: 1,0:00:56.95,0:01:01.12,OP-JP-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}貴方の目はビイドロ
+Dialogue: 2,0:00:56.95,0:01:01.12,OP-CN-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}眸中溢彩万千
+Dialogue: 3,0:00:56.95,0:01:01.12,OP-CN-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}眸中溢彩万千
+Dialogue: 0,0:01:01.58,0:01:08.21,OP-JP-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}少しだけ晴るの匂いがした
+Dialogue: 1,0:01:01.58,0:01:08.21,OP-JP-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}少しだけ晴るの匂いがした
+Dialogue: 2,0:01:01.58,0:01:08.21,OP-CN-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}好一幕雨晴烟晚
+Dialogue: 3,0:01:01.58,0:01:08.21,OP-CN-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}好一幕雨晴烟晚
+Dialogue: 0,0:01:14.26,0:01:19.48,OP-JP-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}晴れに晴れ、花よ咲け
+Dialogue: 1,0:01:14.26,0:01:19.48,OP-JP-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}晴れに晴れ、花よ咲け
+Dialogue: 2,0:01:14.26,0:01:19.48,OP-CN-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}风和日暖春满园
+Dialogue: 3,0:01:14.26,0:01:19.48,OP-CN-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}风和日暖春满园
+Dialogue: 0,0:01:19.48,0:01:23.69,OP-JP-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}咲いて晴るのせい
+Dialogue: 1,0:01:19.48,0:01:23.69,OP-JP-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}咲いて晴るのせい
+Dialogue: 2,0:01:19.48,0:01:23.69,OP-CN-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}缘是晴空金阳艳
+Dialogue: 3,0:01:19.48,0:01:23.69,OP-CN-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}缘是晴空金阳艳
+Dialogue: 0,0:01:23.69,0:01:28.11,OP-JP-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}降り止めば雨でさえ
+Dialogue: 1,0:01:23.69,0:01:28.11,OP-JP-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}降り止めば雨でさえ
+Dialogue: 2,0:01:23.69,0:01:28.11,OP-CN-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}阴雨含羞止连绵
+Dialogue: 3,0:01:23.69,0:01:28.11,OP-CN-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}阴雨含羞止连绵
+Dialogue: 0,0:01:28.11,0:01:33.07,OP-JP-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}貴方を飾る晴る
+Dialogue: 1,0:01:28.11,0:01:33.07,OP-JP-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}貴方を飾る晴る
+Dialogue: 2,0:01:28.11,0:01:33.07,OP-CN-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}因是晴风寻春遍
+Dialogue: 3,0:01:28.11,0:01:33.07,OP-CN-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}因是晴风寻春遍
+Dialogue: 0,0:01:33.07,0:01:38.41,OP-JP-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}胸を打つ音よ凪げ
+Dialogue: 1,0:01:33.07,0:01:38.41,OP-JP-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}胸を打つ音よ凪げ
+Dialogue: 2,0:01:33.07,0:01:38.41,OP-CN-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}心潮滚滚终成眠
+Dialogue: 3,0:01:33.07,0:01:38.41,OP-CN-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}心潮滚滚终成眠
+Dialogue: 0,0:01:38.41,0:01:42.54,OP-JP-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}僕ら晴る風
+Dialogue: 1,0:01:38.41,0:01:42.54,OP-JP-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}僕ら晴る風
+Dialogue: 2,0:01:38.41,0:01:42.54,OP-CN-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}晴风双双作缱绻
+Dialogue: 3,0:01:38.41,0:01:42.54,OP-CN-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}晴风双双作缱绻
+Dialogue: 0,0:01:42.54,0:01:46.92,OP-JP-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}あの雲も越えてゆけ
+Dialogue: 1,0:01:42.54,0:01:46.92,OP-JP-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}あの雲も越えてゆけ
+Dialogue: 2,0:01:42.54,0:01:46.92,OP-CN-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}步月登云入管弦
+Dialogue: 3,0:01:42.54,0:01:46.92,OP-CN-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}步月登云入管弦
+Dialogue: 0,0:01:46.92,0:01:51.55,OP-JP-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}遠くまだ遠くまで
+Dialogue: 1,0:01:46.92,0:01:51.55,OP-JP-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}遠くまだ遠くまで
+Dialogue: 2,0:01:46.92,0:01:51.55,OP-CN-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}轻歌曼舞接远天
+Dialogue: 3,0:01:46.92,0:01:51.55,OP-CN-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}轻歌曼舞接远天
+Comment: 0,0:22:50.02,0:22:50.06,Default,,0,0,0,,————ED「Anytime Anywhere」（定位帧）————
+Dialogue: 0,0:22:50.18,0:22:53.14,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,500)}And I'm alright
+Dialogue: 1,0:22:50.18,0:22:53.14,ED-JP-17-28,,0,0,0,,{\fad(300,500)}And I'm alright
+Dialogue: 2,0:22:50.18,0:22:53.14,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}我挺好的
+Dialogue: 3,0:22:50.18,0:22:53.14,ED-CN-17-28,,0,0,0,,{\fad(300,500)}我挺好的
+Dialogue: 0,0:22:51.35,0:22:53.14,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\an8\pos(1920,26)\fad(300,500)}I'll be alright
+Dialogue: 1,0:22:51.35,0:22:53.14,ED-JP-17-28,,0,0,0,,{\an8\pos(1920,26)\fad(300,500)}I'll be alright
+Dialogue: 2,0:22:51.35,0:22:53.14,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\an8\fad(300,500)}一切安好
+Dialogue: 3,0:22:51.35,0:22:53.14,ED-CN-17-28,,0,0,0,,{\an8\fad(300,500)}一切安好
+Dialogue: 0,0:22:53.14,0:22:55.98,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,500)}Yeah I hear you
+Dialogue: 1,0:22:53.14,0:22:55.98,ED-JP-17-28,,0,0,0,,{\fad(300,500)}Yeah I hear you
+Dialogue: 2,0:22:53.14,0:22:55.98,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}我听得见
+Dialogue: 3,0:22:53.14,0:22:55.98,ED-CN-17-28,,0,0,0,,{\fad(300,500)}我听得见
+Dialogue: 0,0:22:54.56,0:22:55.98,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\an8\pos(1920,26)\fad(300,500)}I care about you
+Dialogue: 1,0:22:54.56,0:22:55.98,ED-JP-17-28,,0,0,0,,{\an8\pos(1920,26)\fad(300,500)}I care about you
+Dialogue: 2,0:22:54.56,0:22:55.98,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\an8\fad(300,500)}朝思暮念
+Dialogue: 3,0:22:54.56,0:22:55.98,ED-CN-17-28,,0,0,0,,{\an8\fad(300,500)}朝思暮念
+Dialogue: 0,0:22:55.98,0:23:01.90,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,500)}伸びた髪を風がからかってる
+Dialogue: 1,0:22:55.98,0:23:01.90,ED-JP-17-28,,0,0,0,,{\fad(300,500)}伸びた髪を風がからかってる
+Dialogue: 2,0:22:55.98,0:23:01.90,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}清风拂起我的一头长发
+Dialogue: 3,0:22:55.98,0:23:01.90,ED-CN-17-28,,0,0,0,,{\fad(300,500)}清风拂起我的一头长发
+Dialogue: 0,0:23:01.90,0:23:04.74,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,500)}全部意味があるよ
+Dialogue: 1,0:23:01.90,0:23:04.74,ED-JP-17-28,,0,0,0,,{\fad(300,500)}全部意味があるよ
+Dialogue: 2,0:23:01.90,0:23:04.74,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}万物自有其理
+Dialogue: 3,0:23:01.90,0:23:04.74,ED-CN-17-28,,0,0,0,,{\fad(300,500)}万物自有其理
+Dialogue: 0,0:23:04.74,0:23:07.78,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,500)}立ち止まった日々も
+Dialogue: 1,0:23:04.74,0:23:07.78,ED-JP-17-28,,0,0,0,,{\fad(300,500)}立ち止まった日々も
+Dialogue: 2,0:23:04.74,0:23:07.78,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}彷徨亦是如此
+Dialogue: 3,0:23:04.74,0:23:07.78,ED-CN-17-28,,0,0,0,,{\fad(300,500)}彷徨亦是如此
+Dialogue: 0,0:23:07.78,0:23:13.58,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,500)}今さらわかってあなたに追いついたよ
+Dialogue: 1,0:23:07.78,0:23:13.58,ED-JP-17-28,,0,0,0,,{\fad(300,500)}今さらわかってあなたに追いついたよ
+Dialogue: 2,0:23:07.78,0:23:13.58,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}如今的我终于追上了你
+Dialogue: 3,0:23:07.78,0:23:13.58,ED-CN-17-28,,0,0,0,,{\fad(300,500)}如今的我终于追上了你
+Dialogue: 0,0:23:13.91,0:23:17.38,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,500)}ほら、この目じゃなければ
+Dialogue: 1,0:23:13.91,0:23:17.38,ED-JP-17-28,,0,0,0,,{\fad(300,500)}ほら、この目じゃなければ
+Dialogue: 2,0:23:13.91,0:23:17.38,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}如果没有这双眼睛
+Dialogue: 3,0:23:13.91,0:23:17.38,ED-CN-17-28,,0,0,0,,{\fad(300,500)}如果没有这双眼睛
+Dialogue: 0,0:23:17.38,0:23:20.38,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,500)}見えなかったものが
+Dialogue: 1,0:23:17.38,0:23:20.38,ED-JP-17-28,,0,0,0,,{\fad(300,500)}見えなかったものが
+Dialogue: 2,0:23:17.38,0:23:20.38,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}曾经错过的风景
+Dialogue: 3,0:23:17.38,0:23:20.38,ED-CN-17-28,,0,0,0,,{\fad(300,500)}曾经错过的风景
+Dialogue: 0,0:23:20.38,0:23:25.22,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,500)}どうして？溢れてく
+Dialogue: 1,0:23:20.38,0:23:25.22,ED-JP-17-28,,0,0,0,,{\fad(300,500)}どうして？溢れてく
+Dialogue: 2,0:23:20.38,0:23:25.22,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}怎会纷纷映入眼帘
+Dialogue: 3,0:23:20.38,0:23:25.22,ED-CN-17-28,,0,0,0,,{\fad(300,500)}怎会纷纷映入眼帘
+Dialogue: 0,0:23:25.22,0:23:26.38,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\fad(200,200)}せめて
+Dialogue: 1,0:23:25.22,0:23:26.38,ED-JP-17-28,,0,0,0,,{\fad(200,200)}せめて
+Dialogue: 2,0:23:25.22,0:23:26.38,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(200,200)}知道吗
+Dialogue: 3,0:23:25.22,0:23:26.38,ED-CN-17-28,,0,0,0,,{\fad(200,200)}知道吗
+Dialogue: 0,0:23:26.38,0:23:31.39,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,500)}会いたいよなんて言わないから
+Dialogue: 1,0:23:26.38,0:23:31.39,ED-JP-17-28,,0,0,0,,{\fad(300,500)}会いたいよなんて言わないから
+Dialogue: 2,0:23:26.38,0:23:31.39,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}我不会将思念宣之于口
+Dialogue: 3,0:23:26.38,0:23:31.39,ED-CN-17-28,,0,0,0,,{\fad(300,500)}我不会将思念宣之于口
+Dialogue: 0,0:23:31.39,0:23:37.15,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,500)}ねえ、今日だけは思い出していいかな
+Dialogue: 1,0:23:31.39,0:23:37.15,ED-JP-17-28,,0,0,0,,{\fad(300,500)}ねえ、今日だけは思い出していいかな
+Dialogue: 2,0:23:31.39,0:23:37.15,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}但至少今天让我想起你
+Dialogue: 3,0:23:31.39,0:23:37.15,ED-CN-17-28,,0,0,0,,{\fad(300,500)}但至少今天让我想起你
+Dialogue: 0,0:23:37.15,0:23:38.10,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\fad(200,200)}だから
+Dialogue: 1,0:23:37.15,0:23:38.10,ED-JP-17-28,,0,0,0,,{\fad(200,200)}だから
+Dialogue: 2,0:23:37.15,0:23:38.10,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(200,200)}所以啊
+Dialogue: 3,0:23:37.15,0:23:38.10,ED-CN-17-28,,0,0,0,,{\fad(200,200)}所以啊
+Dialogue: 0,0:23:38.10,0:23:43.15,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,500)}あなたとまた巡りあったら
+Dialogue: 1,0:23:38.10,0:23:43.15,ED-JP-17-28,,0,0,0,,{\fad(300,500)}あなたとまた巡りあったら
+Dialogue: 2,0:23:38.10,0:23:43.15,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}如果能够再度与你相逢
+Dialogue: 3,0:23:38.10,0:23:43.15,ED-CN-17-28,,0,0,0,,{\fad(300,500)}如果能够再度与你相逢
+Dialogue: 0,0:23:43.15,0:23:48.91,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,500)}もう迷わない今を選ぶんだろう
+Dialogue: 1,0:23:43.15,0:23:48.91,ED-JP-17-28,,0,0,0,,{\fad(300,500)}もう迷わない今を選ぶんだろう
+Dialogue: 2,0:23:43.15,0:23:48.91,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}我定然要与你朝夕相伴
+Dialogue: 3,0:23:43.15,0:23:48.91,ED-CN-17-28,,0,0,0,,{\fad(300,500)}我定然要与你朝夕相伴
+Dialogue: 0,0:23:50.12,0:23:53.04,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\an8\pos(1920,26)\fad(300,500)}Anytime anywhere yah
+Dialogue: 1,0:23:50.12,0:23:53.04,ED-JP-17-28,,0,0,0,,{\an8\pos(1920,26)\fad(300,500)}Anytime anywhere yah
+Dialogue: 2,0:23:50.12,0:23:53.04,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\an8\fad(300,500)}跨越朝夕
+Dialogue: 3,0:23:50.12,0:23:53.04,ED-CN-17-28,,0,0,0,,{\an8\fad(300,500)}跨越朝夕
+Dialogue: 0,0:23:51.62,0:23:54.70,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,500)}どこにいても
+Dialogue: 1,0:23:51.62,0:23:54.70,ED-JP-17-28,,0,0,0,,{\fad(300,500)}どこにいても
+Dialogue: 2,0:23:51.62,0:23:54.70,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}无论身在何方
+Dialogue: 3,0:23:51.62,0:23:54.70,ED-CN-17-28,,0,0,0,,{\fad(300,500)}无论身在何方
+Dialogue: 0,0:23:53.04,0:23:56.04,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\an8\pos(1920,26)\fad(300,500)}Anytime anywhere
+Dialogue: 1,0:23:53.04,0:23:56.04,ED-JP-17-28,,0,0,0,,{\an8\pos(1920,26)\fad(300,500)}Anytime anywhere
+Dialogue: 2,0:23:53.04,0:23:56.04,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\an8\fad(300,500)}遍历万方
+Dialogue: 3,0:23:53.04,0:23:56.04,ED-CN-17-28,,0,0,0,,{\an8\fad(300,500)}遍历万方
+Dialogue: 0,0:23:54.70,0:23:57.62,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,500)}笑ってみせて
+Dialogue: 1,0:23:54.70,0:23:57.62,ED-JP-17-28,,0,0,0,,{\fad(300,500)}笑ってみせて
+Dialogue: 2,0:23:54.70,0:23:57.62,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}都要笑口常开
+Dialogue: 3,0:23:54.70,0:23:57.62,ED-CN-17-28,,0,0,0,,{\fad(300,500)}都要笑口常开
+Dialogue: 0,0:23:56.04,0:23:58.63,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\an8\pos(1920,26)\fad(300,500)}Anytime anywhere
+Dialogue: 1,0:23:56.04,0:23:58.63,ED-JP-17-28,,0,0,0,,{\an8\pos(1920,26)\fad(300,500)}Anytime anywhere
+Dialogue: 2,0:23:56.04,0:23:58.63,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\an8\fad(300,500)}恒长如故
+Dialogue: 3,0:23:56.04,0:23:58.63,ED-CN-17-28,,0,0,0,,{\an8\fad(300,500)}恒长如故
+Dialogue: 0,0:23:57.62,0:24:00.63,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,500)}目を閉じればいつも
+Dialogue: 1,0:23:57.62,0:24:00.63,ED-JP-17-28,,0,0,0,,{\fad(300,500)}目を閉じればいつも
+Dialogue: 2,0:23:57.62,0:24:00.63,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}闭上双眼就能
+Dialogue: 3,0:23:57.62,0:24:00.63,ED-CN-17-28,,0,0,0,,{\fad(300,500)}闭上双眼就能
+Dialogue: 0,0:23:58.63,0:24:00.63,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\an8\pos(1920,26)\fad(300,500)}I'll be there
+Dialogue: 1,0:23:58.63,0:24:00.63,ED-JP-17-28,,0,0,0,,{\an8\pos(1920,26)\fad(300,500)}I'll be there
+Dialogue: 2,0:23:58.63,0:24:00.63,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\an8\fad(300,500)}我仍在那里
+Dialogue: 3,0:23:58.63,0:24:00.63,ED-CN-17-28,,0,0,0,,{\an8\fad(300,500)}我仍在那里
+Dialogue: 0,0:24:00.63,0:24:03.46,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,500)}絶対なんてなくても
+Dialogue: 1,0:24:00.63,0:24:03.46,ED-JP-17-28,,0,0,0,,{\fad(300,500)}絶対なんてなくても
+Dialogue: 2,0:24:00.63,0:24:03.46,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}即使前路缥缈未定
+Dialogue: 3,0:24:00.63,0:24:03.46,ED-CN-17-28,,0,0,0,,{\fad(300,500)}即使前路缥缈未定
+Dialogue: 0,0:24:03.46,0:24:06.55,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,500)}いつでも届いているから
+Dialogue: 1,0:24:03.46,0:24:06.55,ED-JP-17-28,,0,0,0,,{\fad(300,500)}いつでも届いているから
+Dialogue: 2,0:24:03.46,0:24:06.55,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}我也总是心有所念
+Dialogue: 3,0:24:03.46,0:24:06.55,ED-CN-17-28,,0,0,0,,{\fad(300,500)}我也总是心有所念
+Dialogue: 0,0:24:06.55,0:24:09.59,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,500)}その涙だって大丈夫
+Dialogue: 1,0:24:06.55,0:24:09.59,ED-JP-17-28,,0,0,0,,{\fad(300,500)}その涙だって大丈夫
+Dialogue: 2,0:24:06.55,0:24:09.59,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}纵是落泪也无妨
+Dialogue: 3,0:24:06.55,0:24:09.59,ED-CN-17-28,,0,0,0,,{\fad(300,500)}纵是落泪也无妨
+Dialogue: 0,0:24:09.59,0:24:12.93,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,500)}きっと夜が明けるよ
+Dialogue: 1,0:24:09.59,0:24:12.93,ED-JP-17-28,,0,0,0,,{\fad(300,500)}きっと夜が明けるよ
+Dialogue: 2,0:24:09.59,0:24:12.93,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}黎明一定会到来
+Dialogue: 3,0:24:09.59,0:24:12.93,ED-CN-17-28,,0,0,0,,{\fad(300,500)}黎明一定会到来
+Dialogue: 0,0:24:12.93,0:24:19.98,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\an8\pos(1920,26)\fad(300,0)}I'm whispering our lullaby for you to come back home
+Dialogue: 1,0:24:12.93,0:24:19.98,ED-JP-17-28,,0,0,0,,{\an8\pos(1920,26)\fad(300,0)}I'm whispering our lullaby for you to come back home
+Dialogue: 2,0:24:12.93,0:24:19.98,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\an8\fad(300,0)}我正哼着摇篮曲，愿你回家不迷路
+Dialogue: 3,0:24:12.93,0:24:19.98,ED-CN-17-28,,0,0,0,,{\an8\fad(300,0)}我正哼着摇篮曲，愿你回家不迷路
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,————END————
