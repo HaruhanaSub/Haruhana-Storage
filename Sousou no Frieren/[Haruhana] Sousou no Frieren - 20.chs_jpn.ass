@@ -9,9 +9,9 @@ LayoutResX: 1920
 LayoutResY: 1080
 Title: 葬送のフリーレン - 20.chs
 Original Script: 拨雪寻春（Haruhana）
-Original Translation: 平原、火树银花
-Original Timing: 混乱怪魔、阮芷澧兰
-Script Updated By: 一星、田姆斯邦德、yuygfgg、知世
+Original Translation: 平原　火树银花
+Original Timing: 混乱怪魔　阮芷澧兰
+Script Updated By: 一星　田姆斯邦德　yuygfgg　知世
 Update Details: BD Ver. 2025-10-25
 
 [V4+ Styles]
@@ -226,10 +226,10 @@ Dialogue: 1,0:08:53.80,0:08:55.26,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&333333\4c&
 Dialogue: 1,0:08:55.93,0:08:57.35,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&333333\4c&333333}再见
 Dialogue: 1,0:08:58.85,0:09:01.52,Dial-CHI,,0,0,0,,{\3c&333333\4c&333333}{\bord1.5\blur0.7}你可以从背后偷袭我
 Dialogue: 1,0:09:02.61,0:09:05.94,Dial-CHI,,0,0,0,,{\3c&1A1A1A\4c&1A1A1A\bord2\blur0.7\c&DFE0E0}但只会让无谓的杀戮变得必要
-Dialogue: 1,0:09:06.48,0:09:07.86,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A\c&F2F2F2}尤蓓尔大人
+Dialogue: 1,0:09:06.48,0:09:07.86,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A\c&F2F2F2}尤蓓尔女士
 Dialogue: 1,0:09:08.36,0:09:09.61,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A\c&F2F2F2}我知道了
 Dialogue: 1,0:09:15.20,0:09:17.04,Dial-CHI,,0,0,0,,{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A\c&E3E3E3}挺会撒谎的嘛
-Dialogue: 1,0:09:17.04,0:09:19.87,Dial-CHI,,0,0,0,,{\bord2.5\blur1\3c&1A1A1A\4c&1A1A1A\c&E3E3E3}趁现在去支援兰特大人吧
+Dialogue: 1,0:09:17.04,0:09:19.87,Dial-CHI,,0,0,0,,{\bord2.5\blur1\3c&1A1A1A\4c&1A1A1A\c&E3E3E3}趁现在去支援兰特先生吧
 Dialogue: 1,0:09:20.50,0:09:22.08,Dial-CHI,,0,0,0,,{\3c&1A1A1A\4c&1A1A1A}{\bord1\blur0.7}不用担心
 Dialogue: 1,0:09:22.08,0:09:23.38,Dial-CHI,,0,0,0,,{\3c&1A1A1A\4c&1A1A1A}{\bord1\blur0.7}那个眼睛男
 Dialogue: 1,0:09:23.38,0:09:25.75,Dial-CHI,,0,0,0,,{\3c&1A1A1A\4c&1A1A1A}{\bord1\blur0.7}是扮猪吃老虎的主儿
@@ -493,9 +493,9 @@ Dialogue: 0,0:00:39.60,0:00:42.02,Dial-JPN,,888,0,0,,{\c&D4D4D4}{\bord1.5\blur0.
 Dialogue: 0,0:00:42.90,0:00:44.36,Dial-JPN,,0,0,0,,{\blur0.7}{\c&D4D4D4}{\bord1.5}{\3c&1A1A1A\4c&1A1A1A}そうだな
 Dialogue: 0,0:00:44.90,0:00:48.11,Dial-JPN,,0,1211,0,,{\blur0.7}{\c&DBDBDB}{\bord2.5}{\3c&1A1A1A\4c&1A1A1A}お前の魔法の射程は5mくらいだろ
 Dialogue: 0,0:00:48.44,0:00:49.82,Dial-JPN,,222,0,0,,{\blur0.7}{\c&E3E3E3}{\bord1.5}{\3c&1A1A1A\4c&1A1A1A}ご名答
-Dialogue: 0,0:00:49.82,0:00:51.78,Dial-JPN,,777,0,0,,{\blur0.7}{\c&E3E3E3}{\bord1.5}{\3c&1A1A1A\4c&1A1A1A}で、どうするの?
+Dialogue: 0,0:00:49.82,0:00:51.78,Dial-JPN,,777,0,0,,{\blur0.7}{\c&E3E3E3}{\bord1.5}{\3c&1A1A1A\4c&1A1A1A}で　どうするの?
 Dialogue: 0,0:00:51.78,0:00:53.87,Dial-JPN,,1211,0,0,,{\blur0.7}{\c&E3E3E3}{\bord1.5}{\3c&1A1A1A\4c&1A1A1A}また基礎的な魔法で殴り合うの?
-Dialogue: 0,0:00:54.95,0:00:57.66,Dial-JPN,,0,0,0,,{\c&EDEDED\bord2\3c&1A272E\4c&1A272E\blur0.7}いや、その必要はねえ
+Dialogue: 0,0:00:54.95,0:00:57.66,Dial-JPN,,0,0,0,,{\c&EDEDED\bord2\3c&1A272E\4c&1A272E\blur0.7}いや　その必要はねえ
 Dialogue: 0,0:00:58.20,0:00:59.75,Dial-JPN,,0,0,0,,{\c&EDEDED\bord2\3c&1A272E\4c&1A272E\blur0.7}あいつが使うのは
 Dialogue: 0,0:00:59.75,0:01:01.42,Dial-JPN,,0,0,0,,{\c&E8EBEB}{\bord1.5\blur0.7\3c&242424\4c&242424}品性のまるでない
 Dialogue: 0,0:01:01.42,0:01:03.38,Dial-JPN,,0,0,0,,{\c&E8EBEB}{\bord1.5\blur0.7\3c&242424\4c&242424}勝つための卑怯な魔法
@@ -507,8 +507,8 @@ Dialogue: 1,0:01:16.51,0:01:18.10,Dial-JPN,,0,0,0,,{\3c&A19E75\4c&A19E75\bord1\b
 Dialogue: 0,0:01:16.51,0:01:18.10,Dial-JPN,,0,0,0,,{\1a&ff\3c&FFF8C7\4c&FFF8C7\bord1\blur20\3a&aa\pos(1920,2109)}飽和攻撃
 Dialogue: 1,0:01:21.73,0:01:24.81,Dial-JPN,,0,0,0,,{\3c&A19E75\4c&A19E75\bord1\blur0.7}{\pos(1920,2109)}これだけの数の攻撃魔法を一度に操るなんて
 Dialogue: 0,0:01:21.73,0:01:24.81,Dial-JPN,,0,0,0,,{\1a&ff\3c&FFF8C7\4c&FFF8C7\bord1\blur20\3a&aa}{\pos(1920,2109)}これだけの数の攻撃魔法を一度に操るなんて
-Dialogue: 1,0:01:27.48,0:01:30.49,Dial-JPN,,0,0,0,,{\3c&A19E75\4c&A19E75\bord1\blur0.7}{\pos(1920,2109)}こんな力業、バカじゃないの?
-Dialogue: 0,0:01:27.48,0:01:30.49,Dial-JPN,,0,0,0,,{\1a&ff\3c&FFF8C7\4c&FFF8C7\bord1\blur20\3a&aa}{\pos(1920,2109)}こんな力業、バカじゃないの?
+Dialogue: 1,0:01:27.48,0:01:30.49,Dial-JPN,,0,0,0,,{\3c&A19E75\4c&A19E75\bord1\blur0.7}{\pos(1920,2109)}こんな力業　バカじゃないの?
+Dialogue: 0,0:01:27.48,0:01:30.49,Dial-JPN,,0,0,0,,{\1a&ff\3c&FFF8C7\4c&FFF8C7\bord1\blur20\3a&aa}{\pos(1920,2109)}こんな力業　バカじゃないの?
 Dialogue: 1,0:01:30.49,0:01:31.99,Dial-JPN,,0,0,0,,{\3c&A19E75\4c&A19E75\bord1\blur0.7}{\pos(1920,2109)}品性のかけらもない
 Dialogue: 0,0:01:30.49,0:01:31.99,Dial-JPN,,0,0,0,,{\1a&ff\3c&FFF8C7\4c&FFF8C7\bord1\blur20\3a&aa}{\pos(1920,2109)}品性のかけらもない
 Dialogue: 1,0:01:36.08,0:01:37.99,Dial-JPN,,0,0,0,,{\3c&A19E75\4c&A19E75\bord1\blur0.7}{\pos(1920,2109)}{\t(1059,1809,\bord0\shad0\alpha&ff\4c&ffffff)}さばき切れない
@@ -519,13 +519,13 @@ Dialogue: 0,0:03:32.40,0:03:35.07,Dial-JPN,,0,0,0,,{\bord0.1\blur1\c&F2F1F0\3c&1
 Dialogue: 0,0:03:35.36,0:03:37.70,Dial-JPN,,0,0,0,,{\bord1\blur0.7\c&F2F1F0\3c&1A1A1A\4c&1A1A1A}強力な拘束魔法か
 Dialogue: 0,0:03:38.11,0:03:39.62,Dial-JPN,,0,0,0,,{\bord1\blur0.7\c&F2F1F0\3c&1A1A1A\4c&1A1A1A}こんなのがあるんなら
 Dialogue: 0,0:03:39.62,0:03:41.95,Dial-JPN,,0,0,0,,{\bord1\blur0.7\c&F2F1F0\3c&1A1A1A\4c&1A1A1A}自力で隕鉄鳥捕まえればいいじゃん
-Dialogue: 0,0:03:43.08,0:03:47.33,Dial-JPN,,444,0,0,,{\bord1.5\blur0.7\c&E0E0E0\3c&1A1A1A\4c&1A1A1A}まぁ、隕鉄鳥が見つけられなければ無用の長物か
+Dialogue: 0,0:03:43.08,0:03:47.33,Dial-JPN,,444,0,0,,{\bord1.5\blur0.7\c&E0E0E0\3c&1A1A1A\4c&1A1A1A}まぁ　隕鉄鳥が見つけられなければ無用の長物か
 Dialogue: 0,0:03:47.83,0:03:52.13,Dial-JPN,,0,1333,0,,{\bord1.5\blur0.7\c&E0E0E0\3c&1A1A1A\4c&1A1A1A}俺の魔法は目に収めたヤツの動きを封じる魔法だ
 Dialogue: 0,0:03:52.80,0:03:55.34,Dial-JPN,,0,1333,0,,{\bord1.5\blur0.7\c&E0E0E0\3c&1A1A1A\4c&1A1A1A}俺がお前から目をそらさない限り
 Dialogue: 0,0:03:55.34,0:03:56.97,Dial-JPN,,0,1333,0,,{\bord1.5\blur0.7\c&E0E0E0\3c&1A1A1A\4c&1A1A1A}お前は動けない
 Dialogue: 0,0:03:57.26,0:03:59.14,Dial-JPN,,1444,0,0,,{\bord1.5\blur0.7\c&E0E0E0\3c&1A1A1A\4c&1A1A1A}その状態のお前なら
 Dialogue: 0,0:03:59.14,0:04:01.14,Dial-JPN,,1444,0,0,,{\bord1.5\blur0.7\c&E0E0E0\3c&1A1A1A\4c&1A1A1A}簡単に殺すことができる
-Dialogue: 0,0:04:01.72,0:04:05.22,Dial-JPN,,1444,0,0,,{\bord1.5\blur0.7\c&E0E0E0\3c&1A1A1A\4c&1A1A1A}しかもこいつ、手加減していたな
+Dialogue: 0,0:04:01.72,0:04:05.22,Dial-JPN,,1444,0,0,,{\bord1.5\blur0.7\c&E0E0E0\3c&1A1A1A\4c&1A1A1A}しかもこいつ　手加減していたな
 Dialogue: 0,0:04:05.52,0:04:05.98,Dial-JPN,,0,0,0,,{\c&E0E0E0\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}本当に殺すつもりなら
 Dialogue: 0,0:04:05.98,0:04:07.52,Dial-JPN,,0,0,0,,{\bord0.5\blur0.7\3c&71A5BF\4c&71A5BF}{\t(57,1517,0.5,\c&DEDEDE\3c&1A1A1A\4c&1A1A1A\bord1.5)}本当に殺すつもりなら
 Dialogue: 0,0:04:07.52,0:04:07.69,Dial-JPN,,0,0,0,,{\c&DEDEDE\3c&1A1A1A\4c&1A1A1A\bord1.5\blur0.7}あの奇襲段階で動きを封じていたはずだ
@@ -533,7 +533,7 @@ Dialogue: 0,0:04:07.69,0:04:09.48,Dial-JPN,,0,0,0,,{\c&EBEBEB\3c&1A1A1A\4c&1A1A1
 Dialogue: 0,0:04:09.48,0:04:10.69,Dial-JPN,,0,0,0,,{\c&F0F0F0\3c&1A1A1A\4c&1A1A1A\bord1\blur0.7}あの奇襲段階で動きを封じていたはずだ
 Dialogue: 0,0:04:12.19,0:04:13.48,Dial-JPN,,0,0,0,,{\bord2.5\blur0.7\3c&333333\4c&333333}ラストチャンスだ
 Dialogue: 0,0:04:16.11,0:04:18.11,Dial-JPN,,0,0,0,,{\c&E6E6E6\bord2\blur0.7\3c&333333\4c&333333}隕鉄鳥を置いてうせろ
-Dialogue: 0,0:04:19.66,0:04:21.74,Dial-JPN,,1333,0,0,,{\bord1.5\blur0.7\c&E0E0E0\3c&1A1A1A\4c&1A1A1A}何だ、つまらない
+Dialogue: 0,0:04:19.66,0:04:21.74,Dial-JPN,,1333,0,0,,{\bord1.5\blur0.7\c&E0E0E0\3c&1A1A1A\4c&1A1A1A}何だ　つまらない
 Dialogue: 0,0:04:21.74,0:04:24.54,Dial-JPN,,1888,0,0,,{\bord1.5\blur0.7\c&E0E0E0\3c&1A1A1A\4c&1A1A1A}せっかく殺し合いができると思ったのに
 Dialogue: 0,0:04:24.91,0:04:28.04,Dial-JPN,,0,0,0,,{\bord1.5\blur0.7\c&E0E0E0\3c&000000\4c&000000}結局隕鉄鳥を脅し取ることが目的か
 Dialogue: 0,0:04:30.33,0:04:31.75,Dial-JPN,,0,0,0,,{\c&F2F2F2\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}待って
@@ -550,9 +550,9 @@ Dialogue: 0,0:05:12.83,0:05:15.17,Dial-JPN,,0,0,0,,{\bord0.5\blur1\3c&000000\4c&
 Dialogue: 0,0:05:15.17,0:05:17.76,Dial-JPN,,0,0,0,,{\bord0.5\blur1\3c&000000\4c&000000}それで戦いは終わりだからな
 Dialogue: 0,0:05:18.05,0:05:20.26,Dial-JPN,,0,0,0,,{\c&F0F0F0\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}お前にはそれができたはずだ
 Dialogue: 0,0:05:21.34,0:05:24.51,Dial-JPN,,0,0,0,,{\bord1.5\blur1\3c&1A1A1A\4c&1A1A1A}戦場でも同じようなことをしたヤツらはいたぜ
-Dialogue: 0,0:05:25.30,0:05:29.77,Dial-JPN,,0,0,0,,{\c&F0F0F0\bord1\blur0.8\3c&1A1A1A\4c&1A1A1A}そいつらは全員、殺しを楽しむ変態だった
+Dialogue: 0,0:05:25.30,0:05:29.77,Dial-JPN,,0,0,0,,{\c&F0F0F0\bord1\blur0.8\3c&1A1A1A\4c&1A1A1A}そいつらは全員　殺しを楽しむ変態だった
 Dialogue: 0,0:05:32.40,0:05:35.27,Dial-JPN,,0,0,0,,{\c&F0F0F0}{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}お前はここで殺しておくべきだな
-Dialogue: 0,0:05:38.03,0:05:40.57,Dial-JPN,,0,2022,0,,{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}女、子供を殺したことあるの?
+Dialogue: 0,0:05:38.03,0:05:40.57,Dial-JPN,,0,2022,0,,{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}女　子供を殺したことあるの?
 Dialogue: 0,0:05:41.40,0:05:42.99,Dial-JPN,,1511,0,0,,{\bord2\blur0.7\3c&000000\4c&000000}ねえと思ってんのか
 Dialogue: 0,0:05:45.70,0:05:48.04,Dial-JPN,,0,0,0,,{\c&F0F0F0\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}どんな地獄を見てきたの?
 Dialogue: 0,0:05:48.58,0:05:50.04,Dial-JPN,,0,0,0,,{\c&F0F0F0\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}時間稼ぎか
@@ -562,7 +562,7 @@ Dialogue: 0,0:05:57.46,0:05:59.59,Dial-JPN,,0,0,0,,{\3c&333333\4c&333333}{\bord1
 Dialogue: 0,0:05:59.59,0:06:01.84,Dial-JPN,,0,0,0,,{\3c&333333\4c&333333}{\bord1.2\blur0.7}対魔族専門の傭兵だが
 Dialogue: 0,0:06:02.76,0:06:05.43,Dial-JPN,,0,0,0,,{\3c&333333\4c&333333}{\bord1.2\blur0.7}有事には国同士の戦争にだって動員される
 Dialogue: 0,0:06:09.68,0:06:13.35,Dial-JPN,,0,0,0,,{\c&C4C4C4\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}人ってのは人の弱い部分をよく知ってる
-Dialogue: 0,0:06:14.44,0:06:18.40,Dial-JPN,,0,0,0,,{\c&B5B5B5\bord1.5\blur0.7\3c&000000\4c&000000}戦争に女、子供を駆り出すなんて悪魔の所業は
+Dialogue: 0,0:06:14.44,0:06:18.40,Dial-JPN,,0,0,0,,{\c&B5B5B5\bord1.5\blur0.7\3c&000000\4c&000000}戦争に女　子供を駆り出すなんて悪魔の所業は
 Dialogue: 0,0:06:18.40,0:06:20.94,Dial-JPN,,0,0,0,,{\c&B5B5B5\bord1.5\blur0.7\3c&000000\4c&000000}珍しいことでも何でもねえ
 Dialogue: 0,0:06:21.57,0:06:23.07,Dial-JPN,,0,0,0,,{\c&E6E6E6\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}地獄なんかじゃない
 Dialogue: 0,0:06:25.16,0:06:26.99,Dial-JPN,,1544,0,0,,{\bord2\blur0.7\3c&000000\4c&000000}北の果てじゃ日常だ
@@ -594,11 +594,11 @@ Dialogue: 0,0:07:58.33,0:07:59.54,Dial-JPN,,0,0,0,,{\bord1.5\blur0.7\3c&1A1A1A\4
 Dialogue: 0,0:07:59.54,0:08:01.79,Dial-JPN,,0,0,0,,{\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A\c&EDEDED}魔力を完全に消せんのか
 Dialogue: 0,0:08:03.05,0:08:05.55,Dial-JPN,,0,0,0,,{\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A\c&EDEDED}隕鉄鳥を捕らえたのはお前だな
 Dialogue: 0,0:08:05.55,0:08:07.68,Dial-JPN,,0,0,0,,{\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}運が良かっただけだよ
-Dialogue: 0,0:08:07.68,0:08:10.39,Dial-JPN,,0,0,0,,{\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}偶然、隕鉄鳥のねぐらを見つけて
+Dialogue: 0,0:08:07.68,0:08:10.39,Dial-JPN,,0,0,0,,{\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}偶然　隕鉄鳥のねぐらを見つけて
 Dialogue: 0,0:08:10.39,0:08:14.14,Dial-JPN,,0,0,0,,{\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}その子は鳥を捕まえる魔法を師匠から教わっていた
 Dialogue: 0,0:08:14.56,0:08:16.85,Dial-JPN,,0,0,0,,{\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}あんたは何でも捕まえられるのに
 Dialogue: 0,0:08:16.85,0:08:19.56,Dial-JPN,,0,0,0,,{\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}よっぽど運が悪かったみたいだね
-Dialogue: 0,0:08:19.85,0:08:22.11,Dial-JPN,,0,0,0,,{\c&EBEBEB\bord2\blur0.7\3c&1a1a1a\4c&1a1a1a}まったくだぜ、ツイてねえ
+Dialogue: 0,0:08:19.85,0:08:22.11,Dial-JPN,,0,0,0,,{\c&EBEBEB\bord2\blur0.7\3c&1a1a1a\4c&1a1a1a}まったくだぜ　ツイてねえ
 Dialogue: 0,0:08:23.07,0:08:25.11,Dial-JPN,,0,0,0,,{\c&EBEBEB\bord2\blur0.7\3c&1a1a1a\4c&1a1a1a}エーレと戦っていたな
 Dialogue: 0,0:08:25.11,0:08:26.32,Dial-JPN,,0,0,0,,{\c&EBEBEB\bord2\blur0.7\3c&1a1a1a\4c&1a1a1a}あいつはどうした
 Dialogue: 0,0:08:26.61,0:08:28.32,Dial-JPN,,0,0,0,,{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}殺しました
@@ -621,7 +621,7 @@ Dialogue: 0,0:09:20.50,0:09:22.08,Dial-JPN,,0,0,0,,{\3c&1A1A1A\4c&1A1A1A}{\bord1
 Dialogue: 0,0:09:22.08,0:09:23.38,Dial-JPN,,0,0,0,,{\3c&1A1A1A\4c&1A1A1A}{\bord1\blur0.7}あのメガネ君
 Dialogue: 0,0:09:23.38,0:09:25.75,Dial-JPN,,0,0,0,,{\3c&1A1A1A\4c&1A1A1A}{\bord1\blur0.7}相当な食わせ者だよ
 Dialogue: 0,0:09:39.77,0:09:41.27,Dial-JPN,,0,0,0,,{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}勝負ありだな
-Dialogue: 0,0:09:42.85,0:09:44.40,Dial-JPN,,0,0,0,,{\c&FAFAFA\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}すごいね、これ
+Dialogue: 0,0:09:42.85,0:09:44.40,Dial-JPN,,0,0,0,,{\c&FAFAFA\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}すごいね　これ
 Dialogue: 0,0:09:47.15,0:09:51.15,Dial-JPN,,0,0,0,,{\3c&1A1A1A\4c&1A1A1A}{\bord1.5\blur0.7}鋼鉄に変えた無数の花弁を正確に操って
 Dialogue: 0,0:09:51.15,0:09:52.66,Dial-JPN,,0,0,0,,{\3c&1A1A1A\4c&1A1A1A}{\bord1.5\blur0.7}防御をかいくぐった
 Dialogue: 0,0:09:54.57,0:09:56.70,Dial-JPN,,0,0,0,,{\3c&1A1A1A\4c&1A1A1A}{\bord1.8\blur0.7}でもこれ我流でしょ
@@ -631,7 +631,7 @@ Dialogue: 0,0:10:01.75,0:10:03.25,Dial-JPN,,0,0,0,,{\c&FAFAFA\bord2\blur0.7\3c&2
 Dialogue: 0,0:10:03.25,0:10:05.13,Dial-JPN,,0,0,0,,{\c&FAFAFA\bord2\blur0.7\3c&262626\4c&262626}知らない相手と戦う前に
 Dialogue: 0,0:10:05.58,0:10:08.17,Dial-JPN,,0,0,0,,{\c&FAFAFA\bord2\blur0.7\3c&262626\4c&262626}必ず様子見をするようにしている
 Dialogue: 0,0:10:08.63,0:10:10.97,Dial-JPN,,0,666,0,,{\c&FAFAFA\bord1.5\blur0.7\3c&262626\4c&262626}君の弱点はよく分かったよ
-Dialogue: 0,0:10:11.51,0:10:13.55,Dial-JPN,,0,222,0,,{\c&FAFAFA\bord1.5\blur0.7\3c&262626\4c&262626}多分、僕の勝ちだ
+Dialogue: 0,0:10:11.51,0:10:13.55,Dial-JPN,,0,222,0,,{\c&FAFAFA\bord1.5\blur0.7\3c&262626\4c&262626}多分　僕の勝ちだ
 Dialogue: 0,0:10:14.01,0:10:15.43,Dial-JPN,,0,0,0,,{\c&FAFAFA\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}饒舌だな
 Dialogue: 0,0:10:15.43,0:10:17.18,Dial-JPN,,0,0,0,,{\c&FAFAFA\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}利き腕をつぶされて
 Dialogue: 0,0:10:17.18,0:10:18.56,Dial-JPN,,0,0,0,,{\c&FAFAFA\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}どう勝つつもりだ
@@ -639,7 +639,7 @@ Dialogue: 0,0:10:21.56,0:10:23.06,Dial-JPN,,999,0,0,,{\bord1.5\blur0.7\3c&1A1A1A
 Dialogue: 0,0:10:23.06,0:10:25.02,Dial-JPN,,999,0,0,,{\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}次は首を切り落とす
 Dialogue: 0,0:10:25.35,0:10:26.31,Dial-JPN,,0,0,0,,{\bord2\blur1\3c&1A1A1A\4c&1A1A1A}だから
 Dialogue: 0,0:10:26.31,0:10:29.28,Dial-JPN,,0,0,0,,{\bord1.5\blur0.7\3c&000000\4c&000000}これは戦う前の様子見なんだって
-Dialogue: 0,0:10:30.40,0:10:32.65,Dial-JPN,,0,888,0,,{\c&F0F0F0\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}君、魔力探知苦手でしょ
+Dialogue: 0,0:10:30.40,0:10:32.65,Dial-JPN,,0,888,0,,{\c&F0F0F0\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}君　魔力探知苦手でしょ
 Dialogue: 0,0:10:42.00,0:10:43.50,Dial-JPN,,0,0,0,,{\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}幻影魔法
 Dialogue: 0,0:10:43.50,0:10:44.96,Dial-JPN,,0,0,0,,{\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}実体はあるから
 Dialogue: 0,0:10:44.96,0:10:46.92,Dial-JPN,,0,0,0,,{\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}正確には僕の分身かな
@@ -650,7 +650,7 @@ Dialogue: 0,0:10:58.72,0:11:00.76,Dial-JPN,,0,0,0,,{\bord1\blur0.7\3c&1A1A1A\4c&
 Dialogue: 0,0:11:04.39,0:11:06.40,Dial-JPN,,0,0,0,,{\c&E8E8E8\bord1\blur0.7\3c&000000\4c&000000}何が殺しただ
 Dialogue: 0,0:11:06.98,0:11:08.19,Dial-JPN,,0,0,0,,{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}あのクソ女
 Dialogue: 0,0:11:08.19,0:11:10.07,Dial-JPN,,0,0,0,,{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}平然とウソつきやがって
-Dialogue: 0,0:11:11.15,0:11:12.82,Dial-JPN,,0,0,0,,{\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}おい起きろ、エーレ
+Dialogue: 0,0:11:11.15,0:11:12.82,Dial-JPN,,0,0,0,,{\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}おい起きろ　エーレ
 Dialogue: 0,0:11:15.57,0:11:17.16,Dial-JPN,,0,0,0,,{\bord1.5\blur0.7\3c&000000\4c&000000}魔力切れかよ
 Dialogue: 0,0:11:17.16,0:11:18.57,Dial-JPN,,0,0,0,,{\bord1.5\blur0.7\3c&000000\4c&000000}だっせぇな
 Dialogue: 0,0:11:18.57,0:11:20.41,Dial-JPN,,0,0,0,,{\bord1.5\blur0.7\3c&000000\4c&000000}魔法学校の首席だろ
@@ -664,7 +664,7 @@ Dialogue: 0,0:11:48.85,0:11:53.28,Dial-JPN,,0,0,0,,{\c&F7F7F7\3c&000000\4c&00000
 Dialogue: 0,0:11:54.32,0:11:56.78,Dial-JPN,,0,0,0,,{\c&F7F7F7\3c&000000\4c&000000\bord1.5\blur0.7}あの女は相当な化け物だな
 Dialogue: 0,0:11:58.16,0:11:59.41,Dial-JPN,,0,0,0,,{\c&F2F2F2\3c&1A1A1A\4c&1A1A1A\bord1.5\blur0.7}行くぞ
 Dialogue: 0,0:11:59.41,0:12:01.12,Dial-JPN,,0,0,0,,{\c&F2F2F2\3c&1A1A1A\4c&1A1A1A\bord1.5\blur0.7}シャルフと合流する
-Dialogue: 0,0:12:01.41,0:12:03.91,Dial-JPN,,0,0,0,,{\c&F2F2F2\3c&000000\4c&000000\bord1.7\blur0.7}侍ってよ、歩けないんだけど
+Dialogue: 0,0:12:01.41,0:12:03.91,Dial-JPN,,0,0,0,,{\c&F2F2F2\3c&000000\4c&000000\bord1.7\blur0.7}侍ってよ　歩けないんだけど
 Dialogue: 0,0:12:04.87,0:12:06.54,Dial-JPN,,0,999,0,,{\c&D9D9D9\3c&1A1A1A\4c&1A1A1A\bord1.5\blur0.7}仕方ねえな
 Dialogue: 0,0:12:11.38,0:12:12.75,Dial-JPN,,0,0,0,,{\c&F2F2F2\3c&1A1A1A\4c&1A1A1A\bord1.5\blur0.7}ちょっと
 Dialogue: 0,0:12:12.75,0:12:14.67,Dial-JPN,,0,0,0,,{\c&F2F2F2\3c&1A1A1A\4c&1A1A1A\bord1.5\blur0.7}物みたいに運ぶつもり?
@@ -681,21 +681,21 @@ Dialogue: 0,0:12:36.94,0:12:38.11,Dial-JPN,,0,0,0,,{\bord2\blur1\3c&1A1A1A\4c&1A
 Dialogue: 0,0:12:38.74,0:12:40.66,Dial-JPN,,0,0,0,,{\bord2\blur1\3c&1A1A1A\4c&1A1A1A}しびれて動けん
 Dialogue: 0,0:12:45.16,0:12:46.33,Dial-JPN,,0,0,0,,{\c&D8DBE3\3c&1A1A1A\4c&1A1A1A\bord1.9\blur0.7}クッソ
 Dialogue: 0,0:12:46.33,0:12:48.41,Dial-JPN,,0,0,0,,{\c&D8DBE3\3c&1A1A1A\4c&1A1A1A\bord1.9\blur0.7}マジで何なんだよ
-Dialogue: 0,0:12:51.54,0:12:53.92,Dial-JPN,,0,0,0,,{\c&D8DBE3\3c&1A1A1A\4c&1A1A1A\bord1.9\blur0.7}この音、何かしら
+Dialogue: 0,0:12:51.54,0:12:53.92,Dial-JPN,,0,0,0,,{\c&D8DBE3\3c&1A1A1A\4c&1A1A1A\bord1.9\blur0.7}この音　何かしら
 Dialogue: 0,0:12:53.92,0:12:55.80,Dial-JPN,,0,0,0,,{\3c&1A1A1A\4c&1A1A1A}{\bord1\blur0.7}雨音だろ
 Dialogue: 0,0:12:55.80,0:12:58.09,Dial-JPN,,0,0,0,,{\3c&1A1A1A\4c&1A1A1A}{\bord1\blur0.7}結界の外で雨が降り始めたんだ
 Dialogue: 0,0:12:59.09,0:13:01.26,Dial-JPN,,0,0,0,,{\c&F1F2EB}{\3c&1A1A1A\4c&1A1A1A}{\bord1.3\blur0.7}まるで俺の今の心境だぜ
 Dialogue: 0,0:13:01.68,0:13:04.56,Dial-JPN,,0,0,0,,{\c&F1F2EB}{\3c&1A1A1A\4c&1A1A1A}{\bord1.3\blur0.7}あと2～3時間もすれば日没
 Dialogue: 0,0:13:04.56,0:13:06.52,Dial-JPN,,0,0,0,,{\c&F1F2EB}{\3c&1A1A1A\4c&1A1A1A}{\bord1.3\blur0.7}第一次試験終了だ
 Dialogue: 0,0:13:07.18,0:13:09.10,Dial-JPN,,0,0,0,,{\c&F1F2EB}{\3c&1A1A1A\4c&1A1A1A}{\bord1.3\blur0.7}戦闘不能２名
-Dialogue: 0,0:13:09.56,0:13:12.15,Dial-JPN,,0,0,0,,{\c&F1F2EB}{\3c&1A1A1A\4c&1A1A1A}{\bord1.3\blur0.7}こんな状況じゃ、隕鉄鳥はもう奪えねえ
+Dialogue: 0,0:13:09.56,0:13:12.15,Dial-JPN,,0,0,0,,{\c&F1F2EB}{\3c&1A1A1A\4c&1A1A1A}{\bord1.3\blur0.7}こんな状況じゃ　隕鉄鳥はもう奪えねえ
 Dialogue: 0,0:13:12.69,0:13:14.98,Dial-JPN,,0,0,0,,{\c&F1F2EB}{\3c&1A1A1A\4c&1A1A1A}{\bord1.3\blur0.7}俺たちの不合格は確定だな
 Dialogue: 0,0:13:15.57,0:13:18.69,Dial-JPN,,0,0,0,,{\c&E6E6E6\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}それなのに私たちを助けてくれるんだ
 Dialogue: 0,0:13:18.69,0:13:20.11,Dial-JPN,,0,0,0,,{\c&E6E6E6\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}優しいのね
 Dialogue: 0,0:13:20.11,0:13:22.74,Dial-JPN,,0,0,0,,{\c&E6E6E6\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}ここでお前らを捨ててってもいいんだぜ
 Dialogue: 0,0:13:23.20,0:13:24.49,Dial-JPN,,0,0,0,,{\c&E6E6E6\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}見捨てないで
-Dialogue: 0,0:13:24.49,0:13:25.58,Dial-JPN,,0,0,0,,{\c&E6E6E6\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}泣くんじゃねえよ、男だろ?
-Dialogue: 0,0:13:25.58,0:13:26.54,Dial-JPN,,0,0,0,,{\c&D8DBE3\3c&1A1A1A\4c&1A1A1A\bord1.9\blur0.7}泣くんじゃねえよ、男だろ?
+Dialogue: 0,0:13:24.49,0:13:25.58,Dial-JPN,,0,0,0,,{\c&E6E6E6\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}泣くんじゃねえよ　男だろ?
+Dialogue: 0,0:13:25.58,0:13:26.54,Dial-JPN,,0,0,0,,{\c&D8DBE3\3c&1A1A1A\4c&1A1A1A\bord1.9\blur0.7}泣くんじゃねえよ　男だろ?
 Dialogue: 0,0:13:28.41,0:13:30.08,Dial-JPN,,0,0,0,,{\c&D8DBE3\3c&1A1A1A\4c&1A1A1A\bord1.9\blur0.7}その優しさが
 Dialogue: 0,0:13:30.08,0:13:33.08,Dial-JPN,,0,0,0,,{\c&D8DBE3\3c&1A1A1A\4c&1A1A1A\bord1.9\blur0.7}あなたが魔族と戦う理由なのかしら
 Dialogue: 0,0:13:38.13,0:13:41.34,Dial-JPN,,0,0,0,,{\c&D8DBE3\3c&1A1A1A\4c&1A1A1A\bord1.9\blur0.7}あなたは私の村も救ってくれたわ
@@ -714,19 +714,19 @@ Dialogue: 0,0:14:15.17,0:14:17.80,Dial-JPN,,0,0,0,,{\c&F0F0F0\bord1.5\blur0.7\3c
 Dialogue: 0,0:14:23.43,0:14:26.64,Dial-JPN,,0,0,0,,{\bord1.1\blur0.7\3c&2A2F33\4c&2A2F33}４つか５つのガキの頃の話だ
 Dialogue: 0,0:14:27.30,0:14:29.39,Dial-JPN,,0,0,0,,{\bord1.1\blur0.7\3c&2A2F33\4c&2A2F33}もう顔も名前も覚えちゃいねえ
 Dialogue: 0,0:14:34.27,0:14:35.52,Dial-JPN,,0,0,0,,{\c&D8DBE3\3c&1A1A1A\4c&1A1A1A\bord1.5\blur0.7}バカみたいね
-Dialogue: 0,0:14:35.94,0:14:37.69,Dial-JPN,,0,0,0,,{\c&D8DBE3\3c&1A1A1A\4c&1A1A1A\bord1.5\blur0.7}ああ、バカみたいだ
+Dialogue: 0,0:14:35.94,0:14:37.69,Dial-JPN,,0,0,0,,{\c&D8DBE3\3c&1A1A1A\4c&1A1A1A\bord1.5\blur0.7}ああ　バカみたいだ
 Dialogue: 0,0:14:44.86,0:14:47.03,Dial-JPN,,0,0,0,,{\c&C0C2C4\bord1.5\3c&000000\4c&000000\blur0.7}帰りはまた海路か
-Dialogue: 0,0:14:47.03,0:14:49.16,Dial-JPN,,0,0,0,,{\c&C0C2C4\bord1.5\3c&000000\4c&000000\blur0.7}俺、船酔いひでぇんだよな
+Dialogue: 0,0:14:47.03,0:14:49.16,Dial-JPN,,0,0,0,,{\c&C0C2C4\bord1.5\3c&000000\4c&000000\blur0.7}俺　船酔いひでぇんだよな
 Dialogue: 0,0:14:49.66,0:14:52.45,Dial-JPN,,0,0,0,,{\c&DCE1E6\bord1.5\blur0.7\3c&000000\4c&000000}私のお爺ちゃん紹介しようか
-Dialogue: 0,0:14:52.45,0:14:54.75,Dial-JPN,,0,0,0,,{\c&DCE1E6\bord1.5\blur0.7\3c&000000\4c&000000}一級魔法使いだから、陸路で…
-Dialogue: 0,0:14:56.21,0:14:57.38,Dial-JPN,,0,0,0,,{\c&E8E8E8}{\3c&000000\4c&000000\bord1.5\blur0.7}ねぇ、ヴィアベル
+Dialogue: 0,0:14:52.45,0:14:54.75,Dial-JPN,,0,0,0,,{\c&DCE1E6\bord1.5\blur0.7\3c&000000\4c&000000}一級魔法使いだから　陸路で…
+Dialogue: 0,0:14:56.21,0:14:57.38,Dial-JPN,,0,0,0,,{\c&E8E8E8}{\3c&000000\4c&000000\bord1.5\blur0.7}ねぇ　ヴィアベル
 Dialogue: 0,0:14:58.21,0:14:59.13,Dial-JPN,,0,0,0,,{\c&E8E8E8}{\3c&000000\4c&000000\bord1.5\blur0.7}どうした
 Dialogue: 0,0:14:59.13,0:15:00.05,Dial-JPN,,0,0,0,,{\c&E8E8E8}{\3c&000000\4c&000000\bord1.5\blur0.7}あれ
 Dialogue: 0,0:15:11.89,0:15:13.48,Dial-JPN,,0,0,0,,{\bord1.5\blur0.7\3c&1C232E\4c&1C232E}ふざけやがって
 Dialogue: 0,0:15:13.48,0:15:15.56,Dial-JPN,,0,0,0,,{\bord1.5\blur0.7\3c&1C232E\4c&1C232E}今までの苦労は何だったんだ
 Dialogue: 0,0:15:16.52,0:15:19.69,Dial-JPN,,0,0,0,,{\bord1.3\blur0.7\3c&1C232E\4c&1C232E}ツキが回ってくんのが遅過ぎんだよ
 Dialogue: 0,0:15:25.99,0:15:26.95,Dial-JPN,,0,0,0,,{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}フリーレン
-Dialogue: 0,0:15:26.95,0:15:29.53,Dial-JPN,,0,0,0,,{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}あの子、さっきから何もしてこないけど
+Dialogue: 0,0:15:26.95,0:15:29.53,Dial-JPN,,0,0,0,,{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}あの子　さっきから何もしてこないけど
 Dialogue: 0,0:15:32.37,0:15:34.12,Dial-JPN,,0,0,0,,{\c&E4E8ED\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}エルフか
 Dialogue: 0,0:15:34.62,0:15:37.12,Dial-JPN,,0,0,0,,{\c&D7DBE0\bord1.5\blur0.7\3c&000000\4c&000000}優秀な魔法使いだな
 Dialogue: 0,0:15:37.50,0:15:39.59,Dial-JPN,,0,0,0,,{\c&D7DBE0\bord1.5\blur0.7\3c&000000\4c&000000}ラオフェンの魔法なぞ
@@ -734,7 +734,7 @@ Dialogue: 0,0:15:39.59,0:15:42.75,Dial-JPN,,0,0,0,,{\c&D7DBE0\bord1.5\blur0.7\3c
 Dialogue: 0,0:15:43.13,0:15:45.63,Dial-JPN,,0,555,0,,{\c&D7DBE0\bord1.5\blur0.7\3c&000000\4c&000000}だがその一度で十分
 Dialogue: 0,0:15:45.63,0:15:48.14,Dial-JPN,,0,555,0,,{\c&D7DBE0\bord1.5\blur0.7\3c&000000\4c&000000}これは殺し合いではない
 Dialogue: 0,0:15:50.64,0:15:51.89,Dial-JPN,,0,0,0,,{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}消えた?
-Dialogue: 0,0:15:52.31,0:15:54.10,Dial-JPN,,0,0,0,,{\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}フリーレン、隕鉄鳥が
+Dialogue: 0,0:15:52.31,0:15:54.10,Dial-JPN,,0,0,0,,{\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}フリーレン　隕鉄鳥が
 Dialogue: 0,0:15:55.81,0:15:57.02,Dial-JPN,,0,0,0,,{\bord1\blur0.7\3c&000000\4c&000000}取られたか
 Dialogue: 0,0:16:03.36,0:16:04.86,Dial-JPN,,0,0,0,,{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}面白い魔法だ
 Dialogue: 0,0:16:17.41,0:16:20.42,Dial-JPN,,544,0,0,,{\c&D7DAE0}{\bord1.3\blur0.7\3c&000000\4c&000000}結界の中は雨でも快適だな
@@ -771,7 +771,7 @@ Dialogue: 0,0:17:48.63,0:17:49.55,Dial-JPN,,0,0,0,,{\c&E1E5EB\bord2\blur0.7\3c&0
 Dialogue: 0,0:17:49.55,0:17:51.88,Dial-JPN,,0,0,0,,{\c&E1E5EB\bord2\blur0.7\3c&000000\4c&000000}今の子が使った魔法ってさ
 Dialogue: 0,0:17:51.88,0:17:53.09,Dial-JPN,,0,0,0,,{\c&E1E5EB\bord2\blur0.7\3c&000000\4c&000000}ジルヴェーアでしょ?
 Dialogue: 0,0:17:53.93,0:17:57.68,Dial-JPN,,0,0,0,,{\c&E1E5EB\bord2\blur0.7\3c&000000\4c&000000}南側諸国の山岳民族に伝わる民間魔法だ
-Dialogue: 0,0:17:58.18,0:17:59.93,Dial-JPN,,0,0,0,,{\c&C4C9CF\bord2\blur0.7\3c&000000\4c&000000}ああ、そうだ
+Dialogue: 0,0:17:58.18,0:17:59.93,Dial-JPN,,0,0,0,,{\c&C4C9CF\bord2\blur0.7\3c&000000\4c&000000}ああ　そうだ
 Dialogue: 0,0:18:00.23,0:18:01.73,Dial-JPN,,511,0,0,,{\c&E7E4EB\bord2\blur0.7\3c&000000\4c&000000}ジルヴェーアって?
 Dialogue: 0,0:18:01.73,0:18:03.56,Dial-JPN,,511,0,0,,{\c&E7E4EB\bord2\blur0.7\3c&000000\4c&000000}高速で移動する魔法
 Dialogue: 0,0:18:04.10,0:18:07.98,Dial-JPN,,1111,0,0,,{\c&DADFE6\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}だったら２人はそのまま隠れていた方がよかったと思うよ
@@ -796,16 +796,16 @@ Dialogue: 0,0:18:51.82,0:18:54.28,Dial-JPN,,0,0,0,,{\c&EDEDED\bord1.5\blur0.7\3c
 Dialogue: 0,0:18:54.57,0:18:57.03,Dial-JPN,,0,1311,0,,{\3c&1A1A1A\4c&1A1A1A}{\bord2\blur0.7}結局堂々と挑んでくるんだ
 Dialogue: 0,0:18:57.57,0:19:00.29,Dial-JPN,,0,1311,0,,{\3c&1A1A1A\4c&1A1A1A}{\bord2\blur0.7}私たちのことをずっと嗅ぎまわっていたでしょ
 Dialogue: 0,0:19:00.91,0:19:03.66,Dial-JPN,,0,1311,0,,{\3c&1A1A1A\4c&1A1A1A}{\bord2\blur0.7}もっと卑怯な手でくるかと思っていた
-Dialogue: 0,0:19:03.66,0:19:06.17,Dial-JPN,,0,0,0,,{\c&EBEBEB\bord1.1\blur0.7\3c&1A1A1A\4c&1A1A1A}{\t(483,1150,\c&CCCCCC\3c&000000\4c&000000\bord1.1)}いや、十分卑怯さ
+Dialogue: 0,0:19:03.66,0:19:06.17,Dial-JPN,,0,0,0,,{\c&EBEBEB\bord1.1\blur0.7\3c&1A1A1A\4c&1A1A1A}{\t(483,1150,\c&CCCCCC\3c&000000\4c&000000\bord1.1)}いや　十分卑怯さ
 Dialogue: 0,0:19:06.96,0:19:09.75,Dial-JPN,,0,0,0,,{\c&F0F0F0\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}デンケンがお前の足止めをしている間に
-Dialogue: 0,0:19:09.75,0:19:13.05,Dial-JPN,,0,0,0,,{\c&F0F0F0\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}俺がそっちのガキ２人、どちらかを殺す
+Dialogue: 0,0:19:09.75,0:19:13.05,Dial-JPN,,0,0,0,,{\c&F0F0F0\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}俺がそっちのガキ２人　どちらかを殺す
 Dialogue: 0,0:19:13.47,0:19:14.93,Dial-JPN,,0,0,0,,{\bord1.5\blur0.7\3c&000000\4c&000000}なるほど
 Dialogue: 0,0:19:14.93,0:19:19.01,Dial-JPN,,0,0,0,,{\bord1.5\blur0.7\3c&000000\4c&000000}パーティーメンバーが欠けて合格条件を満たせなくなれば
 Dialogue: 0,0:19:19.01,0:19:21.31,Dial-JPN,,0,0,0,,{\bord1.5\blur0.7\3c&000000\4c&000000}こっちは退かざるを得ないわけだ
-Dialogue: 0,0:19:21.72,0:19:23.93,Dial-JPN,,0,0,0,,{\c&E8E8E8\bord2\blur0.7\3c&000000\4c&000000}おもしれぇ、やってみろよ
-Dialogue: 0,0:19:23.93,0:19:26.19,Dial-JPN,,0,0,0,,{\c&E8E8E8\bord2\blur0.7\3c&000000\4c&000000}ラヴィーネ、こいつ強いよ
+Dialogue: 0,0:19:21.72,0:19:23.93,Dial-JPN,,0,0,0,,{\c&E8E8E8\bord2\blur0.7\3c&000000\4c&000000}おもしれぇ　やってみろよ
+Dialogue: 0,0:19:23.93,0:19:26.19,Dial-JPN,,0,0,0,,{\c&E8E8E8\bord2\blur0.7\3c&000000\4c&000000}ラヴィーネ　こいつ強いよ
 Dialogue: 0,0:19:26.19,0:19:27.44,Dial-JPN,,0,0,0,,{\c&E8E8E8\bord2\blur0.7\3c&000000\4c&000000}知ってるよ
-Dialogue: 0,0:19:30.07,0:19:32.07,Dial-JPN,,0,0,0,,{\c&D3D7DE\bord1\blur0.7\3c&000000\4c&000000}やめろ、リヒター
+Dialogue: 0,0:19:30.07,0:19:32.07,Dial-JPN,,0,0,0,,{\c&D3D7DE\bord1\blur0.7\3c&000000\4c&000000}やめろ　リヒター
 Dialogue: 0,0:19:32.07,0:19:35.07,Dial-JPN,,0,0,0,,{\c&D3D7DE\bord1\blur0.7\3c&000000\4c&000000}儂らは足止めができればそれでいい
 Dialogue: 0,0:19:35.07,0:19:36.20,Dial-JPN,,0,0,0,,{\c&D3D7DE\bord1\blur0.7\3c&000000\4c&000000}勝てる勝負だ
 Dialogue: 0,0:19:37.41,0:19:38.91,Dial-JPN,,0,0,0,,{\c&D3D7DE\bord1\blur0.7\3c&000000\4c&000000}デンケン
@@ -830,7 +830,7 @@ Dialogue: 0,0:20:39.30,0:20:41.05,Dial-JPN,,0,0,0,,{\c&CEE3F0\bord1\blur0.7\3c&1
 Dialogue: 0,0:20:42.39,0:20:43.97,Dial-JPN,,0,0,0,,{\c&F0F9FF\bord1.5\blur0.7\3c&2F3D40\4c72F3D40}だから彼女は
 Dialogue: 0,0:20:43.97,0:20:45.85,Dial-JPN,,0,0,0,,{\c&EBF3FA\bord1\blur0.7\3c&1A1A1A\4c&1A1A1A}一級魔法使いの座に就いた者に特権を与えることを約束した
 Dialogue: 0,0:20:45.85,0:20:48.94,Dial-JPN,,0,0,0,,{\c&F7FBFF\bord0.7\blur0.7\3c&1A1A1A\4c&1A1A1A}一級魔法使いの座に就いた者に特権を与えることを約束した
-Dialogue: 0,0:20:50.19,0:20:53.65,Dial-JPN,,0,0,0,,{\c&FCFFFE\bord0.7\blur0.7\3c&1A1A1A\4c&1A1A1A}1つだけ、望んだ魔法を授けるとな
+Dialogue: 0,0:20:50.19,0:20:53.65,Dial-JPN,,0,0,0,,{\c&FCFFFE\bord0.7\blur0.7\3c&1A1A1A\4c&1A1A1A}1つだけ　望んだ魔法を授けるとな
 Dialogue: 0,0:20:54.94,0:20:58.95,Dial-JPN,,0,0,0,,{\c&F2FBFF\3c&353D45\4c&353D45\bord1.5\blur0.7}ゼーリエは人類の歴史上のほぼ全ての魔法を網羅する
 Dialogue: 0,0:20:58.95,0:21:00.28,Dial-JPN,,0,0,0,,{\c&F2FBFF\3c&353D45\4c&353D45\bord1.5\blur0.7}生ける魔導書
 Dialogue: 0,0:21:00.91,0:21:05.29,Dial-JPN,,0,0,0,,{\c&F2FBFF\3c&353D45\4c&353D45\bord1.5\blur0.7}この地上で全知全能の女神様に最も近い魔法使いだ
@@ -851,7 +851,7 @@ Dialogue: 0,0:21:45.78,0:21:47.04,Dial-JPN,,0,0,0,,{\c&D9D9D9\bord1.3\blur0.7\3c
 Dialogue: 0,0:21:47.33,0:21:48.29,Dial-JPN,,0,0,0,,{\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}デンケン
 Dialogue: 0,0:21:48.29,0:21:49.91,Dial-JPN,,0,0,0,,{\bord1.5\blur0.7\3c&1A1A1A\4c&1A1A1A}そいつを1分足止めしろ
 Dialogue: 0,0:21:49.91,0:21:52.46,Dial-JPN,,0,444,0,,{\c&C2C2C2\bord1.5\blur0.7\3c&000000\4c&000000}それだけあれば２人とも殺せる
-Dialogue: 0,0:21:52.46,0:21:54.79,Dial-JPN,,0,444,0,,{\c&C2C2C2\bord1.5\blur0.7\3c&000000\4c&000000}何度も言わせるな、リヒター
+Dialogue: 0,0:21:52.46,0:21:54.79,Dial-JPN,,0,444,0,,{\c&C2C2C2\bord1.5\blur0.7\3c&000000\4c&000000}何度も言わせるな　リヒター
 Dialogue: 0,0:21:55.17,0:21:57.25,Dial-JPN,,0,0,0,,{\c&DBDBDB\bord1.5\blur0.7\3c&000000\4c&000000}たかがガキ２人だ
 Dialogue: 0,0:21:57.25,0:22:00.05,Dial-JPN,,0,0,0,,{\c&DBDBDB\bord1.5\blur0.7\3c&000000\4c&000000}たった３時間寝かし付けるだけ
 Dialogue: 0,0:22:00.05,0:22:02.43,Dial-JPN,,0,0,0,,{\c&DBDBDB\bord1.5\blur0.7\3c&000000\4c&000000}ガキのお守りくらいできるだろう
@@ -911,8 +911,8 @@ Dialogue: 0,0:02:20.58,0:02:27.21,OP-JP-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord
 Dialogue: 1,0:02:20.58,0:02:27.21,OP-JP-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}少しだけ晴るの匂いがした
 Dialogue: 2,0:02:20.58,0:02:27.21,OP-CN-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}好一幕雨晴烟晚
 Dialogue: 3,0:02:20.58,0:02:27.21,OP-CN-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}好一幕雨晴烟晚
-Dialogue: 0,0:02:33.26,0:02:38.47,OP-JP-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}晴れに晴れ、花よ咲け
-Dialogue: 1,0:02:33.26,0:02:38.47,OP-JP-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}晴れに晴れ、花よ咲け
+Dialogue: 0,0:02:33.26,0:02:38.47,OP-JP-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}晴れに晴れ　花よ咲け
+Dialogue: 1,0:02:33.26,0:02:38.47,OP-JP-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}晴れに晴れ　花よ咲け
 Dialogue: 2,0:02:33.26,0:02:38.47,OP-CN-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}风和日暖春满园
 Dialogue: 3,0:02:33.26,0:02:38.47,OP-CN-17-28,,0,0,0,,{\3c&ffffff\fad(200,200)\ybord0}风和日暖春满园
 Dialogue: 0,0:02:38.47,0:02:42.68,OP-JP-17-28,,0,0,0,,{\fad(200,200)\blur2\ybord4.5\xbord4}咲いて晴るのせい
@@ -976,8 +976,8 @@ Dialogue: 0,0:23:07.66,0:23:13.46,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\fad(30
 Dialogue: 1,0:23:07.66,0:23:13.46,ED-JP-17-28,,0,0,0,,{\fad(300,500)}今さらわかってあなたに追いついたよ
 Dialogue: 2,0:23:07.66,0:23:13.46,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}如今的我终于追上了你
 Dialogue: 3,0:23:07.66,0:23:13.46,ED-CN-17-28,,0,0,0,,{\fad(300,500)}如今的我终于追上了你
-Dialogue: 0,0:23:13.79,0:23:17.25,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,500)}ほら、この目じゃなければ
-Dialogue: 1,0:23:13.79,0:23:17.25,ED-JP-17-28,,0,0,0,,{\fad(300,500)}ほら、この目じゃなければ
+Dialogue: 0,0:23:13.79,0:23:17.25,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,500)}ほら　この目じゃなければ
+Dialogue: 1,0:23:13.79,0:23:17.25,ED-JP-17-28,,0,0,0,,{\fad(300,500)}ほら　この目じゃなければ
 Dialogue: 2,0:23:13.79,0:23:17.25,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}如果没有这双眼睛
 Dialogue: 3,0:23:13.79,0:23:17.25,ED-CN-17-28,,0,0,0,,{\fad(300,500)}如果没有这双眼睛
 Dialogue: 0,0:23:17.25,0:23:20.25,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,500)}見えなかったものが
@@ -996,8 +996,8 @@ Dialogue: 0,0:23:26.26,0:23:31.26,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\fad(30
 Dialogue: 1,0:23:26.26,0:23:31.26,ED-JP-17-28,,0,0,0,,{\fad(300,500)}会いたいよなんて言わないから
 Dialogue: 2,0:23:26.26,0:23:31.26,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}我不会将思念宣之于口
 Dialogue: 3,0:23:26.26,0:23:31.26,ED-CN-17-28,,0,0,0,,{\fad(300,500)}我不会将思念宣之于口
-Dialogue: 0,0:23:31.26,0:23:37.02,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,500)}ねえ、今日だけは思い出していいかな
-Dialogue: 1,0:23:31.26,0:23:37.02,ED-JP-17-28,,0,0,0,,{\fad(300,500)}ねえ、今日だけは思い出していいかな
+Dialogue: 0,0:23:31.26,0:23:37.02,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,500)}ねえ　今日だけは思い出していいかな
+Dialogue: 1,0:23:31.26,0:23:37.02,ED-JP-17-28,,0,0,0,,{\fad(300,500)}ねえ　今日だけは思い出していいかな
 Dialogue: 2,0:23:31.26,0:23:37.02,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(300,500)}但至少今天让我想起你
 Dialogue: 3,0:23:31.26,0:23:37.02,ED-CN-17-28,,0,0,0,,{\fad(300,500)}但至少今天让我想起你
 Dialogue: 0,0:23:37.02,0:23:37.98,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\fad(200,200)}だから
@@ -1058,6 +1058,6 @@ Dialogue: 2,0:24:09.47,0:24:12.81,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\fad(30
 Dialogue: 3,0:24:09.47,0:24:12.81,ED-CN-17-28,,0,0,0,,{\fad(300,500)}黎明一定会到来
 Dialogue: 0,0:24:12.81,0:24:19.85,ED-JP-17-28,,0,0,0,,{\bord6\blur3\1a&ff\an8\pos(1920,26)\fad(300,0)}I'm whispering our lullaby for you to come back home
 Dialogue: 1,0:24:12.81,0:24:19.85,ED-JP-17-28,,0,0,0,,{\an8\pos(1920,26)\fad(300,0)}I'm whispering our lullaby for you to come back home
-Dialogue: 2,0:24:12.81,0:24:19.85,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\an8\fad(300,0)}我正哼着摇篮曲，愿你回家不迷路
-Dialogue: 3,0:24:12.81,0:24:19.85,ED-CN-17-28,,0,0,0,,{\an8\fad(300,0)}我正哼着摇篮曲，愿你回家不迷路
+Dialogue: 2,0:24:12.81,0:24:19.85,ED-CN-17-28,,0,0,0,,{\bord8\blur3\1a&ff\an8\fad(300,0)}我正哼着摇篮曲 愿你回家不迷路
+Dialogue: 3,0:24:12.81,0:24:19.85,ED-CN-17-28,,0,0,0,,{\an8\fad(300,0)}我正哼着摇篮曲 愿你回家不迷路
 Comment: 0,0:00:00.00,0:00:00.00,//,,0,0,0,,————END————
